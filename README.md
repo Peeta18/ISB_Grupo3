@@ -3,7 +3,7 @@
 
 ## Participantes
 
-- **Italo Alexander Acuña Salas* (Colaborador) | [italo.acuna@upch.pe](mailto:italo.acuna@upch.pe)  
+- **Italo Alexander Acuña Salas** (Colaborador) | [italo.acuna@upch.pe](mailto:italo.acuna@upch.pe)  
   Estudiante de Ingeniería Biomédica de 8vo ciclo.
 
 - **Estefany Valverde Salinas** (Colaborador) | [estefany.valverde@upch.pe](mailto:estefany.valverde@upch.pe)  
@@ -15,7 +15,7 @@
 - **Elias Pino** (Colaborador) | [elias.pino@upch.pe](mailto:elias.pino@upch.pe)  
   Estudiante de Ingeniería Biomédica en su 8vo ciclo.
 
-  - **Piero Miranda** (Colaborador) | [piero.miranda@upch.pe](mailto:piero.miranda@upch.pe)  
+- **Piero Miranda** (Colaborador) | [piero.miranda@upch.pe](mailto:piero.miranda@upch.pe)  
   Estudiante de Ingeniería Biomédica en su 8vo ciclo.
 
 ## Docentes del curso
