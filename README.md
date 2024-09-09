@@ -1,4 +1,4 @@
-# ISB_Grupo3
+# Grupo 3 Introducción a Señales Biomédicas
 
 
 ## Participantes
