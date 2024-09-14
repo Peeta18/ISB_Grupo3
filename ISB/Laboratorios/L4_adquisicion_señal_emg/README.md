@@ -61,7 +61,7 @@ Por otro lado, la señal del brazo muestra oscilaciones de mayor amplitud y frec
 
 | Brazo con fuerza                                   | Antebrazo con fuerza                               |
 |---------------------------------------------------|--------------------------------------------------|
-| <img src="./Fotos%20y%20videos/2-3%20-%20Movimiento%20de%20brazo%20con%20fuerza/2-3-1.gif" alt="GIF del movimiento de brazo con fuerza" width="300px">  | <img src="./Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/4-3-1.gif" alt="GIF del antebrazo en movimiento con fuerza" width="300px"> |
+| <img src="./Fotos%20y%20videos/2-3%20-%20Movimiento%20de%20brazo%20con%20fuerza/2-3-1.gif" alt="GIF del movimiento de brazo con fuerza" width="400px">  | <img src="./Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/4-3-1.gif" alt="GIF del antebrazo en movimiento con fuerza" width="400px"> |
 
 
 En la señal obtenida del dedo, observamos una línea prácticamente recta, lo que indica que el músculo se encontraba en reposo o no había actividad muscular significativa durante la adquisición de la señal. Esto es característico de un músculo en estado de reposo, ya que la señal electromiográfica (EMG) es mínima o nula cuando no hay contracción.
