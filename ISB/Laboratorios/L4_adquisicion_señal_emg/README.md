@@ -43,9 +43,9 @@
 |---------------------------------------------------|--------------------------------------------------|
 | <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.gif" alt="GIF del dedo en reposo" width="400px">  | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.gif" alt="GIF del brazo en reposo" width="400px"> |
 
-| Pantorrilla                                       | Antebrazo                                         |
-|--------------------------------------------------|--------------------------------------------------|
-| <img src="./Fotos%20y%20videos/3-1%20-%20Pantorrilla%20relajada%20en%20reposo/3-1-3.gif" alt="GIF de la pantorrilla en reposo" width="200px" style="transform: rotate(-90deg);"> | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-3.gif" alt="GIF del antebrazo en reposo" width="200px" style="transform: rotate(-90deg);"> |
+En la señal obtenida del dedo, observamos una línea prácticamente recta, lo que indica que el músculo se encontraba en reposo o no había actividad muscular significativa durante la adquisición de la señal. Esto es característico de un músculo en estado de reposo, ya que la señal electromiográfica (EMG) es mínima o nula cuando no hay contracción.
+
+Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria que refleja una contracción muscular. Las oscilaciones en la señal representan la actividad eléctrica generada por las fibras musculares al contraerse, lo que indica que el brazo estaba activo durante la adquisición. La mayor frecuencia y amplitud de la señal EMG confirman una contracción muscular activa en el brazo.
 
 #### Prueba 2: [Actividad 1]
    Descripción: Se adquirió la señal durante [Actividad 1] durante [duración].
