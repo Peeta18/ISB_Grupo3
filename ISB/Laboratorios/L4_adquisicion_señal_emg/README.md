@@ -47,11 +47,26 @@ En la señal obtenida del dedo, observamos una línea prácticamente recta, lo q
 
 Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria que refleja una contracción muscular. Las oscilaciones en la señal representan la actividad eléctrica generada por las fibras musculares al contraerse, lo que indica que el brazo estaba activo durante la adquisición. La mayor frecuencia y amplitud de la señal EMG confirman una contracción muscular activa en el brazo.
 
-#### Prueba 2: [Actividad 1]
-   Descripción: Se adquirió la señal durante [Actividad 1] durante [duración].
+#### Prueba 2: Sin oposición
 
-#### Prueba 3: [Actividad 2] 
-   Descripción: Se adquirió la señal durante [Actividad 2] durante [duración].
+   | Dedo                                              | Brazo                                             |
+|---------------------------------------------------|--------------------------------------------------|
+| <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.gif" alt="GIF del dedo en reposo" width="400px">  | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.gif" alt="GIF del brazo en reposo" width="400px"> |
+
+En la señal obtenida del dedo, observamos una línea prácticamente recta, lo que indica que el músculo se encontraba en reposo o no había actividad muscular significativa durante la adquisición de la señal. Esto es característico de un músculo en estado de reposo, ya que la señal electromiográfica (EMG) es mínima o nula cuando no hay contracción.
+
+Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria que refleja una contracción muscular. Las oscilaciones en la señal representan la actividad eléctrica generada por las fibras musculares al contraerse, lo que indica que el brazo estaba activo durante la adquisición. La mayor frecuencia y amplitud de la señal EMG confirman una contracción muscular activa en el brazo.
+
+#### Prueba 3: Con oposición
+
+   | Dedo                                              | Brazo                                             |
+|---------------------------------------------------|--------------------------------------------------|
+| <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.gif" alt="GIF del dedo en reposo" width="400px">  | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.gif" alt="GIF del brazo en reposo" width="400px"> |
+
+En la señal obtenida del dedo, observamos una línea prácticamente recta, lo que indica que el músculo se encontraba en reposo o no había actividad muscular significativa durante la adquisición de la señal. Esto es característico de un músculo en estado de reposo, ya que la señal electromiográfica (EMG) es mínima o nula cuando no hay contracción.
+
+Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria que refleja una contracción muscular. Las oscilaciones en la señal representan la actividad eléctrica generada por las fibras musculares al contraerse, lo que indica que el brazo estaba activo durante la adquisición. La mayor frecuencia y amplitud de la señal EMG confirman una contracción muscular activa en el brazo.
+
 
 ### Gráficas en el Dominio del Tiempo
 ![Señal EMG en el tiempo - Reposo](ruta/a/tu/imagen1.png)
