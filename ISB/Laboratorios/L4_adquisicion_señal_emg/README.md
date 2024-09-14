@@ -51,7 +51,7 @@ Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria q
 
 | Dedo                                              | Brazo                                             |
 |---------------------------------------------------|--------------------------------------------------|
-| <img src="./Fotos%20y%20videos/1-2%20-%20Movimiento%20voluntario%20del%20dedo/1-2-2.gif" alt="GIF del movimiento voluntario del dedo" width="300px">  | <img src="./Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/2-2-1.gif" alt="GIF del brazo en movimiento voluntario" width="300px"> |
+| <img src="./Fotos%20y%20videos/1-2%20-%20Movimiento%20voluntario%20del%20dedo/1-2-2.gif" alt="GIF del movimiento voluntario del dedo" width="400px">  | <img src="./Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/2-2-1.gif" alt="GIF del brazo en movimiento voluntario" width="400px"> |
 
 En la señal del movimiento voluntario del dedo, se observan oscilaciones que reflejan la actividad muscular durante la contracción. La amplitud de la señal muestra la activación de las unidades motoras mientras el dedo se mueve, evidenciando una contracción controlada.
 
