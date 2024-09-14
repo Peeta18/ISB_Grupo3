@@ -51,13 +51,28 @@ En la prueba 1 se tomaron señales del reposo y contracción del dedo pulgar, te
 
 En la prueba 2 se tomó señales de reposo y contracción del bíceps, teniendo la conexión de tierra a la altura de la muñeca.
 
-![Video 2](link-to-video)
+| Brazo en reposo | Brazo sin oposición | Brazo con oposición |
+|:---------------:|:-------------------:|:-------------------:|
+| ![Senal.EMG.de.brazo.en.reposo.mp4](url-a-la-imagen-brazo-en-reposo) [Ver Video](url-al-video-brazo-en-reposo) | ![Senal.EMG.del.brazo.sin.oposicion.mp4](url-a-la-imagen-brazo-sin-oposicion) [Ver Video](url-al-video-brazo-sin-oposicion) | ![Senal.EMG.del.brazo.con.oposicion.mp4](url-a-la-imagen-brazo-con-oposicion) [Ver Video](url-al-video-brazo-con-oposicion) |
+
 
 #### PRUEBA 3
 
 En la prueba 3 se tomó señales de reposo y contracción del músculo gastrocnemio, teniendo la conexión de tierra en la parte anterior de la tibia.
 
-![Video 3](link-to-video)
+| Pantorrilla en reposo | Pantorrilla sin oposición | Pantorrilla con oposición |
+|:---------------------:|:-------------------------:|:-------------------------:|
+| ![Senal.EMG.de.pantorrilla.en.reposo.mp4](url-a-la-imagen-pantorrilla-en-reposo) [Ver Video](url-al-video-pantorrilla-en-reposo) | ![Senal.EMG.de.pantorrilla.sin.oposicion.mp4](url-a-la-imagen-pantorrilla-sin-oposicion) [Ver Video](url-al-video-pantorrilla-sin-oposicion) | ![Senal.EMG.de.pantorrilla.con.oposicion.mp4](url-a-la-imagen
+
+
+#### PRUEBA 4
+
+En la prueba 4 se tomó señales de reposo y contracción del...
+
+| Antebrazo en reposo | Antebrazo sin oposición | Antebrazo con oposición |
+|:-------------------:|:-----------------------:|:-----------------------:|
+| ![Senal.EMG.de.antebrazo.en.reposo.mp4](url-a-la-imagen-antebrazo-en-reposo) [Ver Video](url-al-video-antebrazo-en-reposo) | ![Senal.EMG.de.antebrazo.sin.oposicion.mp4](url-a-la-imagen-antebrazo-sin-oposicion) [Ver Video](url-al-video-antebrazo-sin-oposicion) | ![Senal.EMG.de.antebrazo.con.oposicion.mp4](url-a-la-imagen-antebrazo-con-oposicion) [Ver Video](url-al-video-antebrazo-con-oposicion) |
+
 
 ### Ploteo de la señal en Python
 
