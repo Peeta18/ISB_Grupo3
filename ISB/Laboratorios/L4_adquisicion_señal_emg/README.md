@@ -69,24 +69,13 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 
 
 ### Gráficas en el Dominio del Tiempo
-![Señal EMG en el tiempo - Reposo](ruta/a/tu/imagen1.png)
-*Figura 1: Señal EMG durante el reposo.*
 
-![Señal EMG en el tiempo - Actividad 1](ruta/a/tu/imagen2.png)
-*Figura 2: Señal EMG durante la Actividad 1.*
+| Grupo Muscular | Señal Raw                           | Señal Procesada                   |
+|----------------|-------------------------------------|-----------------------------------|
+| Dedo           | ![Señal Raw - Dedo](./path/to/dedo_raw.png) | ![Señal Procesada - Dedo](./path/to/dedo_procesada.png) |
+| Brazo          | ![Señal Raw - Brazo](./path/to/brazo_raw.png) | ![Señal Procesada - Brazo](./path/to/brazo_procesada.png) |
+| Antebrazo      | ![Señal Raw - Antebrazo](./path/to/antebrazo_raw.png) | ![Señal Procesada - Antebrazo](./path/to/antebrazo_procesada.png) |
 
-![Señal EMG en el tiempo - Actividad 2](ruta/a/tu/imagen3.png)
-*Figura 3: Señal EMG durante la Actividad 2.*
-
-### Gráficas en el Dominio de la Frecuencia
-![Señal EMG en la frecuencia - Reposo](ruta/a/tu/imagen4.png)
-*Figura 4: Transformada de Fourier de la señal EMG en reposo.*
-
-![Señal EMG en la frecuencia - Actividad 1](ruta/a/tu/imagen5.png)
-*Figura 5: Transformada de Fourier de la señal EMG durante la Actividad 1.*
-
-![Señal EMG en la frecuencia - Actividad 2](ruta/a/tu/imagen6.png)
-*Figura 6: Transformada de Fourier de la señal EMG durante la Actividad 2.*
 
 
 ## Referencias
