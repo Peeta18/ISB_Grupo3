@@ -16,11 +16,11 @@
 - Estudiar los patrones de contracción muscular y determinar la relación entre las actividades y la respuesta EMG.
 
 ## Materiales y Equipos Usados
-- **Dispositivo EMG:** [Nombre del dispositivo]
-- **Electrodos utilizados:** [Cantidad de electrodos, tipo y ubicación]
-- **Frecuencia de muestreo:** [Frecuencia, en Hz]
-- **Software de adquisición de datos:** [Nombre del software]
-- **Actividades:** Reposo, [Actividad 1], [Actividad 2], [Actividad 3]
+
+          | Modelo         | Descripción    | Cantidad |
+          | -------------- | -------------- | -------- |
+          | (R)EVOLUTION   | Kit BITalino   | 1        |
+          | -              | Laptop         | 1        |
 
 ## Resultados
 
