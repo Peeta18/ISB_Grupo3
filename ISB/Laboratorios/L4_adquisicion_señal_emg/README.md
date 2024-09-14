@@ -35,11 +35,12 @@
 
 | Dedo                                              | Brazo                                             |
 |---------------------------------------------------|--------------------------------------------------|
-| <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.gif" alt="GIF del dedo en reposo" width="200px">  | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.gif" alt="GIF del brazo en reposo" width="200px"> |
+| <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.gif" alt="GIF del dedo en reposo" width="300px">  | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.gif" alt="GIF del brazo en reposo" width="300px"> |
 
 | Pantorrilla                                       | Antebrazo                                         |
 |--------------------------------------------------|--------------------------------------------------|
-| <img src="./Fotos%20y%20videos/3-1%20-%20Pantorrilla%20relajada%20en%20reposo/3-1-3.gif" alt="GIF de la pantorrilla en reposo" width="200px"> | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-3.gif" alt="GIF del antebrazo en reposo" width="200px" style="transform: rotate(-90deg);"> |
+| <img src="./Fotos%20y%20videos/3-1%20-%20Pantorrilla%20relajada%20en%20reposo/3-1-3.gif" alt="GIF de la pantorrilla en reposo" width="200px" style="transform: rotate(-90deg);"> | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-3.gif" alt="GIF del antebrazo en reposo" width="200px" style="transform: rotate(-90deg);"> |
+
 
 
 
