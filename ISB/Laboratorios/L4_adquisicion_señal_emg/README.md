@@ -11,9 +11,9 @@
 5. [Referencias](#referencias)
 
 ## Objetivos
-- Adquirir señales EMG de [grupo muscular de interés] en estado de reposo y bajo diferentes actividades.
-- Analizar la señal adquirida tanto en el dominio del tiempo como en el dominio de la frecuencia.
-- Estudiar los patrones de contracción muscular y determinar la relación entre las actividades y la respuesta EMG.
+- Adquirir señales biomédicas de EMG y ECG.
+- Hacer una correcta configuración de BiTalino.
+- Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution
 
 ## Materiales y Equipos Usados
 
