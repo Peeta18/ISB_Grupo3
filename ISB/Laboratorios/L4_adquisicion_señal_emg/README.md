@@ -88,17 +88,6 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 ![Señal EMG en la frecuencia - Actividad 2](ruta/a/tu/imagen6.png)
 *Figura 6: Transformada de Fourier de la señal EMG durante la Actividad 2.*
 
-## Video, Imágenes y Fundamento de la Señal
-
-### Video
-[Enlace al video de las pruebas realizadas.](ruta/a/tu/video)
-
-### Fundamento de la Señal
-El grupo muscular de interés para este experimento es el [nombre del grupo muscular], seleccionado debido a su [justificación de por qué se eligió este grupo muscular]. Este grupo muscular es esencial para [explicación sobre su relevancia en la actividad estudiada] y nos permitirá obtener señales EMG claras y relevantes para el análisis.
-
-### Imágenes
-![Electrodos en el grupo muscular](ruta/a/tu/imagen7.png)
-*Figura 7: Colocación de electrodos en el [grupo muscular].*
 
 ## Referencias
 1. Autor 1, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
