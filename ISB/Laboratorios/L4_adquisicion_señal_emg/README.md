@@ -3,12 +3,13 @@
 ## Tabla de Contenidos
 1. [Objetivos](#objetivos)
 2. [Materiales y Equipos Usados](#materiales-y-equipos-usados)
-3. [Resultados](#resultados)
+3. [Setup de las mediciones](#setup-de-las-mediciones)
+4. [Resultados](#resultados)
    - [Pruebas](#pruebas)
    - [Gráficas en el Dominio del Tiempo](#gráficas-en-el-dominio-del-tiempo)
    - [Gráficas en el Dominio de la Frecuencia](#gráficas-en-el-dominio-de-la-frecuencia)
-4. [Video, Imágenes y Fundamento de la Señal](#video-imágenes-y-fundamento-de-la-señal)
-5. [Referencias](#referencias)
+5. [Video, Imágenes y Fundamento de la Señal](#video-imágenes-y-fundamento-de-la-señal)
+6. [Referencias](#referencias)
 
 ## Objetivos
 - Adquirir señales biomédicas de EMG y ECG.
@@ -27,7 +28,7 @@
 
 | Región Muscular   | Imagen                          |
 |-------------------|---------------------------------|
-| Dedo              | ![Imagen del dedo](./imagenes/dedo.png) |
+| Dedo              | ![Imagen del dedo](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos y videos/1-1 - Dedo en reposo/1-1-3.jpeg) |
 | Brazo             | ![Imagen del brazo](./imagenes/brazo.png) |
 | Pantorrilla       | ![Imagen de la pantorrilla](./imagenes/pantorrilla.png) |
 | Antebrazo         | ![Imagen del antebrazo](./imagenes/antebrazo.png) |
