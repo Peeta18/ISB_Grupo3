@@ -18,10 +18,10 @@
 
 ## Materiales y equipos
 
-| Modelo         | Descripción    | Cantidad |
-| -------------- | -------------- | -------- |
-| (R)EVOLUTION   | Kit BITalino   | 1        |
-| -              | Laptop         | 1        |
+          | Modelo         | Descripción    | Cantidad |
+          | -------------- | -------------- | -------- |
+          | (R)EVOLUTION   | Kit BITalino   | 1        |
+          | -              | Laptop         | 1        |
 
 ## Resultados
 
