@@ -59,13 +59,13 @@ Por otro lado, la señal del brazo muestra oscilaciones de mayor amplitud y frec
 
 #### Prueba 3: Con oposición
 
-   | Dedo                                              | Brazo                                             |
+| Brazo con fuerza                                   | Antebrazo con fuerza                               |
 |---------------------------------------------------|--------------------------------------------------|
-| <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.gif" alt="GIF del dedo en reposo" width="400px">  | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.gif" alt="GIF del brazo en reposo" width="400px"> |
+| <img src="./Fotos%20y%20videos/2-3%20-%20Movimiento%20de%20brazo%20con%20fuerza/2-3-1.gif" alt="GIF del movimiento de brazo con fuerza" width="400px">  | <img src="./Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/4-3-1.gif" alt="GIF del antebrazo en movimiento con fuerza" width="400px"> |
 
-En la señal obtenida del dedo, observamos una línea prácticamente recta, lo que indica que el músculo se encontraba en reposo o no había actividad muscular significativa durante la adquisición de la señal. Esto es característico de un músculo en estado de reposo, ya que la señal electromiográfica (EMG) es mínima o nula cuando no hay contracción.
+En la señal del movimiento del brazo con fuerza, se observa un incremento significativo en la amplitud y frecuencia de las oscilaciones, lo que refleja una mayor activación de las fibras musculares. Esta señal indica un esfuerzo muscular considerable, generado por la contracción sostenida del músculo al aplicar fuerza durante el movimiento.
 
-Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria que refleja una contracción muscular. Las oscilaciones en la señal representan la actividad eléctrica generada por las fibras musculares al contraerse, lo que indica que el brazo estaba activo durante la adquisición. La mayor frecuencia y amplitud de la señal EMG confirman una contracción muscular activa en el brazo.
+De manera similar, en la señal del antebrazo en movimiento con fuerza, se visualizan oscilaciones densas y de alta amplitud, que representan la contracción intensa del músculo del antebrazo. La alta actividad electromiográfica capturada refleja la necesidad de mayor reclutamiento muscular para ejecutar el movimiento con fuerza, comparado con un movimiento más suave o en reposo.
 
 
 ### Gráficas en el Dominio del Tiempo
@@ -88,22 +88,8 @@ Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria q
 ![Señal EMG en la frecuencia - Actividad 2](ruta/a/tu/imagen6.png)
 *Figura 6: Transformada de Fourier de la señal EMG durante la Actividad 2.*
 
-## Video, Imágenes y Fundamento de la Señal
-
-### Video
-[Enlace al video de las pruebas realizadas.](ruta/a/tu/video)
-
-### Fundamento de la Señal
-El grupo muscular de interés para este experimento es el [nombre del grupo muscular], seleccionado debido a su [justificación de por qué se eligió este grupo muscular]. Este grupo muscular es esencial para [explicación sobre su relevancia en la actividad estudiada] y nos permitirá obtener señales EMG claras y relevantes para el análisis.
-
-### Imágenes
-![Electrodos en el grupo muscular](ruta/a/tu/imagen7.png)
-*Figura 7: Colocación de electrodos en el [grupo muscular].*
 
 ## Referencias
-1. Autor 1, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-2. Autor 2, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-3. Autor 3, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-4. Autor 4, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-5. Autor 5, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
+1. Campanini, I., Merlo, A., Disselhorst-Klug, C., Mesin, L., Muceli, S., & Merletti, R. (2022). Fundamental Concepts of Bipolar and High-Density Surface EMG Understanding and Teaching for Clinical, Occupational, and Sport Applications: Origin, Detection, and Main Errors. Sensors (Basel, Switzerland), 22(11), 4150. https://doi.org/10.3390/s22114150
+2. Da Silva, H. P., Guerreiro, J., Lourenço, A., Fred, A., & Martins, R. (2014, January). BITalino: A novel hardware framework for physiological computing. In International Conference on Physiological Computing Systems (Vol. 2, pp. 246-253). SciTePress.
 
