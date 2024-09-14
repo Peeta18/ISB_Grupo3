@@ -23,8 +23,14 @@
 | Electrodos         | 4 electrodos de superficie      | 1        |
 | Laptop             | Lenovo Thinkpad                 | 1        |
 
-# Setup de las mediciones
+## Setup de las mediciones
 
+| Región Muscular   | Imagen                          |
+|-------------------|---------------------------------|
+| Dedo              | ![Imagen del dedo](./imagenes/dedo.png) |
+| Brazo             | ![Imagen del brazo](./imagenes/brazo.png) |
+| Pantorrilla       | ![Imagen de la pantorrilla](./imagenes/pantorrilla.png) |
+| Antebrazo         | ![Imagen del antebrazo](./imagenes/antebrazo.png) |
 
 
 ## Resultados
