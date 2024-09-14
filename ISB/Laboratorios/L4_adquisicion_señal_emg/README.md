@@ -35,14 +35,9 @@
 
 ## Resultados
 
-### Señales en OpenSignals (reposo)
+### Pruebas en OpenSignals
 
-### Señales procesadas
-
-
-
-### Pruebas
-1. **Prueba 1: Reposo**  
+#### Prueba 1: Reposo
    
    | Dedo                                              | Brazo                                             |
 |---------------------------------------------------|--------------------------------------------------|
@@ -52,10 +47,10 @@
 |--------------------------------------------------|--------------------------------------------------|
 | <img src="./Fotos%20y%20videos/3-1%20-%20Pantorrilla%20relajada%20en%20reposo/3-1-3.gif" alt="GIF de la pantorrilla en reposo" width="200px" style="transform: rotate(-90deg);"> | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-3.gif" alt="GIF del antebrazo en reposo" width="200px" style="transform: rotate(-90deg);"> |
 
-2. **Prueba 2: [Actividad 1]**  
+#### Prueba 2: [Actividad 1]
    Descripción: Se adquirió la señal durante [Actividad 1] durante [duración].
 
-3. **Prueba 3: [Actividad 2]**  
+#### Prueba 3: [Actividad 2] 
    Descripción: Se adquirió la señal durante [Actividad 2] durante [duración].
 
 ### Gráficas en el Dominio del Tiempo
