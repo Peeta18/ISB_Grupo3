@@ -33,6 +33,13 @@
 | Pantorrilla       | <img src="./Fotos%20y%20videos/3-1%20-%20Pantorrilla%20relajada%20en%20reposo/3-1-2.jpeg" alt="Imagen de la pantorrilla relajada en reposo" width="300px"> |
 | Antebrazo         | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-1.jpeg" alt="Imagen del antebrazo en reposo" width="300px" style="transform: rotate(-90deg);"> |
 
+| Región Muscular   | Video                          |
+|-------------------|--------------------------------|
+| Dedo              | <video width="200" controls><source src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.mp4" type="video/mp4">Tu navegador no soporta videos HTML5.</video> |
+| Brazo             | <video width="200" controls><source src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.mp4" type="video/mp4">Tu navegador no soporta videos HTML5.</video> |
+| Pantorrilla       | <video width="200" controls><source src="./Fotos%20y%20videos/3-1%20-%20Pantorrilla%20relajada%20en%20reposo/3-1-3.mp4" type="video/mp4">Tu navegador no soporta videos HTML5.</video> |
+| Antebrazo         | <video width="200" style="transform: rotate(-90deg);" controls><source src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-3.mp4" type="video/mp4">Tu navegador no soporta videos HTML5.</video> |
+
 
 ## Resultados
 
