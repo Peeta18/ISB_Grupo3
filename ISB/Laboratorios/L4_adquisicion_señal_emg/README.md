@@ -18,10 +18,11 @@
 ## Materiales y Equipos Usados
 
 | Materiales         | Detalles                        | Cantidad |
-|--------------------|---------------------------------|   1      |
-| Kit Bitalino       | (R)Evolution                    |   1      |
-| Electrodos         | 4 electrodos de superficie      |   1      |
-| Laptop             | Lenovo Thinkpad                 |   1      |
+|--------------------|---------------------------------|----------|
+| Kit Bitalino       | (R)Evolution                    | 1        |
+| Electrodos         | 4 electrodos de superficie      | 1        |
+| Laptop             | Lenovo Thinkpad                 | 1        |
+
 
 ## Resultados
 
