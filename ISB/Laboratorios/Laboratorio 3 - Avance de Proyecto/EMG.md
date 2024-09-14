@@ -39,11 +39,10 @@ En la prueba 1 se tomaron señales del reposo y contracción del dedo pulgar, te
 
 ### Videos de las Pruebas
 
-| Prueba | Video |
-| ------ | ----- |
-| Dedo en reposo | [Ver Video](url-al-video-dedo-en-reposo) |
-| Dedo sin oposición | [Ver Video](url-al-video-dedo-sin-oposición) |
-| Dedo con oposición | [Ver Video](url-al-video-dedo-con-oposición) |
+| Dedo en reposo | Dedo sin oposición | Dedo con oposición |
+|:--------------:|:------------------:|:------------------:|
+| ![Senal.EMG.de.dedo.en.reposo.mp4](url-a-la-imagen-dedo-en-reposo) [Ver Video](url-al-video-dedo-en-reposo) | ![Senal.EMG.del.dedo.sin.oposicion.mp4](url-a-la-imagen-dedo-sin-oposicion) [Ver Video](url-al-video-dedo-sin-oposicion) | ![Senal.EMG.del.dedo.con.oposicion.mp4](url-a-la-imagen-dedo-con-oposicion) [Ver Video](url-al-video-dedo-con-oposicion) |
+
 
 
 
