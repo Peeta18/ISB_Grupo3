@@ -23,6 +23,9 @@
 | Electrodos         | 4 electrodos de superficie      | 1        |
 | Laptop             | Lenovo Thinkpad                 | 1        |
 
+# Setup de las mediciones
+
+
 
 ## Resultados
 
