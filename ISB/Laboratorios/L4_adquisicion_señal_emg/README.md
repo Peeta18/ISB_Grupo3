@@ -90,9 +90,6 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 
 
 ## Referencias
-1. Autor 1, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-2. Autor 2, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-3. Autor 3, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-4. Autor 4, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
-5. Autor 5, "Título del paper," *Nombre de la Revista*, vol. xx, no. xx, pp. xx-xx, Año.
+1. Campanini, I., Merlo, A., Disselhorst-Klug, C., Mesin, L., Muceli, S., & Merletti, R. (2022). Fundamental Concepts of Bipolar and High-Density Surface EMG Understanding and Teaching for Clinical, Occupational, and Sport Applications: Origin, Detection, and Main Errors. Sensors (Basel, Switzerland), 22(11), 4150. https://doi.org/10.3390/s22114150
+2. Da Silva, H. P., Guerreiro, J., Lourenço, A., Fred, A., & Martins, R. (2014, January). BITalino: A novel hardware framework for physiological computing. In International Conference on Physiological Computing Systems (Vol. 2, pp. 246-253). SciTePress.
 
