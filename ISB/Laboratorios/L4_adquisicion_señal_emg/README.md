@@ -29,9 +29,9 @@
 | Región Muscular   | Imagen                          |
 |-------------------|---------------------------------|
 | Dedo              | <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-3.jpeg" alt="Imagen del dedo en reposo" width="300px"> |
-| Brazo             | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-2.jpeg" alt="Imagen del brazo en reposo" width="50%"> |
+| Brazo             | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-2.jpeg" alt="Imagen del brazo en reposo" width="300px"> |
 | Pantorrilla       | <img src="./Fotos%20y%20videos/3-1%20-%20Pantorrilla%20relajada%20en%20reposo/3-1-2.jpeg" alt="Imagen de la pantorrilla relajada en reposo" width="50%"> |
-| Antebrazo         | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-1.jpeg" alt="Imagen del antebrazo en reposo" width="50%" style="transform: rotate(-90deg);"> |
+| Antebrazo         | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/4-1-1.jpeg" alt="Imagen del antebrazo en reposo" width="300px" style="transform: rotate(-90deg);"> |
 
 
 ## Resultados
