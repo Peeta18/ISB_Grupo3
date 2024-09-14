@@ -49,13 +49,13 @@ Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria q
 
 #### Prueba 2: Sin oposición
 
-   | Dedo                                              | Brazo                                             |
+| Dedo                                              | Brazo                                             |
 |---------------------------------------------------|--------------------------------------------------|
-| <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/1-1-7.gif" alt="GIF del dedo en reposo" width="400px">  | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/2-1-3.gif" alt="GIF del brazo en reposo" width="400px"> |
+| <img src="./Fotos%20y%20videos/1-2%20-%20Movimiento%20voluntario%20del%20dedo/1-2-2.gif" alt="GIF del movimiento voluntario del dedo" width="300px">  | <img src="./Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/2-2-1.gif" alt="GIF del brazo en movimiento voluntario" width="300px"> |
 
-En la señal obtenida del dedo, observamos una línea prácticamente recta, lo que indica que el músculo se encontraba en reposo o no había actividad muscular significativa durante la adquisición de la señal. Esto es característico de un músculo en estado de reposo, ya que la señal electromiográfica (EMG) es mínima o nula cuando no hay contracción.
+En la señal del movimiento voluntario del dedo, se observan oscilaciones que reflejan la actividad muscular durante la contracción. La amplitud de la señal muestra la activación de las unidades motoras mientras el dedo se mueve, evidenciando una contracción controlada.
 
-Por otro lado, la señal capturada del brazo muestra una actividad oscilatoria que refleja una contracción muscular. Las oscilaciones en la señal representan la actividad eléctrica generada por las fibras musculares al contraerse, lo que indica que el brazo estaba activo durante la adquisición. La mayor frecuencia y amplitud de la señal EMG confirman una contracción muscular activa en el brazo.
+Por otro lado, la señal del brazo muestra oscilaciones de mayor amplitud y frecuencia, lo que indica una contracción más intensa. Esta mayor actividad refleja el esfuerzo muscular necesario para mover el brazo, generando una señal EMG más robusta y sostenida.
 
 #### Prueba 3: Con oposición
 
