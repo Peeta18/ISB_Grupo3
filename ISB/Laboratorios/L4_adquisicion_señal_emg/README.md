@@ -72,7 +72,7 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 
 | Dedo con oposición                                               | Brazo sin oposición                                                 | Antebrazo con oposición                                               |
 |------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------------------|
-| ![Dedo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/ft.png)  | ![Brazo - Sin oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/ft.png)  | ![Antebrazo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/ft.png)  |
+| ![Dedo - Con oposición](https://github.com/Peeta18/ISB_Grupo3/blob/c5fde3c2ca0f6d93bd5c6b4f28c96dddf2c606c3/ISB/Laboratorios/L4_adquisicion_se%C3%B1al_emg/Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/ft.png)  | ![Brazo - Sin oposición](https://github.com/Peeta18/ISB_Grupo3/blob/c5fde3c2ca0f6d93bd5c6b4f28c96dddf2c606c3/ISB/Laboratorios/L4_adquisicion_se%C3%B1al_emg/Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/ft.png)  | ![Antebrazo - Con oposición](https://github.com/Peeta18/ISB_Grupo3/blob/859505e24b96cf0eaba71b5b6a983df9d61c0004/ISB/Laboratorios/L4_adquisicion_se%C3%B1al_emg/Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/ft.png)  |
 
 
 ### Gráficas en el Dominio del Tiempo
