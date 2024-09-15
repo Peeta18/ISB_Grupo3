@@ -70,10 +70,9 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 
 ### Gráficas en el dominio de la frecuencia
 
-| Dedo - Con oposición | Brazo - Sin oposición | Antebrazo - Con oposición |
-|----------------------|-----------------------|---------------------------|
-| ![Dedo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/ft.png) | ![Brazo - Sin oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/ft.png) | ![Antebrazo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/ft.png) |
-
+| Dedo con oposición                                               | Brazo sin oposición                                                 | Antebrazo con oposición                                               |
+|------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------------------|
+| ![Dedo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/ft.png)  | ![Brazo - Sin oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/ft.png)  | ![Antebrazo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/ft.png)  |
 
 
 ### Gráficas en el Dominio del Tiempo
