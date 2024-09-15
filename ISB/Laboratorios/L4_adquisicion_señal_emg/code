@@ -1,0 +1,108 @@
+# Codigo para señales raw y filtered
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.signal import butter, lfilter
+
+# Funciones para el filtro Butterworth
+from scipy.signal import butter, filtfilt
+
+# Función para crear un filtro Butterworth de banda
+def butter_bandpass(lowcut, highcut, fs, order=4):
+    nyq = 0.5 * fs  # Frecuencia de Nyquist
+    low = lowcut / nyq
+    high = highcut / nyq
+    b, a = butter(order, [low, high], btype='band')
+    return b, a
+
+# Función para aplicar el filtro
+def butter_bandpass_filter(data, lowcut, highcut, fs, order=4):
+    b, a = butter_bandpass(lowcut, highcut, fs, order=order)
+    y = filtfilt(b, a, data)  # Aplicar el filtro bidireccionalmente para evitar desfase
+    return y
+
+# Parámetros del filtro
+lowcut = 20.0  # Frecuencia de corte baja en Hz
+highcut = 450.0  # Frecuencia de corte alta en Hz
+fs = 1000  # Frecuencia de muestreo en Hz
+
+# Aplicar el filtro de banda a la señal
+filtered_data = butter_bandpass_filter(data1, lowcut, highcut, fs, order=4)
+
+# Graficar la señal filtrada
+time = np.arange(0, len(data1)) / fs  # Tiempo en segundos
+
+plt.figure(figsize=(10, 6))
+plt.plot(time, filtered_data, label='Señal Filtrada', color='r')
+plt.xlim(10, 20)  # Limitar el rango en segundos si es necesario
+plt.title('Señal EMG Filtrada (20-450 Hz)')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud')
+plt.grid(True)
+plt.show()
+
+
+
+
+
+# Codigo para FT
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Función para cargar la señal desde el archivo CSV
+def load_signal(csv_file):
+    try:
+        data = pd.read_csv(csv_file)
+        signal = data.iloc[:, 0].values  # Seleccionar la primera columna directamente
+        return signal
+    except Exception as e:
+        print(f"Error al cargar la señal desde {csv_file}: {e}")
+        return None
+
+# Función para graficar la Transformada de Fourier (FFT) simétrica en el rango -pi a pi
+def plot_fft_symmetric(signal, fs, title):
+    N = len(signal)
+    T = 1.0 / fs
+    
+    # FFT y fftshift para obtener simetría
+    yf = np.fft.fft(signal)
+    yf_shifted = np.fft.fftshift(yf)  # Shift para centrar en 0
+    xf = np.fft.fftfreq(N, T)
+    xf_shifted = np.fft.fftshift(xf)  # Shift para centrar las frecuencias
+
+    # Convertir las frecuencias a -pi a pi
+    xf_scaled = xf_shifted * (2 * np.pi / fs)  # Escalar para ir de -pi a pi
+    
+    # Graficar
+    plt.figure(figsize=(10, 6))
+    plt.plot(xf_scaled, np.abs(yf_shifted) / N)  # Normalizar la amplitud por N
+    plt.title(f'Transformada de Fourier (Simétrica) - {title}')
+    plt.xlabel('Frecuencia normalizada (rad/s)')
+    plt.ylabel('Amplitud')
+    plt.grid(True)
+    plt.xlim([-np.pi, np.pi])  # Limitar el eje x a -pi a pi
+    plt.show()
+
+# Parámetros generales
+fs = 1000  # Frecuencia de muestreo en Hz
+
+# Cargar las señales desde los archivos CSV
+dedo_con_oposicion = load_signal('/content/drive/MyDrive/isb/max1.csv')
+brazo_sin_oposicion = load_signal('/content/drive/MyDrive/isb/voluntario2.csv')
+antebrazo_con_oposicion = load_signal('/content/drive/MyDrive/isb/max4.csv')
+
+# Asegurarse de que las señales se cargaron correctamente antes de graficar
+signals = {
+    "Dedo - Con oposición": dedo_con_oposicion,
+    "Brazo - Sin oposición": brazo_sin_oposicion,
+    "Antebrazo - Con oposición": antebrazo_con_oposicion
+}
+
+# Graficar la FFT simétrica de cada señal en el rango -pi a pi
+for title, signal in signals.items():
+    if signal is not None:
+        plot_fft_symmetric(signal, fs, title)
+    else:
+        print(f"No se pudo graficar la señal para {title} debido a un error en la carga.")
