@@ -69,6 +69,7 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 
 
 ### Gráficas en el dominio de la frecuencia
+En las gráficas se observa que las señales EMG presentan picos predominantes alrededor de 0 rad/s, lo que indica que las frecuencias bajas son dominantes en las tres condiciones. En el dedo y el brazo, los picos en 0 rad/s sugieren contracciones controladas, con algunas variaciones menores en otras frecuencias. El antebrazo con oposición muestra un pico más intenso, lo que refleja una contracción muscular más fuerte y sostenida. Las diferencias en las amplitudes de los picos reflejan la intensidad del esfuerzo muscular en cada caso.
 
 | Dedo con oposición                                               | Brazo sin oposición                                                 | Antebrazo con oposición                                               |
 |------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------------------|
