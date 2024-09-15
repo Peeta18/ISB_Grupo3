@@ -75,6 +75,7 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 | ![Dedo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/ft.png) | ![Brazo - Sin oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/ft.png) | ![Antebrazo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/ft.png) |
 
 
+
 ### Gráficas en el Dominio del Tiempo
 
 | Grupo Muscular | Condición       | Señal Raw                                         | Señal Procesada                                   |
@@ -89,13 +90,13 @@ De manera similar, en la señal del antebrazo en movimiento con fuerza, se visua
 | **Antebrazo**  | Sin oposición    | <img src="./Fotos%20y%20videos/4-2%20-%20Antebrazo%20en%20movimiento%20voluntario/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/4-2%20-%20Antebrazo%20en%20movimiento%20voluntario/proce.png" width="200px"> |
 | **Antebrazo**  | Con oposición    | <img src="./Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/proce.png" width="200px"> |
 
-Dedo
+#### Dedo
 En las condiciones del dedo, se observa una baja actividad en reposo, como era de esperar. La señal "Raw" refleja esta baja actividad, y la señal procesada la confirma tras el filtrado, mostrando una señal limpia y sin artefactos. Durante el movimiento sin oposición, la señal "Raw" comienza a mostrar oscilaciones asociadas con la activación muscular, pero también contiene ruido. Tras el filtrado, la señal procesada resalta claramente los momentos de activación muscular, eliminando el ruido. En la condición de oposición, la señal "Raw" muestra una actividad más intensa y oscilaciones de mayor amplitud, reflejo del esfuerzo muscular. La señal procesada limpia esta actividad, permitiendo observar con precisión los picos de contracción muscular bajo esfuerzo.
 
-Brazo
+#### Brazo
 Para el brazo, en reposo, la señal "Raw" muestra una actividad baja, acorde a la ausencia de contracción muscular. La señal procesada confirma que no hay ruido relevante en esta condición. En la condición sin oposición, la señal "Raw" presenta una estructura de activación muscular más evidente, aunque algo contaminada por ruido. La señal procesada elimina este ruido, mostrando los momentos clave de contracción muscular. Al aplicar fuerza en el movimiento con oposición, la señal "Raw" refleja un aumento significativo en la actividad muscular, con oscilaciones amplias. La señal procesada resalta estas contracciones intensas, eliminando el ruido y ofreciendo una imagen clara del esfuerzo realizado.
 
-Antebrazo
+#### Antebrazo
 En el reposo del antebrazo, la señal "Raw" muestra baja actividad muscular, como era de esperar. La señal procesada confirma la ausencia de ruido y mantiene la baja actividad del músculo en reposo. Durante el movimiento sin oposición, la señal "Raw" muestra oscilaciones que indican actividad muscular, pero con cierto nivel de ruido. La señal procesada, tras el filtrado, ofrece una visualización más clara de los picos de activación. Finalmente, en la condición de oposición, la señal "Raw" refleja una activación muscular significativa con oscilaciones amplias. La señal procesada elimina los artefactos y ruido, destacando los momentos clave de contracción durante el esfuerzo muscular intenso.
 
 ## Referencias
