@@ -35,7 +35,7 @@
 
 ## Resultados
 
-### Pruebas en OpenSignals
+### Señales en OpenSignal
 
 #### Prueba 1: Reposo
    
@@ -68,15 +68,35 @@ En la señal del movimiento del brazo con fuerza, se observa un incremento signi
 De manera similar, en la señal del antebrazo en movimiento con fuerza, se visualizan oscilaciones densas y de alta amplitud, que representan la contracción intensa del músculo del antebrazo. La alta actividad electromiográfica capturada refleja la necesidad de mayor reclutamiento muscular para ejecutar el movimiento con fuerza, comparado con un movimiento más suave o en reposo.
 
 
+### Gráficas en el dominio de la frecuencia
+
+| Dedo - Con oposición | Brazo - Sin oposición | Antebrazo - Con oposición |
+|----------------------|-----------------------|---------------------------|
+| ![Dedo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/ft.png) | ![Brazo - Sin oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/ft.png) | ![Antebrazo - Con oposición](ISB/Laboratorios/L4_adquisicion_señal_emg/Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/ft.png) |
+
+
 ### Gráficas en el Dominio del Tiempo
 
-| Grupo Muscular | Señal Raw                           | Señal Procesada                   |
-|----------------|-------------------------------------|-----------------------------------|
-| Dedo           | ![Señal Raw - Dedo](./path/to/dedo_raw.png) | ![Señal Procesada - Dedo](./path/to/dedo_procesada.png) |
-| Brazo          | ![Señal Raw - Brazo](./path/to/brazo_raw.png) | ![Señal Procesada - Brazo](./path/to/brazo_procesada.png) |
-| Antebrazo      | ![Señal Raw - Antebrazo](./path/to/antebrazo_raw.png) | ![Señal Procesada - Antebrazo](./path/to/antebrazo_procesada.png) |
+| Grupo Muscular | Condición       | Señal Raw                                         | Señal Procesada                                   |
+|----------------|-----------------|--------------------------------------------------|--------------------------------------------------|
+| **Dedo**       | Reposo           | <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/1-1%20-%20Dedo%20en%20reposo/proc.png" width="200px"> |
+| **Dedo**       | Sin oposición    | <img src="./Fotos%20y%20videos/1-2%20-%20Movimiento%20voluntario%20del%20dedo/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/1-2%20-%20Movimiento%20voluntario%20del%20dedo/proce.png" width="200px"> |
+| **Dedo**       | Con oposición    | <img src="./Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/1-3%20-%20Movimiento%20ejerciendo%20fuerza/proce.png" width="200px"> |
+| **Brazo**      | Reposo           | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/2-1%20-%20Brazo%20reposo/proce.png" width="200px"> |
+| **Brazo**      | Sin oposición    | <img src="./Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/2-2%20-%20Brazo%20en%20movimiento%20voluntario/proce.png" width="200px"> |
+| **Brazo**      | Con oposición    | <img src="./Fotos%20y%20videos/2-3%20-%20Movimiento%20de%20brazo%20con%20fuerza/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/2-3%20-%20Movimiento%20de%20brazo%20con%20fuerza/proce.png" width="200px"> |
+| **Antebrazo**  | Reposo           | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/4-1%20-%20Antebrazo%20en%20reposo/proce.png" width="200px"> |
+| **Antebrazo**  | Sin oposición    | <img src="./Fotos%20y%20videos/4-2%20-%20Antebrazo%20en%20movimiento%20voluntario/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/4-2%20-%20Antebrazo%20en%20movimiento%20voluntario/proce.png" width="200px"> |
+| **Antebrazo**  | Con oposición    | <img src="./Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/raw.png" width="200px"> | <img src="./Fotos%20y%20videos/4-3%20-%20Antebrazo%20en%20movimiento%20con%20fuerza/proce.png" width="200px"> |
 
+Dedo
+En las condiciones del dedo, se observa una baja actividad en reposo, como era de esperar. La señal "Raw" refleja esta baja actividad, y la señal procesada la confirma tras el filtrado, mostrando una señal limpia y sin artefactos. Durante el movimiento sin oposición, la señal "Raw" comienza a mostrar oscilaciones asociadas con la activación muscular, pero también contiene ruido. Tras el filtrado, la señal procesada resalta claramente los momentos de activación muscular, eliminando el ruido. En la condición de oposición, la señal "Raw" muestra una actividad más intensa y oscilaciones de mayor amplitud, reflejo del esfuerzo muscular. La señal procesada limpia esta actividad, permitiendo observar con precisión los picos de contracción muscular bajo esfuerzo.
 
+Brazo
+Para el brazo, en reposo, la señal "Raw" muestra una actividad baja, acorde a la ausencia de contracción muscular. La señal procesada confirma que no hay ruido relevante en esta condición. En la condición sin oposición, la señal "Raw" presenta una estructura de activación muscular más evidente, aunque algo contaminada por ruido. La señal procesada elimina este ruido, mostrando los momentos clave de contracción muscular. Al aplicar fuerza en el movimiento con oposición, la señal "Raw" refleja un aumento significativo en la actividad muscular, con oscilaciones amplias. La señal procesada resalta estas contracciones intensas, eliminando el ruido y ofreciendo una imagen clara del esfuerzo realizado.
+
+Antebrazo
+En el reposo del antebrazo, la señal "Raw" muestra baja actividad muscular, como era de esperar. La señal procesada confirma la ausencia de ruido y mantiene la baja actividad del músculo en reposo. Durante el movimiento sin oposición, la señal "Raw" muestra oscilaciones que indican actividad muscular, pero con cierto nivel de ruido. La señal procesada, tras el filtrado, ofrece una visualización más clara de los picos de activación. Finalmente, en la condición de oposición, la señal "Raw" refleja una activación muscular significativa con oscilaciones amplias. La señal procesada elimina los artefactos y ruido, destacando los momentos clave de contracción durante el esfuerzo muscular intenso.
 
 ## Referencias
 1. Campanini, I., Merlo, A., Disselhorst-Klug, C., Mesin, L., Muceli, S., & Merletti, R. (2022). Fundamental Concepts of Bipolar and High-Density Surface EMG Understanding and Teaching for Clinical, Occupational, and Sport Applications: Origin, Detection, and Main Errors. Sensors (Basel, Switzerland), 22(11), 4150. https://doi.org/10.3390/s22114150
