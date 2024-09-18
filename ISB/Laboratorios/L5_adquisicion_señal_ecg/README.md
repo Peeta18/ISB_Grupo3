@@ -48,7 +48,7 @@ Si el terminal positivo es:
 
 ### Ejercicios
 
-<p align="justify">Los ejercicios aeróbicos y anaeróbicos son dos tipos de ejercicios que se diferencian en la forma en que el cuerpo produce energía. Los ejercicios aeróbicos son aquellos que se realizan a una intensidad moderada y durante un período prolongado de tiempo, como correr o nadar. Estos ejercicios utilizan oxígeno para producir energía y son beneficiosos para el sistema cardiovascular y respiratorio. Por otro lado, los ejercicios anaeróbicos son aquellos que se realizan a una alta intensidad y durante un corto período de tiempo, como levantar pesas o hacer sprints. Estos ejercicios no utilizan oxígeno para producir energía y son beneficiosos para el desarrollo muscular [7].</p>
+<p align="justify">Aquí va la explicación de los ejercicios.</p>
 
 ## **Objetivos** <a name="id1"></a>
 ---
@@ -100,10 +100,10 @@ Se posicionaron los electrodos en base las guías mencionadas:
      
 ### **Video de la señal** <a name="id6"></a>
 #
-1. **Estado basal**: El sujeto de prueba se quedó quieto y manteniendo la calma
-2. **Manteniendo la respiración por 10 segundos**: El sujeto de prueba mantuvo la respiración por 10 segundos y se midió la inspiración y expiración
-3. **Reposo basal**: Reposo después de mantener la respiración
-4. **Después de una actividad física**:El sujeto de prueba realizó movimientos aeróbicos por 5 minutos
+1. **Estado basal**: El sujeto se mantuvo en reposo y tranquilo.
+2. **Mantener la respiración**: El sujeto de prueba contuvo la respiración por 10 segundos.
+3. **Reposo basal**: El sujeto de prueba descansó luego de mantener la respiración.
+4. **Después de una actividad física**:El sujeto de prueba realizó ejercicios aeróbicos hasta cansarse (3 minutos).
    
      
 |                 **Modelo**                 | **Video** |
