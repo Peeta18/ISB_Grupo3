@@ -61,15 +61,15 @@ Los objetivos del laboratorio son:
 
 ## **Procedimiento** <a name="id3"></a>
 
-1. Preparación de la piel: se lavo con agua y jabón la zona en la que se colocaron los electrodos. Posteriormente, se seco cuidadosamente para eliminar todo residuo de agua
-2. Ubicación de los electrodos: para ello se uso la configuración bipolar [3]. Primero se colocaron los electrodos y luego se conectaron al BITalino
+1. Preparación de la zona: Se lavó con agua, jabón y paños la zona en la que se determinó que irían colocados los electrodos.
+2. Ubicación de los electrodos: Aquí explicar donde los pusimos y porque, con bibliografía.
      <p align="center"><img src="/ISB/Laboratorios/Imagenes/Bit-ECG/UbicacionBitalino.png" width="600" height="300"></p>
      <p align="center">Figura 3. Colocación de electrodos para el plomo I: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca [3].
 
 3. Registro de la señal ECG: Se grabó la señal en 3 momentos
-     * Estado basal: Evaluar el estado de reposo
-     * Respiración prolongada: Evaluar al mantener la respiración por 10 segundos y el estado basal
-     * Ejercicio intenso: Evaluar luego de 5 minutos de burpees
+     * Estado basal: Evaluamos en estado de reposo.
+     * Respiración prolongada: Evaluamos al mantener la respiración por 10 segundos y reposo basal.
+     * Ejercicio intenso: Evaluamos luego de 5 minutos de abdominales.
 
        
  
