@@ -17,15 +17,8 @@ Fecha: 18-09-2024
 
 ## **Introducción al laboratorio** <a name="id0"></a>
 ---
-<p align="justify">Un electrocardiograma (ECG) es un procedimiento sencillo, sin dolor y de rápida ejecución que registra la actividad eléctrica del corazón. Cada vez que el corazón late, una señal eléctrica recorre su músculo cardíaco, estimulando las cuatro cámaras para que se contraigan al ritmo adecuado y bombeen sangre a todo el cuerpo. El electrocardiograma se usa para ayudar a diagnosticar y monitorear enfermedades del corazón tales como:
+<p align="justify">El electrocardiograma (ECG) es una técnica diagnóstica esencial que permite visualizar la actividad eléctrica del corazón mediante electrodos adheridos a la piel. Este procedimiento es indoloro y nos ayuda en la detección y monitorización de diversas afecciones cardíacas, como arritmias, bloqueos cardíacos y otros problemas relacionados con la función eléctrica del corazón. Al registrar las variaciones en el voltaje eléctrico que ocurren con cada latido cardíaco, el ECG produce trazos que los médicos pueden analizar para evaluar el ritmo y la estructura del corazón. Gracias a herramientas avanzadas como el Bitalino, ahora podemos realizar y estudiar estas mediciones no solo en entornos clínicos, sino también en la investigación y la educación. Esto nos proporciona una forma efectiva y accesible de entender la dinámica cardíaca a los estudiantes de Ingeniería Biomédica.
 
-* Arritmia
-* Cardiomiopatía
-* Enfermedad de las arterias coronarias
-* Enfermedades cardiovasculares
-
-<p align="justify"> En base a lo mencionado anteriormente,el presente laboratorio presenta el uso de la placa de desarrollo Bitalino para obtener señales de electrocardiograma (ECG) de interés. La placa Bitalino es una herramienta innovadora que nos permitirá registrar y analizar la actividad eléctrica del corazón de forma no invasiva y en tiempo real.</p>
-A través de esta experiencia práctica, se espera  aprender sobre la obtención y análisis de señales ECG, así como familiarizarse con los procedimientos y protocolos de utilización de electrodos ECG.</p>
 
 ### Señal de ECG </p>
 Con respecto a la teoría de una señal de ECG, se puede diferenciar entre 3 fases:
