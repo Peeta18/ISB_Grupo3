@@ -1,5 +1,5 @@
-# **LABORATORIO 4: – USO DE BiTalino PARA ECG**
-Fecha: 12-04-2023
+# **LABORATORIO 5: – Uso de Bitalino para ECG**
+Fecha: 18-09-2024
 
 
 # **Tabla de contenidos**
