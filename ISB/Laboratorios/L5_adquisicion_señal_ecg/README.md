@@ -156,22 +156,14 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 </div>
      
 ## **Conclusiones** <a name="id10"></a>
-* La formación de las ondas de la señal ECG se dan gracias a las diferentes conducciones eléctricas del corazón, las cuales dependerán del estado en el que se encuentre la persona. Estas señales ECG se lograron estudiar gracias al empleo del BITalino, electrodos ECG, el software OpenSignals y el lenguaje de programación en Python que nos permitió extraer datos para un análisis cuantitativo.
-
-* El intervalo RR que al principio tuvo un valor de 0.9 segundos en el reposo basal, presentó un valor de 0.45 segundos después de la realización de actividades físicas por 5 minutos. En comparación con la señal simulada, en estado físico esta fue de 150 lpm , por otro lado, la del usuario llego hasta 133 lpm. Además, el número de complejos QRS en el intervalo de 14.0 a 16.0 segundos se incrementó; por lo que esto indicaría un aumento en la frecuencia cardiaca. Los latidos por minuto de la persona de estudio durante la recuperación tras los 5 minutos de ejercicio está dentro de los valores normales, ya que la simulación indica que un adulto con estado físico normal tendría una frecuencia cardiaca entre 150 - 90 lpm en la fase de recuperación.
-
-* Para el uso de electrodos de superficie se deben considerar las características eléctricas de la piel. Tras el ploteo de las señales se pudo observar que el mal acoplamiento electrodo-piel o la impedancia de este órgano nos brinda resultados de baja calidad. Durante este laboratorio se trabajó en el análisis de señales de ECG de un estudiante que padecía una condición de la piel, por lo que este factor ha sido influyente en la obtención de señales.
-
-* Así mismo, factores como interferencias provenientes de la red eléctrica terminan contaminando la señal ECG y para ello existen distintas herramientas de filtrado. Gracias al acondicionamiento propio del BITalino, el análisis de las señales ECG pudieron ser analizadas el uso de un filtro alguno.
+* Aquí van las conclusiones
 
 ---
 ## **Referencias** <a name="id11"></a>
 ---
-[1] Instituto Nacional de Estadística e Informática, “Condiciones de Riesgo Cardiovasculares”,2012 [En línea]. Disponible en: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1146/cap02.pdf </p>
-[2] "Electrocardiograma: Prueba de laboratorio de MedlinePlus". MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/ (accedido el 12 de abril de 2023). </p>
-[3] BITalino, “BITalino HOME-GUIDE #2 ELECTROCARDIOGRAPHY (ECG) Exploring Cardiac Signals at the Skin Surface” 2020 Accessed: Apr. 12, 2023. [Online]. Available from: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf </p>
-[4] Ministerio de Salud, “GUÍA DE PROCEDIMIENTO ASISTENCIAL: TOMA DE ELECTROCARDIOGRAMA DEL HOSPITAL NACIONAL HIPOLITO UNANUE” Abr. 2022. Disponible en: https://www.gob.pe/institucion/hnhu/normas-legales/3304579-192-2022-hnhu-dg </p>
-[5] “VICERRECTORADO DE INVESTIGACIÓN, INNOVACIÓN Y TRANSFERENCIA DE TECNOLOGÍA.” Accessed: Apr. 12, 2023. [Online]. Available: http://repositorio.espe.edu.ec/xmlui/bitstream/handle/21000/21202/T-ESPE-042196.pdf?sequence=1&isAllowed=y </p>
-[6] J. Hall. (). Guyton & Hall. Tratado de fisiología médica Ed.14 por Hall, John - 9788413820132 - Journal. Available: https://www.edicionesjournal.com/Papel/9788413820132/Guyton+++Hall++Tratado+de+fisiología+médica+Ed+14. </p>
-[7]	“La diferencia entre ejercicio aeróbico y anaeróbico”, Eufic.org. [En línea]. [Online]. Available from: https://www.eufic.org/es/vida-sana/articulo/la-diferencia-entre-ejercicio-aerobico-y-anaerobico/. [Consultado: 13-abr-2023]. </p>
+[1] 
+[2] 
+[3] 
+[4] 
+[5] 
 ‌
