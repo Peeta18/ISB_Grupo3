@@ -39,12 +39,12 @@ Los objetivos del laboratorio son:
 - Hacer una correcta configuración de Bitalino.
 - Extraer la información de las señales ECG del software OpenSignals (r)evolution.
 
-## Materiales y equipos
+               ## Materiales y equipos
 
-| Modelo | Descripción | Cantidad |
-| ------ | ----------- | -------- |
-| (R)EVOLUTION | Kit Bitalino | 1 |
-| - | Laptop | 1 |
+               | Modelo | Descripción | Cantidad |
+               | ------ | ----------- | -------- |
+               | (R)EVOLUTION | Kit Bitalino | 1 |
+               | - | Laptop | 1 |
 
 ## Procedimiento
 
