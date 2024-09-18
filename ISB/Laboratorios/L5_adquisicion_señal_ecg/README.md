@@ -21,7 +21,7 @@ Fecha: 18-09-2024
 
 
 ### Señal de ECG </p>
-Con respecto a la teoría de una señal de ECG, se puede diferenciar entre 3 fases:
+Podemos identificar 3 fases del ECG:
 
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable4/du.png" width="600" height="400"></p>
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/intervalos_ecg.png" width="600" height="400"></p>
@@ -30,19 +30,9 @@ Con respecto a la teoría de una señal de ECG, se puede diferenciar entre 3 fas
 ### Electrocardiograma
 
 <p align="justify">
-Es la representación visual de la actividad eléctrica del corazón en función del tiempo, que se obtiene, desde la superficie corporal, en el pecho, con un electrocardiógrafo en forma de cinta continua.<br><br>
-Dicha actividad eléctrica está registrada hasta con 12 derivaciones, lo cual permite reconstruir mejor la actividad cardiaca en el plano frontal y horizontal [6].
-Las desviaciones para el plano frontal son las derivadas de extremidades estándar (I, II, III) y las derivaciones de extremidades aumentadas (aVR, aVL, aV) 
-Extremidades estándar (I, II, III): 
-* I ⇒ Mano derecha (-) y  la mano izquierda(+)
-* II ⇒ Mano derecha (-) y Pierna izquierda(+)
-* III ⇒Mano izquierda(-) y pierna izquierda(+) <br><br>
-Derivaciones de extremidades aumentadas (aVR, aVL, aVF):
-Consta de 3 conexiones, dos de ellas van al terminal negativo del ECG, mediante una resistencia eléctrica y la otra al terminal positivo:
-Si el terminal positivo es:
-* En el brazo derecho ⇒  aVR
-* En el brazo izquierdo  ⇒ aVL 
-* En la pierna izquierda  ⇒ aVF (La señal es invertida)</p>
+El electrocardiograma (ECG) es un método diagnóstico que captura la actividad eléctrica del corazón a lo largo del tiempo, traduciendo esta información en líneas que se plasman en un papel o una pantalla. Esta actividad es registrada mediante el uso de electrodos colocados en posiciones específicas sobre el tórax y extremidades del paciente, permitiendo así monitorizar el ritmo cardíaco y detectar posibles anomalías.
+
+El registro de un ECG incluye hasta 12 derivaciones estándar, lo cual brinda una visión comprensiva de la actividad eléctrica cardíaca en el plano frontal y horizontal. Estas derivaciones se dividen en derivaciones estándar de las extremidades (I, II, III) y derivaciones aumentadas (aVR, aVL, aVF), que ofrecen distintas vistas del corazón y son esenciales para un análisis detallado del estado eléctrico cardíaco. La configuración de estas derivaciones permite identificar la orientación y magnitud de la actividad eléctrica del corazón desde diferentes ángulos, lo que es crucial para un diagnóstico preciso.
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable4/deri.png" width="300" height="300"></p>
 <p align="center">Figura 2. Derivaciones.[6] </p>
 
