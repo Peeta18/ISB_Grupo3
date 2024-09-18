@@ -81,8 +81,7 @@ Los objetivos del laboratorio son:
      * Respiración prolongada: Evaluar al mantener la respiración por 10 segundos y el estado basal
      * Ejercicio intenso: Evaluar luego de 5 minutos de burpees
 
-https://user-images.githubusercontent.com/43428232/231537596-8f684d32-26c2-4d7b-a5d4-7bdbe838e545.mp4
-
+       
  
 ## **Resultados** <a name="id4"></a>
 <p align="justify">Antes de proceder con la lectura de los resultados cabe mencionar que el sujeto de estudio, el cual se sometió a diferentes estados de actividad y reposo, tiene una condición la piel que genera ciertas perturbaciones en la señal que se deben tomar en cuenta.</p>
