@@ -179,17 +179,17 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 </div>
      
 ## **Conclusiones** <a name="id10"></a>
-* En este informe, presentamos los resultados obtenidos de las pruebas realizadas durante el laboratorio con el objetivo de profundizar en nuestro entendimiento de la función cardíaca bajo diversas condiciones. Las pruebas se estructuraron alrededor de tres objetivos principales: adquirir señales biomédicas de ECG, configurar correctamente el sistema BiTalino, y extraer y analizar las señales ECG utilizando el software OpenSignals (r)evolution.
+<p align="justify"> En este informe, presentamos los resultados obtenidos de las pruebas realizadas durante el laboratorio con el objetivo de profundizar en nuestro entendimiento de la función cardíaca bajo diversas condiciones. Las pruebas se estructuraron alrededor de tres objetivos principales: adquirir señales biomédicas de ECG, configurar correctamente el sistema BiTalino, y extraer y analizar las señales ECG utilizando el software OpenSignals (r)evolution.</p>
 
-- Adquisición de Señales Biomédicas de ECG: En grupo, realizamos mediciones directas en una compañera voluntaria bajo diferentes estados: reposo, retención de la respiración y después de realizar ejercicio físico. Estas mediciones nos permitieron observar de manera práctica cómo la señal ECG refleja las respuestas fisiológicas del corazón ante variados estímulos.
+- <p align="justify"> Adquisición de Señales Biomédicas de ECG: En grupo, realizamos mediciones directas en una compañera voluntaria bajo diferentes estados: reposo, retención de la respiración y después de realizar ejercicio físico. Estas mediciones nos permitieron observar de manera práctica cómo la señal ECG refleja las respuestas fisiológicas del corazón ante variados estímulos.</p>
 
-- Configuración de BiTalino: Trabajamos en conjunto para configurar adecuadamente el sistema BiTalino, asegurándonos de que la captura de datos fuera precisa y fiable. Este paso fue crucial para la calidad de los datos adquiridos, lo cual es fundamental para un análisis efectivo y preciso, cabe destacar que durante las pruebas fuimos cuidadosos en la etiqueta de cada video grabado con el objetivo de tener una correcta interpretación luego.
+- <p align="justify"> Configuración de BiTalino: Trabajamos en conjunto para configurar adecuadamente el sistema BiTalino, asegurándonos de que la captura de datos fuera precisa y fiable. Este paso fue crucial para la calidad de los datos adquiridos, lo cual es fundamental para un análisis efectivo y preciso, cabe destacar que durante las pruebas fuimos cuidadosos en la etiqueta de cada video grabado con el objetivo de tener una correcta interpretación luego.</p>
 
-- Extracción de Datos con OpenSignals (r)evolution: Utilizamos el software OpenSignals (r)evolution para procesar y analizar las señales obtenidas.
+- <p align="justify"> Extracción de Datos con OpenSignals (r)evolution: Utilizamos el software OpenSignals (r)evolution para procesar y analizar las señales obtenidas.</p>
 
-Adicionalmente, empleamos el dispositivo Promsim4 para generar señales ECG simuladas a diferentes frecuencias cardíacas, lo que nos permitió comparar estos patrones simulados con las mediciones reales de nuestra compañera y observar las diferencias y similitudes en un entorno controlado.
+<p align="justify"> Adicionalmente, empleamos el dispositivo Promsim4 para generar señales ECG simuladas a diferentes frecuencias cardíacas, lo que nos permitió comparar estos patrones simulados con las mediciones reales de nuestra compañera y observar las diferencias y similitudes en un entorno controlado.</p>
 
-Este laboratorio no solo enriqueció nuestra comprensión teórica de la fisiología cardíaca, sino que también mejoró nuestras habilidades prácticas en el manejo de tecnología médica avanzada y en el análisis crítico de datos cardíacos. 
+<p align="justify"> Este laboratorio no solo enriqueció nuestra comprensión teórica de la fisiología cardíaca, sino que también mejoró nuestras habilidades prácticas en el manejo de tecnología médica avanzada y en el análisis crítico de datos cardíacos. </p>
 
 ---
 ## **Referencias** <a name="id11"></a>
