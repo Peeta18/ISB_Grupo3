@@ -64,8 +64,9 @@ Los objetivos del laboratorio son:
 1. Preparación de la zona: Se lavó con agua, jabón y paños la zona en la que se determinó que irían colocados los electrodos.
 2. Ubicación de los electrodos: Aquí explicar donde los pusimos y porque, con bibliografía.
 
-<img src="https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/5e54075fb7fb07deb67fbf35833cefc78f600d1a/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/setup.jpeg" alt="Colocación de electrodos" width="400px">
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/5e54075fb7fb07deb67fbf35833cefc78f600d1a/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/setup.jpeg" alt="Colocación de electrodos" width="300px">
+</div>
 <p align="center"><b>Figura 3. </b> Colocación de electrodos para el plomo I: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca [3].</p>
 
 
