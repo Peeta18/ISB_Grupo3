@@ -195,7 +195,9 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 ## **Referencias** <a name="id11"></a>
 ---
 [1] G. A. Castillo Rozas, "Electrocardiograma en Urgencias," Síntesis de Conocimientos, Universidad de Chile, Santiago, Chile, Dec. 6, 2016. [Online]. Available: https://sintesis.med.uchile.cl/tratados-por-especialidad/tratados-de-urgencias/14130-electrocardiograma-en-urgencias. [Accessed: Sep. 21, 2024].
+
 [2] L. Estébanez, "Electrocardiograma convencional," Cuidándote.net, 24 de abril de 2012. [Online]. Available: https://www.cuidandote.net/2012/04/electrocardiograma-convencional/. [Accessed: Sep. 21, 2024].
+
 [3] 
 [4] 
 [5] 
