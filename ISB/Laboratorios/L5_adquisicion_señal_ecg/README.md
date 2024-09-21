@@ -73,9 +73,10 @@ Los objetivos del laboratorio son:
 <p align="center"><b>Figura 3. </b> Colocación de electrodos para el plomo I: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca [3].</p>
 
 
-3. Registro de la señal ECG: Se grabó la señal en 3 momentos
+3. Registro de la señal ECG: Se grabó la señal en 4 momentos
      * Estado basal: Evaluamos en estado de reposo.
-     * Respiración prolongada: Evaluamos al mantener la respiración por 10 segundos y reposo basal.
+     * Respiración prolongada: Evaluamos al mantener la respiración por 10 segundos.
+     * Reposo basal: El sujeto de prueba descansó luego de mantener la respiración.
      * Ejercicio intenso: Evaluamos luego de 5 minutos de abdominales.
 
        
