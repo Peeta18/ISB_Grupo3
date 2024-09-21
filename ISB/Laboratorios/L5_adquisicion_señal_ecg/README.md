@@ -64,8 +64,6 @@ Los objetivos del laboratorio son:
 1. Preparación de la zona: Se lavó con agua, jabón y paños la zona en la que se determinó que irían colocados los electrodos.
 2. Ubicación de los electrodos: Aquí explicar donde los pusimos y porque, con bibliografía.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/5e54075fb7fb07deb67fbf35833cefc78f600d1a/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/setup.jpeg" alt="Colocación de electrodos" width="300px">
 </div>
 <p align="center"><b>Figura 3. </b> Colocación de electrodos para el plomo I: IN+ (rojo) e IN-(negro) en las muñecas y REF (blanco) en la cresta ilíaca [3].</p>
 
@@ -85,11 +83,9 @@ Los objetivos del laboratorio son:
 <p align="justify">Para la conexión de electrodos al cuerpo utilizamos la guía proporcionada por el propio Bitalino de nombre: "BITalino HOME-GUIDE #2 ELECTROCARDIOGRAPHY (ECG) Exploring Cardiac Signals at the Skin Surface" y a su vez la “GUÍA DE PROCEDIMIENTO ASISTENCIAL: TOMA DE ELECTROCARDIOGRAMA DEL HOSPITAL NACIONAL HIPOLITO UNANUE”.</p>
 
 Se posicionaron los electrodos en base las guías mencionadas:
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/pos_electrodos.png" width="600" height="300"></p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/5e54075fb7fb07deb67fbf35833cefc78f600d1a/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/setup.jpeg" alt="Colocación de electrodos" width="300px">
 <p align="center">Figura 4. Posición de los electrodos.
-
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/conexión_bitalino.jpg" width="400" height="300"></p>
-<p align="center">Figura 5. Conexión con el Bitalino.
      
 ### **Video de la señal** <a name="id6"></a>
 #
