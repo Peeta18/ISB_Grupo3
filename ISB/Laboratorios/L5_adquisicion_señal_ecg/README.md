@@ -37,8 +37,9 @@ El registro de un ECG incluye hasta 12 derivaciones estándar, lo cual brinda un
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bb474762-a8c9-4440-8520-26ec34339bdd" alt="Segmentos">
+  <img src="https://github.com/user-attachments/assets/eaf68691-30ae-4442-a9b1-8cc4111d25b3" alt="Derivaciones">
 </p>
+
 
 <p align="center">Figura 2. Derivaciones. </p>
 
