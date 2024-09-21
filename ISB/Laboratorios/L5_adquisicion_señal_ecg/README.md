@@ -31,6 +31,7 @@ Podemos identificar 3 fases del ECG:
 El electrocardiograma (ECG) es un método diagnóstico que captura la actividad eléctrica del corazón a lo largo del tiempo, traduciendo esta información en líneas que se plasman en un papel o una pantalla. Esta actividad es registrada mediante el uso de electrodos colocados en posiciones específicas sobre el tórax y extremidades del paciente, permitiendo así monitorizar el ritmo cardíaco y detectar posibles anomalías.
 
 El registro de un ECG incluye hasta 12 derivaciones estándar, lo cual brinda una visión comprensiva de la actividad eléctrica cardíaca en el plano frontal y horizontal. Estas derivaciones se dividen en derivaciones estándar de las extremidades (I, II, III) y derivaciones aumentadas (aVR, aVL, aVF), que ofrecen distintas vistas del corazón y son esenciales para un análisis detallado del estado eléctrico cardíaco. La configuración de estas derivaciones permite identificar la orientación y magnitud de la actividad eléctrica del corazón desde diferentes ángulos, lo que es crucial para un diagnóstico preciso.
+
 ![derivaciones](https://github.com/user-attachments/assets/eaf68691-30ae-4442-a9b1-8cc4111d25b3)
 <p align="center">Figura 2. Derivaciones. </p>
 
