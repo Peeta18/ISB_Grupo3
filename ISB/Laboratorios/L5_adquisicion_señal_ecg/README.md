@@ -43,14 +43,6 @@ El registro de un ECG incluye hasta 12 derivaciones estándar, lo cual brinda un
 
 <p align="center">Figura 2. Derivaciones. [2]</p>
 
-### Ejercicios
-
-<p align="justify">Aquí va la explicación de los ejercicios.</p>
-Para la realización de la medición del ECG, realizamos la evaluación en diferentes estados.
-     * Estado basal: Evaluamos en estado de reposo.
-     * Respiración prolongada: Evaluamos al mantener la respiración por 10 segundos y reposo basal.
-     * Ejercicio intenso: Evaluamos luego de 5 minutos de abdominales.
-En el ejercicio intenso se realizaron abdominales que permitieran al individuo poner llegar a un estado de agotamiento intenso, esto realizando ejercicios físicos fuera de su capacidad.
 
 ## **Objetivos** <a name="id1"></a>
 ---
