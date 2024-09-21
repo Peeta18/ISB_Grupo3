@@ -12,7 +12,7 @@ Fecha: 18-09-2024
      4.2 [Video de la señal](#id6)\
      4.3 [Archivos](#id8)\
      4.4 [Ploteo de la señal en Python](#id9)
-6. [Conclusiones](#id10)
+6. [Discusión y conclusiones](#id10)
 7. [Referencias](#id11)
 
 ## **Introducción al laboratorio** <a name="id0"></a>
@@ -160,11 +160,17 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 | **120 BPM**           | ![Señal 120 BPM](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/90bpm/proce.png) | [Ver Video 120 BPM](https://github.com/Peeta18/ISB_Grupo3/blob/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/120bpm/120bpm.mp4) |
 | **150 BPM**           | ![Señal 150 BPM](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/120bpm/proce.png) | [Ver Video 150 BPM](https://github.com/Peeta18/ISB_Grupo3/blob/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/150bpm/150bpm.mp4) |
 
+**RESULTADOS**
+- En el primer estado basal, las señales cardíacas muestran una actividad tranquila y estable, con una frecuencia cardíaca de aproximadamente 61 latidos por minuto, indicativa de un estado de reposo. Las transformadas de Fourier revelan un pico claro y dominante, sugiriendo baja variabilidad en la frecuencia cardíaca lo usual en estado basal, mientras que las señales procesadas muestran intervalos R-R regulares y consistentes, lo que refleja una actividad cardíaca uniforme y sin estrés.
+
+- Durante el estado en el que el sujeto mantiene la respiración durante 10 segundos, se observa un incremento en la variabilidad de la señal cardíaca. La transformada de Fourier aún muestra un pico dominante pero con alteraciones menores, debido a un incremento en la activación simpática. Los intervalos R-R en la señal procesada se reducen ligeramente, indicando un aumento en la frecuencia cardíaca a 67 latidos por minuto, lo que sugiere una respuesta fisiológica al estrés inducido por la retención de la respiración no usual.
+
+- Posteriormente a una actividad física intensa de 5 minutos, las señales cardíacas reflejan un marcado aumento en la variabilidad y la frecuencia, con una frecuencia cardíaca elevada a 133 latidos por minuto, típica de la respuesta al ejercicio físico. El espectro de Fourier se ensancha significativamente, indicando una mayor variabilidad de la frecuencia cardíaca. En las señales procesadas, los intervalos R-R se acortan drásticamente, evidenciando la necesidad del corazón de aumentar el bombeo para satisfacer la demanda de oxígeno del cuerpo el flujo sanguíneo luego de un cardio intenso.
 
 
 </div>
      
-## **Conclusiones** <a name="id10"></a>
+## **Discusión y conclusiones** <a name="id10"></a>
 * Aquí van las conclusiones
 
 ---
