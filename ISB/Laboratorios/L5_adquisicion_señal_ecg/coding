@@ -1,0 +1,160 @@
+# Para ver la señal y su FT
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.signal import butter, lfilter, welch
+from google.colab import drive
+
+# Montar Google Drive para acceder a los archivos
+drive.mount('/content/drive')
+
+# Función para cargar la señal desde el archivo CSV
+def load_signal(csv_file):
+    try:
+        data = pd.read_csv(csv_file)
+        signal = data.iloc[:, 0].values  # Seleccionar la primera columna directamente
+        return signal
+    except Exception as e:
+        print(f"Error al cargar la señal desde {csv_file}: {e}")
+        return None
+
+# Función para graficar la señal en el dominio del tiempo
+def plot_time_domain(signal, fs, title):
+    N = len(signal)
+    T = 1.0 / fs
+    t = np.linspace(0.0, N * T, N)
+
+    plt.figure(figsize=(15, 6))
+    plt.plot(t, signal)
+    plt.title(f'Señal en el dominio del tiempo - {title}')
+    plt.xlabel('Tiempo (s)')
+    plt.ylabel('Amplitud')
+    plt.grid(True)
+    plt.xlim(3,6)
+    plt.show()
+
+# Función para graficar la Transformada de Fourier (FFT) simétrica en el rango -pi a pi
+def plot_fft_symmetric(signal, fs, title):
+    N = len(signal)
+    T = 1.0 / fs
+
+    # FFT y fftshift para obtener simetría
+    yf = np.fft.fft(signal)
+    yf_shifted = np.fft.fftshift(yf)  # Shift para centrar en 0
+    xf = np.fft.fftfreq(N, T)
+    xf_shifted = np.fft.fftshift(xf)  # Shift para centrar las frecuencias
+
+    # Convertir las frecuencias a -pi a pi
+    xf_scaled = xf_shifted * (2 * np.pi / fs)  # Escalar para ir de -pi a pi
+
+    # Graficar
+    plt.figure(figsize=(10, 6))
+    plt.plot(xf_scaled, np.abs(yf_shifted) / N)  # Normalizar la amplitud por N
+    plt.title(f'FT - {title}')
+    plt.xlabel('Frecuencia normalizada (rad/s)')
+    plt.ylabel('Amplitud')
+    plt.grid(True)
+    plt.xlim([-np.pi, np.pi])  # Limitar el eje x a -pi a pi
+    plt.show()
+
+# Parámetros generales
+fs = 1000  # Frecuencia de muestreo en Hz
+
+# Cargar las señales desde los archivos CSV
+signal1 = load_signal('/content/drive/MyDrive/isb/lab5/respd3.csv')
+
+# Graficar la señal en el dominio del tiempo
+plot_time_domain(signal1, fs, "Señal 1")
+
+# Graficar la FFT simétrica de la señal
+plot_fft_symmetric(signal1, fs, "Señal 1")
+
+
+# Para filtrar la señal en base a la FT y plotear su nueva FT
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt
+from google.colab import drive
+
+# Montar Google Drive para acceder a los archivos
+drive.mount('/content/drive')
+
+# Función para cargar la señal desde el archivo CSV
+def load_signal(csv_file):
+    try:
+        data = pd.read_csv(csv_file)
+        signal = data.iloc[:, 0].values  # Seleccionar la primera columna directamente
+        return signal
+    except Exception as e:
+        print(f"Error al cargar la señal desde {csv_file}: {e}")
+        return None
+
+# Función para aplicar filtro pasa bajos
+def butter_lowpass(cutoff, fs, order=4):
+    nyq = 0.5 * fs
+    normal_cutoff = cutoff / nyq
+    b, a = butter(order, normal_cutoff, btype='low', analog=False)
+    return b, a
+
+def butter_lowpass_filter(data, cutoff, fs, order=4):
+    b, a = butter_lowpass(cutoff, fs, order=order)
+    y = filtfilt(b, a, data)
+    return y
+
+# Función para graficar la señal en el dominio del tiempo
+def plot_time_domain(signal, fs, title):
+    N = len(signal)
+    T = 1.0 / fs
+    t = np.linspace(0.0, N * T, N)
+
+    plt.figure(figsize=(15, 6))
+    plt.plot(t, signal)
+    plt.title(f'Señal en el dominio del tiempo - {title}')
+    plt.xlabel('Tiempo (s)')
+    plt.ylabel('Amplitud')
+    plt.grid(True)
+    plt.xlim([3, 6])  # Focalizar en un tramo específico
+    plt.show()
+
+# Función para graficar la Transformada de Fourier (FFT) simétrica en el rango -pi a pi
+def plot_fft_symmetric(signal, fs, title):
+    N = len(signal)
+    T = 1.0 / fs
+
+    # FFT y fftshift para obtener simetría
+    yf = np.fft.fft(signal)
+    yf_shifted = np.fft.fftshift(yf)  # Shift para centrar en 0
+    xf = np.fft.fftfreq(N, T)
+    xf_shifted = np.fft.fftshift(xf)  # Shift para centrar las frecuencias
+
+    # Convertir las frecuencias a -pi a pi
+    xf_scaled = xf_shifted * (2 * np.pi / fs)  # Escalar para ir de -pi a pi
+
+    # Graficar
+    plt.figure(figsize=(10, 6))
+    plt.plot(xf_scaled, np.abs(yf_shifted) / N)  # Normalizar la amplitud por N
+    plt.title(f'FT - {title}')
+    plt.xlabel('Frecuencia normalizada (rad/s)')
+    plt.ylabel('Amplitud')
+    plt.grid(True)
+    plt.xlim([-np.pi, np.pi])  # Limitar el eje x a -pi a pi
+    plt.show()
+
+# Parámetros generales
+fs = 1000  # Frecuencia de muestreo en Hz
+cutoff = 50  # Frecuencia de corte para el filtro pasa bajos (50 Hz para ECG)
+
+# Cargar las señales desde los archivos CSV
+signal1 = load_signal('/content/drive/MyDrive/isb/lab5/respd3.csv')
+
+# Aplicar el filtro pasa bajos a la señal
+filtered_signal1 = butter_lowpass_filter(signal1, cutoff, fs, order=4)
+
+# Graficar la señal filtrada en el dominio del tiempo
+plot_time_domain(filtered_signal1, fs, "Señal 1 Filtrada (ECG)")
+
+# Graficar la FFT simétrica de la señal filtrada
+plot_fft_symmetric(filtered_signal1, fs, "Señal 1 Filtrada (ECG)")
