@@ -80,7 +80,7 @@ Los objetivos del laboratorio son:
        
  
 ## **Resultados** <a name="id4"></a>
-<p align="justify">Antes de proceder con la lectura de los resultados cabe mencionar que el sujeto de estudio, el cual se sometió a diferentes estados de actividad y reposo, tiene una condición la piel que genera ciertas perturbaciones en la señal que se deben tomar en cuenta.</p>
+<p align="justify">En esta sección mostraremos los resultados de los 4  estados medidos, en estado basal, manteniendo la respiración , reposo basal y luego de la actividad física..</p>
 
 ### **Conexión usada** <a name="id5"></a>
 #
