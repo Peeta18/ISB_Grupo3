@@ -12,7 +12,7 @@ Fecha: 18-09-2024
      4.2 [Video de la señal](#id6)\
      4.3 [Archivos](#id8)\
      4.4 [Ploteo de la señal en Python](#id9)
-6. [Discusión y conclusiones](#id10)
+6. [Conclusiones](#id10)
 7. [Referencias](#id11)
 
 ## **Introducción al laboratorio** <a name="id0"></a>
@@ -178,8 +178,18 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 
 </div>
      
-## **Discusión y conclusiones** <a name="id10"></a>
-* Aquí van las conclusiones
+## **Conclusiones** <a name="id10"></a>
+* En este informe, presentamos los resultados obtenidos de las pruebas realizadas durante el laboratorio con el objetivo de profundizar en nuestro entendimiento de la función cardíaca bajo diversas condiciones. Las pruebas se estructuraron alrededor de tres objetivos principales: adquirir señales biomédicas de ECG, configurar correctamente el sistema BiTalino, y extraer y analizar las señales ECG utilizando el software OpenSignals (r)evolution.
+
+- Adquisición de Señales Biomédicas de ECG: En grupo, realizamos mediciones directas en una compañera voluntaria bajo diferentes estados: reposo, retención de la respiración y después de realizar ejercicio físico. Estas mediciones nos permitieron observar de manera práctica cómo la señal ECG refleja las respuestas fisiológicas del corazón ante variados estímulos.
+
+- Configuración de BiTalino: Trabajamos en conjunto para configurar adecuadamente el sistema BiTalino, asegurándonos de que la captura de datos fuera precisa y fiable. Este paso fue crucial para la calidad de los datos adquiridos, lo cual es fundamental para un análisis efectivo y preciso, cabe destacar que durante las pruebas fuimos cuidadosos en la etiqueta de cada video grabado con el objetivo de tener una correcta interpretación luego.
+
+- Extracción de Datos con OpenSignals (r)evolution: Utilizamos el software OpenSignals (r)evolution para procesar y analizar las señales obtenidas.
+
+Adicionalmente, empleamos el dispositivo Promsim4 para generar señales ECG simuladas a diferentes frecuencias cardíacas, lo que nos permitió comparar estos patrones simulados con las mediciones reales de nuestra compañera y observar las diferencias y similitudes en un entorno controlado.
+
+Este laboratorio no solo enriqueció nuestra comprensión teórica de la fisiología cardíaca, sino que también mejoró nuestras habilidades prácticas en el manejo de tecnología médica avanzada y en el análisis crítico de datos cardíacos. 
 
 ---
 ## **Referencias** <a name="id11"></a>
