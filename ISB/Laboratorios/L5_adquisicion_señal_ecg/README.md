@@ -23,9 +23,8 @@ Fecha: 18-09-2024
 ### Señal de ECG </p>
 Podemos identificar 3 fases del ECG:
 
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable4/du.png" width="600" height="400"></p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/Bitalino/intervalos_ecg.png" width="600" height="400"></p>
-<p align="center">Figura 1. Intervalos y segmentos de ECG.[5] </p>
+<p align="center"><img src="![Segmentos](https://github.com/user-attachments/assets/220a2655-cbb3-4b58-967e-8c22a39f4411)" width="600" height="400"></p>
+<p align="center">Figura 1. Intervalos y segmentos de ECG. </p>
 
 ### Electrocardiograma
 
