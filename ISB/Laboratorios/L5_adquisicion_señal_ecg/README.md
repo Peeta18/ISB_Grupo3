@@ -149,7 +149,7 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 
 |                 **Simulación**                 | **Toma** |
 |:------------------------------------------:|:---------:|
-|**Simulación de 60lpm - estado basal** </p><img src="/ISB/Laboratorios/Imagenes/entregable4/60lpm_toma1.jpg" width="300" height="300">|<video src="https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/refs/heads/main/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/60bpm/60bpm.mp4"></video>|
+|**Simulación de 60lpm - estado basal** </p><img src="/ISB/Laboratorios/Imagenes/entregable4/60lpm_toma1.jpg" width="300" height="300">|<video src="https://github.com/Peeta18/ISB_Grupo3/blob/6714a94b71646d38729a699705cd72c91b05e0cb/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/60bpm/60bpm.mp4"></video>|
 | **Simulación de 120lpm - empieza a agitarse**</p><img src="/ISB/Laboratorios/Imagenes/entregable4/120lpm_toma2.jpg" width="300" height="300">|<img src="/ISB/Laboratorios/Imagenes/entregable4/120lpm_toma22.jpg" width="300" height="300">|
 |                **Simulación de 150lpm - haciendo ejercicio**</p><img src="/ISB/Laboratorios/Imagenes/entregable4/150lpm_toma3.jpg" width="300" height="300">|<img src="/ISB/Laboratorios/Imagenes/entregable4/150lpm_toma33.jpg" width="300" height="300"></p>|
 |       **Simulación de 90lpm - reponiendose**</p><img src="/ISB/Laboratorios/Imagenes/entregable4/90lpm_toma4.jpg" width="300" height="300">      |<img src="/ISB/Laboratorios/Imagenes/entregable4/90lpm_toma44.jpg" width="300" height="300"></p>|
