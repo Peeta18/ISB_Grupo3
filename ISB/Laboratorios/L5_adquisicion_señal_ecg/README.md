@@ -147,12 +147,13 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 
 <div align="center">
 
-|                 **Simulación**                 | **Toma** |
-|:------------------------------------------:|:---------:|
-|**Simulación de 60lpm - estado basal** </p><img src="/ISB/Laboratorios/Imagenes/entregable4/60lpm_toma1.jpg" width="300" height="300">|<video src="https://github.com/Peeta18/ISB_Grupo3/raw/refs/heads/main/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/60bpm/60bpm.mp4"></video>|
-| **Simulación de 120lpm - empieza a agitarse**</p><img src="/ISB/Laboratorios/Imagenes/entregable4/120lpm_toma2.jpg" width="300" height="300">|<img src="/ISB/Laboratorios/Imagenes/entregable4/120lpm_toma22.jpg" width="300" height="300">|
-|                **Simulación de 150lpm - haciendo ejercicio**</p><img src="/ISB/Laboratorios/Imagenes/entregable4/150lpm_toma3.jpg" width="300" height="300">|<img src="/ISB/Laboratorios/Imagenes/entregable4/150lpm_toma33.jpg" width="300" height="300"></p>|
-|       **Simulación de 90lpm - reponiendose**</p><img src="/ISB/Laboratorios/Imagenes/entregable4/90lpm_toma4.jpg" width="300" height="300">      |<img src="/ISB/Laboratorios/Imagenes/entregable4/90lpm_toma44.jpg" width="300" height="300"></p>|
+| **Frecuencia (BPM)** | **Señal**                                                                                                           | **Video**                                                                                                             |
+|----------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **60 BPM**            | ![Señal 60 BPM](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/60bpm/proce.png) | [Ver Video 60 BPM](https://github.com/Peeta18/ISB_Grupo3/blob/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/60bpm/60bpm.mp4) |
+| **90 BPM**            | ![Señal 90 BPM](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/90bpm/proce.png) | [Ver Video 90 BPM](https://github.com/Peeta18/ISB_Grupo3/blob/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/90bpm/60bpm.mp4) |
+| **120 BPM**           | ![Señal 120 BPM](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/120bpm/proce.png) | [Ver Video 120 BPM](https://github.com/Peeta18/ISB_Grupo3/blob/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/120bpm/60bpm.mp4) |
+| **150 BPM**           | ![Señal 150 BPM](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/150bpm/proce.png) | [Ver Video 150 BPM](https://github.com/Peeta18/ISB_Grupo3/blob/c3abe242220634df98239676713d727e5e407712/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/fluke/150bpm/60bpm.mp4) |
+
 
 </div>
      
