@@ -60,6 +60,7 @@ Los objetivos del laboratorio son:
 |:------------:|:---------------:|:------------:|
 | (R)EVOLUTION |   Kit BITalino  |       1      |
 |       -      |      Laptop     |       1      |
+|       -      |    Electrodos   |       3      |
 
 </div>
 
