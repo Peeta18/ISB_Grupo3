@@ -120,8 +120,8 @@ La señales se sometieron a un filtrado pasa baja y el efecto que se obtuvo fue 
 | **D2 - Estado basal** | ![Raw signal D2](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/estado_basal/D2/raw1.png) | ![Fourier Transform D2](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/estado_basal/D2/ft2.png) | ![Processed Signal D2](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/estado_basal/D2/proce1.png) |
 | **D3 - Estado basal** | ![Raw signal D3](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/estado_basal/D3/raw1.png) | ![Fourier Transform D3](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/estado_basal/D3/ft1.png) | ![Processed Signal D3](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/estado_basal/D3/proce1.png) |
 
-
 En estado basal, el usuario se encontraba en reposo por lo cuál el valor de R-R es 0.98s que equivale a 61 latidos por minuto que esta dentro del rango normal de palpitaciones cardiacas.</p>
+
      b)   Manteniendo la respiración por 10 segundos</p>
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable4/Respiración_señal.png" width="600" height="300"></p>
 <p align="center"><img src="/ISB/Laboratorios/Programación/ECG/Imagenes/Respiracion Freq_response.png" width="600" height="300"></p>
