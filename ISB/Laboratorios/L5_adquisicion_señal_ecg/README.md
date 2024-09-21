@@ -33,7 +33,10 @@ El electrocardiograma (ECG) es un método diagnóstico que captura la actividad 
 El registro de un ECG incluye hasta 12 derivaciones estándar, lo cual brinda una visión comprensiva de la actividad eléctrica cardíaca en el plano frontal y horizontal. Estas derivaciones se dividen en derivaciones estándar de las extremidades (I, II, III) y derivaciones aumentadas (aVR, aVL, aVF), que ofrecen distintas vistas del corazón y son esenciales para un análisis detallado del estado eléctrico cardíaco. La configuración de estas derivaciones permite identificar la orientación y magnitud de la actividad eléctrica del corazón desde diferentes ángulos, lo que es crucial para un diagnóstico preciso.
 
 
-![derivaciones](https://github.com/user-attachments/assets/eaf68691-30ae-4442-a9b1-8cc4111d25b3)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb474762-a8c9-4440-8520-26ec34339bdd" alt="Segmentos">
+</p>
+
 <p align="center">Figura 2. Derivaciones. </p>
 
 ### Ejercicios
