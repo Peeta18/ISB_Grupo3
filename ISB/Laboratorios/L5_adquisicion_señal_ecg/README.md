@@ -123,9 +123,12 @@ La señales se sometieron a un filtrado pasa baja y el efecto que se obtuvo fue 
 En estado basal, el usuario se encontraba en reposo por lo cuál el valor de R-R es 0.98s que equivale a 61 latidos por minuto que esta dentro del rango normal de palpitaciones cardiacas.</p>
 
      b)   Manteniendo la respiración por 10 segundos</p>
-<p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable4/Respiración_señal.png" width="600" height="300"></p>
-<p align="center"><img src="/ISB/Laboratorios/Programación/ECG/Imagenes/Respiracion Freq_response.png" width="600" height="300"></p>
-<p align="center"><img src="/ISB/Laboratorios/Programación/ECG/Imagenes/Respiracion Amplitudes_Analysis Raw_Signal.png" width="600" height="300"></p>
+| **Señal**            | **Raw Signal** | **Fourier Transform** | **Processed Signal** |
+|----------------------|----------------|-----------------------|----------------------|
+| **D1 - Respiración (post)** | ![Raw signal D1](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/b2c66f57bfbc3f1187102f2b4a360bdbd339e289/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D1/raw3.png) | ![Fourier Transform D1](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/b2c66f57bfbc3f1187102f2b4a360bdbd339e289/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D1/ft3.png) | ![Processed Signal D1](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/b2c66f57bfbc3f1187102f2b4a360bdbd339e289/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D1/proce3.png) |
+| **D2 - Respiración (post)** | ![Raw signal D2](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D2/raw.png) | ![Fourier Transform D2](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D2/ft.png) | ![Processed Signal D2](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D2/proce.png) |
+| **D3 - Respiración (post)** | ![Raw signal D3](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D3/raw.png) | ![Fourier Transform D3](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D3/ft.png) | ![Processed Signal D3](https://raw.githubusercontent.com/Peeta18/ISB_Grupo3/88b6efb04a00bb0f66d4c0b0a4ddb6df55e027b2/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/respiracion/D3/proce.png) |
+
 En este parámetro, el usuario contuvo la respiración durante 10 segundos por lo cuál el valor del intervalo R-R es de 0.9s que equivale a 67 latidos por minuto.</p> 
      c)   Reposo basal</p>
 <p align="center"><img src="/ISB/Laboratorios/Imagenes/entregable4/Basal2_señal.png" width="600" height="300"></p>
