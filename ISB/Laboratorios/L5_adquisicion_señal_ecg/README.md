@@ -26,7 +26,7 @@ Podemos identificar 3 fases del ECG:
   <img src="https://github.com/user-attachments/assets/bb474762-a8c9-4440-8520-26ec34339bdd" alt="Segmentos">
 </p>
 
-<p align="center">Figura 1. Intervalos y segmentos de ECG. </p>
+<p align="center">Figura 1. Intervalos y segmentos de ECG.[1] </p>
 
 ### Electrocardiograma
 
@@ -41,7 +41,7 @@ El registro de un ECG incluye hasta 12 derivaciones estándar, lo cual brinda un
 </p>
 
 
-<p align="center">Figura 2. Derivaciones. </p>
+<p align="center">Figura 2. Derivaciones. [2]</p>
 
 ### Ejercicios
 
