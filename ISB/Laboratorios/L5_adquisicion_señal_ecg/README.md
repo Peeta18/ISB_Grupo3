@@ -70,7 +70,7 @@ Los objetivos del laboratorio son:
 2. Ubicación de los electrodos: Aquí explicar donde los pusimos y porque, con bibliografía.
 
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/Posicionelectrodos.png?raw=true" width="300px">
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L5_adquisicion_se%C3%B1al_ecg/fotos_y_videos/Posicionelectrodos.png?raw=true" width="400px">
 <p align="center">
 
 
