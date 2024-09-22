@@ -69,7 +69,7 @@ Los objetivos del laboratorio son:
 1. Preparación de la zona: Se lavó con agua, jabón y paños la zona en la que se determinó que irían colocados los electrodos.
 2. Ubicación de los electrodos: Aquí explicar donde los pusimos y porque, con bibliografía.
 
-   ![Posicion electrodos] (posicionelectrodos.png)
+   !(posicionelectrodos.png)
 
 
 </div>
