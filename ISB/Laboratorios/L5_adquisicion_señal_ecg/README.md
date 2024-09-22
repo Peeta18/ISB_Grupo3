@@ -113,12 +113,7 @@ Se posicionaron los electrodos en base las guías mencionadas:
 |                **Reposo basal**                |<video src="https://user-images.githubusercontent.com/128627001/231586327-8ea808a1-fc5f-4bc7-bb96-a590a6cf875a.mp4"></video>|
 |       **Después de la actividad física**       |<video src="https://user-images.githubusercontent.com/128627001/231586016-d47e613a-6b33-4284-9bc8-8974b8fd2e24.mp4"></video>|
 
-     
-### **Archivos** <a name="id8"></a>
-#
-- [Documentos (.txt)](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/tree/main/Programación/Laboratorio%204)
-- [Programa de ploteo](https://github.com/Grupo2-IntroduccionSenalesMedicas/S_biomedica/blob/main/Programación/Laboratorio%204/SignalPlot.ipynb)
-- [Programa de ploteo en Google Colab](https://colab.research.google.com/drive/1u2PKFSx2E9Nheg8XYQldKUHyYO6rB3Q5?usp=sharing) 
+
      
 ### **Ploteo de la señal en Python** <a name="id9"></a>
 <p align="justify">Se ha realizado un ploteo de las señales en python para poder analizar segmentos específicos. Para poder calcular los latidos por minuto (lpm) y compararlos con el dispositivo patron, se calculó el intervalo R-R en las señales. En un electrocardiograma con ritmo regular el cálculo es simple, solo hay que dividir 6000 entre la frecuencia cardiaca. Además, se permite observar las frecuencias de la señal.</p>
@@ -203,7 +198,3 @@ Inmediatamente, después de la actividad física de 5 minutos, el intervalo R-R 
 
 [2] L. Estébanez, "Electrocardiograma convencional," Cuidándote.net, 24 de abril de 2012. [Online]. Available: https://www.cuidandote.net/2012/04/electrocardiograma-convencional/. [Accessed: Sep. 21, 2024].
 
-[3] 
-[4] 
-[5] 
-‌
