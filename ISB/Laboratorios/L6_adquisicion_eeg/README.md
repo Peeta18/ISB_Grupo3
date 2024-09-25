@@ -35,11 +35,11 @@ Las ondas cerebrales detectadas por el EEG se clasifican según su frecuencia y 
     
 | **_Tipos de Frecuencia de Ondas Cerebrales_** | **_Frecuencia (Hz)_** |Estado del cerebro|
 |:---------------------------------------------:|:---------------------:|:------------:|
-|               Ondas Delta                     |          0.5 - 4      |Dormir|
-|               Ondas Theta                     |            4 - 8      |Relajamiendo profundo y estar enfocado |
-|               Ondas Alpha                     |       8 - 13          |Muy relajado y atento|
-|                Ondas Beta                     |       13 - 22         |Ansioso,activo|
-|               Ondas Gamma                     |       22 - 30         |Concentrado|
+|               Ondas Delta                     |          0.5 - 4      |Sueño profundo, inconsciencia|
+|               Ondas Theta                     |            4 - 8      |Somnolencia, meditación profunda, sueño ligero |
+|               Ondas Alpha                     |       8 - 13          |Relajación, estado de reposo, meditación|
+|                Ondas Beta                     |       13 - 22         |Atención, alerta, concentración activa|
+|               Ondas Gamma                     |       22 - 30         |Procesamiento cognitivo elevado, percepción consciente|
 
 </p>
     
