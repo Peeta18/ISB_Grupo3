@@ -218,7 +218,8 @@ De las 5 gráficas la que tiene mayor amplitud es en la que se expone al sujeto 
 - 
     
 ## **Referencias** <a name="id18"></a>
-1.
+[1] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
+
 ‌
 ‌
 
