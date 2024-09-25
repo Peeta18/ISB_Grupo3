@@ -24,12 +24,12 @@
 
 ## **Introducción al laboratorio** <a name="id0"></a>
 
-<p align="center"> <img src="https://i.imgur.com/Uup0v26.png" width="50%" /></p>
-<p align="center"> Figura 1. Actividad cerebral.[7]</p>
 
-### ¿Qué es EEG? <a name="id1"></a>
-<p align="justify"> El electroencefalograma (EEG) es un procedimiento de estudio de actividad electrica cerebral producida por la interfaz de
-neuronas en el cerebro y la interacción de dichas neuronas produciendo señales electroquímicas.[1] </p>
+### ¿Qué es el EEG? <a name="id1"></a>
+<p align="justify"> La electroencefalografía (EEG) es una técnica de neuroimagen que registra la actividad eléctrica del cerebro mediante electrodos colocados en el cuero cabelludo. Esta técnica es esencial para el diagnóstico y monitoreo de trastornos neurológicos como la epilepsia, así como para la investigación de procesos cognitivos y estados de conciencia.
+
+Las ondas cerebrales detectadas por el EEG se clasifican según su frecuencia y están asociadas a diferentes estados mentales y niveles de actividad cerebral.
+</p>
 
 <p align="center"> 
     
