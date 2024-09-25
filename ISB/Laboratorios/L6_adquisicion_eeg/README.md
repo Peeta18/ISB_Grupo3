@@ -53,8 +53,11 @@ Las ondas beta (13 - 30 Hz) son más rápidas y están vinculadas con la activid
 
 Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el procesamiento cognitivo elevado y la percepción consciente. Están involucradas en la integración de la información entre distintas áreas del cerebro y son fundamentales para funciones cognitivas como la atención, la memoria y el aprendizaje.
 
-<p align="center"> <img src="https://i.imgur.com/VJE3Qq9.png" width="60%" /> </p>
-<p align="center"> Figura 2. Clasificación de onda.[7]</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea92704d-366b-4d97-85f7-de37db7e7831" alt="Señales"/>
+</p>
+
+<p align="center"> Figura 1. Clasificación de los tipos de ondas.[1]</p>
 
 ### Aplicaciones <a name="id2"></a>
 ---
