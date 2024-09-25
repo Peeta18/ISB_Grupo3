@@ -43,11 +43,15 @@ Las ondas cerebrales detectadas por el EEG se clasifican según su frecuencia y 
 
 </p>
     
--**Delta** : el ritmo delta se observa fisiológicamente en el sueño profundo y es prominente en las regiones frontocentrales de la cabeza. El ritmo delta patológico se presenta en estados de vigilia en caso de encefalopatía generalizada y disfunción cerebral focal.</p>
--**Theta**: este es el ritmo provocado por la somnolencia y las primeras etapas del sueño, como N1 y N2. Es más prominente en las regiones frontocentrales de la cabeza y migra lentamente hacia atrás reemplazando el ritmo alfa debido a la somnolencia temprana. Los estados emocionales elevados también pueden mejorar el ritmo theta rítmico frontal en niños y adultos jóvenes. La actividad theta focal durante los estados de vigilia sugiere una disfunción cerebral focal.</p>
--**Alfa**: el ritmo alfa dominante posterior está presente de forma característica en los registros de EEG normales despiertos en la región occipital de la cabeza. Es la característica definitoria del ritmo de fondo normal de la grabación de EEG de adultos. El ritmo posterior alcanza el rango alfa de 8 Hz a la edad de 3 años y no decae incluso hasta la novena década de vida en individuos sanos. En la población normal se observan variantes rápidas del ritmo alfa de fondo. La ralentización del ritmo alfa de fondo se considera un signo de disfunción cerebral generalizada.</p>
--**Beta**:el ritmo Beta es el ritmo que se observa con mayor frecuencia en adultos y niños normales. Es más prominente en las regiones frontal y central de la cabeza y se atenúa a medida que avanza hacia atrás. La amplitud de la actividad beta suele ser de 10 a 20 microvoltios, que rara vez aumenta por encima de los 30 microvoltios. </p>
--**Gamma**:Se encuentra en al clasificación de ondas de alta frecuencia. La importancia de los ritmos gamma en una gran variedad de funciones cognitivas ha sido bien establecidaPueden ayudar en la detección temprana de desmielinización y otros trastornos de la integridad cortical.[6]</p>
+Las ondas delta (0.5 - 4 Hz) son las más lentas y se asocian con el sueño profundo y la regeneración celular. Se observan durante las fases de sueño profundo sin sueños, siendo esenciales para la curación física y la consolidación de la memoria.
+
+Las ondas theta (4 - 8 Hz) aparecen en estados de somnolencia, sueño ligero o meditación profunda. Estas ondas están relacionadas con la creatividad, la intuición y el acceso al subconsciente, facilitando la resolución de problemas y la relajación profunda.
+
+Las ondas alfa (8 - 13 Hz) se manifiestan cuando estamos relajados pero despiertos, como en momentos de calma mental o meditación ligera. Representan un estado de reposo consciente, común cuando cerramos los ojos y nos encontramos tranquilos sin realizar tareas activas.
+
+Las ondas beta (13 - 30 Hz) son más rápidas y están vinculadas con la actividad mental intensa, el pensamiento lógico, la concentración y el procesamiento activo de información. Estas ondas predominan cuando estamos atentos, resolviendo problemas o bajo estrés.
+
+Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el procesamiento cognitivo elevado y la percepción consciente. Están involucradas en la integración de la información entre distintas áreas del cerebro y son fundamentales para funciones cognitivas como la atención, la memoria y el aprendizaje.
 
 <p align="center"> <img src="https://i.imgur.com/VJE3Qq9.png" width="60%" /> </p>
 <p align="center"> Figura 2. Clasificación de onda.[7]</p>
