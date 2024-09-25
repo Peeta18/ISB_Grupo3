@@ -62,8 +62,6 @@ Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el pr
 ### Aplicaciones <a name="id2"></a>
 ---
 <p align="justify"> El electroencefalograma (EEG) tiene múltiples aplicaciones en el ámbito clínico, de investigación y tecnológico. Es un pilar para el diagnóstico y monitoreo de trastornos neurológicos como la epilepsia, los trastornos del sueño y otros desórdenes que afectan la actividad cerebral. Además, se utiliza ampliamente en la investigación neurocientífica para estudiar procesos cognitivos como la atención y la memoria, gracias a su alta resolución temporal. También es clave en el desarrollo de interfaces cerebro-computadora (BCI), permitiendo a personas con discapacidades motoras controlar dispositivos externos mediante la actividad cerebral. Finalmente, el EEG es esencial en el análisis del sueño, ayudando a diagnosticar y tratar trastornos como la apnea o el insomnio. [2]</p>
-<p align="center"> <img src="https://i.imgur.com/5Nirdvp.png" width="60%" /></p>
-<p align="center"> Figura 3. Aplicación clínica del EEG.</p>
 
 ### Tipos de medición de EEG <a name="id3"></a>
 ___
@@ -219,6 +217,7 @@ De las 5 gráficas la que tiene mayor amplitud es en la que se expone al sujeto 
     
 ## **Referencias** <a name="id18"></a>
 [1] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
+[2] Mayo Clinic Staff, "Electroencefalograma (EEG)," Mayo Clinic. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. Fecha de acceso: 25-sep-2024.
 
 ‌
 ‌
