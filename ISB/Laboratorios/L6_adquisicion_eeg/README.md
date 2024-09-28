@@ -68,7 +68,7 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 
 - Montaje Stereoelectroencefalografía (sEEG): Este método implica la inserción de electrodos en el cerebro para registrar la actividad de áreas profundas. Se utiliza principalmente en casos de epilepsia intratable o para estudios prequirúrgicos, proporcionando información detallada sobre la actividad cerebral interna.
 
-- Montaje de la Red Internacional 10-20: Esta configuración estandarizada se basa en un sistema de proporciones de la cabeza para la colocación precisa de electrodos. Es ampliamente utilizado tanto en la práctica clínica como en la investigación, ya que permite un registro consistente y reproducible de la actividad cerebral global.
+- Montaje de la Red Internacional 10-20: Esta configuración estandarizada se basa en un sistema de proporciones de la cabeza para la colocación precisa de electrodos. Es ampliamente utilizado tanto en la práctica clínica como en la investigación, ya que permite un registro consistente y reproducible de la actividad cerebral global.[4]
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3d7e9274-757d-4f67-ad04-f852232bf483" alt="monopolar" />
 </div>
@@ -188,7 +188,7 @@ ___
 [1] Mental Health Daily, '5 Types Of Brain Waves Frequencies: Gamma, Beta, Alpha, Theta, Delta,' Mental Health Daily, April 15, 2014. [Online]. Available: https://mentalhealthdaily.com/2014/04/15/5-types-of-brain-waves-frequencies-gamma-beta-alpha-theta-delta/. [Accessed: Sep. 28, 2024]..
 [2] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
 [3] Mayo Clinic Staff, "Electroencefalograma (EEG)," Mayo Clinic. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. Fecha de acceso: 25-sep-2024.
-
+[4] X. Pardell, "Electroencefalógrafo - Apuntes de Electromedicina," Pardell.es. [Online]. Available: https://www.pardell.es/electroencefalografo.html. [Accessed: Sep. 28, 2024]
 ‌
 ‌
 
