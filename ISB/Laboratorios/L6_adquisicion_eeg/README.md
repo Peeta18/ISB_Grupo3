@@ -81,7 +81,7 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
   <img src="https://github.com/user-attachments/assets/3d7e9274-757d-4f67-ad04-f852232bf483" alt="monopolar" />
 </div>
 
-<p align="center"> Figura 4. Montaje para registro: (a) Monopolar (b) Bipolar.[5]</p>
+<p align="center"> Figura 4. Montaje para registro Monopolar.</p>
 
     
 ## **Objetivos** <a name="id5"></a>
