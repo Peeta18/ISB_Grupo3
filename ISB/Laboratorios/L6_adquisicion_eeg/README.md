@@ -48,11 +48,11 @@ Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el pr
   <img src="https://github.com/user-attachments/assets/ea92704d-366b-4d97-85f7-de37db7e7831" alt="Señales"/>
 </p>
 
-<p align="center"> Figura 1. Clasificación de los tipos de ondas.[1]</p>
+<p align="center"> Figura 1. Clasificación de los tipos de ondas.[2]</p>
 
 ### Aplicaciones <a name="id2"></a>
 ---
-<p align="justify"> El electroencefalograma (EEG) tiene múltiples aplicaciones en el ámbito clínico, de investigación y tecnológico. Es un pilar para el diagnóstico y monitoreo de trastornos neurológicos como la epilepsia, los trastornos del sueño y otros desórdenes que afectan la actividad cerebral. Además, se utiliza ampliamente en la investigación neurocientífica para estudiar procesos cognitivos como la atención y la memoria, gracias a su alta resolución temporal. También es clave en el desarrollo de interfaces cerebro-computadora (BCI), permitiendo a personas con discapacidades motoras controlar dispositivos externos mediante la actividad cerebral. Finalmente, el EEG es esencial en el análisis del sueño, ayudando a diagnosticar y tratar trastornos como la apnea o el insomnio. [2]</p>
+<p align="justify"> El electroencefalograma (EEG) tiene múltiples aplicaciones en el ámbito clínico, de investigación y tecnológico. Es un pilar para el diagnóstico y monitoreo de trastornos neurológicos como la epilepsia, los trastornos del sueño y otros desórdenes que afectan la actividad cerebral. Además, se utiliza ampliamente en la investigación neurocientífica para estudiar procesos cognitivos como la atención y la memoria, gracias a su alta resolución temporal. También es clave en el desarrollo de interfaces cerebro-computadora (BCI), permitiendo a personas con discapacidades motoras controlar dispositivos externos mediante la actividad cerebral. Finalmente, el EEG es esencial en el análisis del sueño, ayudando a diagnosticar y tratar trastornos como la apnea o el insomnio. [3]</p>
 
 ### Tipos de medición de EEG <a name="id3"></a>
 ___
