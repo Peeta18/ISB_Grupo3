@@ -66,18 +66,21 @@ Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el pr
 ___
 Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos según la configuración y el montaje de los electrodos. Estas configuraciones definen cómo los electrodos están colocados en el cuero cabelludo y cómo se mide la actividad eléctrica cerebral. Los principales tipos de configuración de electrodos en EEG son:
 
-Montaje Monopolar o Referencial: En esta configuración, se mide la diferencia de potencial entre un electrodo colocado sobre una región activa del cerebro y un electrodo de referencia en una zona neutra. Es ideal para detectar la actividad en áreas específicas del cerebro y es muy utilizado en estudios clínicos que requieren la identificación precisa de zonas de interés cerebral.
+- Montaje Monopolar o Referencial: En esta configuración, se mide la diferencia de potencial entre un electrodo colocado sobre una región activa del cerebro y un electrodo de referencia en una zona neutra. Es ideal para detectar la actividad en áreas específicas del cerebro y es muy utilizado en estudios clínicos que requieren la identificación precisa de zonas de interés cerebral.
 
-Montaje Bipolar: Este método mide la diferencia de potencial entre dos electrodos activos colocados en distintas zonas del cuero cabelludo. Es eficaz para registrar variaciones locales en la actividad cerebral y se utiliza comúnmente para detectar patrones que surgen de interacciones entre áreas cercanas del cerebro.
+- Montaje Bipolar: Este método mide la diferencia de potencial entre dos electrodos activos colocados en distintas zonas del cuero cabelludo. Es eficaz para registrar variaciones locales en la actividad cerebral y se utiliza comúnmente para detectar patrones que surgen de interacciones entre áreas cercanas del cerebro.
 
-Montaje Laplaciano: Este montaje compara la señal de un electrodo con el promedio de los electrodos cercanos, mejorando la precisión espacial y reduciendo el ruido. Se emplea para detectar actividad cerebral más localizada y ofrece una mejor discriminación de fuentes de señal cercanas entre sí.
+- Montaje Laplaciano: Este montaje compara la señal de un electrodo con el promedio de los electrodos cercanos, mejorando la precisión espacial y reduciendo el ruido. Se emplea para detectar actividad cerebral más localizada y ofrece una mejor discriminación de fuentes de señal cercanas entre sí.
 
-Montaje de Promedio Referencial: Aquí, cada electrodo se compara con el promedio de la actividad registrada en todos los electrodos, lo que permite una medición más global. Es útil para obtener una visión general del cerebro y minimizar artefactos derivados de la actividad cerebral no deseada.
+- Montaje de Promedio Referencial: Aquí, cada electrodo se compara con el promedio de la actividad registrada en todos los electrodos, lo que permite una medición más global. Es útil para obtener una visión general del cerebro y minimizar artefactos derivados de la actividad cerebral no deseada.
 
-Montaje Stereoelectroencefalografía (sEEG): Este método implica la inserción de electrodos en el cerebro para registrar la actividad de áreas profundas. Se utiliza principalmente en casos de epilepsia intratable o para estudios prequirúrgicos, proporcionando información detallada sobre la actividad cerebral interna.
+- Montaje Stereoelectroencefalografía (sEEG): Este método implica la inserción de electrodos en el cerebro para registrar la actividad de áreas profundas. Se utiliza principalmente en casos de epilepsia intratable o para estudios prequirúrgicos, proporcionando información detallada sobre la actividad cerebral interna.
 
-Montaje de la Red Internacional 10-20: Esta configuración estandarizada se basa en un sistema de proporciones de la cabeza para la colocación precisa de electrodos. Es ampliamente utilizado tanto en la práctica clínica como en la investigación, ya que permite un registro consistente y reproducible de la actividad cerebral global.
-<p align="center"> <img src="https://i.imgur.com/qgZ7UsC.jpg" width="60%" /></p>
+- Montaje de la Red Internacional 10-20: Esta configuración estandarizada se basa en un sistema de proporciones de la cabeza para la colocación precisa de electrodos. Es ampliamente utilizado tanto en la práctica clínica como en la investigación, ya que permite un registro consistente y reproducible de la actividad cerebral global.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3d7e9274-757d-4f67-ad04-f852232bf483" alt="monopolar" />
+</div>
+
 <p align="center"> Figura 4. Montaje para registro: (a) Monopolar (b) Bipolar.[5]</p>
 
     
