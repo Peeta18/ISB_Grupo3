@@ -6,7 +6,6 @@
 1.1 [¿Qué es EEG?](#id1)\
 1.2 [Aplicaciones](#id2)\
 1.3 [Tipos de medición de EEG](#id3)\
-1.4 [¿De qué forma obtenemos la señal?](#id4)
 2. [Objetivos](#id5)
 3. [Materiales y equipos](#id6)
 4. [Procedimiento](#id7)\
@@ -67,16 +66,20 @@ Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el pr
 ___
 Según la configuración del montaje de los electrodos, se pueden clasificar en tres tipos:
 
-- Monopolar: En este tipo se registran las diferencias de potencial entre los electrodos ubicados en las zonas de interés y un electrodo de referencia. Este último se coloca generalmente en la oreja, la cual es una zona que refleja la menor actividad posible.
-- Bipolar: Los electrodos son situados en diferentes zonas de interés y se adquieren diferencias de potenciales entre ellos.
-- Laplaciana: Al igual que el primer tipo, se obtienen los valores con electrodos en zonas de interés (activos) y uno de referencia; sin embargo, la referencia viene a ser el promedio de varios electrodos posicionados alrededor del electrodo activo. Esto puede realizarse tanto de forma analógica como de forma digital.
+Montaje Monopolar o Referencial: En esta configuración, se mide la diferencia de potencial entre un electrodo colocado sobre una región activa del cerebro y un electrodo de referencia en una zona neutra. Es ideal para detectar la actividad en áreas específicas del cerebro y es muy utilizado en estudios clínicos que requieren la identificación precisa de zonas de interés cerebral.
+
+Montaje Bipolar: Este método mide la diferencia de potencial entre dos electrodos activos colocados en distintas zonas del cuero cabelludo. Es eficaz para registrar variaciones locales en la actividad cerebral y se utiliza comúnmente para detectar patrones que surgen de interacciones entre áreas cercanas del cerebro.
+
+Montaje Laplaciano: Este montaje compara la señal de un electrodo con el promedio de los electrodos cercanos, mejorando la precisión espacial y reduciendo el ruido. Se emplea para detectar actividad cerebral más localizada y ofrece una mejor discriminación de fuentes de señal cercanas entre sí.
+
+Montaje de Promedio Referencial: Aquí, cada electrodo se compara con el promedio de la actividad registrada en todos los electrodos, lo que permite una medición más global. Es útil para obtener una visión general del cerebro y minimizar artefactos derivados de la actividad cerebral no deseada.
+
+Montaje Stereoelectroencefalografía (sEEG): Este método implica la inserción de electrodos en el cerebro para registrar la actividad de áreas profundas. Se utiliza principalmente en casos de epilepsia intratable o para estudios prequirúrgicos, proporcionando información detallada sobre la actividad cerebral interna.
+
+Montaje de la Red Internacional 10-20: Esta configuración estandarizada se basa en un sistema de proporciones de la cabeza para la colocación precisa de electrodos. Es ampliamente utilizado tanto en la práctica clínica como en la investigación, ya que permite un registro consistente y reproducible de la actividad cerebral global.
 <p align="center"> <img src="https://i.imgur.com/qgZ7UsC.jpg" width="60%" /></p>
 <p align="center"> Figura 4. Montaje para registro: (a) Monopolar (b) Bipolar.[5]</p>
 
-
-### ¿De qué forma obtenemos la señal? <a name="id4"></a>
----
-En el presente laboratorio se utilizará el Ultracortex Mark IV EEG 
     
 ## **Objetivos** <a name="id5"></a>
 - Establecer un conocimiento teórico y práctico sobre la utilización y adquisición de señales EEG.
