@@ -186,10 +186,14 @@ ___
 - 
     
 ## **Referencias** <a name="id9"></a>
-[1] Mental Health Daily, '5 Types Of Brain Waves Frequencies: Gamma, Beta, Alpha, Theta, Delta,' Mental Health Daily, April 15, 2014. [Online]. Available: https://mentalhealthdaily.com/2014/04/15/5-types-of-brain-waves-frequencies-gamma-beta-alpha-theta-delta/. [Accessed: Sep. 28, 2024]..
+[1] Mental Health Daily, '5 Types Of Brain Waves Frequencies: Gamma, Beta, Alpha, Theta, Delta,' Mental Health Daily, April 15, 2014. [Online]. Available: https://mentalhealthdaily.com/2014/04/15/5-types-of-brain-waves-frequencies-gamma-beta-alpha-theta-delta/. [Accessed: Sep. 28, 2024].
+
 [2] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
+
 [3] Mayo Clinic Staff, "Electroencefalograma (EEG)," Mayo Clinic. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. Fecha de acceso: 25-sep-2024.
-[4] X. Pardell, "Electroencefalógrafo - Apuntes de Electromedicina," Pardell.es. [Online]. Available: https://www.pardell.es/electroencefalografo.html. [Accessed: Sep. 28, 2024]
+
+[4] X. Pardell, "Electroencefalógrafo - Apuntes de Electromedicina," Pardell.es. [Online]. Available: https://www.pardell.es/electroencefalografo.html. [Accessed: Sep. 28, 2024].
+
 ‌
 ‌
 
