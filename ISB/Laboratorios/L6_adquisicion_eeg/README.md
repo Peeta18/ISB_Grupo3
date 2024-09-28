@@ -6,12 +6,12 @@
 1.1 [¿Qué es EEG?](#id1)\
 1.2 [Aplicaciones](#id2)\
 1.3 [Tipos de medición de EEG](#id3)\
-2. [Objetivos](#id5)
-3. [Materiales y equipos](#id6)
-4. [Metodología](#id7)\
-5. [Resultados](#id10)\
-6. [Conclusiones](#id17)
-7. [Referencias](#id18)
+2. [Objetivos](#id4)
+3. [Materiales y equipos](#id5)
+4. [Metodología](#id6)\
+5. [Resultados](#id7)\
+6. [Conclusiones](#id8)
+7. [Referencias](#id9)
 
 ## **Introducción al laboratorio** <a name="id0"></a>
 
@@ -76,13 +76,13 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 <p align="center"> Figura 4. Montaje para registro Monopolar.</p>
 
     
-## **Objetivos** <a name="id5"></a>
+## **Objetivos** <a name="id4"></a>
 - 
 - 
 
 ---
 
-## **Materiales y equipos** <a name="id6"></a>
+## **Materiales y equipos** <a name="id5"></a>
 
 <center>
     
@@ -96,7 +96,7 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 
 </center>
 
-## **Metodología** <a name="id7"></a>
+## **Metodología** <a name="id6"></a>
 
 
 1. **Posición de electrodo bipolar (fp1-fp2)**
@@ -176,15 +176,15 @@ Para el segundo procedimiento, se utilizó el casco **UltraCortex MARK IV** junt
 
 
  
-## **Resultados** <a name="id10"></a>
+## **Resultados** <a name="id7"></a>
 ___
 
-## **Conclusiones** <a name="id17"></a>
+## **Conclusiones** <a name="id8"></a>
 ---
 - 
 - 
     
-## **Referencias** <a name="id18"></a>
+## **Referencias** <a name="id9"></a>
 [1] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
 [2] Mayo Clinic Staff, "Electroencefalograma (EEG)," Mayo Clinic. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. Fecha de acceso: 25-sep-2024.
 
