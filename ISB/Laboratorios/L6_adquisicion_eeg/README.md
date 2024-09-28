@@ -64,7 +64,7 @@ Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el pr
 
 ### Tipos de medición de EEG <a name="id3"></a>
 ___
-Según la configuración del montaje de los electrodos, se pueden clasificar en tres tipos:
+Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos según la configuración y el montaje de los electrodos. Estas configuraciones definen cómo los electrodos están colocados en el cuero cabelludo y cómo se mide la actividad eléctrica cerebral. Los principales tipos de configuración de electrodos en EEG son:
 
 Montaje Monopolar o Referencial: En esta configuración, se mide la diferencia de potencial entre un electrodo colocado sobre una región activa del cerebro y un electrodo de referencia en una zona neutra. Es ideal para detectar la actividad en áreas específicas del cerebro y es muy utilizado en estudios clínicos que requieren la identificación precisa de zonas de interés cerebral.
 
