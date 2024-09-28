@@ -10,12 +10,6 @@
 3. [Materiales y equipos](#id6)
 4. [Metodología](#id7)\
 5. [Resultados](#id10)\
-5.1 [Fotos de conexión usada](#id11)\
-5.2 [Señal con MarckOpenBCI4](#id12)\
-    5.2.1 [Gráficas del OpenBCI](#id13)\
-5.3 [Señal con Bitalino](#id14)\
-    5.3.1 [Videos utilizando el Bitalino](#id15)\
-    5.3.2 [Análisis de gráficas](#id16)
 6. [Conclusiones](#id17)
 7. [Referencias](#id18)
 
