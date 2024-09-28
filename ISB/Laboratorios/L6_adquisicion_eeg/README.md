@@ -42,7 +42,7 @@ Las ondas alfa (8 - 13 Hz) se manifiestan cuando estamos relajados pero despiert
 
 Las ondas beta (13 - 30 Hz) son más rápidas y están vinculadas con la actividad mental intensa, el pensamiento lógico, la concentración y el procesamiento activo de información. Estas ondas predominan cuando estamos atentos, resolviendo problemas o bajo estrés.
 
-Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el procesamiento cognitivo elevado y la percepción consciente. Están involucradas en la integración de la información entre distintas áreas del cerebro y son fundamentales para funciones cognitivas como la atención, la memoria y el aprendizaje.
+Las ondas gamma (30 - 100 Hz) son las más rápidas y están asociadas con el procesamiento cognitivo elevado y la percepción consciente. Están involucradas en la integración de la información entre distintas áreas del cerebro y son fundamentales para funciones cognitivas como la atención, la memoria y el aprendizaje.[1]
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ea92704d-366b-4d97-85f7-de37db7e7831" alt="Señales"/>
@@ -185,6 +185,7 @@ ___
 - 
     
 ## **Referencias** <a name="id9"></a>
+[1] Mental Health Daily, '5 Types Of Brain Waves Frequencies: Gamma, Beta, Alpha, Theta, Delta,' Mental Health Daily, April 15, 2014. [Online]. Available: https://mentalhealthdaily.com/2014/04/15/5-types-of-brain-waves-frequencies-gamma-beta-alpha-theta-delta/. [Accessed: Sep. 28, 2024]..
 [2] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
 [3] Mayo Clinic Staff, "Electroencefalograma (EEG)," Mayo Clinic. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. Fecha de acceso: 25-sep-2024.
 
