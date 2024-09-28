@@ -8,9 +8,7 @@
 1.3 [Tipos de medición de EEG](#id3)\
 2. [Objetivos](#id5)
 3. [Materiales y equipos](#id6)
-4. [Procedimiento](#id7)\
-4.1 [Medición y Adquisición por electrodos](#id8)\
-4.2 [Protocolo de adquisición](#id9)
+4. [Metodología](#id7)\
 5. [Resultados](#id10)\
 5.1 [Fotos de conexión usada](#id11)\
 5.2 [Señal con MarckOpenBCI4](#id12)\
@@ -104,50 +102,84 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 
 </center>
 
-## **Procedimiento** <a name="id7"></a>
+## **Metodología** <a name="id7"></a>
 
-### **Medición y Adquisición por electrodos** <a name="id8"></a>
-De manera general, los métodos de adquisición de señales EEG diseñados en el presente laboratorio utilizarán el estándar de posicionamiento 10/20 el cual se describe a continuación:
-
-<p align="center"> Sistema 10/20 <img src="https://i.imgur.com/0O6KnqV.jpg" width="100%" /> </p>
-<p align="center"> Figura 5. Distribución de electrodos. [8] </p>
-
-**Tipo de electrodo:** El electrodo del Bitalino es un sensor bipolar (conjuntos de dos pines de medición más una referencia) que mide las diferencias de potencial entre dos electrodos adyacente.Algunas consideraciones son:</p>
-    - La alta amplificación (ganancia=40000) lo hace muy sensible a los artefactos circundantes como la luz, los movimientos y las fuentes de alimentación (ruido de línea de 50/60 Hz).</p>
-    - La señal medida es la diferencia amplificada entre las dos señales de medición, que se filtra con un paso de banda de 0,8 a 48 Hz para eliminar las señales comunes no deseadas.</p>
-    - La piel debe estar debidamente preparada antes de la adherencia de los electrodos.Para ello, es necesario una desinfección de la piel para eliminar las partículas viejas así como la eliminación del vello.
-
-
-
-### **Protocolo de adquisición** <a name="id9"></a>
-La adquisición y medición de señal EEG  en BITalino es un proceso que implica la utilización de un dispositivo de adquisición de datos llamado BITalino y el conjunto de sensores EEG los cuales son capaces de adquirir señales bioeléctricas del cerebro y convertirlas en señales digitales que pueden ser analizadas por el software especializado OpenSignal. A continuación se detalla el procedimiento realizado para la adquisición y medición de la señal:
 
 1. **Posición de electrodo bipolar (fp1-fp2)**
     <p align="center"> <img src="https://i.imgur.com/8IGiiIx.png" width="50%" /></p>
     
     <p align="center"> Figura 6. Colocación de electrodos EEG del Bitalino. </p>
 
-2. **Adquisición de datos**
-    1. Abrir el software OpenSignals y conectar el Bitalino
-    2. Conectar el sensor EEG al canal especificado del Bitalino según la ficha técnica.
-    3. Colocar los electrodos húmedos con el debido gel en los pines de los sensores EEG.
-    4. Colocar los electrodos instalados en la zona fp1 y fp2 de la cabeza del participante. Tener en cuenta las recomendaciones del tipo de electrodo detallado en la sección anterior.
-    5. Color el electrodo de referencia en la zona interoposterior de la oreja.
-    6. Empezar con el procedimiento de registro:</p>
-        a. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal,sin movimientos oculares/ojos cerrados) durante 30 segundos.</p>
-        b.  Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambasfases durante cinco segundos.</p>
-        c. Registre otra fase de referencia de 30 segundos (paso 1).</p>
-        d. Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos (verindicaciones abajo) y resuelve cada uno de ellos mentalmente enfocando tu mirada en unpunto específico para evitar artefactos.</p>
-        <p align="center"> <img src="https://i.imgur.com/Ulv3Rrn.jpg" width="100%" /></p>
-        <p align="center"> Figura 7. Preguntas de distinta complejidad. </p>
-        e. Detenga la grabación y guarde sus datos.</p>
-    7. Como una adquisición extra de señales, seguir los siguientes pasos:</p>
-        a. Vendar los ojos al sujeto de estudio por 30 segundos.</p>
-        b. Usar una luz intermitente y ver la reacción de la vista del sujeto.</p>
-        c. Recolectar las señales y guardar la información.</p>
+# Metodología de Registro EEG en Voluntarios
 
+Para el experimento, se utilizó un procedimiento con **dos voluntarios** y **dos tipos de equipamiento**. En ambos casos, los voluntarios siguieron los mismos pasos, descritos a continuación.
 
-Cabe mencionar que el procedimiento se repitió en diferentes sujetos de estudio.
+## Protocolo de Captura de Señal EEG (Común a Ambos Equipos)
+1. **Registro de Línea Base (30 segundos)**:
+   - El voluntario se mantuvo en reposo, con respiración normal y ojos cerrados. Se registró una señal limpia, con poco ruido y sin movimientos durante 30 segundos.
+   
+2. **Ciclo de OJOS ABIERTOS - OJOS CERRADOS**:
+   - Se repitió el ciclo de abrir y cerrar los ojos cinco veces. Cada fase (ojos abiertos y cerrados) duró cinco segundos.
+   
+3. **Registro de Línea Base (30 segundos)**:
+   - Se repitió el paso 1 para obtener una nueva referencia de la señal EEG.
+
+4. **Resolución de Problemas Matemáticos**:
+   - Mientras el voluntario mantenía la vista fija en un punto, otro compañero leyó una serie de ejercicios matemáticos (3 simples y 3 complejos) que el voluntario debía resolver mentalmente.
+
+5. **Finalización del Registro**:
+   - Se detuvo la grabación y se guardaron los datos obtenidos.
+
+---
+
+## Procedimiento 1: Captura de EEG con Kit BITalino (R)evolution
+
+Para este procedimiento, se utilizó el Kit BITalino (R)evolution conectado a una laptop mediante **Bluetooth**. La secuencia de preparación y registro fue la siguiente:
+
+1. **Instalación de Software**:
+   - Se descargó e instaló la plataforma **OpenSignals** para la adquisición y visualización de los datos EEG.
+
+2. **Alimentación del Kit BITalino**:
+   - La tarjeta BITalino se alimentó utilizando una **batería de litio** incluida en el kit de compra.
+
+3. **Conexión de Electrodos**:
+   - Se conectaron **3 electrodos** (Positivo, Negativo y Referencia) a la placa de sensado del kit a través del conector correspondiente en el canal de EEG.
+
+4. **Conexión Bluetooth**:
+   - Se estableció una conexión Bluetooth entre la tarjeta BITalino y la laptop.
+
+5. **Colocación de Electrodos en el Voluntario**:
+   - Se colocaron los electrodos de la siguiente manera:
+     - **2 electrodos frontales**: ubicados por encima de cada ceja.
+     - **1 electrodo de referencia**: colocado por debajo de la oreja derecha.
+
+6. **Ejecución del Protocolo EEG**:
+   - Una vez realizadas todas las conexiones, se procedió a ejecutar los pasos detallados anteriormente para la captura de señal EEG en el voluntario.
+
+---
+
+## Procedimiento 2: Captura de EEG con UltraCortex MARK IV y Tarjeta Cyton
+
+Para el segundo procedimiento, se utilizó el casco **UltraCortex MARK IV** junto a la tarjeta **Cyton**, y la secuencia de preparación fue la siguiente:
+
+1. **Instalación de Software**:
+   - Se descargó e instaló la plataforma **OpenBCI GUI** para la adquisición y visualización de los datos EEG.
+
+2. **Alimentación de la Tarjeta Cyton**:
+   - La tarjeta Cyton se alimentó utilizando una **batería de litio** incluida en el kit de compra.
+
+3. **Conexión del UltraCortex MARK IV con la Tarjeta Cyton**:
+   - Se conectó el casco UltraCortex MARK IV con la tarjeta Cyton.
+
+4. **Ajuste del UltraCortex en el Voluntario**:
+   - El casco UltraCortex MARK IV se ajustó en la cabeza del voluntario, siguiendo el **sistema 10-20** para el posicionamiento de los electrodos (voluntario: **profesor Moises**).
+
+5. **Conexión de Laptop y Tarjeta Cyton**:
+   - Se conectó la laptop a la tarjeta Cyton para la adquisición de datos.
+
+6. **Ejecución del Protocolo EEG**:
+   - Tras realizar todas las conexiones, se ejecutaron los pasos del protocolo general mencionados al inicio de la metodología.
+
 
  
 ## **Resultados** <a name="id10"></a>
