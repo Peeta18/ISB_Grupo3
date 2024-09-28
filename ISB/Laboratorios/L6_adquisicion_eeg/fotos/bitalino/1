@@ -1,1 +1,105 @@
-qwer
+# leer señal y plotear
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt
+
+# Ruta del archivo
+file_path = '/content/drive/MyDrive/isb/lab_eeg/BITALINO/basal1.txt'
+
+# Cargar el archivo como un DataFrame
+data = pd.read_csv(file_path, comment='#', delim_whitespace=True, header=None)
+
+# Extraer solo la última columna (la señal que deseas graficar)
+last_column = data.iloc[:, -1]
+
+# Crear el eje de tiempo
+sampling_rate = 1000  # Frecuencia de muestreo en Hz
+time = [i / sampling_rate for i in range(len(last_column))]  # Convertir muestras a tiempo en segundos
+
+# Filtrar la señal de 0 a 10 segundos
+start_time = 0
+end_time = 10
+start_index = int(start_time * sampling_rate)  # Índice inicial
+end_index = int(end_time * sampling_rate)  # Índice final
+
+# Subset de tiempo y señal de 0 a 10 segundos
+time_subset = time[start_index:end_index]
+signal_subset = last_column[start_index:end_index]
+
+# Definir el filtro pasabajas
+def butter_lowpass_filter(data, cutoff, fs, order=4):
+    nyquist = 0.5 * fs  # Frecuencia de Nyquist
+    normal_cutoff = cutoff / nyquist  # Calcular frecuencia normalizada
+    b, a = butter(order, normal_cutoff, btype='low', analog=False)  # Diseño del filtro
+    y = filtfilt(b, a, data)  # Aplicar el filtro pasabajas
+    return y
+
+# Parámetros del filtro
+cutoff_frequency = 30  # Frecuencia de corte de 30 Hz
+order = 4  # Orden del filtro
+
+# Filtrar la señal
+filtered_signal = butter_lowpass_filter(signal_subset, cutoff_frequency, sampling_rate, order)
+
+# Graficar la señal filtrada de 0 a 10 segundos
+plt.figure(figsize=(12, 6))  # Tamaño de la figura
+plt.plot(time_subset, filtered_signal, color='blue', label='Señal Filtrada (Pasabajas <30Hz)')
+plt.title('Señal EEG Filtrada entre 0 y 10 segundos (Filtro Pasabajas < 30 Hz)')  # Título de la gráfica
+plt.xlabel('Tiempo (segundos)')  # Etiqueta del eje X
+plt.ylabel('Amplitud')  # Etiqueta del eje Y
+plt.grid(True)  # Mostrar la cuadrícula
+plt.legend()
+plt.show()
+
+# filtrar señal
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt
+
+# Ruta del archivo
+file_path = '/content/drive/MyDrive/isb/lab_eeg/BITALINO/basal1.txt'
+
+# Cargar el archivo como un DataFrame
+data = pd.read_csv(file_path, comment='#', delim_whitespace=True, header=None)
+
+# Extraer solo la última columna (la señal que deseas graficar)
+last_column = data.iloc[:, -1]
+
+# Crear el eje de tiempo
+sampling_rate = 1000  # Frecuencia de muestreo en Hz
+time = [i / sampling_rate for i in range(len(last_column))]  # Convertir muestras a tiempo en segundos
+
+# Filtrar la señal de 0 a 10 segundos
+start_time = 0
+end_time = 10
+start_index = int(start_time * sampling_rate)  # Índice inicial
+end_index = int(end_time * sampling_rate)  # Índice final
+
+# Subset de tiempo y señal de 0 a 10 segundos
+time_subset = time[start_index:end_index]
+signal_subset = last_column[start_index:end_index]
+
+# Definir el filtro pasabajas
+def butter_lowpass_filter(data, cutoff, fs, order=4):
+    nyquist = 0.5 * fs  # Frecuencia de Nyquist
+    normal_cutoff = cutoff / nyquist  # Calcular frecuencia normalizada
+    b, a = butter(order, normal_cutoff, btype='low', analog=False)  # Diseño del filtro
+    y = filtfilt(b, a, data)  # Aplicar el filtro pasabajas
+    return y
+
+# Parámetros del filtro
+cutoff_frequency = 30  # Frecuencia de corte de 30 Hz
+order = 4  # Orden del filtro
+
+# Filtrar la señal
+filtered_signal = butter_lowpass_filter(signal_subset, cutoff_frequency, sampling_rate, order)
+
+# Graficar la señal filtrada de 0 a 10 segundos
+plt.figure(figsize=(12, 6))  # Tamaño de la figura
+plt.plot(time_subset, filtered_signal, color='blue', label='Señal Filtrada (Pasabajas <30Hz)')
+plt.title('Señal EEG Filtrada entre 0 y 10 segundos (Filtro Pasabajas < 30 Hz)')  # Título de la gráfica
+plt.xlabel('Tiempo (segundos)')  # Etiqueta del eje X
+plt.ylabel('Amplitud')  # Etiqueta del eje Y
+plt.grid(True)  # Mostrar la cuadrícula
+plt.legend()
+plt.show()
