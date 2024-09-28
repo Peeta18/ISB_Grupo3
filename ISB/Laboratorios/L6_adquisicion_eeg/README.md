@@ -185,8 +185,8 @@ ___
 - 
     
 ## **Referencias** <a name="id9"></a>
-[1] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
-[2] Mayo Clinic Staff, "Electroencefalograma (EEG)," Mayo Clinic. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. Fecha de acceso: 25-sep-2024.
+[2] J. Gray, "The 5 Types of Brain Waves," DIY Genius. [En línea]. Disponible en: https://www.diygenius.com/the-5-types-of-brain-waves/. Fecha de acceso: 25-sep-2024.
+[3] Mayo Clinic Staff, "Electroencefalograma (EEG)," Mayo Clinic. [En línea]. Disponible en: https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875. Fecha de acceso: 25-sep-2024.
 
 ‌
 ‌
