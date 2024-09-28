@@ -85,8 +85,8 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 
     
 ## **Objetivos** <a name="id5"></a>
-- Establecer un conocimiento teórico y práctico sobre la utilización y adquisición de señales EEG.
-- Adquirir señales EEG biomédicas
+- 
+- 
 
 ---
 
