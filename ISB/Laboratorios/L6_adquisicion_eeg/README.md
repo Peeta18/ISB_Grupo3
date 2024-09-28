@@ -100,9 +100,6 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 
 
 1. **Posición de electrodo bipolar (fp1-fp2)**
-    <p align="center"> <img src="https://i.imgur.com/8IGiiIx.png" width="50%" /></p>
-    
-    <p align="center"> Figura 6. Colocación de electrodos EEG del Bitalino. </p>
 
 # Metodología de Registro EEG en Voluntarios
 
@@ -149,6 +146,10 @@ Para este procedimiento, se utilizó el Kit BITalino (R)evolution conectado a un
 
 6. **Ejecución del Protocolo EEG**:
    - Una vez realizadas todas las conexiones, se procedió a ejecutar los pasos detallados anteriormente para la captura de señal EEG en el voluntario.
+
+      <p align="center"> <img src="https://i.imgur.com/8IGiiIx.png" width="50%" /></p>
+    
+    <p align="center"> Figura 3. Colocación de electrodos EEG del Bitalino. </p>
 
 ---
 
