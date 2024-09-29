@@ -188,6 +188,18 @@ Para el segundo procedimiento, se utilizó el casco **UltraCortex MARK IV** junt
 | **Preguntas simples**   | ![Raw Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/psimples-raw.png)            | ![Processed Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/psimples-filter.png)        |
 | **Preguntas complejas** | ![Raw Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/pcomplejas-raw.png)       | ![Processed Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/pcomplejas-filter.png)      |
 
+### Usando OpenBCI (Ultracortex)
+
+# Imágenes de Señales EEG con Ultracortex
+
+| Título                  | Imagen                                                                                                                       |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Primera señal basal** | ![Primera señal basal](https://github.com/Peeta18/ISB_Grupo3/blob/46ebafb77af2dd3d48785851b9170b892cbed53d/ISB/Laboratorios/L6_adquisicion_eeg/fotos/ultracortex/basal1.png)       |
+| **Parpadeo**            | ![Parpadeo](https://github.com/Peeta18/ISB_Grupo3/blob/46ebafb77af2dd3d48785851b9170b892cbed53d/ISB/Laboratorios/L6_adquisicion_eeg/fotos/ultracortex/parpadeo.png)               |
+| **Segunda señal basal** | ![Segunda señal basal](https://github.com/Peeta18/ISB_Grupo3/blob/46ebafb77af2dd3d48785851b9170b892cbed53d/ISB/Laboratorios/L6_adquisicion_eeg/fotos/ultracortex/basal2.png)        |
+| **Preguntas simples**   | ![Preguntas simples](https://github.com/Peeta18/ISB_Grupo3/blob/46ebafb77af2dd3d48785851b9170b892cbed53d/ISB/Laboratorios/L6_adquisicion_eeg/fotos/ultracortex/psimples.png)        |
+| **Preguntas complejas** | ![Preguntas complejas](https://github.com/Peeta18/ISB_Grupo3/blob/46ebafb77af2dd3d48785851b9170b892cbed53d/ISB/Laboratorios/L6_adquisicion_eeg/fotos/ultracortex/pcomplejas.png)   |
+
 
 ## **Conclusiones** <a name="id8"></a>
 ---
