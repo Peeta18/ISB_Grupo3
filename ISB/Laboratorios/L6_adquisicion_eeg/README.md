@@ -190,8 +190,6 @@ Para el segundo procedimiento, se utilizó el casco **UltraCortex MARK IV** junt
 
 ### Usando OpenBCI (Ultracortex)
 
-# Imágenes de Señales EEG con Ultracortex
-
 | Título                  | Imagen                                                                                                                       |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | **Primera señal basal** | ![Primera señal basal](https://github.com/Peeta18/ISB_Grupo3/blob/46ebafb77af2dd3d48785851b9170b892cbed53d/ISB/Laboratorios/L6_adquisicion_eeg/fotos/ultracortex/basal1.png)       |
