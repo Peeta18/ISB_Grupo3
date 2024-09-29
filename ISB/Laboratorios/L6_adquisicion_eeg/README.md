@@ -195,8 +195,8 @@ Para el segundo procedimiento, se utilizó el casco **UltraCortex MARK IV** junt
 
 
 ## **Conclusiones** <a name="id8"></a>
-- 
-- 
+- Se logra visualizar correctamente los cambios en la amplitud de ciertas derivaciones usando el módulo Ultracortex, especialmente en la etapa de preguntas complejas
+- Si bien se pudo visualizar parcialmente, luego de filtrar la señal, los cambios en amplitud en las señales del Bitalino, el ruido no permitía observarlas con mucha claridad
     
 ## **Referencias** <a name="id9"></a>
 [1] Mental Health Daily, '5 Types Of Brain Waves Frequencies: Gamma, Beta, Alpha, Theta, Delta,' Mental Health Daily, April 15, 2014. [Online]. Available: https://mentalhealthdaily.com/2014/04/15/5-types-of-brain-waves-frequencies-gamma-beta-alpha-theta-delta/. [Accessed: Sep. 28, 2024].
