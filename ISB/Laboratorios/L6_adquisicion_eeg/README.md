@@ -98,9 +98,6 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 
 ## **Metodología** <a name="id6"></a>
 
-
-1. **Posición de electrodo bipolar (fp1-fp2)**
-
 Para el experimento, se utilizó un procedimiento con **dos voluntarios** y **dos tipos de equipamiento**. En ambos casos, los voluntarios siguieron los mismos pasos, descritos a continuación.
 
 ## Protocolo de Captura de Señal EEG (Común a Ambos Equipos)
