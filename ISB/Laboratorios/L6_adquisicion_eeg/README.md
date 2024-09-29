@@ -77,8 +77,8 @@ Las mediciones de EEG (Electroencefalograma) se clasifican en varios tipos segú
 
     
 ## **Objetivos** <a name="id4"></a>
-- 
-- 
+- Emplear el kit bitalino para la adquisición de señales EEG con tres electrodos
+- Usar el módulo Ultracortex y software OpenBCI para la adquisición de señales EEG
 
 ---
 
