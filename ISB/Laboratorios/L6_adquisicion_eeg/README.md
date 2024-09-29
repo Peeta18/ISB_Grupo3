@@ -180,15 +180,13 @@ Para el segundo procedimiento, se utilizó el casco **UltraCortex MARK IV** junt
 ## **Resultados** <a name="id7"></a>
 ### Usando Bitalino
 
-# Resultados de Adquisición de Señales EEG con Bitalino
-
-| Título                | Raw Signal                                                                                  | Processed Signal                                                                                  |
-|-----------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Primera señal basal** | ![Raw Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal-raw.png)             | ![Processed Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal-filter.png)           |
-| **Parpadeo**          | ![Raw Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/parpadeo2-raw.png)           | ![Processed Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/parpadeo2-filter.png)       |
-| **Segunda señal basal**| ![Raw Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal30-raw.png)            | ![Processed Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal30-filter.png)         |
-| **Preguntas simples** | ![Raw Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/psimples-raw.png)            | ![Processed Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/psimples-filter.png)        |
-| **Preguntas complejas** | ![Raw Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/pcomplejas-raw.png)       | ![Processed Signal](ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/pcomplejas-filter.png)      |
+| Título                  | Raw Signal                                                                                                                        | Processed Signal                                                                                                                       |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Primera señal basal** | ![Raw Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal-raw.png)             | ![Processed Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal-filter.png)           |
+| **Parpadeo**            | ![Raw Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/parpadeo2-raw.png)           | ![Processed Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/parpadeo2-filter.png)       |
+| **Segunda señal basal** | ![Raw Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal30-raw.png)            | ![Processed Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/basal30-filter.png)         |
+| **Preguntas simples**   | ![Raw Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/psimples-raw.png)            | ![Processed Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/psimples-filter.png)        |
+| **Preguntas complejas** | ![Raw Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/pcomplejas-raw.png)       | ![Processed Signal](https://github.com/Peeta18/ISB_Grupo3/blob/60bd9391fb801a73fa778e569d38d5a5ca9a7493/ISB/Laboratorios/L6_adquisicion_eeg/fotos/bitalino/pcomplejas-filter.png)      |
 
 
 ## **Conclusiones** <a name="id8"></a>
