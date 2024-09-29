@@ -200,7 +200,6 @@ Para el segundo procedimiento, se utilizó el casco **UltraCortex MARK IV** junt
 
 
 ## **Conclusiones** <a name="id8"></a>
----
 - 
 - 
     
