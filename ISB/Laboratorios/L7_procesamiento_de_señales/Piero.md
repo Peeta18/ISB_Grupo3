@@ -61,7 +61,7 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 | **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/bode.png) | El diagrama de Bode muestra la respuesta de magnitud y fase del filtro. Podemos observar cómo la magnitud se atenúa para frecuencias por debajo de la banda de paso, mientras que la fase cambia de manera abrupta alrededor de la frecuencia de corte. Esto indica que el filtro es efectivo para suprimir frecuencias fuera del rango deseado. |
 | **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/diagrama.png) | El diagrama de polos y ceros permite visualizar la estabilidad y selectividad del filtro. Los polos se encuentran distribuidos dentro del círculo unitario, asegurando estabilidad, y los ceros se posicionan de manera que suprimen las frecuencias no deseadas. Esta configuración sugiere que el filtro diseñado tiene una respuesta adecuada para eliminar componentes específicas de la señal. |
 
-8. **Justificación de los Filtros:**
+#### **Justificación de los Filtros:**
 - **Justificación del Filtro Pasa-Alto (30 Hz)**: El filtro pasa-alto con frecuencia de corte de 30 Hz fue utilizado para eliminar las componentes de baja frecuencia y el ruido DC presentes en la señal. 
 - **Justificación del Filtro Notch (50 Hz)**: El filtro Notch en 50 Hz se aplicó para suprimir la interferencia de la frecuencia de línea eléctrica, que puede contaminar la señal. 
 - **Justificación del Filtro Pasa-Bajo (150 Hz)**: El filtro pasa-bajo se utilizó para eliminar las componentes de alta frecuencia (>150 Hz) que no contienen información relevante para la actividad muscular.
@@ -69,28 +69,25 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 ---
 
 ### EMG Movimiento Forzado
-1. **Gráfica en el Dominio del Tiempo:**
-   - ![EMG Reposo - Tiempo](path/to/emg_reposo_tiempo.png)
-   
-2. **Gráfica en el Dominio de la Frecuencia (Señal raw):**
-   - ![EMG Reposo - Frecuencia](path/to/emg_reposo_frecuencia.png)
 
-3. **Gráfica en el Dominio de la Frecuencia (Señal filtrada):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica en el Dominio del Tiempo**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/raw.png) |
+| **Gráfica en el Dominio de la Frecuencia (Señal Raw)**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/ft_raw.png) |
+| **Gráfica en el Dominio de la Frecuencia (Filtrada)** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/ft_filter.png) |
+| **Comparación de Señales**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/comparison.png)                 |
 
-4. **Comparación de señales:**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
-  
-5. **Transformada Corta de Fourier (STFT):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
+| **Transformada Corta de Fourier de la Señal Filtrada** |
+|-------------------------------------------------------|
+| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/4858cfdc0d364deac5a4542dee6d533fae0321e8/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/FTSC.png) |
+| **Descripción:** La transformada revela que las componentes de alta frecuencia (por encima de 150 Hz) se han reducido, indicando que el filtro aplicado ha logrado mitigar ruido de alta frecuencia. La mayor densidad de energía se concentra en las bandas por debajo de 100 Hz, lo que sugiere que las características principales de la señal se han preservado. |
 
-6. **Diagrama de Polos y Ceros:**
-   - ![Polos y Ceros - EMG Reposo](path/to/emg_reposo_polos_ceros.png)
+| Título | Imagen | Descripción |
+|--------|--------|-------------|
+| **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/ba3c8922fa47ad62734755753370f7176e1575bd/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/bode.png) | Se observa una respuesta en magnitud que muestra ganancia nula a frecuencias bajas (<10 Hz), mientras que la fase se vuelve negativa en el rango de transición. La respuesta se estabiliza a frecuencias mayores, lo que confirma su efectividad para eliminar las componentes de baja frecuencia. |
+| **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/4acf6339e67c70a71f6b6a7b2c42868fbe10be68/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/ceros.png) | El diagrama muestra polos distribuidos cerca del eje real, indicando que el filtro IIR tiene una fuerte atenuación fuera de su banda de paso. Los ceros, ubicados simétricamente, aseguran que se eliminen componentes específicas no deseadas |
 
-7. **Diagrama de Bode:**
-   - ![Bode - EMG Reposo](path/to/emg_reposo_bode.png)
-
-8. **Justificación de los Filtros:**
+#### **Justificación de los Filtros:**
 - **Filtro FIR Pasa-Alto (30 Hz)**: Seleccionado para eliminar componentes de baja frecuencia, incluyendo el ruido de base y el componente DC. 
 - **Filtro IIR Pasa-Bajo (150 Hz)**:Elimina componentes de alta frecuencia, manteniendo la energía de la señal entre el rango de interés. 
 - **Filtro IIR Pasa-Banda (30-150 Hz)**: Ajusta la señal al rango típico de frecuencias de EMG, manteniendo la información relevante y eliminando residuos.
