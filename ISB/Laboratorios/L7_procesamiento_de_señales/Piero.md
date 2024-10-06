@@ -35,8 +35,7 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 | **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/bode.png) | El diagrama de Bode muestra la respuesta de magnitud y fase del filtro. Podemos observar cómo la magnitud se atenúa para frecuencias por debajo de la banda de paso, mientras que la fase cambia de manera abrupta alrededor de la frecuencia de corte. Esto indica que el filtro es efectivo para suprimir frecuencias fuera del rango deseado. |
 | **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/diagrama.png) | El diagrama de polos y ceros permite visualizar la estabilidad y selectividad del filtro. Los polos se encuentran distribuidos dentro del círculo unitario, asegurando estabilidad, y los ceros se posicionan de manera que suprimen las frecuencias no deseadas. Esta configuración sugiere que el filtro diseñado tiene una respuesta adecuada para eliminar componentes específicas de la señal. |
 
-
-8. **Justificación de los Filtros:**
+#### **Justificación de los Filtros:**
    - **Filtro Pasa-Bajo (Butterworth)**: Se aplicó para atenuar el ruido de alta frecuencia en la señal de reposo. Dado que no se esperaban movimientos significativos en la señal, el filtro pasa-bajo mantuvo la señal sin distorsión.
    - **Filtro Notch**: Utilizado para eliminar la frecuencia de línea de 50/60 Hz. Como el equipo puede introducir esta interferencia en estado de reposo, se optó por eliminarla.
    - **Filtro Pasa-Alto (FIR)**: Aplicado para suprimir cualquier componente de baja frecuencia que pudiera alterar el análisis.
