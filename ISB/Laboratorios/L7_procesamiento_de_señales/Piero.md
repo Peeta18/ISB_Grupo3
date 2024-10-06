@@ -53,7 +53,7 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 
 | **Transformada Corta de Fourier de la Señal Filtrada** |
 |-------------------------------------------------------|
-| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/656db73341a723f3420003d84ab4cee7cef2364a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/STFTR.png) |
+| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/656db73341a723f3420003d84ab4cee7cef2364a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/spectro.png) |
 | **Descripción:** La transformada revela que la energía se concentra principalmente en torno a los 50 Hz, reflejando una frecuencia dominante en la señal. Además, se nota una disminución significativa en las frecuencias por encima de los 100 Hz, lo que sugiere que el filtro aplicado eliminó efectivamente las componentes de alta frecuencia no deseadas. |
 
 | Título | Imagen | Descripción |
