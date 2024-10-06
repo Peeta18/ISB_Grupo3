@@ -2,8 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fft import fft
 
-# Leer el archivo de texto
-file_path = 'EMG_reposo.txt'  # Asegúrate de que la ruta esté bien definida
+file_path = 'EMG_reposo.txt'
 data = []
 
 with open(file_path, 'r') as file:
@@ -11,7 +10,7 @@ with open(file_path, 'r') as file:
         if not line.startswith('#'):  # Saltar las líneas de comentarios
             values = line.split()
             if len(values) >= 6:  # Asegúrate de que haya suficientes columnas
-                data.append(float(values[5]))  # Columna A1, que parece ser la señal EMG
+                data.append(float(values[5]))
 
 # Convertir a array de numpy para análisis
 data = np.array(data)
@@ -43,4 +42,3 @@ plt.xlabel('Frecuencia [Hz]')
 plt.ylabel('Magnitud')
 plt.grid()
 plt.show()
-
