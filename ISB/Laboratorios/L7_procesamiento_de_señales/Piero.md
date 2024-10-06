@@ -25,9 +25,11 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 | **Gráfica en el Dominio de la Frecuencia (Filtrada)** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/ft_filter.png) |
 | **Comparación de Señales**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/comparison.png)                 |
 
+| **Transformada Corta de Fourier de la Señal Filtrada** |
+|-------------------------------------------------------|
+| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/656db73341a723f3420003d84ab4cee7cef2364a/ISB/Laboratorios/L7_procesamiento_de-se%C3%B1ales/img-piero/EEG/reposo/STFTR.png) |
+| **Descripción:** La transformada revela que la energía se concentra principalmente en torno a los 50 Hz, reflejando una frecuencia dominante en la señal. Además, se nota una disminución significativa en las frecuencias por encima de los 100 Hz, lo que sugiere que el filtro aplicado eliminó efectivamente las componentes de alta frecuencia no deseadas. |
 
-5. **Transformada Corta de Fourier (STFT):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
 
 6. **Diagrama de Polos y Ceros:**
    - ![Polos y Ceros - EMG Reposo](path/to/emg_reposo_polos_ceros.png)
