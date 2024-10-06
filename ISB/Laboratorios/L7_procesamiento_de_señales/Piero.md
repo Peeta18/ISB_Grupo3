@@ -17,18 +17,15 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 ## Análisis de Señales EMG
 
 ### EMG en Reposo
-1. **Gráfica en el Dominio del Tiempo:**
-   - ![EMG Reposo - Tiempo](path/to/emg_reposo_tiempo.png)
-   
-2. **Gráfica en el Dominio de la Frecuencia (Señal raw):**
-   - ![EMG Reposo - Frecuencia](path/to/emg_reposo_frecuencia.png)
 
-3. **Gráfica en el Dominio de la Frecuencia (Señal filtrada):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica en el Dominio del Tiempo**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/raw.png) |
+| **Gráfica en el Dominio de la Frecuencia (Señal Raw)**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/ft_filter.png) |
+| **Gráfica en el Dominio de la Frecuencia (Filtrada)** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/ft_filter.png) |
+| **Comparación de Señales**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/comparison.png)                 |
 
-4. **Comparación de señales:**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
-  
+
 5. **Transformada Corta de Fourier (STFT):**
    - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
 
