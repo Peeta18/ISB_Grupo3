@@ -43,26 +43,23 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 ---
 
 ### EMG Movimiento Voluntario
-1. **Gráfica en el Dominio del Tiempo:**
-   - ![EMG Reposo - Tiempo](path/to/emg_reposo_tiempo.png)
-   
-2. **Gráfica en el Dominio de la Frecuencia (Señal raw):**
-   - ![EMG Reposo - Frecuencia](path/to/emg_reposo_frecuencia.png)
 
-3. **Gráfica en el Dominio de la Frecuencia (Señal filtrada):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica en el Dominio del Tiempo**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/raw.png) |
+| **Gráfica en el Dominio de la Frecuencia (Señal Raw)**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/freq.png) |
+| **Gráfica en el Dominio de la Frecuencia (Filtrada)** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/freq-filter.png) |
+| **Comparación de Señales**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/comparacion.png)                 |
 
-4. **Comparación de señales:**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
-  
-5. **Transformada Corta de Fourier (STFT):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
+| **Transformada Corta de Fourier de la Señal Filtrada** |
+|-------------------------------------------------------|
+| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/656db73341a723f3420003d84ab4cee7cef2364a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/STFTR.png) |
+| **Descripción:** La transformada revela que la energía se concentra principalmente en torno a los 50 Hz, reflejando una frecuencia dominante en la señal. Además, se nota una disminución significativa en las frecuencias por encima de los 100 Hz, lo que sugiere que el filtro aplicado eliminó efectivamente las componentes de alta frecuencia no deseadas. |
 
-6. **Diagrama de Polos y Ceros:**
-   - ![Polos y Ceros - EMG Reposo](path/to/emg_reposo_polos_ceros.png)
-
-7. **Diagrama de Bode:**
-   - ![Bode - EMG Reposo](path/to/emg_reposo_bode.png)
+| Título | Imagen | Descripción |
+|--------|--------|-------------|
+| **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/bode.png) | El diagrama de Bode muestra la respuesta de magnitud y fase del filtro. Podemos observar cómo la magnitud se atenúa para frecuencias por debajo de la banda de paso, mientras que la fase cambia de manera abrupta alrededor de la frecuencia de corte. Esto indica que el filtro es efectivo para suprimir frecuencias fuera del rango deseado. |
+| **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/diagrama.png) | El diagrama de polos y ceros permite visualizar la estabilidad y selectividad del filtro. Los polos se encuentran distribuidos dentro del círculo unitario, asegurando estabilidad, y los ceros se posicionan de manera que suprimen las frecuencias no deseadas. Esta configuración sugiere que el filtro diseñado tiene una respuesta adecuada para eliminar componentes específicas de la señal. |
 
 8. **Justificación de los Filtros:**
 - **Justificación del Filtro Pasa-Alto (30 Hz)**: El filtro pasa-alto con frecuencia de corte de 30 Hz fue utilizado para eliminar las componentes de baja frecuencia y el ruido DC presentes en la señal. 
