@@ -68,11 +68,9 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
    - ![Bode - EMG Reposo](path/to/emg_reposo_bode.png)
 
 8. **Justificación de los Filtros:**
-- Justificación del Filtro Pasa-Alto (30 Hz): El filtro pasa-alto con frecuencia de corte de 30 Hz fue utilizado para eliminar las componentes de baja frecuencia y el ruido DC presentes en la señal. Este tipo de filtrado es adecuado para señales EMG, ya que la actividad muscular significativa se encuentra típicamente por encima de los 30 Hz. El ruido de baja frecuencia puede provenir de movimientos involuntarios, cambios en la línea de base, o interferencias ambientales. Al eliminar estas componentes, se preservan las características relevantes de la señal y se mejora la calidad del análisis.
-
-- Justificación del Filtro Notch (50 Hz): El filtro Notch en 50 Hz se aplicó para suprimir la interferencia de la frecuencia de línea eléctrica, que puede contaminar la señal. Dado que la frecuencia de red suele interferir con las grabaciones biomédicas, el filtro Notch es esencial para obtener una señal más clara y sin interferencias en esa frecuencia.
-
-- Justificación del Filtro Pasa-Bajo (150 Hz): El filtro pasa-bajo se utilizó para eliminar las componentes de alta frecuencia (>150 Hz) que no contienen información relevante para la actividad muscular. Ruido electromagnético y artefactos de alta frecuencia pueden distorsionar la señal EMG, por lo que se eliminan con este filtro, asegurando un análisis centrado en la actividad muscular relevante.
+- **Justificación del Filtro Pasa-Alto (30 Hz)**: El filtro pasa-alto con frecuencia de corte de 30 Hz fue utilizado para eliminar las componentes de baja frecuencia y el ruido DC presentes en la señal. 
+- **Justificación del Filtro Notch (50 Hz)**: El filtro Notch en 50 Hz se aplicó para suprimir la interferencia de la frecuencia de línea eléctrica, que puede contaminar la señal. 
+- **Justificación del Filtro Pasa-Bajo (150 Hz)**: El filtro pasa-bajo se utilizó para eliminar las componentes de alta frecuencia (>150 Hz) que no contienen información relevante para la actividad muscular.
 
 ---
 
@@ -99,9 +97,9 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
    - ![Bode - EMG Reposo](path/to/emg_reposo_bode.png)
 
 8. **Justificación de los Filtros:**
-   - **Filtro Pasa-Bajo (Butterworth)**: Se aplicó para atenuar el ruido de alta frecuencia en la señal de reposo. Dado que no se esperaban movimientos significativos en la señal, el filtro pasa-bajo mantuvo la señal sin distorsión.
-   - **Filtro Notch**: Utilizado para eliminar la frecuencia de línea de 50/60 Hz. Como el equipo puede introducir esta interferencia en estado de reposo, se optó por eliminarla.
-   - **Filtro Pasa-Alto (FIR)**: Aplicado para suprimir cualquier componente de baja frecuencia que pudiera alterar el análisis.
+- **Filtro FIR Pasa-Alto (30 Hz)**: Seleccionado para eliminar componentes de baja frecuencia, incluyendo el ruido de base y el componente DC. 
+- **Filtro IIR Pasa-Bajo (150 Hz)**:Elimina componentes de alta frecuencia, manteniendo la energía de la señal entre el rango de interés. 
+- **Filtro IIR Pasa-Banda (30-150 Hz)**: Ajusta la señal al rango típico de frecuencias de EMG, manteniendo la información relevante y eliminando residuos.
 
 ---
 
