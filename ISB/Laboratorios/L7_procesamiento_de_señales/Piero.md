@@ -128,9 +128,9 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
    - ![Bode - EMG Reposo](path/to/emg_reposo_bode.png)
 
 8. **Justificación de los Filtros:**
-   - **Filtro Pasa-Bajo (Butterworth)**: Se aplicó para atenuar el ruido de alta frecuencia en la señal de reposo. Dado que no se esperaban movimientos significativos en la señal, el filtro pasa-bajo mantuvo la señal sin distorsión.
-   - **Filtro Notch**: Utilizado para eliminar la frecuencia de línea de 50/60 Hz. Como el equipo puede introducir esta interferencia en estado de reposo, se optó por eliminarla.
-   - **Filtro Pasa-Alto (FIR)**: Aplicado para suprimir cualquier componente de baja frecuencia que pudiera alterar el análisis.
+   - **Filtro Pasa-Alto FIR (0.5 Hz)**: Elimina la fluctuación de línea base (cambios lentos), mejorando la claridad del ECG.
+   - **Filtro Pasa-Bajo FIR (40 Hz)**: Atenúa componentes de alta frecuencia, manteniendo solo las frecuencias de interés en el ECG.
+   - **Filtros FIR**: Seleccionados por su estabilidad y respuesta lineal en fase, lo cual es crucial en señales ECG para conservar la forma de onda.
 
 ---
 
