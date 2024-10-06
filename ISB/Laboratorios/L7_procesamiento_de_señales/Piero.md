@@ -80,7 +80,7 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 | **Transformada Corta de Fourier de la Señal Filtrada** |
 |-------------------------------------------------------|
 | ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/e59ccaa802254dee79663aca656c7e91cb51d4f4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/forzado/spectogram.png) |
-| **Descripción:** La transformada revela que las componentes de alta frecuencia (por encima de 150 Hz) se han reducido, indicando que el filtro aplicado ha logrado mitigar ruido de alta frecuencia. La mayor densidad de energía se concentra en las bandas por debajo de 100 Hz, lo que sugiere que las características principales de la señal se han preservado. |
+| **Descripción:** El espectrograma revela cómo la energía de la señal se distribuye a lo largo del tiempo en diferentes bandas de frecuencia. Se observa una concentración significativa de energía entre 50 y 100 Hz. La variabilidad temporal en las intensidades sugiere cambios en la actividad de la señal durante el tiempo de adquisición. |
 
 | Título | Imagen | Descripción |
 |--------|--------|-------------|
