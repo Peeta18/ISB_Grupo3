@@ -30,12 +30,11 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 | ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/656db73341a723f3420003d84ab4cee7cef2364a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/STFTR.png) |
 | **Descripción:** La transformada revela que la energía se concentra principalmente en torno a los 50 Hz, reflejando una frecuencia dominante en la señal. Además, se nota una disminución significativa en las frecuencias por encima de los 100 Hz, lo que sugiere que el filtro aplicado eliminó efectivamente las componentes de alta frecuencia no deseadas. |
 
+| Título | Imagen | Descripción |
+|--------|--------|-------------|
+| **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de-se%C3%B1ales/img-piero/EEG/reposo/bode.png) | El diagrama de Bode muestra la respuesta de magnitud y fase del filtro. Podemos observar cómo la magnitud se atenúa para frecuencias por debajo de la banda de paso, mientras que la fase cambia de manera abrupta alrededor de la frecuencia de corte. Esto indica que el filtro es efectivo para suprimir frecuencias fuera del rango deseado. |
+| **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de-se%C3%B1ales/img-piero/EEG/reposo/diagrama.png) | El diagrama de polos y ceros permite visualizar la estabilidad y selectividad del filtro. Los polos se encuentran distribuidos dentro del círculo unitario, asegurando estabilidad, y los ceros se posicionan de manera que suprimen las frecuencias no deseadas. Esta configuración sugiere que el filtro diseñado tiene una respuesta adecuada para eliminar componentes específicas de la señal. |
 
-6. **Diagrama de Polos y Ceros:**
-   - ![Polos y Ceros - EMG Reposo](path/to/emg_reposo_polos_ceros.png)
-
-7. **Diagrama de Bode:**
-   - ![Bode - EMG Reposo](path/to/emg_reposo_bode.png)
 
 8. **Justificación de los Filtros:**
    - **Filtro Pasa-Bajo (Butterworth)**: Se aplicó para atenuar el ruido de alta frecuencia en la señal de reposo. Dado que no se esperaban movimientos significativos en la señal, el filtro pasa-bajo mantuvo la señal sin distorsión.
