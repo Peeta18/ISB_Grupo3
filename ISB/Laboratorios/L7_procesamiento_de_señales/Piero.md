@@ -97,28 +97,25 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 ## Análisis de Señales ECG
 
 ### ECG Estado Basal
-1. **Gráfica en el Dominio del Tiempo:**
-   - ![EMG Reposo - Tiempo](path/to/emg_reposo_tiempo.png)
-   
-2. **Gráfica en el Dominio de la Frecuencia (Señal raw):**
-   - ![EMG Reposo - Frecuencia](path/to/emg_reposo_frecuencia.png)
 
-3. **Gráfica en el Dominio de la Frecuencia (Señal filtrada):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica en el Dominio del Tiempo**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/raw.png) |
+| **Gráfica en el Dominio de la Frecuencia (Señal Raw)**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/ft.png) |
+| **Gráfica en el Dominio de la Frecuencia (Filtrada)** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/ft-filter.png) |
+| **Comparación de Señales**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/comparison.png)                 |
 
-4. **Comparación de señales:**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
-  
-5. **Transformada Corta de Fourier (STFT):**
-   - ![EMG Reposo - STFT](path/to/emg_reposo_stft.png)
+| **Transformada Corta de Fourier de la Señal Filtrada** |
+|-------------------------------------------------------|
+| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/4858cfdc0d364deac5a4542dee6d533fae0321e8/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/FTSC.png) |
+| **Descripción:** La transformada revela que las componentes de alta frecuencia (por encima de 150 Hz) se han reducido, indicando que el filtro aplicado ha logrado mitigar ruido de alta frecuencia. La mayor densidad de energía se concentra en las bandas por debajo de 100 Hz, lo que sugiere que las características principales de la señal se han preservado. |
 
-6. **Diagrama de Polos y Ceros:**
-   - ![Polos y Ceros - EMG Reposo](path/to/emg_reposo_polos_ceros.png)
+| Título | Imagen | Descripción |
+|--------|--------|-------------|
+| **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/ba3c8922fa47ad62734755753370f7176e1575bd/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/bode.png) | Se observa una respuesta en magnitud que muestra ganancia nula a frecuencias bajas (<10 Hz), mientras que la fase se vuelve negativa en el rango de transición. La respuesta se estabiliza a frecuencias mayores, lo que confirma su efectividad para eliminar las componentes de baja frecuencia. |
+| **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/4acf6339e67c70a71f6b6a7b2c42868fbe10be68/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/ceros.png) | El diagrama muestra polos distribuidos cerca del eje real, indicando que el filtro IIR tiene una fuerte atenuación fuera de su banda de paso. Los ceros, ubicados simétricamente, aseguran que se eliminen componentes específicas no deseadas |
 
-7. **Diagrama de Bode:**
-   - ![Bode - EMG Reposo](path/to/emg_reposo_bode.png)
-
-8. **Justificación de los Filtros:**
+#### **Justificación de los Filtros:**
    - **Filtro Pasa-Alto FIR (0.5 Hz)**: Elimina la fluctuación de línea base (cambios lentos), mejorando la claridad del ECG.
    - **Filtro Pasa-Bajo FIR (40 Hz)**: Atenúa componentes de alta frecuencia, manteniendo solo las frecuencias de interés en el ECG.
    - **Filtros FIR**: Seleccionados por su estabilidad y respuesta lineal en fase, lo cual es crucial en señales ECG para conservar la forma de onda.
