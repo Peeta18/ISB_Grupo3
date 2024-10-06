@@ -53,7 +53,7 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 
 | **Transformada Corta de Fourier de la Señal Filtrada** |
 |-------------------------------------------------------|
-| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/656db73341a723f3420003d84ab4cee7cef2364a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/spectro.png) |
+| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/FTSC.png) |
 | **Descripción:** La transformada revela que la energía se concentra principalmente en torno a los 50 Hz, reflejando una frecuencia dominante en la señal. Además, se nota una disminución significativa en las frecuencias por encima de los 100 Hz, lo que sugiere que el filtro aplicado eliminó efectivamente las componentes de alta frecuencia no deseadas. |
 
 | Título | Imagen | Descripción |
@@ -107,13 +107,13 @@ Este repositorio contiene el análisis de tres señales EMG y tres señales ECG,
 
 | **Transformada Corta de Fourier de la Señal Filtrada** |
 |-------------------------------------------------------|
-| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/4858cfdc0d364deac5a4542dee6d533fae0321e8/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/FTSC.png) |
+| ![Transformada Corta de Fourier](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/spectro.png) |
 | **Descripción:** La transformada revela que las componentes de alta frecuencia (por encima de 150 Hz) se han reducido, indicando que el filtro aplicado ha logrado mitigar ruido de alta frecuencia. La mayor densidad de energía se concentra en las bandas por debajo de 100 Hz, lo que sugiere que las características principales de la señal se han preservado. |
 
 | Título | Imagen | Descripción |
 |--------|--------|-------------|
-| **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/ba3c8922fa47ad62734755753370f7176e1575bd/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/bode.png) | Se observa una respuesta en magnitud que muestra ganancia nula a frecuencias bajas (<10 Hz), mientras que la fase se vuelve negativa en el rango de transición. La respuesta se estabiliza a frecuencias mayores, lo que confirma su efectividad para eliminar las componentes de baja frecuencia. |
-| **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/4acf6339e67c70a71f6b6a7b2c42868fbe10be68/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/ceros.png) | El diagrama muestra polos distribuidos cerca del eje real, indicando que el filtro IIR tiene una fuerte atenuación fuera de su banda de paso. Los ceros, ubicados simétricamente, aseguran que se eliminen componentes específicas no deseadas |
+| **Diagrama de Bode del Filtro IIR** | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/bode.png) | Se observa una respuesta en magnitud que muestra ganancia nula a frecuencias bajas (<10 Hz), mientras que la fase se vuelve negativa en el rango de transición. La respuesta se estabiliza a frecuencias mayores, lo que confirma su efectividad para eliminar las componentes de baja frecuencia. |
+| **Diagrama de Polos y Ceros del Filtro IIR** | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/ceros.png) | El diagrama muestra polos distribuidos cerca del eje real, indicando que el filtro IIR tiene una fuerte atenuación fuera de su banda de paso. Los ceros, ubicados simétricamente, aseguran que se eliminen componentes específicas no deseadas |
 
 #### **Justificación de los Filtros:**
    - **Filtro Pasa-Alto FIR (0.5 Hz)**: Elimina la fluctuación de línea base (cambios lentos), mejorando la claridad del ECG.
