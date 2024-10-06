@@ -1,0 +1,149 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import butter, lfilter, freqz, firwin, sosfilt, sosfreqz, iirfilter, zpk2tf, bode
+from scipy.fft import fft, fftfreq
+
+# Función para cargar la señal desde el archivo CSV
+def load_signal(csv_file):
+    try:
+        data = pd.read_csv(csv_file)
+        signal = data.iloc[:, 0].values  # Seleccionar la primera columna directamente
+        return signal
+    except Exception as e:
+        print(f"Error al cargar la señal desde {csv_file}: {e}")
+        return None
+
+# Ruta de la señal en Google Drive
+csv_file = '/content/drive/MyDrive/isb/lab5/respd1-3.csv'
+
+# Cargar la señal desde la ruta especificada
+signal = load_signal(csv_file)
+
+# Imprimir un resumen de la señal cargada
+if signal is not None:
+    print(f"Señal cargada exitosamente con {len(signal)} muestras.")
+else:
+    print("Error al cargar la señal.")
+
+# Definir frecuencia de muestreo (cambiar esto según tus datos)
+fs = 1000  # Frecuencia de muestreo en Hz, ajusta según tu señal
+
+# Función para graficar la señal en el dominio del tiempo
+def plot_time_domain(signal, fs,l1,l2, title="Señal en el dominio del tiempo"):
+    t = np.arange(len(signal)) / fs
+    plt.figure(figsize=(12, 4))
+    plt.plot(t, signal)
+    plt.title(title)
+    plt.xlabel('Tiempo [s]')
+    plt.ylabel('Amplitud (mV)')
+    plt.xlim(l1,l2)
+    plt.grid()
+    plt.show()
+
+# Eliminar el componente DC de la señal
+signal_detrended = signal - np.mean(signal)
+
+# Graficar la señal sin componente DC
+plot_time_domain(signal_detrended, fs,1,5, title="Señal Original en el Dominio del Tiempo")
+
+# Función para graficar la señal en el dominio de la frecuencia con simetría
+def plot_symmetric_frequency_domain(signal, fs, title="Señal en el Dominio de la Frecuencia (Simétrica)"):
+    N = len(signal)
+    f = fftfreq(N, 1/fs)  # Frecuencia en el rango [-fs/2, fs/2]
+    fft_values = fft(signal)
+
+    plt.figure(figsize=(12, 4))
+    plt.plot(f, np.abs(fft_values))
+    plt.title(title)
+    plt.xlabel('Frecuencia [Hz]')
+    plt.ylabel('Amplitud')
+    plt.grid()
+    plt.xlim(-fs/2, fs/2)  # Mostrar el espectro simétrico completo
+    plt.show()
+
+# Graficar la señal original en el dominio de la frecuencia (simétrica)
+plot_symmetric_frequency_domain(signal_detrended, fs, title="Señal Original en el Dominio de la Frecuencia")
+
+from scipy.signal import firwin, filtfilt, iirnotch
+
+# Definir parámetros del filtro
+cutoff_highpass = 0.5  # Frecuencia de corte para el filtro pasa-alto en Hz
+cutoff_lowpass = 40.0  # Frecuencia de corte para el filtro pasa-bajo en Hz
+numtaps = 101          # Número de coeficientes para el FIR (ajustar si es necesario)
+notch_freq = 50        # Frecuencia del notch en Hz
+quality_factor = 30.0  # Factor de calidad del notch IIR
+
+# Filtro FIR pasa-alto
+fir_coeff_high = firwin(numtaps, cutoff_highpass, fs=fs, pass_zero=False)
+filtered_signal_highpass = filtfilt(fir_coeff_high, [1.0], signal)
+
+# Filtro FIR pasa-bajo
+fir_coeff_low = firwin(numtaps, cutoff_lowpass, fs=fs)
+filtered_signal_band = filtfilt(fir_coeff_low, [1.0], filtered_signal_highpass)
+
+# Filtro Notch IIR para eliminar el ruido de línea
+b_notch, a_notch = iirnotch(notch_freq, quality_factor, fs)
+filtered_signal_final = filtfilt(b_notch, a_notch, filtered_signal_band)
+
+# Graficar la señal en el dominio del tiempo
+plot_time_domain(filtered_signal_final, fs, 1, 5, title="Señal ECG Filtrada Final en el Dominio del Tiempo")
+
+# Graficar la señal en el dominio de la frecuencia (simétrica)
+plot_symmetric_frequency_domain(filtered_signal_final, fs, title="Señal ECG Filtrada Final en el Dominio de la Frecuencia")
+
+# 1. Diagrama de Polos y Ceros del Filtro FIR
+from scipy.signal import tf2zpk
+
+# Obtener ceros y polos del filtro FIR
+zeros, poles, _ = tf2zpk(fir_coeff_low, [1.0])
+plt.figure(figsize=(6, 6))
+plt.scatter(np.real(zeros), np.imag(zeros), s=100, marker='o', facecolors='none', edgecolors='b', label='Ceros')
+plt.scatter(np.real(poles), np.imag(poles), s=100, marker='x', color='r', label='Polos')
+circle = plt.Circle((0, 0), 1, color='gray', fill=False, linestyle='dotted')
+plt.gca().add_artist(circle)
+plt.axvline(0, color='k', linestyle='--')
+plt.axhline(0, color='k', linestyle='--')
+plt.title("Diagrama de Polos y Ceros del Filtro FIR Pasa-Bajo")
+plt.xlabel('Parte Real')
+plt.ylabel('Parte Imaginaria')
+plt.grid()
+plt.legend()
+plt.show()
+
+# 2. Diagrama de Bode del Filtro FIR
+from scipy.signal import freqz
+
+w, h = freqz(fir_coeff_low, [1.0], worN=2000)
+plt.figure(figsize=(12, 6))
+
+# Magnitud
+plt.subplot(2, 1, 1)
+plt.plot(w * fs / (2 * np.pi), 20 * np.log10(abs(h)))
+plt.title("Diagrama de Bode del Filtro FIR Pasa-Bajo")
+plt.xlabel('Frecuencia [Hz]')
+plt.ylabel('Magnitud [dB]')
+plt.grid()
+
+# Fase
+plt.subplot(2, 1, 2)
+plt.plot(w * fs / (2 * np.pi), np.angle(h) * 180 / np.pi)
+plt.xlabel('Frecuencia [Hz]')
+plt.ylabel('Fase [Grados]')
+plt.grid()
+
+plt.show()
+
+# 3. Comparación de la Señal Original y la Señal Filtrada
+plt.figure(figsize=(12, 4))
+t = np.arange(len(signal)) / fs
+plt.plot(t, signal, label='Señal Original')
+plt.plot(t, filtered_signal_final, label='Señal Filtrada Final')
+plt.title("Comparación de Señal Original y Señal Filtrada")
+plt.xlabel('Tiempo [s]')
+plt.ylabel('Amplitud (mV)')
+plt.xlim(1,5)
+plt.legend()
+plt.grid()
+plt.show()
+
