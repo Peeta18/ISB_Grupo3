@@ -135,6 +135,16 @@ La gráfica de respuesta de frecuencia del filtro pasa alta muestra una efectiva
 | **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/diagrama%20de%20polos%20y%20ceros.png)                 |
 | **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/diagrama%20de%20bode.png)                 |
 
+**JUSTIFICACIÓN**
+El uso de un filtro IIR pasa banda en el análisis de señales ECG se justifica por su capacidad para aislar de manera efectiva las frecuencias de interés mientras se eliminan las interferencias y el ruido fuera de este rango. Este filtro es útil en aplicaciones médicas donde la precisión y la claridad de la señal son críticas, como en el caso de las señales ECG, que pueden verse afectadas por artefactos de movimiento, interferencia electromagnética, u otras señales biológicas como la respiración. La configuración pasa banda permite centrarse en las frecuencias que caracterizan los componentes cardíacos principales, como los picos QRS, eliminando frecuencias que podrían distorsionar la interpretación clínica.
+
+En las gráficas mostradas por ejemplo del estado basal, la respuesta en frecuencia del filtro demuestra una atenuación efectiva de señales por debajo de 0.5 Hz y por encima de 150 Hz, lo cual es adecuado para señales ECG donde el interés principal radica entre estos rangos. Esto es vital para minimizar la influencia de señales de baja frecuencia como las derivadas de movimientos corporales lentos y la alta frecuencia del ruido eléctrico o electrónico. Así, el filtrado pasa banda IIR se confirma como una elección acertada, facilitando una visión más limpia y enfocada de la actividad eléctrica cardíaca esencial para diagnósticos precisos.
+
+
+
+
+
+
 
 **REFERENCIAS BIBLIOGRAFICAS**
 1. A. V. Oppenheim and R. W. Schafer, Discrete-Time Signal Processing, 3rd ed., Pearson, 2009.
