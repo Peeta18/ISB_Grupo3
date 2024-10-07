@@ -63,6 +63,14 @@ El objetivo principal de este laboratorio es aplicar filtros digitales a señale
 | **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/REPOSO/diagrama%20polos%20y%20ceros.png)                 |
 | **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/REPOSO/diagrama%20de%20bode.png)                 |
 
+**Análisis de Señales EMG en Reposo con Filtro FIR Pasa Banda**
+El filtro FIR pasa banda es utilizado para procesar señales EMG en reposo principalmente para eliminar interferencias de baja frecuencia y ruido de línea base, lo cual es esencial para obtener una representación clara de la actividad muscular intrínseca. La gráfica de respuesta de frecuencia del filtro muestra una atenuación efectiva de las frecuencias por debajo de un umbral, lo cual ayuda a centrar la señal alrededor de cero y a eliminar artefactos que podrían distorsionar el análisis. Las imágenes ilustran cómo el filtro limpia la señal, haciendo que la actividad eléctrica muscular real sea más distinguible y la medición más precisa, especialmente útil en escenarios clínicos o de investigación donde la exactitud es crucial.
+
+**Elección y Beneficios del Filtro FIR Pasa Banda**
+Los filtros FIR son preferidos en el tratamiento de señales EMG debido a sus características de fase lineal, que son fundamentales para mantener la integridad temporal y la forma de la señal original. Este tipo de filtro no solo asegura la estabilidad sin riesgo de oscilaciones, como se observa en el diagrama de polos y ceros, sino que también permite un diseño de respuesta en frecuencia altamente controlable y ajustable a las necesidades específicas del análisis EMG. El diagrama de Bode refleja cómo el filtro preserva las características de la señal dentro de un rango de frecuencia definido mientras atenúa efectivamente el ruido y otras señales no deseadas fuera de este rango, optimizando así la calidad de la señal para su posterior evaluación y análisis.
+
+
+
 ### EMG en Movimiento voluntario
 
 | Análisis                                              | Imagen                                                                                                        |
@@ -87,6 +95,8 @@ El objetivo principal de este laboratorio es aplicar filtros digitales a señale
 | **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/MAX/diagrama%20de%20bode.png)                 |
 
 
+**Análisis de Señales EMG Durante Movimiento Voluntario**
+La gráfica de respuesta de frecuencia del filtro pasa alta muestra una efectiva eliminación de frecuencias bajas, lo cual es esencial para aislar las frecuencias asociadas con la contracción muscular activa en el EMG durante el movimiento voluntario. Esta señal filtrada revela una reducción significativa en el ruido y las fluctuaciones de línea base, permitiendo una visualización más clara de la actividad muscular genuina. El uso de un filtro FIR pasa banda en el procesamiento de EMG se justifica por su capacidad para preservar la integridad de la señal mientras se eliminan interferencias no deseadas es especialmente adecuado para señales EMG debido a su fase lineal, lo que garantiza que no se introduzcan distorsiones temporales en la señal, preservando así las características temporales exactas de las señales de activación muscular. El diagrama de Bode y el espectrograma muestran cómo este filtro atenúa adecuadamente el ruido mientras mantiene la estructura esencial de la señal, facilitando análisis más detallados y precisos de la actividad muscular.
 
 
 
