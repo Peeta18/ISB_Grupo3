@@ -29,7 +29,7 @@ Se utilizaron los filtros pasa baja para atenuar las frecuencias mayores a 450 H
 | **Fase**                  |![Fase](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Codigo_Elias/Imagenes/LowpassFilter150Hz-Phase.png)|
 | **Polos y ceros**                  |![zplane](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Codigo_Elias/Imagenes/LowpassFilter150Hz-zplane.png)|
 
-## Filtro Notch Pasa Banda fc = 50-60 Hz
+## Filtro Notch Rechaza Banda fc = 50-60 Hz
 Se utilizó este filtro para atenuar las frecuencias entre a 50 y 60 Hz, esto debido a la interferencia de la línea eléctrica que podría existir en las mediciones de ECG en interiores. [2]
 | Análisis                                              | Imagen                                                                                                        |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ Se observa la atenuación de frecuencias menores a 20 Hz.
 
 
 ### EMG en movimiento voluntario con filtro pasa baja
-Se observa la atenuación de frecuencias mayores a 150 Hz.
+Se observa la atenuación de frecuencias mayores a 450 Hz.
 
 | Análisis                                              | Imagen                                                                                                        |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -79,7 +79,7 @@ Se observa la atenuación de frecuencias menores a 20 Hz.
 | **STFT**                  |![stft](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Codigo_Elias/Imagenes/ECG_basal/HighP_ECG_basal_STFT.png)|
 
 ### ECG en respiración pausada con filtro pasa baja
-Se observa la atenuación de frecuencias mayores a 450 Hz.
+Se observa la atenuación de frecuencias mayores a 150 Hz.
 
 | Análisis                                              | Imagen                                                                                                        |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
