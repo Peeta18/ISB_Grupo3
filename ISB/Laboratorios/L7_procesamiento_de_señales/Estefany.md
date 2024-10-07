@@ -90,6 +90,20 @@ El objetivo principal de este laboratorio es aplicar filtros digitales a señale
 
 
 
+### ECG EN ESTADO BASAL
+
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica respuesta de frecuencia filtro IIR PASA BANDA**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/respuesta%20frecuencia%20pasa%20banda.png) |
+| **Gráfica de señal original y filtrada**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/se%C3%B1al%20original%20y%20filtrada.png) |
+| **Gráfica de análisis de frecuencia original y filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/analisis%20de%20frecuencia.png) |
+| **Espectograma**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/espectograma.png)                 |
+| **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/diagrama%20de%20polos.png)                 |
+| **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/diagrama%20de%20bode.png)                 |
+
+
+
+
 **REFERENCIAS BIBLIOGRAFICAS**
 1. A. V. Oppenheim and R. W. Schafer, Discrete-Time Signal Processing, 3rd ed., Pearson, 2009.
 2. S. Karris, The Scientist and Engineer's Guide to Digital Signal Processing, California Technical Publishing, 1997.
