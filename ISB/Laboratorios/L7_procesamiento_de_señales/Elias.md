@@ -1,5 +1,5 @@
 # Laboratorio 7 - Introducción a Señales Biomédicas
-Martin Elias Pino Aguilar
+Martin Elias Pino Aguilar - Individual
 
 Se utilizaron los siguientes filtros para el procesamiento de las señales EMG y ECG:
 
