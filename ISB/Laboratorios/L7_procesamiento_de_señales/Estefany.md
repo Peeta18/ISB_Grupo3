@@ -10,8 +10,8 @@ Este documento presenta un análisis detallado de señales electromiográficas (
 
 
 ## Tabla de Contenidos
--  [Introducción]
--  [Objetivos] 
+-  [Introducción](#Introducción)
+-  [Objetivos](#objetivos)
 -  [Análisis de Señales EMG](#análisis-de-señales-emg)
   - [EMG en Reposo](#emg-en-reposo)
   - [EMG Movimiento Voluntario](#emg-movimiento-voluntario)
@@ -21,7 +21,7 @@ Este documento presenta un análisis detallado de señales electromiográficas (
   - [ECG Luego de Respiración](#ecg-luego-de-respiración)
   - [ECG Luego de Ejercicio](#ecg-luego-de-ejercicio)
    
-## Introducción
+### Introducción
 
 ### Filtros
 <div align="justify">
@@ -39,7 +39,7 @@ Dentro de los filtros digitales, se distinguen dos categorías principales: FIR 
 </div>
 
 
-## Objetivos del Laboratorio
+### Objetivos del Laboratorio
 <div align="justify">
 El objetivo principal de este laboratorio es aplicar filtros digitales a señales electromiográficas (EMG) y electrocardiográficas (ECG) obtenidas en sesiones previas, con el fin de:
 </div>
@@ -86,3 +86,11 @@ El objetivo principal de este laboratorio es aplicar filtros digitales a señale
 | **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/MAX/diagrama%20de%20polos%20y%20ceros.png)                 |
 | **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/MAX/diagrama%20de%20bode.png)                 |
 
+
+
+
+
+**REFERENCIAS BIBLIOGRAFICAS**
+1. A. V. Oppenheim and R. W. Schafer, Discrete-Time Signal Processing, 3rd ed., Pearson, 2009.
+2. S. Karris, The Scientist and Engineer's Guide to Digital Signal Processing, California Technical Publishing, 1997.
+3. A. V. Oppenheim, Signals and Systems, 2nd ed., Prentice Hall, 1996.
