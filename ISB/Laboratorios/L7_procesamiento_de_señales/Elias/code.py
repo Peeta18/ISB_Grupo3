@@ -1,44 +1,289 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fft import fft
+from scipy.signal import stft
+from scipy import signal
+from scipy.signal import lfilter
 
-file_path = 'EMG_reposo.txt'
+# Leer el archivo de texto
+file_path = r'EMG_reposo' # Cualquier señal
 data = []
 
 with open(file_path, 'r') as file:
     for line in file:
-        if not line.startswith('#'):  # Saltar las líneas de comentarios
+        if not line.startswith('#'): 
             values = line.split()
-            if len(values) >= 6:  # Asegúrate de que haya suficientes columnas
-                data.append(float(values[5]))
+            if len(values) >= 6: 
+                data.append(float(values[5])) 
 
-# Convertir a array de numpy para análisis
 data = np.array(data)
 
+
+# FIR Filtro Pasa Alta fc = 20 Hz
+b1 = [-0.019803862, -0.021915192, -0.023979142, -0.025977404, -0.027892063, -0.029705792, -0.031402042, -0.03296522, -0.034380872, -0.035635832, -0.036718379, -0.03761836, -0.038327311, -0.038838545, -0.039147232, 0.942010889, -0.039147232, -0.038838545, -0.038327311, -0.03761836, -0.036718379, -0.035635832, -0.034380872, -0.03296522, -0.031402042, -0.029705792, -0.027892063, -0.025977404, -0.023979142, -0.021915192, -0.019803862]
+a1 = [1]
+
+# IIR Filtro Pasa Baja EMG fc = 450 Hz
+b2 = [0.22069328580903183, 3.3103992871354775, 23.172795009948345, 100.41544504310949, 301.24633512932843, 662.7419372845225, 1104.5698954742043, 1420.16129418112, 1420.1612941811197, 1104.5698954742045, 662.7419372845228, 301.2463351293285, 100.41544504310949, 23.17279500994834, 3.3103992871354775, 0.22069328580903183]
+a2 = [1.0,11.994867831229028,67.3936805542598,235.2428735442652,570.4224885827606,1017.6569715771104,1379.7473646513677,1447.4681661897764,1184.517462870328,756.0527130277087,373.28378586502856,139.98893032800427,38.59706273481099,7.385566667103188,0.8769494402029366,0.04870552640118704]
+
+# IIR Filtro Pasa baja ECG fc = 150 Hz
+b3 = [0.002585064184237275,0.01551038510542365,0.03877596276355912,0.0517012836847455,0.03877596276355912,0.01551038510542365,0.002585064184237275]
+a3 = [1.0,-2.379721044554775,2.910406567864687,-2.0551314367730975,0.8779238976340887,-0.20986545035968962,0.021831573979971843]
+
+# Filtro Notch fc = 50-60 Hz
+b4 =[4.69E-08,3.10E-07
+,6.98E-07
+,6.14E-07
+,-1.01E-06
+,-5.41E-06
+,-1.35E-05
+,-2.51E-05
+,-3.87E-05
+,-5.09E-05
+,-5.66E-05
+,-5.01E-05
+,-2.61E-05
+,1.88E-05
+,8.41E-05
+,0.000164601
+,0.00024949
+,0.000323143
+,0.000366771
+,0.000361337
+,0.000291272
+,0.00014845,
+-6.43E-05,
+-0.000330846,
+-0.000621512,
+-0.000894971,
+-0.001102815,
+-0.001196231,
+-0.001134093,
+-0.00089132,
+-0.000466135,
+0.000115188,
+0.00079731,
+0.001499282,
+0.002122659,
+0.002563646,
+0.00272798,
+0.002546602,
+0.001989778,
+0.001077299,
+-0.000117328,
+-0.001470126,
+-0.002817754,
+-0.003975805,
+-0.004762419,
+-0.005024362,
+-0.004662012,
+-0.003649518,
+-0.002046683,
+7.41E-18,
+0.002268385,
+0.004483412,
+0.00634944,
+0.00758849,
+0.00797958,
+0.007393734,
+0.005819433,
+0.003374183,
+0.000299501,
+-0.003061298,
+-0.006300744,
+-0.008996289,
+-0.010764941,
+-0.011316416,
+-0.010497525,
+-0.008321243,
+-0.004975585,
+-0.000809896,
+0.003700942,
+0.008010848,
+0.011569194,
+0.013891584,
+0.014625574,
+0.01360241,
+0.010867317,
+0.006683368,
+0.001507314,
+-0.004060642,
+-0.009347562,
+-0.013690541,
+-0.016521161,
+-0.017440699,
+-0.016276034,
+-0.01310839,
+-0.008270408,
+-0.002311053,
+0.004067948,
+0.010096634,
+0.015031902,
+0.018251148,
+0.019332423,
+0.018110569,
+0.014701769,
+0.009492887,
+0.003096527,
+-0.003722876,
+-0.010142773,
+-0.015384278,
+-0.018809078,
+0.979958285,
+-0.018809078,
+-0.015384278,
+-0.010142773,
+-0.003722876,
+0.003096527,
+0.009492887,
+0.014701769,
+0.018110569,
+0.019332423,
+0.018251148,
+0.015031902,
+0.010096634,
+0.004067948,
+-0.002311053,
+-0.008270408,
+-0.01310839,
+-0.016276034,
+-0.017440699,
+-0.016521161,
+-0.013690541,
+-0.009347562,
+-0.004060642,
+0.001507314,
+0.006683368,
+0.010867317,
+0.01360241,
+0.014625574,
+0.013891584,
+0.011569194,
+0.008010848,
+0.003700942,
+-0.000809896,
+-0.004975585,
+-0.008321243,
+-0.010497525,
+-0.011316416,
+-0.010764941,
+-0.008996289,
+-0.006300744,
+-0.003061298,
+0.000299501,
+0.003374183,
+0.005819433,
+0.007393734,
+0.00797958,
+0.00758849,
+0.00634944,
+0.004483412,
+0.002268385,
+7.41E-18,
+-0.002046683,
+-0.003649518,
+-0.004662012,
+-0.005024362,
+-0.004762419,
+-0.003975805,
+-0.002817754,
+-0.001470126,
+-0.000117328,
+0.001077299,
+0.001989778,
+0.002546602,
+0.00272798,
+0.002563646,
+0.002122659,
+0.001499282,
+0.00079731,
+0.000115188,
+-0.000466135,
+-0.00089132,
+-0.001134093,
+-0.001196231,
+-0.001102815,
+-0.000894971,
+-0.000621512,
+-0.000330846,
+-6.43E-05,
+0.00014845,
+0.000291272,
+0.000361337,
+0.000366771,
+0.000323143,
+0.00024949,
+0.000164601,
+8.41E-05,
+1.88E-05,
+-2.61E-05,
+-5.01E-05,
+-5.66E-05,
+-5.09E-05,
+-3.87E-05,
+-2.51E-05,
+-1.35E-05,
+-5.41E-06,
+-1.01E-06,
+6.14E-07,
+6.98E-07,
+3.10E-07,
+4.69E-08]
+a4= [1]
+
+filtered_signal = lfilter(b1, a1, data)
+
+
 # Parámetros
-fs = 1000  # Frecuencia de muestreo en Hz (según el archivo de texto)
-t = np.arange(len(data)) / fs  # Tiempo en segundos
+fs = 1000  # Frecuencia de muestreo en Hz 
+tv = np.arange(len(data)) / fs  # Tiempo en segundos
 
 # Graficar en el dominio del tiempo
 plt.figure(figsize=(10, 4))
-plt.plot(t, data)
-plt.title('Señal EMG - Dominio del Tiempo')
+plt.subplot(2, 1, 1)
+plt.plot(tv, data)
+plt.title('EMG Reposo - Dominio del Tiempo')
+plt.ylabel('Amplitud')
+plt.subplot(2, 1, 2)
+plt.plot(tv, filtered_signal)
+plt.title('EMG Reposo - Dominio del Tiempo')
 plt.xlabel('Tiempo [s]')
 plt.ylabel('Amplitud')
 plt.grid()
 plt.show()
 
-# FFT para dominio de frecuencia
-n = len(data)
-f = np.linspace(0, fs/2, int(n/2))
-fft_values = fft(data)
-fft_magnitude = np.abs(fft_values)[:n//2]  # Tomar la mitad positiva
+# Dominio de la frecuencia
+plt.magnitude_spectrum(data,fs)
+plt.grid(ls=":")
+plt.title('EMG Reposo - Dominio de la frecuencia')
+plt.show()
 
-# Graficar en el dominio de frecuencia
-plt.figure(figsize=(10, 4))
-plt.plot(f, fft_magnitude)
-plt.title('Señal EMG - Dominio de Frecuencia')
-plt.xlabel('Frecuencia [Hz]')
-plt.ylabel('Magnitud')
-plt.grid()
+plt.magnitude_spectrum(filtered_signal,fs)
+plt.grid(ls=":")
+plt.title('EMG Reposo - Dominio de la frecuencia')
+plt.show()
+
+#SFFT
+
+f, t, Zxx = signal.stft(data, fs, nperseg=100)
+
+# Graficar el espectrograma
+plt.figure(figsize=(15, 6))
+plt.pcolormesh(t, f, np.abs(Zxx), shading='gouraud')
+plt.title('Espectrograma de la STFT')
+plt.ylabel('Frecuencia [Hz]')
+plt.xlabel('Tiempo [s]')
+plt.colorbar(label='Magnitud')
+plt.show()
+
+f, t, Zxx = signal.stft(filtered_signal, fs, nperseg=100)
+
+# Graficar el espectrograma
+plt.figure(figsize=(15, 6))
+plt.pcolormesh(t, f, np.abs(Zxx), shading='gouraud')
+plt.title('Espectrograma de la STFT')
+plt.ylabel('Frecuencia [Hz]')
+plt.xlabel('Tiempo [s]')
+plt.colorbar(label='Magnitud')
 plt.show()
