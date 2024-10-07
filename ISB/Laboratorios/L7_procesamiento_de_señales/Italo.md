@@ -112,16 +112,16 @@ He seleccionado un filtro pasa altos FIR a 40 Hz y un filtro pasa bajos Butterwo
 
 | Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
 |--------------------|---------------------------------|-------------------------------------|------------------------|
-| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/forzado/raw.png) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/forzado/ft.png) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/forzado/ft-filter.png) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/forzado/comparison.png) |
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/4.jpg) |
 
 #### Análisis del Filtro
 
 | Diagrama de Bode | Diagrama de Polos y Ceros |
 |------------------|---------------------------|
-| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/ba3c8922fa47ad62734755753370f7176e1575bd/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/forzado/bode.png) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/4acf6339e67c70a71f6b6a7b2c42868fbe10be68/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/forzado/ceros.png) |
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/6.jpg) |
 
 #### Justificación de los Filtros
-En el caso del movimiento forzado, se implementaron un filtro FIR pasa-alto de 30 Hz para eliminar las bajas frecuencias y el ruido de fondo, un filtro IIR pasa-bajo de 150 Hz para atenuar las altas frecuencias que no aportan información relevante, y un filtro IIR pasa-banda de 30-150 Hz que ajusta la señal al rango típico de frecuencias de EMG, asegurando así una representación fiel y sin interferencias de la actividad muscular durante el movimiento forzado.
+He seleccionado tres filtros distintos para procesar las señales EMG durante un movimiento forzado: un filtro FIR pasa bajos a 140 Hz para eliminar el ruido de alta frecuencia sin distorsionar la señal, un filtro IIR Butterworth pasa altos a 40 Hz para eliminar componentes de baja frecuencia como desplazamientos de DC y artefactos de movimiento, y un filtro IIR Butterworth pasa banda entre 40 Hz y 140 Hz para aislar únicamente las frecuencias relevantes de la señal EMG. Esta combinación permite obtener una señal EMG más limpia y precisa, facilitando un análisis más fiable de la actividad muscular durante el movimiento forzado.
 
 ---
 
