@@ -14,8 +14,8 @@ Este documento presenta un análisis detallado de señales electromiográficas (
 -  [Objetivos](#objetivos)
 -  [Análisis de Señales EMG](#análisis-de-señales-emg)
     - [EMG en Reposo](#emg-en-reposo)
-    - [EMG Movimiento Voluntario](#emg-movimiento-voluntario)
-    - [EMG Movimiento Forzado](#emg-movimiento-forzado)
+    - [EMG Movimiento Voluntario](#emg-en-movimiento-voluntario)
+    - [EMG Movimiento Forzado](#emg-en-movimiento-forzado)
 - [Análisis de Señales ECG](#análisis-de-señales-ecg)
   - [ECG Estado Basal](#ecg-estado-basal)
   - [ECG Luego de Respiración](#ecg-luego-de-respiración)
@@ -39,7 +39,7 @@ Dentro de los filtros digitales, se distinguen dos categorías principales: FIR 
 </div>
 
 
-### Objetivos del Laboratorio
+### Objetivos 
 <div align="justify">
 El objetivo principal de este laboratorio es aplicar filtros digitales a señales electromiográficas (EMG) y electrocardiográficas (ECG) obtenidas en sesiones previas, con el fin de:
 </div>
