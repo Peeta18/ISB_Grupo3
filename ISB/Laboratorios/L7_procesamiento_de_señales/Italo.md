@@ -74,13 +74,13 @@ El objetivo principal de este laboratorio es aplicar filtros digitales sobre se�
 
 | Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
 |--------------------|---------------------------------|-------------------------------------|------------------------|
-| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/ft_raw.png) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/ft_filter.png) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/comparison.png) |
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/4.jpg) |
 
 #### Análisis del Filtro
 
 | Diagrama de Bode | Diagrama de Polos y Ceros |
 |------------------|---------------------------|
-| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/ba3c8922fa47ad62734755753370f7176e1575bd/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/bode.png) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/4acf6339e67c70a71f6b6a7b2c42868fbe10be68/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/ceros.png) |
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/6.jpg) |
 
 #### Justificación de los Filtros
 Se emplearon un filtro pasa-bajo Butterworth para reducir el ruido de alta frecuencia, un filtro Notch para eliminar la interferencia de la frecuencia de línea eléctrica de 50/60 Hz, y un filtro pasa-alto FIR para suprimir componentes de baja frecuencia que podrían distorsionar el análisis, asegurando así una señal limpia y precisa para el estudio de la actividad muscular en reposo.
