@@ -32,3 +32,14 @@ Este documento presenta un análisis detallado de señales electromiográficas (
 | **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/REPOSO/diagrama%20polos%20y%20ceros.png)                 |
 | **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/REPOSO/diagrama%20de%20bode.png)                 |
 
+### EMG en Movimiento voluntario
+
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica respuesta de frecuencia filtro pasa alta**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/VOLUNTARIO/analisis%20de%20frecuencia.png) |
+| **Gráfica de señal original y filtrada**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/VOLUNTARIO/se%C3%B1al%20original%20y%20filtrada.png) |
+| **Gráfica de análisis de frecuencia original y filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/REPOSO/analisis%20frecuencia%20origial%20y%20filtrada.png) |
+| **Espectograma**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/VOLUNTARIO/espectograma.png)                 |
+| **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/VOLUNTARIO/diagrama%20de%20polos%20y%20ceros.png)                 |
+| **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/VOLUNTARIO/diagrama%20de%20bode.png)                 |
+
