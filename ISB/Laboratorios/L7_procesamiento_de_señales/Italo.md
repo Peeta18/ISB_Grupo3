@@ -83,7 +83,7 @@ El objetivo principal de este laboratorio es aplicar filtros digitales sobre se�
 | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/6.jpg) |
 
 #### Justificación de los Filtros
-Se emplearon un filtro pasa-bajo Butterworth para reducir el ruido de alta frecuencia, un filtro Notch para eliminar la interferencia de la frecuencia de línea eléctrica de 50/60 Hz, y un filtro pasa-alto FIR para suprimir componentes de baja frecuencia que podrían distorsionar el análisis, asegurando así una señal limpia y precisa para el estudio de la actividad muscular en reposo.
+He elegido usar un filtro Butterworth bandpass de orden 4 con frecuencias de corte en 20 Hz y 450 Hz porque este filtro permite que pasen las frecuencias importantes para la señal EMG mientras elimina el ruido de frecuencias más bajas y más altas. El filtro Butterworth es ideal porque mantiene la forma de la señal sin distorsionarla, y con un orden de 4 logra una buena separación entre las frecuencias que queremos conservar y las que necesitamos eliminar. Esto resulta en una señal más limpia y precisa para analizar.
 
 ---
 
