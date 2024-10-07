@@ -4,7 +4,7 @@ Martin Elias Pino Aguilar - Individual
 Se utilizaron los siguientes filtros para el procesamiento de las señales EMG y ECG:
 
 ## Filtro FIR Pasa Alta fc = 20 Hz
-Se utilizó este filtro para atenuar las frecuencias menores a 20 Hz, esto ayuda a eliminar el ruido de baja frecuencia y artefactos que pueden contaminar la señal EMG. Esto incluye ruido causado por el movimiento, que a menudo está presentes en las mediciones.[1] 
+Se utilizó este filtro para atenuar las frecuencias menores a 20 Hz, esto ayuda a eliminar el ruido de baja frecuencia y artefactos que pueden contaminar la señal EMG. Esto incluye ruido causado por el movimiento, que a menudo está presentes en las mediciones. [1] 
 
 | Análisis                                              | Imagen                                                                                                        |
 |------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
