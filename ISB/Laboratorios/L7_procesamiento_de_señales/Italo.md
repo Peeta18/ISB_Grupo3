@@ -1,4 +1,4 @@
-# Análisis de Señales EMG y ECG
+# Filtrado de Señales EMG y ECG
 
 Este repositorio contiene el análisis de tres señales EMG y tres señales ECG, que han sido procesadas y filtradas para su comparación en el dominio del tiempo y de la frecuencia. A continuación se presentan los gráficos, el análisis de los filtros aplicados y la justificación de su uso para cada señal.
 
