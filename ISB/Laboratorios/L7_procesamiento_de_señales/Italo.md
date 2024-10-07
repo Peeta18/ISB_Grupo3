@@ -133,16 +133,16 @@ He seleccionado tres filtros distintos para procesar las señales EMG durante un
 
 | Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
 |--------------------|---------------------------------|-------------------------------------|------------------------|
-| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/raw.png) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/ft.png) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/ft-filter.png) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/comparison.png) |
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/4.jpg) |
 
 #### Análisis del Filtro
 
 | Diagrama de Bode | Diagrama de Polos y Ceros |
 |------------------|---------------------------|
-| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/bode.png) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/basal/ceros.png) |
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/6.jpg) |
 
 #### Justificación de los Filtros
-Para el análisis del estado basal del ECG, se utilizaron filtros pasa-alto FIR de 0.5 Hz para eliminar las fluctuaciones de la línea base, filtros pasa-bajo FIR de 40 Hz que atenúan las altas frecuencias manteniendo las principales características del ECG, y filtros FIR en general debido a su estabilidad y respuesta lineal en fase, lo cual es esencial para preservar la integridad de las formas de onda del ECG.
+He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar las componentes de baja frecuencia como desplazamientos de DC y artefactos de movimiento, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia sin distorsionar la señal ECG, y un filtro notch a 50 Hz para eliminar interferencias de la línea de alimentación eléctrica. Esta combinación de filtros asegura que la señal ECG en estado basal sea lo más limpia y precisa posible, facilitando un análisis fiable al eliminar tanto el ruido no deseado como las interferencias específicas sin afectar las características esenciales de la señal.
 
 ---
 
