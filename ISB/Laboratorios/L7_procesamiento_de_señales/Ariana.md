@@ -140,6 +140,4 @@ Rango de frecuencia relevante: La señal EMG contiene la información necesaria 
 3.5 **Diagrama de Bode:**
    - ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.ECG_DESPUES_BOOLE.png?raw=true)
 
-**Justificación de los Filtros:**
-
 
