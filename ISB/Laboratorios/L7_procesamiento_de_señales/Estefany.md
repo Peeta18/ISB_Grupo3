@@ -102,6 +102,28 @@ El objetivo principal de este laboratorio es aplicar filtros digitales a señale
 | **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/diagrama%20de%20bode.png)                 |
 
 
+### ECG LUEGO DE RESPIRACIÓN
+
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica respuesta de frecuencia filtro IIR PASA BANDA**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/RESPIRACION/respuesta%20de%20frecuencia.png) |
+| **Gráfica de señal original y filtrada**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/RESPIRACION/se%C3%B1al%20original%20y%20filtrada.png) |
+| **Gráfica de análisis de frecuencia original y filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/RESPIRACION/analisis%20de%20frecuencia.png) |
+| **Espectograma**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/RESPIRACION/espectograma.png)                 |
+| **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/BASALECG/diagrama%20de%20polos.png)                 |
+| **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/RESPIRACION/diagrama%20de%20polos%20y%20ceros.png)                 |
+
+
+### ECG LUEGO DE EJERCICIO
+
+| Análisis                                              | Imagen                                                                                                        |
+|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Gráfica respuesta de frecuencia filtro IIR PASA BANDA**                  | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/respuesta%20de%20frecuencia.png) |
+| **Gráfica de señal original y filtrada**| ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/se%C3%B1al%20original%20y%20filtrada.png) |
+| **Gráfica de análisis de frecuencia original y filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/analisis%20de%20frecuencia.png) |
+| **Espectograma**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/espectograma.png)                 |
+| **Diagrama de polos y ceros**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/diagrama%20de%20polos%20y%20ceros.png)                 |
+| **Diagrama de Bode**                            | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Estefany/EJERCICIO/diagrama%20de%20bode.png)                 |
 
 
 **REFERENCIAS BIBLIOGRAFICAS**
