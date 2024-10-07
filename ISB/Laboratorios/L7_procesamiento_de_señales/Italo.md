@@ -93,13 +93,13 @@ He elegido usar un filtro Butterworth bandpass de orden 4 con frecuencias de cor
 
 | Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
 |--------------------|---------------------------------|-------------------------------------|------------------------|
-| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/freq.png) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/freq-filter.png) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/volunt/comparacion.png) |
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/4.jpg) |
 
 #### Análisis del Filtro
 
 | Diagrama de Bode | Diagrama de Polos y Ceros |
 |------------------|---------------------------|
-| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/bode.png) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/7bec849c48436463974002153f90f98ecf6ab26a/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/EEG/reposo/diagrama.png) |
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/6.jpg) |
 
 #### Justificación de los Filtros
 Para el análisis del movimiento voluntario, se seleccionaron un filtro FIR pasa-alto de 30 Hz que elimina las componentes de baja frecuencia y el ruido DC, un filtro Notch de 50 Hz para suprimir las interferencias eléctricas, y un filtro pasa-bajo de 150 Hz que elimina las frecuencias altas no relevantes, permitiendo así una representación clara y precisa de la actividad muscular durante el movimiento voluntario.
