@@ -40,27 +40,25 @@ Dentro de los filtros digitales, existen dos categorías principales: **FIR (Fin
 
 Los **filtros FIR** tienen una respuesta al impulso finita, lo que significa que su salida depende de un número limitado de muestras de la señal de entrada. Son conocidos por su **estabilidad inherente** y **fase lineal**, lo que los hace ideales para aplicaciones donde la distorsión de fase es crítica, como en el procesamiento de audio y señales biomédicas [5].
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Subtipos de Filtros FIR**         |                                                                                          |
-| **Ventana Rectangular**             | ![Ventana Rectangular](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/1.jpg) |
-| **Ventana de Hamming**              | ![Ventana de Hamming](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/2.jpg) |
-| **Ventana de Hanning**              | ![Ventana de Hanning](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/3.jpg) |
-| **Ventana de Blackman**             | ![Ventana de Blackman](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/4.jpg) |
-| **Ventana de Kaiser**               | ![Ventana de Kaiser](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/5.jpg) |
+| Subtipos de Filtros FIR | Descripción                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| **Ventana Rectangular** | Ventana simple y eficiente, pero con altos niveles de "rizado" en la respuesta. |
+| **Ventana de Hamming**  | Reduce el "rizado", mejorando la atenuación en las bandas no deseadas.       |
+| **Ventana de Hanning**  | Ventana suave que minimiza las discontinuidades en los bordes de la señal.    |
+| **Ventana de Blackman** | Proporciona una mejor atenuación de las bandas laterales, reduciendo el "rizado". |
+| **Ventana de Kaiser**   | Ventana ajustable que permite controlar el ancho de banda y el nivel de atenuación. |
 
 #### Subtipos de Filtros IIR
 
 Los **filtros IIR** poseen una respuesta al impulso infinita, lo que significa que su salida depende tanto de las muestras actuales y pasadas de la señal de entrada como de las muestras pasadas de la señal de salida. Estos filtros son más eficientes que los FIR en términos de número de coeficientes necesarios para alcanzar una especificación de diseño determinada, pero pueden ser **inestables** y no ofrecen una **fase lineal** [6].
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Subtipos de Filtros IIR**         |                                                                                          |
-| **Filtro Butterworth**              | ![Filtro Butterworth](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/6.jpg) |
-| **Filtro Chebyshev I**              | ![Filtro Chebyshev I](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/7.jpg) |
-| **Filtro Chebyshev II**             | ![Filtro Chebyshev II](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/8.jpg) |
-| **Filtro Elíptico**                 | ![Filtro Elíptico](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/9.jpg) |
-| **Filtro Bessel**                   | ![Filtro Bessel](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/10.jpg) |
+| Subtipos de Filtros IIR | Descripción                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| **Filtro Butterworth**   | Filtro con una respuesta en frecuencia lo más plana posible en la banda de paso. |
+| **Filtro Chebyshev I**   | Presenta un "rizado" en la banda de paso para obtener una transición más rápida. |
+| **Filtro Chebyshev II**  | Tiene "rizado" en la banda de rechazo en lugar de la banda de paso.         |
+| **Filtro Elíptico**      | Ofrece la transición más rápida entre la banda de paso y de rechazo, con "rizado" en ambas bandas. |
+| **Filtro Bessel**        | Optimiza la respuesta de fase, proporcionando una transición suave en frecuencia. |
 
 ## Objetivos del Laboratorio
 
@@ -74,19 +72,15 @@ El objetivo principal de este laboratorio es aplicar filtros digitales sobre se�
 
 #### Gráficas de la Señal
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Dominio del Tiempo**              | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/1.jpg) |
-| **Dominio de la Frecuencia (Raw)**  | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/2.jpg) |
-| **Dominio de la Frecuencia Filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/3.jpg) |
-| **Comparación de Señales**          | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/4.jpg) |
+| Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
+|--------------------|---------------------------------|-------------------------------------|------------------------|
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/4.jpg) |
 
 #### Análisis del Filtro
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Diagrama de Bode**                | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/5.jpg) |
-| **Diagrama de Polos y Ceros**       | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/6.jpg) |
+| Diagrama de Bode | Diagrama de Polos y Ceros |
+|------------------|---------------------------|
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Reposo/6.jpg) |
 
 #### Justificación de los Filtros
 He elegido usar un filtro Butterworth bandpass de orden 4 con frecuencias de corte en 20 Hz y 450 Hz porque este filtro permite que pasen las frecuencias importantes para la señal EMG mientras elimina el ruido de frecuencias más bajas y más altas. El filtro Butterworth es ideal porque mantiene la forma de la señal sin distorsionarla, y con un orden de 4 logra una buena separación entre las frecuencias que queremos conservar y las que necesitamos eliminar. Esto resulta en una señal más limpia y precisa para analizar.
@@ -97,19 +91,15 @@ He elegido usar un filtro Butterworth bandpass de orden 4 con frecuencias de cor
 
 #### Gráficas de la Señal
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Dominio del Tiempo**              | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/1.jpg) |
-| **Dominio de la Frecuencia (Raw)**  | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/2.jpg) |
-| **Dominio de la Frecuencia Filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/3.jpg) |
-| **Comparación de Señales**          | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/4.jpg) |
+| Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
+|--------------------|---------------------------------|-------------------------------------|------------------------|
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/4.jpg) |
 
 #### Análisis del Filtro
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Diagrama de Bode**                | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/5.jpg) |
-| **Diagrama de Polos y Ceros**       | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/6.jpg) |
+| Diagrama de Bode | Diagrama de Polos y Ceros |
+|------------------|---------------------------|
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/6.jpg) |
 
 #### Justificación de los Filtros
 He seleccionado un filtro pasa altos FIR a 40 Hz y un filtro pasa bajos Butterworth a 140 Hz para procesar las señales EMG durante un movimiento voluntario. El filtro FIR pasa altos elimina las componentes de baja frecuencia que pueden incluir desplazamientos de DC y artefactos de movimiento, asegurando que solo las frecuencias relevantes de la actividad muscular sean consideradas. Por otro lado, el filtro Butterworth pasa bajos atenúa las frecuencias superiores a 140 Hz, eliminando ruido de alta frecuencia sin distorsionar significativamente la señal EMG gracias a su respuesta en frecuencia plana. Esta combinación de filtros permite obtener una señal EMG más limpia y precisa, facilitando un análisis más fiable de la actividad muscular durante el movimiento voluntario.
@@ -120,19 +110,15 @@ He seleccionado un filtro pasa altos FIR a 40 Hz y un filtro pasa bajos Butterwo
 
 #### Gráficas de la Señal
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Dominio del Tiempo**              | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/1.jpg) |
-| **Dominio de la Frecuencia (Raw)**  | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/2.jpg) |
-| **Dominio de la Frecuencia Filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/3.jpg) |
-| **Comparación de Señales**          | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/4.jpg) |
+| Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
+|--------------------|---------------------------------|-------------------------------------|------------------------|
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/4.jpg) |
 
 #### Análisis del Filtro
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Diagrama de Bode**                | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/5.jpg) |
-| **Diagrama de Polos y Ceros**       | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/6.jpg) |
+| Diagrama de Bode | Diagrama de Polos y Ceros |
+|------------------|---------------------------|
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Forzado/6.jpg) |
 
 #### Justificación de los Filtros
 He seleccionado tres filtros distintos para procesar las señales EMG durante un movimiento forzado: un filtro FIR pasa bajos a 140 Hz para eliminar el ruido de alta frecuencia sin distorsionar la señal, un filtro IIR Butterworth pasa altos a 40 Hz para eliminar componentes de baja frecuencia como desplazamientos de DC y artefactos de movimiento, y un filtro IIR Butterworth pasa banda entre 40 Hz y 140 Hz para aislar únicamente las frecuencias relevantes de la señal EMG. Esta combinación permite obtener una señal EMG más limpia y precisa, facilitando un análisis más fiable de la actividad muscular durante el movimiento forzado.
@@ -145,19 +131,15 @@ He seleccionado tres filtros distintos para procesar las señales EMG durante un
 
 #### Gráficas de la Señal
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Dominio del Tiempo**              | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/1.jpg) |
-| **Dominio de la Frecuencia (Raw)**  | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/2.jpg) |
-| **Dominio de la Frecuencia Filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/3.jpg) |
-| **Comparación de Señales**          | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/4.jpg) |
+| Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
+|--------------------|---------------------------------|-------------------------------------|------------------------|
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/4.jpg) |
 
 #### Análisis del Filtro
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Diagrama de Bode**                | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/5.jpg) |
-| **Diagrama de Polos y Ceros**       | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/6.jpg) |
+| Diagrama de Bode | Diagrama de Polos y Ceros |
+|------------------|---------------------------|
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Basal/6.jpg) |
 
 #### Justificación de los Filtros
 He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar las componentes de baja frecuencia como desplazamientos de DC y artefactos de movimiento, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia sin distorsionar la señal ECG, y un filtro notch a 50 Hz para eliminar interferencias de la línea de alimentación eléctrica. Esta combinación de filtros asegura que la señal ECG en estado basal sea lo más limpia y precisa posible, facilitando un análisis fiable al eliminar tanto el ruido no deseado como las interferencias específicas sin afectar las características esenciales de la señal.
@@ -168,22 +150,18 @@ He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar las componentes de
 
 #### Gráficas de la Señal
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Dominio del Tiempo**              | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/1.jpg) |
-| **Dominio de la Frecuencia (Raw)**  | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/2.jpg) |
-| **Dominio de la Frecuencia Filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/3.jpg) |
-| **Comparación de Señales**          | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/4.jpg) |
+| Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
+|--------------------|---------------------------------|-------------------------------------|------------------------|
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/4.jpg) |
 
 #### Análisis del Filtro
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Diagrama de Bode**                | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/5.jpg) |
-| **Diagrama de Polos y Ceros**       | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/6.jpg) |
+| Diagrama de Bode | Diagrama de Polos y Ceros |
+|------------------|---------------------------|
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/6.jpg) |
 
 #### Justificación de los Filtros
-He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar componentes de baja frecuencia como desplazamientos de DC y artefactos de movimiento, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia sin distorsionar la señal ECG, y un filtro IIR notch a 50 Hz para eliminar interferencias específicas de la línea eléctrica. Esta combinación de filtros asegura que la señal ECG durante la respiración mantenida sea lo más limpia y precisa posible, facilitando un análisis confiable al eliminar tanto el ruido general como las interferencias específicas sin afectar las características esenciales de la señal.
+He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar componentes de baja frecuencia como desplazamientos de DC y artefactos de movimiento, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia sin distorsionar la señal ECG, y un filtro IIR notch a 50 Hz para eliminar interferencias específicas de la línea eléctrica. Esta combinación de filtros asegura que la señal ECG durante el ejercicio sea lo más limpia y precisa posible, facilitando un análisis confiable al eliminar tanto el ruido general como las interferencias específicas sin afectar las características esenciales de la señal.
 
 ---
 
@@ -191,22 +169,18 @@ He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar componentes de baj
 
 #### Gráficas de la Señal
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Dominio del Tiempo**              | ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/1.jpg) |
-| **Dominio de la Frecuencia (Raw)**  | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/2.jpg) |
-| **Dominio de la Frecuencia Filtrada** | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/3.jpg) |
-| **Comparación de Señales**          | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/4.jpg) |
+| Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
+|--------------------|---------------------------------|-------------------------------------|------------------------|
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/4.jpg) |
 
 #### Análisis del Filtro
 
-| Tipo de Gráfica                     | Imagen                                                                                   |
-|-------------------------------------|------------------------------------------------------------------------------------------|
-| **Diagrama de Bode**                | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/5.jpg) |
-| **Diagrama de Polos y Ceros**       | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/6.jpg) |
+| Diagrama de Bode | Diagrama de Polos y Ceros |
+|------------------|---------------------------|
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/6.jpg) |
 
 #### Justificación de los Filtros
-He seleccionado un filtro IIR pasa altos para eliminar componentes de baja frecuencia, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia, y un filtro IIR notch de 50 a 60 Hz. Esta combinación de filtros asegura que la señal ECG durante el ejercicio sea lo más limpia y precisa posible, facilitando un análisis confiable al eliminar tanto el ruido general como las interferencias específicas sin afectar las características esenciales de la señal.
+He seleccionado un filtro IIR pasa altos para eliminar componentes de baja frecuencia c, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia, y un filtro IIR notch de 50 a 60Hz. Esta combinación de filtros asegura que la señal ECG durante el ejercicio sea lo más limpia y precisa posible, esto me facilita un análisis confiable al eliminar tanto el ruido general como las interferencias específicas sin afectar las características esenciales de la señal.
 
 ---
 
