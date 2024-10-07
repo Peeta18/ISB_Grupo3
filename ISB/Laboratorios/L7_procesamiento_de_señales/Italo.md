@@ -125,4 +125,16 @@ Al analizar el ECG luego de la respiración, se optó por un filtro pasa-bajo Bu
 
 | Diagrama de Bode | Diagrama de Polos y Ceros |
 |------------------|---------------------------|
-| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/bode.png) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/c
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/bode.png) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/ceros.png) |
+
+#### Justificación de los Filtros
+En el análisis del ECG luego de ejercicio, se implementaron filtros pasa-alto FIR para eliminar las fluctuaciones de la línea base a frecuencias muy bajas, filtros pasa-bajo FIR para conservar las características esenciales del ECG mientras se atenúa el ruido de alta frecuencia, y un filtro Notch IIR para eliminar eficazmente el ruido de 50 Hz cuando era necesario, asegurando así una señal de alta calidad para evaluar los efectos del ejercicio en la actividad cardíaca.
+
+---
+
+## Bibliografía
+1. Lian, J., & Wang, Z. (2023). Stages-Based ECG Signal Analysis From Traditional Signal Processing to Machine Learning. IEEE Transactions on Biomedical Engineering, 70(1), 12-22.
+2. Moreira, D., Fonseca, J., & Lourenço, A. (2020). Characterization and Differentiation of Electromyographic Signals Acquired Using the BITalino Platform. IEEE Access, 8, 102981-102993.
+3. Acharya, U. R., Faust, O., & Suri, J. S. (2021). Biomedical Signal Processing: An ECG Application. En Advances in Cardiac Signal Processing (pp. 117-142). Springer.
+4. Rodríguez, I., Parra, C., & González, E. (2019). Experience of Use of the BITalino Kit for Biomedical Signals Recording. IEEE Latin America Transactions, 17(12), 2022-2030.
+
