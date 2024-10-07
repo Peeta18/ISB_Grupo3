@@ -6,7 +6,7 @@ from scipy import signal
 from scipy.signal import lfilter
 
 # Leer el archivo de texto
-file_path = r'EMG_reposo' # Cualquier señal
+file_path = r'EMG_reposo.txt' # Cualquier señal
 data = []
 
 with open(file_path, 'r') as file:
@@ -17,7 +17,6 @@ with open(file_path, 'r') as file:
                 data.append(float(values[5])) 
 
 data = np.array(data)
-
 
 # FIR Filtro Pasa Alta fc = 20 Hz
 b1 = [-0.019803862, -0.021915192, -0.023979142, -0.025977404, -0.027892063, -0.029705792, -0.031402042, -0.03296522, -0.034380872, -0.035635832, -0.036718379, -0.03761836, -0.038327311, -0.038838545, -0.039147232, 0.942010889, -0.039147232, -0.038838545, -0.038327311, -0.03761836, -0.036718379, -0.035635832, -0.034380872, -0.03296522, -0.031402042, -0.029705792, -0.027892063, -0.025977404, -0.023979142, -0.021915192, -0.019803862]
@@ -232,7 +231,7 @@ b4 =[4.69E-08,3.10E-07
 4.69E-08]
 a4= [1]
 
-filtered_signal = lfilter(b1, a1, data)
+filtered_signal = lfilter(b1, a1, data) #Cualquier filtro
 
 
 # Parámetros
