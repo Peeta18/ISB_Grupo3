@@ -12,36 +12,12 @@ Este documento presenta un análisis detallado de señales electromiográficas (
 ## Tabla de Contenidos
 - [Análisis de Señales EMG](#análisis-de-señales-emg)
   - [EMG en Reposo](#emg-en-reposo)
-      - Gráfica en el dominio del tiempo
-      - Gráfica en el dominio de la frecuencia
-      - Análisis de Filtros
-      - Justificación de filtro
   - [EMG Movimiento Voluntario](#emg-movimiento-voluntario)
-      - Gráfica en el dominio del tiempo
-      - Gráfica en el dominio de la frecuencia
-      - Análisis de Filtros
-      - Justificación de filtro
   - [EMG Movimiento Forzado](#emg-movimiento-forzado)
-      - Gráfica en el dominio del tiempo
-      - Gráfica en el dominio de la frecuencia
-      - Análisis de Filtros
-      - Justificación de filtro
 - [Análisis de Señales ECG](#análisis-de-señales-ecg)
   - [ECG Estado Basal](#ecg-estado-basal)
-      - Gráfica en el dominio del tiempo
-      - Gráfica en el dominio de la frecuencia
-      - Análisis de Filtros
-      - Justificación de filtro
   - [ECG Luego de Respiración](#ecg-luego-de-respiración)
-      - Gráfica en el dominio del tiempo
-      - Gráfica en el dominio de la frecuencia
-      - Análisis de Filtros
-      - Justificación de filtro
   - [ECG Luego de Ejercicio](#ecg-luego-de-ejercicio)
-      - Gráfica en el dominio del tiempo
-      - Gráfica en el dominio de la frecuencia
-      - Análisis de Filtros
-      - Justificación de filtro
    
 
 
