@@ -20,7 +20,7 @@ Este documento presenta un análisis detallado de señales electromiográficas (
   - [ECG Estado Basal](#ecg-estado-basal)
   - [ECG Luego de Respiración](#ecg-luego-de-respiración)
   - [ECG Luego de Ejercicio](#ecg-luego-de-ejercicio)
-   
+- [Referencias bibliograficas](#referencias-bibliograficas)
 ### Introducción
 
 ### Filtros
