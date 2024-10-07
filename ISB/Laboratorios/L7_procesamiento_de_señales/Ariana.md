@@ -23,8 +23,6 @@
 
 1.5 **Diagrama de Bode:**
    ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.Diagrama_boole_reposo.png?raw=true)
-
-1.6 **Justificación de los Filtros:**
   
 ---
 
@@ -44,8 +42,6 @@
 2.5 **Diagrama de Bode:**
    - ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.Diagrama_boole_mov_voluntario.png?raw=true)
 
-2.6 **Justificación de los Filtros:**
-
 ---
 
 ### EMG Reposo Después
@@ -64,8 +60,6 @@
 7. **Diagrama de Bode:**
    - ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.diagrama_boole-reposodespues.png?raw=true)
 
-8. **Justificación de los Filtros:**
-
 ---
 
 ### EMG Movimiento Máximo
@@ -81,10 +75,14 @@
 6. **Diagrama de Polos y Ceros:**
    - ![Polos y Ceros - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/4.ceros_polos-fuerzamax.png?raw=true)
 
-7. **Diagrama de Bode:**
+**Diagrama de Bode:**
    - ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.diagrama_boole_fuerzamax.png?raw=true)
 
 8. **Justificación de los Filtros:**
+Realicé el filtro pasabanda, ya que este conserva el rango de frecuencias en el que se encuentra la información relevante de la actividad muscular.
+Reducción de ruido en frecuencias bajas y altas: El filtro es eficaz para suprimir el ruido de baja frecuencia y el ruido de alta frecuencia, permitiendo que solo la señal muscular sea retenida.
+
+Rango de frecuencia relevante: La señal EMG contiene la información necesaria en los rangos 20 Hz y 500 Hz. Al usar el filtro pasabaja que limite las frecuencias a partir de un umbral, como 20 Hz, eliminaría componentes esenciales de este rango que contienen información valiosa sobre la actividad muscular.
 
 ---
 
@@ -105,10 +103,7 @@
 
 1.5 **Diagrama de Bode:**
    - ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.ECG_BASAL_BOOLE.png?raw=true)
-
-8. **Justificación de los Filtros:**
    
-
 ---
 
 ### 2. ECG Ejercicio
@@ -126,9 +121,6 @@
 
 2.5 **Diagrama de Bode:**
    - ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.ECG_EJERCICIO_BOOLE.png?raw=true)
-
-2.6 **Justificación de los Filtros:**
-   
 
 ---
 
@@ -148,6 +140,6 @@
 3.5 **Diagrama de Bode:**
    - ![Bode - EMG Reposo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/Imagenes_Ariana/5.ECG_DESPUES_BOOLE.png?raw=true)
 
-3.6 **Justificación de los Filtros:**
+**Justificación de los Filtros:**
 
 
