@@ -102,7 +102,7 @@ He elegido usar un filtro Butterworth bandpass de orden 4 con frecuencias de cor
 | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/EMG/Voluntario/6.jpg) |
 
 #### Justificación de los Filtros
-Para el análisis del movimiento voluntario, se seleccionaron un filtro FIR pasa-alto de 30 Hz que elimina las componentes de baja frecuencia y el ruido DC, un filtro Notch de 50 Hz para suprimir las interferencias eléctricas, y un filtro pasa-bajo de 150 Hz que elimina las frecuencias altas no relevantes, permitiendo así una representación clara y precisa de la actividad muscular durante el movimiento voluntario.
+He seleccionado un filtro pasa altos FIR a 40 Hz y un filtro pasa bajos Butterworth a 140 Hz para procesar las señales EMG durante un movimiento voluntario. El filtro FIR pasa altos elimina las componentes de baja frecuencia que pueden incluir desplazamientos de DC y artefactos de movimiento, asegurando que solo las frecuencias relevantes de la actividad muscular sean consideradas. Por otro lado, el filtro Butterworth pasa bajos atenúa las frecuencias superiores a 140 Hz, eliminando ruido de alta frecuencia sin distorsionar significativamente la señal EMG gracias a su respuesta en frecuencia plana. Esta combinación de filtros permite obtener una señal EMG más limpia y precisa, facilitando un análisis más fiable de la actividad muscular durante el movimiento voluntario.
 
 ---
 
