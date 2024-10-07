@@ -185,8 +185,6 @@ En el análisis del ECG luego de ejercicio, se implementaron filtros pasa-alto F
 ---
 
 ## Bibliografía
-
-## Bibliografía
 [1]. J. G. Proakis and D. G. Manolakis, *Digital Signal Processing: Principles, Algorithms and Applications*, 4th ed., Pearson, 2010.
 [2]. A. V. Oppenheim and R. W. Schafer, *Discrete-Time Signal Processing*, 3rd ed., Pearson, 2009.
 [3]. S. Karris, *The Scientist and Engineer's Guide to Digital Signal Processing*, California Technical Publishing, 1997.
