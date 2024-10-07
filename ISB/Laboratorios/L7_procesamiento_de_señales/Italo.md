@@ -161,7 +161,7 @@ He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar las componentes de
 | ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Respiracion/6.jpg) |
 
 #### Justificación de los Filtros
-Al analizar el ECG luego de la respiración, se optó por un filtro pasa-bajo Butterworth para disminuir el ruido de alta frecuencia, un filtro Notch para eliminar la interferencia de la frecuencia de línea eléctrica de 50/60 Hz, y un filtro pasa-alto FIR para eliminar cualquier componente de baja frecuencia que pudiera distorsionar el análisis, garantizando así una señal limpia y adecuada para evaluar los efectos de la respiración en la actividad cardíaca.
+He seleccionado un filtro IIR pasa altos a 1 Hz para eliminar componentes de baja frecuencia como desplazamientos de DC y artefactos de movimiento, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia sin distorsionar la señal ECG, y un filtro IIR notch a 50 Hz para eliminar interferencias específicas de la línea eléctrica. Esta combinación de filtros asegura que la señal ECG durante el ejercicio sea lo más limpia y precisa posible, facilitando un análisis confiable al eliminar tanto el ruido general como las interferencias específicas sin afectar las características esenciales de la señal.
 
 ---
 
@@ -171,16 +171,16 @@ Al analizar el ECG luego de la respiración, se optó por un filtro pasa-bajo Bu
 
 | Dominio del Tiempo | Dominio de la Frecuencia (Raw) | Dominio de la Frecuencia (Filtrada) | Comparación de Señales |
 |--------------------|---------------------------------|-------------------------------------|------------------------|
-| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/raw.png) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/ft.png) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/ft-filter.png) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/e978bb50de06bc5385ebe88109682c92ebe0ab9b/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/comparison.png) |
+| ![Dominio del Tiempo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/1.jpg) | ![Dominio de la Frecuencia Raw](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/2.jpg) | ![Dominio de la Frecuencia Filtrada](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/3.jpg) | ![Comparación](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/4.jpg) |
 
 #### Análisis del Filtro
 
 | Diagrama de Bode | Diagrama de Polos y Ceros |
 |------------------|---------------------------|
-| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/bode.png) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/50916b5b13ef5b6e6cd05f640026ca95d59b2cb4/ISB/Laboratorios/L7_procesamiento_de_se%C3%B1ales/img-piero/ECG/ejerc/ceros.png) |
+| ![Diagrama de Bode](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/5.jpg) | ![Diagrama de Polos y Ceros](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L7_procesamiento_de_señales/Imagenes_Italo/ECG/Ejercicio/6.jpg) |
 
 #### Justificación de los Filtros
-En el análisis del ECG luego de ejercicio, se implementaron filtros pasa-alto FIR para eliminar las fluctuaciones de la línea base a frecuencias muy bajas, filtros pasa-bajo FIR para conservar las características esenciales del ECG mientras se atenúa el ruido de alta frecuencia, y un filtro Notch IIR para eliminar eficazmente el ruido de 50 Hz cuando era necesario, asegurando así una señal de alta calidad para evaluar los efectos del ejercicio en la actividad cardíaca.
+He seleccionado un filtro IIR pasa altos para eliminar componentes de baja frecuencia c, un filtro FIR pasa bajos a 50 Hz para reducir el ruido de alta frecuencia, y un filtro IIR notch de 50 a 60Hz. Esta combinación de filtros asegura que la señal ECG durante el ejercicio sea lo más limpia y precisa posible, esto me facilita un análisis confiable al eliminar tanto el ruido general como las interferencias específicas sin afectar las características esenciales de la señal.
 
 ---
 
