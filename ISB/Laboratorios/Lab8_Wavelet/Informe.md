@@ -3,13 +3,14 @@
 ## Tabla de Contenidos
 
 1. [Introducción](#1-introducción)
-2. [Objetivos](#2-objetivos)
-3. [Materiales y equipos](#3-materiales-y-equipos)
-4. [Metodología](#4-metodología)
-5. [Resultados](#5-resultados)
-6. [Discusión](#6-discusión)
-7. [Conclusiones](#7-conclusiones)
-8. [Bibliografía](#8-bibliografía)
+2. [Marco teórico](marco_teorico)
+3. [Objetivos](#2-objetivos)
+4. [Materiales y equipos](#3-materiales-y-equipos)
+5. [Metodología](#4-metodología)
+6. [Resultados](#5-resultados)
+7. [Discusión](#6-discusión)
+8. [Conclusiones](#7-conclusiones)
+9. [Bibliografía](#8-bibliografía)
 
 
 ## 1. Introducción
