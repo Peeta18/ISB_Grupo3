@@ -3,7 +3,7 @@
 ## Tabla de Contenidos
 
 1. [Introducción](#1-introducción)
-2. [Marco teórico](#2-marco_teorico)
+2. [Marco teórico](#2-marco_teórico)
 3. [Objetivos](#3-objetivos)
 4. [Materiales y equipos](#4-materiales-y-equipos)
 5. [Metodología](#5-metodología)
