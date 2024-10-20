@@ -3,19 +3,22 @@
 ## Tabla de Contenidos
 
 1. [Introducción](#1-introducción)
-2. [Marco teórico](marco_teorico)
-3. [Objetivos](#2-objetivos)
-4. [Materiales y equipos](#3-materiales-y-equipos)
-5. [Metodología](#4-metodología)
-6. [Resultados](#5-resultados)
-7. [Discusión](#6-discusión)
-8. [Conclusiones](#7-conclusiones)
-9. [Bibliografía](#8-bibliografía)
+2. [Marco teórico](#2-marco_teorico)
+3. [Objetivos](#3-objetivos)
+4. [Materiales y equipos](#4-materiales-y-equipos)
+5. [Metodología](#5-metodología)
+6. [Resultados](#6-resultados)
+7. [Discusión](#7-discusión)
+8. [Conclusiones](#8-conclusiones)
+9. [Bibliografía](#9-bibliografía)
 
 
 ## 1. Introducción
 
 El procesamiento de bioseñales ha experimentado un rápido desarrollo, lo que ha mejorado significativamente la comprensión de procesos biológicos complejos en diversos campos. Un enfoque destacado en el análisis tiempo-frecuencia es la transformada Wavelet, que se ha empleado extensamente en varias áreas del procesamiento de bioseñales. Entre estas aplicaciones se incluyen estudios en electromiografía (EMG), electroencefalografía (EEG) y electrocardiografía (ECG), demostrando su versatilidad y potencia en el manejo de datos biológicos complejos [1].
+
+## 2. Marco teórico
+
 
 ## 2. Objetivos
 - Implementar y evaluar la eficacia de filtros wavelet para el procesamiento y mejora de la calidad de señales electrocardiográficas (ECG), electromiográficas (EMG) y electroencefalográficas (EEG), enfocándose en la reducción de ruido, la extracción de características relevantes y la mejora de la precisión en la detección de eventos clínicos significativos.
