@@ -22,12 +22,23 @@ El presente informe revisa los principios de los filtros wavelet, su aplicación
 ## 2. Marco teórico
 
 1. ¿Qué es la transformada de Wavelet?
-
+La transformada de Wavelet es una técnica matemática de análisis de señales no estacionarias que permite descomponer una señal en diferentes niveles de frecuencia y tiempo, manteniendo la localización temporal de las características de la señal. A diferencia de la transformada de Fourier, que solo proporciona información en el dominio de la frecuencia, la transformada de Wavelet permite realizar un análisis multiresolución, lo que la hace adecuada para señales con variaciones bruscas o transitorias​. [1][2][3]
 
 2. ¿Cuáles son sus características?
+La transformada de Wavelet destaca por una serie de características únicas que la hacen adecuada para el análisis de señales no estacionarias:
+
+- Localización tiempo-frecuencia: A diferencia de la transformada de Fourier, que transforma una señal al dominio de la frecuencia, la transformada Wavelet proporciona información tanto en el dominio del tiempo como en el de la frecuencia. Esto es crucial para señales no estacionarias, que presentan cambios en la frecuencia a lo largo del tiempo. La Wavelet divide la señal en diferentes componentes de frecuencia, mientras mantiene la localización temporal, permitiendo identificar cuándo ocurren eventos específicos en la señal​.
+
+- Análisis multiresolución: Uno de los aspectos más poderosos de la transformada Wavelet es su capacidad para realizar un análisis multiresolución. Esto significa que la señal se analiza a diferentes escalas, utilizando ventanas más amplias para bajas frecuencias y más estrechas para altas frecuencias. Esto es especialmente útil en el análisis de señales como EEG, ECG o EMG, donde los eventos de interés pueden variar en su frecuencia y duración​.
+
+- Adaptabilidad: La Wavelet es capaz de ajustar dinámicamente el tamaño de la ventana de análisis según la frecuencia de la señal. Para bajas frecuencias, donde es importante obtener información de largo plazo, se utilizan ventanas más largas. En cambio, para altas frecuencias, donde se requiere una mayor precisión temporal, se utilizan ventanas más cortas. Esta adaptabilidad ofrece una ventaja sobre la transformada de Fourier con ventana, que utiliza un tamaño de ventana fijo.
+
+- Capacidad de detección de transitorios: Las señales transitorias, como picos, rupturas o eventos cortos en una señal, son mejor detectadas por la Wavelet, que puede enfocarse en los cambios abruptos de la señal. Esto es particularmente importante en áreas como la sismología, la medicina y la ingeniería eléctrica​.
+
+- Invertibilidad: La transformada Wavelet, al igual que la transformada de Fourier, es invertible, lo que significa que una señal puede ser reconstruida a partir de sus coeficientes de Wavelet sin pérdida de información, siempre y cuando no se alteren estos coeficientes​
 
    
-3. ¿Cuál es su clasificación?
+4. ¿Cuál es su clasificación?
    
 
 
