@@ -15,15 +15,22 @@
 
 ## 1. Introducción
 
-El procesamiento de bioseñales ha experimentado un rápido desarrollo, lo que ha mejorado significativamente la comprensión de procesos biológicos complejos en diversos campos. Un enfoque destacado en el análisis tiempo-frecuencia es la transformada Wavelet, que se ha empleado extensamente en varias áreas del procesamiento de bioseñales. Entre estas aplicaciones se incluyen estudios en electromiografía (EMG), electroencefalografía (EEG) y electrocardiografía (ECG), demostrando su versatilidad y potencia en el manejo de datos biológicos complejos [1].
+El procesamiento de bioseñales ha avanzado considerablemente, especialmente en el análisis de señales como EMG, EEG y ECG, fundamentales para el monitoreo de funciones musculares, cardíacas y cerebrales. La transformada Wavelet ha surgido como una herramienta clave para descomponer estas señales en sus componentes de frecuencia, lo que permite eliminar ruido y mejorar la precisión del análisis.
+
+El presente informe revisa los principios de los filtros wavelet, su aplicación en el procesamiento de señales biomédicas, y evalúa los resultados obtenidos, ofreciendo una visión integral sobre cómo esta técnica puede ser utilizada tanto en la investigación como en el entorno clínico.
 
 ## 2. Marco teórico
 
 
-## 2. Objetivos
-- Implementar y evaluar la eficacia de filtros wavelet para el procesamiento y mejora de la calidad de señales electrocardiográficas (ECG), electromiográficas (EMG) y electroencefalográficas (EEG), enfocándose en la reducción de ruido, la extracción de características relevantes y la mejora de la precisión en la detección de eventos clínicos significativos.
-  
-## 3. Materiales y equipos
+
+
+## 3. Objetivos
+
+1. Implementar los principios de los filtros wavelet para mejorar señales ECG, EMG y EEG.
+2. Aplicar filtros wavelet para reducir ruido y extraer características relevantes en las señales.
+3. Evaluar la eficacia de los filtros wavelet en la mejora y análisis de señales biomédicas.
+   
+## 4. Materiales y equipos
 
 <div align="center">
 
@@ -36,9 +43,9 @@ El procesamiento de bioseñales ha experimentado un rápido desarrollo, lo que h
 </div>
 
 
-## 4. Metodología
+## 5. Metodología
 
-### 4.1. Análisis de Señales ECG
+### 5.1. Análisis de Señales ECG
 
 Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes condiciones experimentales: en estado basal (reposo), durante respiración controlada y después de ejercicio. Estas señales se almacenaron en formato de texto y se muestrearon a una frecuencia de 1000 Hz. Este muestreo asegura una adecuada captura de la dinámica cardíaca y cumple con el teorema de Nyquist, evitando la pérdida de información relevante durante el proceso de digitalización.
 
@@ -62,7 +69,7 @@ Para el procesamiento de las señales ECG, se implementó un enfoque basado en l
 Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visualizadas para permitir una comparación directa de los efectos del filtrado. Este análisis visual enfatizó la capacidad del filtro wavelet para preservar las formas características de la señal ECG y su efectividad en la eliminación del ruido, mejorando así la calidad de la señal para usos clínicos y de investigación.
 
 
-### 4.2. Análisis de Señales EMG:
+### 5.2. Análisis de Señales EMG:
 
 #### Adquisición de las señales
 
@@ -92,7 +99,7 @@ donde `w` son los coeficientes wavelet y `lambda` es el valor del umbral.
   4. **Extracción y Análisis**: Acá se calcula la energía de los coeficientes wavelet en cada nivel de descomposición como características: $$E_j = \sum_{k} (\text{coeff}_{j,k})^2$$
 Una vez con ello, se forma un vector de características con las energías de los diferentes niveles y otras posibles características relevantes [3]. 
 
-### 4.3. Análisis de Señales EEG:
+### 5.3. Análisis de Señales EEG:
 Las señales de electroencefalograma (EEG) fueron adquiridas durante diferentes condiciones experimentales: en estado basal (reposo), durante ciclos de abrir y cerrar ojos, y durante la resolución de preguntas matemáticas. Estas señales se almacenaron en formato de texto y se muestrearon a una frecuencia de 1000 Hz.
     
 
