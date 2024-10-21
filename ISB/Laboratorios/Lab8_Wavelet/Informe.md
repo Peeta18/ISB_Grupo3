@@ -7,10 +7,8 @@
 4. [Objetivos](#3-objetivos)
 5. [Materiales y equipos](#4-materiales-y-equipos)
 6. [Metodología](#5-metodología)
-7. [Resultados](#6-resultados)
-8. [Discusión](#7-discusión)
-9. [Conclusiones](#8-conclusiones)
-10. [Bibliografía](#9-bibliografía)
+7. [Conclusiones](#7-conclusiones)
+8. [Bibliografía](#8-bibliografía)
 
 
 ## 1. Introducción
@@ -124,4 +122,11 @@ Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visuali
 ### 5.3. Análisis de Señales EEG:
 
 
+
+
+
+
+
+
+## 8. Bibliografía
 
