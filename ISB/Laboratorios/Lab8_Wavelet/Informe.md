@@ -28,7 +28,7 @@ La transformada de Wavelet es una técnica matemática de análisis de señales 
 **2.2 ¿Cuáles son sus características?**
    
 <p align="justify">
-La transformada de Wavelet destaca por una serie de características únicas que la hacen adecuada para el análisis de señales no estacionarias:
+La transformada de Wavelet destaca por una serie de características únicas que la hacen adecuada para el análisis de señales no estacionarias: [1][2][4]
 
 - Localización tiempo-frecuencia: A diferencia de la transformada de Fourier, que transforma una señal al dominio de la frecuencia, la transformada Wavelet proporciona información tanto en el dominio del tiempo como en el de la frecuencia. Esto es crucial para señales no estacionarias, que presentan cambios en la frecuencia a lo largo del tiempo. La Wavelet divide la señal en diferentes componentes de frecuencia, mientras mantiene la localización temporal, permitiendo identificar cuándo ocurren eventos específicos en la señal​.
 
@@ -42,8 +42,8 @@ La transformada de Wavelet destaca por una serie de características únicas que
 
 
 **2.3 ¿Cuál es su clasificación?**
-La transformada de Wavelet se clasifica en diferentes tipos según cómo se implemente y utilice para el análisis de señales.
-Las principales clasificaciones incluyen:
+La transformada de Wavelet se clasifica en diferentes tipos según cómo se implemente y utilice para el análisis de señales. [4][2][3]
+Las principales clasificaciones incluyen: 
 
 - Transformada Wavelet Continua (CWT):
 La transformada Wavelet continua se utiliza para obtener una representación detallada de la señal en función de una escala continua de tiempo y frecuencia. Esta transformada es altamente redundante, ya que genera una gran cantidad de coeficientes que representan la señal en todas las posibles escalas y posiciones temporales. Aunque ofrece un análisis detallado, su alta redundancia la hace menos eficiente en términos de procesamiento y almacenamiento. La CWT es especialmente útil para aplicaciones donde se requiere una alta precisión en la localización tanto temporal como frecuencial​.
@@ -130,3 +130,7 @@ Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visuali
 
 ## 8. Bibliografía
 
+1. A. Fernández-Lavín and E. Ovando-Shelley, "Método de Filtrado con Wavelet para el Análisis de Señales," Conference Paper, Nov. 2019. [Online]. Available: https://www.researchgate.net/publication/337447627. [Accessed: Oct. 2024].
+2. D. M. Ballesteros Larrotta, "Aplicación de la transformada wavelet discreta en el filtrado de señales bioeléctricas," Umbral Científico, vol. 5, pp. 92-98, Dec. 2004. [Online]. Available: http://www.redalyc.org/articulo.oa?id=30400512. [Accessed: Oct. 2024].
+3. O. J. Olarte Rodríguez and D. A. Sierra Bueno, "Determinación de los Parámetros Asociados al Filtro Wavelet por Umbralización Aplicado a Filtrado de Interferencias Electrocardiográficas," Revista de la Facultad de Ingenierías Físico Mecánicas, vol. 6, no. 2, pp. 33-44, Dec. 2007.
+4. S. Kouro and R. Musalem, "Tutorial introductorio a la teoría de Wavelet," Técnicas Modernas en Automática, Universidad Técnica Federico Santa María, Jul. 2002.
