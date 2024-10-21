@@ -107,9 +107,9 @@ Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visuali
 
 | Momento             | Señal Cruda   |
 |---------------------|---------------|
-| Reposo            | ![ECG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_base_original.png)         
-| Estado basal    | ![ECG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_pestaneando_original.png)   | 
-| Ejercicio  | ![ECG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_preguntas_original.png)   |
+| Reposo            | ![ECG](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/Se%C3%B1al_reposo_ECG.jpeg)         
+| Estado basal    | ![ECG](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/Se%C3%B1al_estadobasal_ECG.jpeg)   | 
+| Ejercicio  | ![ECG](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/Se%C3%B1al_ejercicio_ECG.jpeg)   |
 
 
 
