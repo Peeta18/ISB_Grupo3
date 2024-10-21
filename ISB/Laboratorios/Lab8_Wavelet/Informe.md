@@ -81,22 +81,22 @@ Este método se utiliza para la eliminación de ruido en señales. En el proceso
 
 ### 5.1. Análisis de Señales ECG
 
-Las señales de electrocardiograma (ECG) fueron adquiridas durante diferentes condiciones experimentales: en estado basal (reposo), durante respiración controlada y después de ejercicio. Estas señales se almacenaron en formato de texto y se muestrearon a una frecuencia de 1000 Hz. Este muestreo asegura una adecuada captura de la dinámica cardíaca y cumple con el teorema de Nyquist, evitando la pérdida de información relevante durante el proceso de digitalización.
+El análisis de señales ECG es crucial en la medicina actual, ya que permite la detección y monitoreo de una amplia variedad de condiciones cardíacas de manera precisa y no invasiva. Con el avance de la tecnología y los métodos de procesamiento de señales, la capacidad de analizar y diagnosticar problemas cardíacos se ha vuelto más eficiente, mejorando la calidad de vida de millones de personas.
 
 #### Aplicación del Filtro Wavelet
 Para el procesamiento de las señales ECG, se implementó un enfoque basado en la transformada wavelet, utilizando específicamente la wavelet biortogonal 3.1 debido a sus propiedades de simetría y efectividad en el manejo de señales no estacionarias [2]. El proceso se divide en varias etapas clave:
 
 1. **Descomposición Wavelet:**
-   - La señal de ECG se descompuso utilizando la transformada wavelet biortogonal 3.1. Este proceso permite separar las componentes de frecuencia de la señal en diferentes niveles, aislando los detalles y las aproximaciones de frecuencia baja y alta.
+   - La descomposición de la señal ECG se realiza utilizando la transformada wavelet biortogonal 3.1, como se sugiere en el paper. Esta wavelet es adecuada por sus propiedades de simetría, lo cual ayuda a preservar las características importantes de la señal ECG, como los picos y las transiciones abruptas. En el código proporcionado, utilizaste 'db6', que también es una opción válida, pero si queremos seguir estrictamente el paper, debemos cambiar a 'bior3.1' para la descomposición.
 
 2. **Umbralización:**
-   - Se aplicó una técnica de umbralización suave a los coeficientes wavelet para atenuar o eliminar el ruido. El umbral utilizado se basó en la fórmula `sqrt(2 * log(longitud de la señal))` , optimizada para la reducción del ruido mientras se conservan las características fundamentales de la señal ECG.
+   - El paper menciona una técnica de umbralización suave basada en la fórmula: `umbral= std(señal)*sqrt(2 * log(número de muestras))`. Esto es congruente con lo que se hizo en el código proporcionado. Este umbral ayuda a reducir el ruido sin perder información relevante de la señal, como los picos del complejo QRS. Es importante asegurarse de que el nivel de umbral sea lo suficientemente bajo para atenuar el ruido pero no tan alto como para eliminar detalles importantes de la señal.
 
 3. **Reconstrucción:**
-   - Utilizando los coeficientes wavelet modificados, se reconstruyó la señal filtrada. Este paso es crucial para asegurar que los elementos esenciales de la señal, como los picos R, Q y S del complejo QRS, se mantengan claros y bien definidos, facilitando su identificación y análisis.
+   - Una vez aplicados los umbrales, los coeficientes wavelet modificados se reconstruyen para formar la señal filtrada. Este paso es crucial para mantener las características esenciales de la señal, y el uso de wavelets biortogonales (como 'bior3.1') permite una reconstrucción precisa sin distorsión de las formas de onda clave del ECG.
 
 4. **Evaluación de la Frecuencia:**
-   - La señal filtrada fue analizada mediante la Transformada Rápida de Fourier (FFT) para verificar la preservación de los componentes de frecuencia relevantes, especialmente aquellos asociados con el complejo QRS, crucial para el diagnóstico cardíaco.
+   - Finalmente, el análisis de la señal filtrada se realiza utilizando la Transformada Rápida de Fourier (FFT) para verificar la preservación de los picos y características relevantes del ECG. Esto es fundamental para evaluar las frecuencias relacionadas con eventos cardíacos, como el complejo QRS, y es esencial para diagnósticos clínicos precisos.
 
 #### Visualización
 
