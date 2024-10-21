@@ -14,19 +14,21 @@
 
 
 ## 1. Introducción
-
+<p align="justify">
 El procesamiento de bioseñales ha avanzado considerablemente, especialmente en el análisis de señales como EMG, EEG y ECG, fundamentales para el monitoreo de funciones musculares, cardíacas y cerebrales. La transformada Wavelet ha surgido como una herramienta clave para descomponer estas señales en sus componentes de frecuencia, lo que permite eliminar ruido y mejorar la precisión del análisis.
 
 El presente informe revisa los principios de los filtros wavelet, su aplicación en el procesamiento de señales biomédicas, y evalúa los resultados obtenidos, ofreciendo una visión integral sobre cómo esta técnica puede ser utilizada tanto en la investigación como en el entorno clínico.
+</p>
 
 ## 2. Marco teórico
 
 1. ¿Qué es la transformada de Wavelet?
-
+<p align="justify">
 La transformada de Wavelet es una técnica matemática de análisis de señales no estacionarias que permite descomponer una señal en diferentes niveles de frecuencia y tiempo, manteniendo la localización temporal de las características de la señal. A diferencia de la transformada de Fourier, que solo proporciona información en el dominio de la frecuencia, la transformada de Wavelet permite realizar un análisis multiresolución, lo que la hace adecuada para señales con variaciones bruscas o transitorias​. [1][2][3]
+</p>
 
 2. ¿Cuáles son sus características?
-
+<p align="justify">
 La transformada de Wavelet destaca por una serie de características únicas que la hacen adecuada para el análisis de señales no estacionarias:
 
 - Localización tiempo-frecuencia: A diferencia de la transformada de Fourier, que transforma una señal al dominio de la frecuencia, la transformada Wavelet proporciona información tanto en el dominio del tiempo como en el de la frecuencia. Esto es crucial para señales no estacionarias, que presentan cambios en la frecuencia a lo largo del tiempo. La Wavelet divide la señal en diferentes componentes de frecuencia, mientras mantiene la localización temporal, permitiendo identificar cuándo ocurren eventos específicos en la señal​.
@@ -38,10 +40,11 @@ La transformada de Wavelet destaca por una serie de características únicas que
 - Capacidad de detección de transitorios: Las señales transitorias, como picos, rupturas o eventos cortos en una señal, son mejor detectadas por la Wavelet, que puede enfocarse en los cambios abruptos de la señal. Esto es particularmente importante en áreas como la sismología, la medicina y la ingeniería eléctrica​.
 
 - Invertibilidad: La transformada Wavelet, al igual que la transformada de Fourier, es invertible, lo que significa que una señal puede ser reconstruida a partir de sus coeficientes de Wavelet sin pérdida de información, siempre y cuando no se alteren estos coeficientes​
+</p>
 
    
 3. ¿Cuál es su clasificación?
-
+<p align="justify">
 La transformada de Wavelet se clasifica en diferentes tipos según cómo se implemente y utilice para el análisis de señales. Las principales clasificaciones incluyen:
 
 - Transformada Wavelet Continua (CWT):
@@ -55,6 +58,7 @@ La SWT, también conocida como transformada Wavelet invariante al desplazamiento
 
 - Wavelet Shrinkage (Umbralización por Wavelet):
 Este método se utiliza para la eliminación de ruido en señales. En el proceso de shrinkage, se aplican umbrales a los coeficientes Wavelet para suprimir los que contienen principalmente ruido, mientras se conservan aquellos que representan la señal útil. Esta técnica se emplea en señales como ECG y EEG, donde es fundamental eliminar interferencias y artefactos sin comprometer la integridad de la señal​.
+</p>
 
 
 ## 3. Objetivos
