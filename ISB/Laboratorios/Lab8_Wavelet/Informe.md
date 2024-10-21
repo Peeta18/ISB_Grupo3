@@ -36,23 +36,19 @@ La transformada de Wavelet destaca por una serie de características únicas que
 </p>
 
 <p align="justify">
-
 - Análisis multiresolución: Uno de los aspectos más poderosos de la transformada Wavelet es su capacidad para realizar un análisis multiresolución. Esto significa que la señal se analiza a diferentes escalas, utilizando ventanas más amplias para bajas frecuencias y más estrechas para altas frecuencias. Esto es especialmente útil en el análisis de señales como EEG, ECG o EMG, donde los eventos de interés pueden variar en su frecuencia y duración​.
 </p>
 
 <p align="justify">
-
 - Adaptabilidad: La Wavelet es capaz de ajustar dinámicamente el tamaño de la ventana de análisis según la frecuencia de la señal. Para bajas frecuencias, donde es importante obtener información de largo plazo, se utilizan ventanas más largas. En cambio, para altas frecuencias, donde se requiere una mayor precisión temporal, se utilizan ventanas más cortas. Esta adaptabilidad ofrece una ventaja sobre la transformada de Fourier con ventana, que utiliza un tamaño de ventana fijo.
 </p>
 
 
 <p align="justify">
-
 - Capacidad de detección de transitorios: Las señales transitorias, como picos, rupturas o eventos cortos en una señal, son mejor detectadas por la Wavelet, que puede enfocarse en los cambios abruptos de la señal. Esto es particularmente importante en áreas como la sismología, la medicina y la ingeniería eléctrica​.
 </p>
 
 <p align="justify">
-
 - Invertibilidad: La transformada Wavelet, al igual que la transformada de Fourier, es invertible, lo que significa que una señal puede ser reconstruida a partir de sus coeficientes de Wavelet sin pérdida de información, siempre y cuando no se alteren estos coeficientes​
 </p>
 
