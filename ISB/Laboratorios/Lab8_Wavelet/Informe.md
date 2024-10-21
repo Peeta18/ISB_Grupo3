@@ -30,8 +30,8 @@ La transformada de Wavelet es una técnica matemática de análisis de señales 
 2. ¿Cuáles son sus características?
 <p align="justify">
 La transformada de Wavelet destaca por una serie de características únicas que la hacen adecuada para el análisis de señales no estacionarias:
-<p align="justify">
 
+<p align="justify">
 - Localización tiempo-frecuencia: A diferencia de la transformada de Fourier, que transforma una señal al dominio de la frecuencia, la transformada Wavelet proporciona información tanto en el dominio del tiempo como en el de la frecuencia. Esto es crucial para señales no estacionarias, que presentan cambios en la frecuencia a lo largo del tiempo. La Wavelet divide la señal en diferentes componentes de frecuencia, mientras mantiene la localización temporal, permitiendo identificar cuándo ocurren eventos específicos en la señal​.
 </p>
 
