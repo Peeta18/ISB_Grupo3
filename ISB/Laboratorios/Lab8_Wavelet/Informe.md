@@ -22,9 +22,11 @@ El presente informe revisa los principios de los filtros wavelet, su aplicación
 ## 2. Marco teórico
 
 1. ¿Qué es la transformada de Wavelet?
+
 La transformada de Wavelet es una técnica matemática de análisis de señales no estacionarias que permite descomponer una señal en diferentes niveles de frecuencia y tiempo, manteniendo la localización temporal de las características de la señal. A diferencia de la transformada de Fourier, que solo proporciona información en el dominio de la frecuencia, la transformada de Wavelet permite realizar un análisis multiresolución, lo que la hace adecuada para señales con variaciones bruscas o transitorias​. [1][2][3]
 
 2. ¿Cuáles son sus características?
+
 La transformada de Wavelet destaca por una serie de características únicas que la hacen adecuada para el análisis de señales no estacionarias:
 
 - Localización tiempo-frecuencia: A diferencia de la transformada de Fourier, que transforma una señal al dominio de la frecuencia, la transformada Wavelet proporciona información tanto en el dominio del tiempo como en el de la frecuencia. Esto es crucial para señales no estacionarias, que presentan cambios en la frecuencia a lo largo del tiempo. La Wavelet divide la señal en diferentes componentes de frecuencia, mientras mantiene la localización temporal, permitiendo identificar cuándo ocurren eventos específicos en la señal​.
@@ -38,8 +40,21 @@ La transformada de Wavelet destaca por una serie de características únicas que
 - Invertibilidad: La transformada Wavelet, al igual que la transformada de Fourier, es invertible, lo que significa que una señal puede ser reconstruida a partir de sus coeficientes de Wavelet sin pérdida de información, siempre y cuando no se alteren estos coeficientes​
 
    
-4. ¿Cuál es su clasificación?
-   
+3. ¿Cuál es su clasificación?
+
+La transformada de Wavelet se clasifica en diferentes tipos según cómo se implemente y utilice para el análisis de señales. Las principales clasificaciones incluyen:
+
+- Transformada Wavelet Continua (CWT):
+La transformada Wavelet continua se utiliza para obtener una representación detallada de la señal en función de una escala continua de tiempo y frecuencia. Esta transformada es altamente redundante, ya que genera una gran cantidad de coeficientes que representan la señal en todas las posibles escalas y posiciones temporales. Aunque ofrece un análisis detallado, su alta redundancia la hace menos eficiente en términos de procesamiento y almacenamiento. La CWT es especialmente útil para aplicaciones donde se requiere una alta precisión en la localización tanto temporal como frecuencial​.
+
+- Transformada Wavelet Discreta (DWT):
+A diferencia de la CWT, la transformada Wavelet discreta trabaja con un conjunto discreto de escalas y posiciones. Esto reduce significativamente la redundancia y hace que la DWT sea más eficiente en términos de cálculo y almacenamiento. La DWT se basa en un banco de filtros que divide la señal en componentes de baja y alta frecuencia, aplicando submuestreo para eliminar redundancias. Este tipo de transformada es muy utilizada en el procesamiento de señales biomédicas y en la compresión de datos​.
+
+- Transformada Wavelet Estacionaria (SWT):
+La SWT, también conocida como transformada Wavelet invariante al desplazamiento, es una variante de la DWT que no utiliza submuestreo. Esto significa que no se pierde información sobre la localización temporal, lo que la hace especialmente útil cuando se requiere un análisis detallado sin la pérdida de datos por desplazamiento. Sin embargo, esta ventaja viene a costa de una mayor redundancia, lo que aumenta los requerimientos de almacenamiento y procesamiento​.
+
+- Wavelet Shrinkage (Umbralización por Wavelet):
+Este método se utiliza para la eliminación de ruido en señales. En el proceso de shrinkage, se aplican umbrales a los coeficientes Wavelet para suprimir los que contienen principalmente ruido, mientras se conservan aquellos que representan la señal útil. Esta técnica se emplea en señales como ECG y EEG, donde es fundamental eliminar interferencias y artefactos sin comprometer la integridad de la señal​.
 
 
 ## 3. Objetivos
