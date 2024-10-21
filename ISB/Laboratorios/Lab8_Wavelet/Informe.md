@@ -104,6 +104,17 @@ Para el procesamiento de las señales ECG, se implementó un enfoque basado en l
 
 Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visualizadas para permitir una comparación directa de los efectos del filtrado. Este análisis visual enfatizó la capacidad del filtro wavelet para preservar las formas características de la señal ECG y su efectividad en la eliminación del ruido, mejorando así la calidad de la señal para usos clínicos y de investigación.
 
+Las señales EEG se encuentran [aquí](https://github.com/angiet04/Intro_se-ales06/tree/main/ISB/Laboratorios/Laboratorio6_filtros/data/EEG)
+. Estas señales fueron filtradas a continuación, utilizando [este código en python](https://github.com/angiet04/Intro_se-ales06/blob/main/ISB/Laboratorios/Laboratorio7/Wavelet_EEG.ipynb):
+
+| Momento             | Señal Cruda   | Filtro Wavelet  |
+|---------------------|---------------|-----------------|
+| Descanso            | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_base_original.png)         | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_base_filtrada.png)     |
+| Pestañeando    | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_pestaneando_original.png)   |  ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_pestaneando_filtrada.png)     |
+| Respondiendo a preguntas  | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_preguntas_original.png)   | ![EEG](https://github.com/angiet04/Intro_se-ales06/blob/main/Im%C3%A1genes/Laboratorio7/EEG_preguntas_filtrada.png) |
+
+
+
 
 ### 5.2. Análisis de Señales EMG:
 
