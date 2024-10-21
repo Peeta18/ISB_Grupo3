@@ -22,12 +22,13 @@ El presente informe revisa los principios de los filtros wavelet, su aplicación
 
 ## 2. Marco teórico
 
-1. ¿Qué es la transformada de Wavelet?
+**2.1 ¿Qué es la transformada de Wavelet?**
 <p align="justify">
 La transformada de Wavelet es una técnica matemática de análisis de señales no estacionarias que permite descomponer una señal en diferentes niveles de frecuencia y tiempo, manteniendo la localización temporal de las características de la señal. A diferencia de la transformada de Fourier, que solo proporciona información en el dominio de la frecuencia, la transformada de Wavelet permite realizar un análisis multiresolución, lo que la hace adecuada para señales con variaciones bruscas o transitorias​. [1][2][3]
 </p>
 
-2. ¿Cuáles son sus características?
+**2.2 ¿Cuáles son sus características?**
+   
 <p align="justify">
 La transformada de Wavelet destaca por una serie de características únicas que la hacen adecuada para el análisis de señales no estacionarias:
 
@@ -42,8 +43,7 @@ La transformada de Wavelet destaca por una serie de características únicas que
 - Invertibilidad: La transformada Wavelet, al igual que la transformada de Fourier, es invertible, lo que significa que una señal puede ser reconstruida a partir de sus coeficientes de Wavelet sin pérdida de información, siempre y cuando no se alteren estos coeficientes​
 
 
-   
-3. ¿Cuál es su clasificación?
+**2.3 ¿Cuál es su clasificación?**
 La transformada de Wavelet se clasifica en diferentes tipos según cómo se implemente y utilice para el análisis de señales.
 Las principales clasificaciones incluyen:
 
