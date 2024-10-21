@@ -21,7 +21,14 @@ El presente informe revisa los principios de los filtros wavelet, su aplicación
 
 ## 2. Marco teórico
 
+1. ¿Qué es la transformada de Wavelet?
 
+
+2. ¿Cuáles son sus características?
+
+   
+3. ¿Cuál es su clasificación?
+   
 
 
 ## 3. Objetivos
