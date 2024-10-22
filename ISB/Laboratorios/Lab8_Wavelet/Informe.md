@@ -4,11 +4,11 @@
 
 1. [Introducción](#1-introducción)
 2. [Marco teórico](#2-marco-teórico)
-4. [Objetivos](#3-objetivos)
-5. [Materiales y equipos](#4-materiales-y-equipos)
-6. [Metodología](#5-metodología)
-7. [Conclusiones](#7-conclusiones)
-8. [Bibliografía](#8-bibliografía)
+3. [Objetivos](#3-objetivos)
+4. [Materiales y equipos](#4-materiales-y-equipos)
+5. [Metodología](#5-metodología)
+6. [Conclusiones](#7-conclusiones)
+7. [Bibliografía](#8-bibliografía)
 
 
 ## 1. Introducción
@@ -127,8 +127,14 @@ Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visuali
 
 
 
+### 6. Conclusiones
 
-## 8. Bibliografía
+
+
+
+
+
+## 7. Bibliografía
 
 1. A. Fernández-Lavín and E. Ovando-Shelley, "Método de Filtrado con Wavelet para el Análisis de Señales," Conference Paper, Nov. 2019. [Online]. Available: https://www.researchgate.net/publication/337447627. [Accessed: Oct. 2024].
 2. D. M. Ballesteros Larrotta, "Aplicación de la transformada wavelet discreta en el filtrado de señales bioeléctricas," Umbral Científico, vol. 5, pp. 92-98, Dec. 2004. [Online]. Available: http://www.redalyc.org/articulo.oa?id=30400512. [Accessed: Oct. 2024].
