@@ -172,7 +172,17 @@ El uso del filtro wavelet permitió reducir de manera significativa los artefact
 
 
 
-### 6. Conclusiones
+## 6. Conclusiones
+
+- La Transformada Wavelet Discreta ha demostrado ser efectiva en mejorar la precisión y calidad de señales biomédicas como EEG, ECG y EMG.
+
+- Los filtros wavelet se ajustan dinámicamente según la frecuencia de la señal, ofreciendo soluciones personalizadas para cada tipo de señal biomédica.
+
+- La aplicación de umbrales duros en los filtros wavelet ha resultado en una notable mejora de la relación señal-ruido, conservando las características esenciales de las señales.
+
+- Las comparaciones visuales antes y después del procesamiento nos confirman la capacidad de los filtros wavelet para eliminar efectivamente el ruido sin perder información importante.
+
+- La optimización de los parámetros del filtro wavelet y la exploración de técnicas de umbralización avanzadas tienen bastante potencial para futuras investigaciones.
 
 
 
