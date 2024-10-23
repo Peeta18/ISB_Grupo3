@@ -139,7 +139,24 @@ Ninguna de las técnicas probadas logra mejorar significativamente el SNR post-d
 
 ### 5.3. Análisis de Señales EEG:
 
-En esta sección se presentan los resultados del análisis de las señales EEG obtenidas durante diferentes actividades. Las señales incluyen el estado basal, parpadeo, y respuestas a preguntas simples y complejas. A continuación se muestra una tabla con las señales correspondientes.
+### 5.3. Análisis de Señales EEG:
+
+El análisis de señales EEG es fundamental en neurociencia, ya que permite monitorear la actividad eléctrica cerebral de manera no invasiva. Sin embargo, las señales EEG son altamente susceptibles al ruido y a los artefactos, lo que dificulta su interpretación sin un adecuado procesamiento de la señal. La aplicación de filtros basados en la **Transformada Wavelet** ha demostrado ser efectiva para eliminar ruido y preservar las características esenciales de las señales EEG, lo que permite un análisis más preciso.
+
+#### Aplicación del Filtro Wavelet
+En este estudio, se implementó un filtro basado en la **Transformada Wavelet Discreta (DWT)** utilizando el wavelet **Symlet 4**, el cual es adecuado para el procesamiento de señales no estacionarias como el EEG. Este wavelet ofrece un buen balance entre la preservación de los detalles de la señal y la reducción del ruido. A continuación, se describen las etapas clave del proceso de filtrado:
+
+1. **Descomposición Wavelet**:
+   - La señal EEG fue descompuesta utilizando la DWT, separando los coeficientes en componentes de baja y alta frecuencia. Este paso es crucial para identificar las frecuencias asociadas a artefactos y ruido, así como aquellas que contienen información relevante para el análisis.
+
+2. **Umbralización**:
+   - Se aplicó un **umbral duro** a los coeficientes de detalle (altas frecuencias) para eliminar el ruido. La fórmula del umbral utilizado fue \( \sigma \sqrt{2 \log n} \), donde \( \sigma \) es una estimación del ruido y \( n \) es la longitud de la señal. Este umbral reduce el ruido sin eliminar los componentes significativos de la señal.
+
+3. **Reconstrucción**:
+   - Posteriormente, la señal fue reconstruida a partir de los coeficientes filtrados mediante la inversa de la DWT, lo que permitió obtener una señal limpia, libre de artefactos y preservando las características importantes para el análisis.
+
+#### Visualización
+Se analizaron cuatro tipos de señales EEG capturadas durante diferentes actividades: estado basal, parpadeo, respuestas a preguntas simples y respuestas a preguntas complejas. A continuación, se presentan las señales correspondientes antes y después de aplicar el filtro wavelet, lo que permitió observar una mejora significativa en la calidad de las señales.
 
 | Actividad               | Imagen de la señal EEG                               |
 |-------------------------|------------------------------------------------------|
@@ -147,6 +164,9 @@ En esta sección se presentan los resultados del análisis de las señales EEG o
 | **Parpadeo**             | ![Parpadeo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/images/eeg/Parpadeo.jpg) |
 | **Preguntas Simples**    | ![Preguntas Simples](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/images/eeg/Preguntas_Simples.jpg) |
 | **Preguntas Complejas**  | ![Preguntas Complejas](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/images/eeg/Preguntas_Complejas.jpg) |
+
+El uso del filtro wavelet permitió reducir de manera significativa los artefactos presentes en las señales EEG, mejorando así la calidad de los datos y facilitando la extracción de características relevantes para su análisis.
+
 
 
 
