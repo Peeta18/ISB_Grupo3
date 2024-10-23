@@ -113,6 +113,8 @@ Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visuali
 
 ### 5.2. Análisis de Señales EMG:
 
+#### Aplicación del Filtro Wavelet
+Para el procesamiento de las señales EMG, se implementó un enfoque basado en la transformada wavelet, utilizando específicamente la wavelet Daubechies de séptimo orden y descomposición wavelet de cuarto nivel, debido a su buena capacidad de extracción de características [5]
 
 
 
@@ -140,3 +142,5 @@ Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visuali
 2. D. M. Ballesteros Larrotta, "Aplicación de la transformada wavelet discreta en el filtrado de señales bioeléctricas," Umbral Científico, vol. 5, pp. 92-98, Dec. 2004. [Online]. Available: http://www.redalyc.org/articulo.oa?id=30400512. [Accessed: Oct. 2024].
 3. O. J. Olarte Rodríguez and D. A. Sierra Bueno, "Determinación de los Parámetros Asociados al Filtro Wavelet por Umbralización Aplicado a Filtrado de Interferencias Electrocardiográficas," Revista de la Facultad de Ingenierías Físico Mecánicas, vol. 6, no. 2, pp. 33-44, Dec. 2007.
 4. S. Kouro and R. Musalem, "Tutorial introductorio a la teoría de Wavelet," Técnicas Modernas en Automática, Universidad Técnica Federico Santa María, Jul. 2002.
+5. A. Phinyomark, C. Limsakul, and P. Phukpattaranont, “Application of Wavelet Analysis in EMG Feature Extraction for Pattern Classification,” Measurement Science Review, vol. 11, no. 2, Jan. 2011, doi: https://doi.org/10.2478/v10048-011-0009-y.
+‌
