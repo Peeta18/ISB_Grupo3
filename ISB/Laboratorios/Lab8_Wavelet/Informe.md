@@ -139,8 +139,14 @@ Ninguna de las técnicas probadas logra mejorar significativamente el SNR post-d
 
 ### 5.3. Análisis de Señales EEG:
 
+En esta sección se presentan los resultados del análisis de las señales EEG obtenidas durante diferentes actividades. Las señales incluyen el estado basal, parpadeo, y respuestas a preguntas simples y complejas. A continuación se muestra una tabla con las señales correspondientes.
 
-
+| Actividad               | Imagen de la señal EEG                               |
+|-------------------------|------------------------------------------------------|
+| **Basal**                | ![Basal](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/images/eeg/Basal.jpg) |
+| **Parpadeo**             | ![Parpadeo](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/images/eeg/Parpadeo.jpg) |
+| **Preguntas Simples**    | ![Preguntas Simples](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/images/eeg/Preguntas_Simples.jpg) |
+| **Preguntas Complejas**  | ![Preguntas Complejas](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab8_Wavelet/images/eeg/Preguntas_Complejas.jpg) |
 
 
 
