@@ -119,6 +119,9 @@ Para el procesamiento de las señales EMG, se implementó un enfoque basado en l
 ![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/coef-1.png)
 ![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/coef-2.png)
 
+- Coeficientes de Detalle (Niveles 1 a 5): Los detalles en niveles superiores capturan cambios más lentos. Niveles como el 1 y 2 capturan las variaciones de alta frecuencia (ruido o cambios rápidos), mientras que los niveles 4 y 5 se concentran en componentes más suaves.
+- Coeficientes de Aproximación: Se aprecia cómo las componentes de baja frecuencia tienen una amplitud más constante, y se suavizan los detalles presentes en las otras gráficas.
+
 
 ### 5.3. Análisis de Señales EEG:
 
