@@ -139,9 +139,8 @@ Ninguna de las técnicas probadas logra mejorar significativamente el SNR post-d
 
 ### 5.3. Análisis de Señales EEG:
 
-### 5.3. Análisis de Señales EEG:
 
-El análisis de señales EEG es fundamental en neurociencia, ya que permite monitorear la actividad eléctrica cerebral de manera no invasiva. Sin embargo, las señales EEG son altamente susceptibles al ruido y a los artefactos, lo que dificulta su interpretación sin un adecuado procesamiento de la señal. La aplicación de filtros basados en la **Transformada Wavelet** ha demostrado ser efectiva para eliminar ruido y preservar las características esenciales de las señales EEG, lo que permite un análisis más preciso.
+El análisis de señales EEG es fundamental en neurociencia, ya que permite monitorear la actividad eléctrica cerebral de manera no invasiva. Sin embargo, las señales EEG son altamente susceptibles al ruido y a los artefactos, lo que dificulta su interpretación sin un adecuado procesamiento de la señal. La aplicación de filtros basados en la **Transformada Wavelet** ha demostrado ser efectiva para eliminar ruido y preservar las características esenciales de las señales EEG, lo que permite un análisis más preciso.[6]
 
 #### Aplicación del Filtro Wavelet
 En este estudio, se implementó un filtro basado en la **Transformada Wavelet Discreta (DWT)** utilizando el wavelet **Symlet 4**, el cual es adecuado para el procesamiento de señales no estacionarias como el EEG. Este wavelet ofrece un buen balance entre la preservación de los detalles de la señal y la reducción del ruido. A continuación, se describen las etapas clave del proceso de filtrado:
@@ -187,4 +186,7 @@ El uso del filtro wavelet permitió reducir de manera significativa los artefact
 3. O. J. Olarte Rodríguez and D. A. Sierra Bueno, "Determinación de los Parámetros Asociados al Filtro Wavelet por Umbralización Aplicado a Filtrado de Interferencias Electrocardiográficas," Revista de la Facultad de Ingenierías Físico Mecánicas, vol. 6, no. 2, pp. 33-44, Dec. 2007.
 4. S. Kouro and R. Musalem, "Tutorial introductorio a la teoría de Wavelet," Técnicas Modernas en Automática, Universidad Técnica Federico Santa María, Jul. 2002.
 5. A. Phinyomark, C. Limsakul, and P. Phukpattaranont, “Application of Wavelet Analysis in EMG Feature Extraction for Pattern Classification,” Measurement Science Review, vol. 11, no. 2, Jan. 2011, doi: https://doi.org/10.2478/v10048-011-0009-y.
+6. Harender and R. K. Sharma, "EEG Signal Denoising based on Wavelet Transform," in Proc. International Conference on Electronics, Communication and Aerospace Technology (ICECA), 2017, pp. 758-761.
+
+
 ‌
