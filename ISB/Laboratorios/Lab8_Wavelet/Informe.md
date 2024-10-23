@@ -116,8 +116,7 @@ Las señales, tanto crudas como procesadas con el filtro wavelet, fueron visuali
 #### Aplicación del Filtro Wavelet
 Para el procesamiento de las señales EMG, se implementó un enfoque basado en la transformada wavelet, utilizando específicamente la wavelet Daubechies de séptimo orden y descomposición wavelet de cuarto nivel, debido a su buena capacidad de extracción de características [5]
 
-https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/coef-1.png
-[ECG](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/coef-1.png)  
+![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/coef-1.png)
 
 
 
