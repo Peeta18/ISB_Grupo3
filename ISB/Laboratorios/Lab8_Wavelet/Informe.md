@@ -150,13 +150,8 @@ En este estudio, se implementó un filtro basado en la **Transformada Wavelet Di
    - La señal EEG fue descompuesta utilizando la DWT, separando los coeficientes en componentes de baja y alta frecuencia. Este paso es crucial para identificar las frecuencias asociadas a artefactos y ruido, así como aquellas que contienen información relevante para el análisis.
 
 2. **Umbralización**:
-   - Se aplicó un **umbral duro** a los coeficientes de detalle (altas frecuencias) para eliminar el ruido. La fórmula del umbral utilizado fue:
+   - Se aplicó un **umbral duro** a los coeficientes de detalle (altas frecuencias) para eliminar el ruido. La fórmula del umbral utilizado fue: Umbral = sigma * sqrt(2 * log(n)), donde "sigma" es una estimación del ruido y "n" es la longitud de la señal. Este umbral reduce el ruido sin eliminar los componentes significativos de la señal.
 
-   \[
-   \text{Umbral} = \sigma \sqrt{2 \log n}
-   \]
-
-   donde \( \sigma \) es una estimación del ruido y \( n \) es la longitud de la señal. Este umbral reduce el ruido sin eliminar los componentes significativos de la señal.
 
 
 3. **Reconstrucción**:
