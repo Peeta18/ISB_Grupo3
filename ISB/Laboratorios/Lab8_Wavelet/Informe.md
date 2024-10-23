@@ -119,9 +119,23 @@ Para el procesamiento de las señales EMG, se implementó un enfoque basado en l
 ![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/coef-1.png)
 ![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/coef-2.png)
 
-- Coeficientes de Detalle (Niveles 1 a 5): Los detalles en niveles superiores capturan cambios más lentos. Niveles como el 1 y 2 capturan las variaciones de alta frecuencia (ruido o cambios rápidos), mientras que los niveles 4 y 5 se concentran en componentes más suaves.
-- Coeficientes de Aproximación: Se aprecia cómo las componentes de baja frecuencia tienen una amplitud más constante, y se suavizan los detalles presentes en las otras gráficas.
+- **Coeficientes de Detalle (Niveles 1 a 5)**: Los detalles en niveles superiores capturan cambios más lentos. Niveles como el 1 y 2 capturan las variaciones de alta frecuencia (ruido o cambios rápidos), mientras que los niveles 4 y 5 se concentran en componentes más suaves.
+- **Coeficientes de Aproximación**: Se aprecia cómo las componentes de baja frecuencia tienen una amplitud más constante, y se suavizan los detalles presentes en las otras gráficas.
 
+#### Incorporación de ruido para evaluación del filtro Wavelet
+
+En este estudio se evaluaron dos técnicas de denoising (hard y soft thresholding) aplicadas a señales EMG con diferentes niveles de ruido. Los resultados mostraron que, en términos de SNR post-denoising, la técnica de soft thresholding logra una mejor reducción del ruido residual en todos los niveles de SNR evaluados, con una diferencia significativa en condiciones de ruido elevado (SNR < -10 dB). Por lo tanto, se recomienda el uso de soft thresholding para aplicaciones en las que la preservación de la señal es crítica y el ruido es significativo
+
+![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/comp-2.png)
+![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/comp-3.png)
+
+- **SNR = -3 dB (Alto Nivel de Ruido)**: La señal ruidosa tiene una amplitud mucho mayor y cubre por completo la señal original (primer gráfico de la izquierda). En el denoised con Hard Thresholding (gráfico central superior), se ve que se ha eliminado parte del ruido, pero aún se observan picos pronunciados y la morfología de la señal original no se preserva completamente. En el denoised con Soft Thresholding (gráfico superior derecho), la señal está menos distorsionada y se observa que los picos son menos prominentes en comparación con el hard thresholding, lo que sugiere que soft thresholding podría estar preservando mejor la estructura de la señal original a pesar del ruido.
+
+- **SNR = -8 dB (Nivel Moderado de Ruido)**: La señal ruidosa tiene un alto nivel de variación (gráfico inferior izquierdo) que complica la visualización de la señal original. En el denoised con Hard Thresholding (gráfico inferior central), hay una eliminación considerable de ruido, pero también se observa pérdida de información (picos importantes de la señal original parecen haber sido suavizados o eliminados). En el denoised con Soft Thresholding (gráfico inferior derecho), la señal denoised sigue manteniendo algunas de las variaciones de la señal original, lo que sugiere una mejor preservación de las características de la señal en comparación con hard thresholding.
+
+![Descomposición](https://github.com/Peeta18/ISB_Grupo3/blob/ac4cebe0ba4a354e3936559b5b1755d379d2ab3f/ISB/Laboratorios/Lab8_Wavelet/images/comp-1.png)
+
+Ninguna de las técnicas probadas logra mejorar significativamente el SNR post-denoising en condiciones extremas de ruido (SNR inicial menor a -10 dB), lo cual sugiere que técnicas más avanzadas, como umbrales adaptativos o métodos basados en aprendizaje profundo, podrían ser necesarias para aplicaciones de EMG en entornos de alto ruido.
 
 ### 5.3. Análisis de Señales EEG:
 
