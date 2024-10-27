@@ -8,7 +8,7 @@ import os
 
 # Funciones para procesamiento digital de la señal
 
-def notch_filter(x, samplerate, plot=False):
+    def notch_filter(x, samplerate, plot=False):
     """
     Aplica un filtro Notch para eliminar frecuencias específicas (59-61 Hz).
 
@@ -35,7 +35,7 @@ def notch_filter(x, samplerate, plot=False):
         plt.show()
     return x_filt
 
-def bp_filter(x, low_f, high_f, samplerate, plot=False):
+    def bp_filter(x, low_f, high_f, samplerate, plot=False):
     """
     Aplica un filtro Pasa Banda para mantener frecuencias entre low_f y high_f.
 
@@ -69,7 +69,7 @@ def bp_filter(x, low_f, high_f, samplerate, plot=False):
         plt.show()
     return x_filt
 
-def plot_signal(x, samplerate, chname):
+    def plot_signal(x, samplerate, chname):
     """
     Grafica la señal EMG cruda.
 
@@ -88,7 +88,7 @@ def plot_signal(x, samplerate, chname):
 
 # Funciones para extracción de características
 
-def features_estimation(signal, channel_name, fs, frame, step, plot=False):
+    def features_estimation(signal, channel_name, fs, frame, step, plot=False):
     """
     Calcula características en el dominio del tiempo, frecuencia y tiempo-frecuencia de la señal.
 
@@ -116,7 +116,7 @@ def features_estimation(signal, channel_name, fs, frame, step, plot=False):
 
     return total_feature_matrix, features_names
 
-def time_features_estimation(signal, frame, step):
+    def time_features_estimation(signal, frame, step):
     """
     Calcula características en el dominio del tiempo utilizando ventana deslizante.
 
@@ -157,7 +157,7 @@ def time_features_estimation(signal, frame, step):
     time_features_matrix = np.column_stack((variance, rms, iemg, mav, log_detector, wl, aac, dasdv, zc, wamp, myop))
     return time_features_matrix
 
-def frequency_features_estimation(signal, fs, frame, step):
+    def frequency_features_estimation(signal, fs, frame, step):
     """
     Calcula características en el dominio de la frecuencia utilizando ventana deslizante.
 
@@ -187,7 +187,7 @@ def frequency_features_estimation(signal, fs, frame, step):
     frequency_features_matrix = np.column_stack((fr, mnp, tot, mnf, mdf, pkf))
     return frequency_features_matrix
 
-def time_frequency_features_estimation(signal, frame, step):
+    def time_frequency_features_estimation(signal, frame, step):
     """
     Calcula características en el dominio tiempo-frecuencia utilizando ventana deslizante.
 
@@ -209,7 +209,7 @@ def time_frequency_features_estimation(signal, frame, step):
 
     return h_wavelet
 
-def wilson_amplitude(signal, th):
+    def wilson_amplitude(signal, th):
     """
     Calcula la amplitud de Wilson.
 
@@ -221,7 +221,7 @@ def wilson_amplitude(signal, th):
     umbral = x >= th
     return np.sum(umbral)
 
-def myopulse(signal, th):
+    def myopulse(signal, th):
     """
     Calcula la tasa de pulsos mioeléctricos.
 
@@ -232,7 +232,7 @@ def myopulse(signal, th):
     umbral = np.abs(signal) >= th
     return np.sum(umbral) / len(signal)
 
-def spectrum(signal, fs):
+    def spectrum(signal, fs):
     """
     Calcula el espectro de potencia de la señal.
 
@@ -248,7 +248,7 @@ def spectrum(signal, fs):
     power = np.real(yh * np.conj(yh)) / n
     return fh, power
 
-def frequency_ratio(frequency, power):
+    def frequency_ratio(frequency, power):
     """
     Calcula la relación de frecuencia.
 
@@ -264,7 +264,7 @@ def frequency_ratio(frequency, power):
         return 0
     return ULC / UHC
 
-def zcruce(X, th):
+    def zcruce(X, th):
     """
     Calcula el número de cruces por cero.
 
@@ -275,7 +275,7 @@ def zcruce(X, th):
     crossings = np.where(np.diff(np.signbit(X - th)))[0]
     return len(crossings)
 
-def mean_freq(frequency, power):
+    def mean_freq(frequency, power):
     """
     Calcula la frecuencia media.
 
@@ -285,7 +285,7 @@ def mean_freq(frequency, power):
     """
     return np.sum(frequency * power) / np.sum(power)
 
-def median_freq(frequency, power):
+    def median_freq(frequency, power):
     """
     Calcula la frecuencia mediana.
 
@@ -300,7 +300,7 @@ def median_freq(frequency, power):
         return frequency[-1]
     return frequency[idx[0]]
 
-def wavelet_energy(x, mother, nivel):
+    def wavelet_energy(x, mother, nivel):
     """
     Calcula la energía de la señal en diferentes niveles de la transformada wavelet.
 
@@ -315,7 +315,7 @@ def wavelet_energy(x, mother, nivel):
     Ed = [100 * np.sum(c ** 2) / Et for c in coeffs[1:]]
     return Ea, Ed
 
-def next_power_of_2(x):
+    def next_power_of_2(x):
     """
     Calcula el siguiente número que es potencia de 2.
 
@@ -324,7 +324,7 @@ def next_power_of_2(x):
     """
     return 1 if x == 0 else 2 ** (x - 1).bit_length()
 
-def plot_features(signal, channel_name, fs, feature_matrix, step):
+    def plot_features(signal, channel_name, fs, feature_matrix, step):
     """
     Grafica las características extraídas superpuestas con la señal EMG.
 
@@ -351,7 +351,7 @@ def plot_features(signal, channel_name, fs, feature_matrix, step):
 
 # Código principal
 
-def main():
+    def main():
     # Parámetros iniciales
     signal_path = 'Reposo.txt'  # <-- Cambia este nombre para analizar otros archivos
     channel_name = 'A1'  # Nombre del canal según el archivo
@@ -436,7 +436,7 @@ def main():
     except Exception as e:
         print(f"Error al guardar las características: {e}")
 
-if __name__ == '__main__':
+    if __name__ == '__main__':
     main()
 
 #Bibliografía
