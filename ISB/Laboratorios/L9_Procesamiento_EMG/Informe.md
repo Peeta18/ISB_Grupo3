@@ -163,7 +163,6 @@ def plot_signal(x, samplerate, chname):
     plt.show()
 ```
 <div align="center"> <img src="(inserta_link_imagen_emg_filtrada_aqui)" alt="Señal EMG Filtrada"> <p><em>Figura 4: Señal EMG Filtrada</em></p> </div>
-```
 
 #Extracción de Características
 ```python
@@ -438,7 +437,7 @@ def plot_features(signal, channel_name, fs, feature_matrix, step):
 
 <div align="center"> <img src="(inserta_link_imagen_features_PKF_aqui)" alt="PKF"> <p><em>Figura 21: Característica PKF</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_WENT_aqui)" alt="WENT"> <p><em>Figura 22: Característica WENT</em></p> </div> ```
+<div align="center"> <img src="(inserta_link_imagen_features_WENT_aqui)" alt="WENT"> <p><em>Figura 22: Característica WENT</em></p> </div>
 
 # Código principal
 ```python
