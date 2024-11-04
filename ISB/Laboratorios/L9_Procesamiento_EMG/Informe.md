@@ -12,9 +12,9 @@
 
 ## Introducción
 
-La electromiografía de superficie (sEMG) es una técnica de registro que permite analizar la actividad eléctrica de los músculos a través de la piel, proporcionando una herramienta no invasiva para el estudio de los procesos neuromusculares. Su aplicación es especialmente relevante en el ámbito de la rehabilitación y la detección de condiciones musculares, como la sarcopenia. Según estudios recientes, las señales de sEMG pueden revelar cambios en la función neuromuscular asociados al envejecimiento y a la disminución de masa muscular, característicos de esta condición. Esta tecnología también ha mostrado potencial para el desarrollo de algoritmos de aprendizaje automático que ayudan en la clasificación y diagnóstico de estas condiciones en poblaciones mayores, permitiendo enfoques más precisos y personalizados en la atención clínica&#8203;:contentReference[oaicite:0]{index=0}.
+La electromiografía de superficie (sEMG) es una técnica de registro que permite analizar la actividad eléctrica de los músculos a través de la piel, proporcionando una herramienta no invasiva para el estudio de los procesos neuromusculares. Su aplicación es especialmente relevante en el ámbito de la rehabilitación y la detección de condiciones musculares, como la sarcopenia. Según estudios recientes, las señales de sEMG pueden revelar cambios en la función neuromuscular asociados al envejecimiento y a la disminución de masa muscular, característicos de esta condición. Esta tecnología también ha mostrado potencial para el desarrollo de algoritmos de aprendizaje automático que ayudan en la clasificación y diagnóstico de estas condiciones en poblaciones mayores, permitiendo enfoques más precisos y personalizados en la atención [1].
 
-La extracción de características de las señales sEMG incluye el uso de transformadas y análisis de la entropía, que ayudan a identificar patrones específicos de actividad muscular, facilitando así la clasificación de movimientos y el control de dispositivos de asistencia robótica en la rehabilitación. Estos métodos, combinados con técnicas de optimización y algoritmos de aprendizaje automático como las máquinas de soporte vectorial (SVM), permiten reconocer movimientos específicos a partir de patrones de sEMG, mejorando la precisión en aplicaciones de rehabilitación asistida&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}.
+La extracción de características de las señales sEMG incluye el uso de transformadas y análisis de la entropía, que ayudan a identificar patrones específicos de actividad muscular, facilitando así la clasificación de movimientos y el control de dispositivos de asistencia robótica en la rehabilitación. Estos métodos, combinados con técnicas de optimización y algoritmos de aprendizaje automático como las máquinas de soporte vectorial (SVM), permiten reconocer movimientos específicos a partir de patrones de sEMG, mejorando la precisión en aplicaciones de rehabilitación asistida[2].
 
 
 ## Objetivos <a name="objetivos"></a>
@@ -581,3 +581,9 @@ Seremos capaces de estudiar y analizar de mejor manera estas características co
 
 - En general, el procesamiento de señales EMG y la extracción de características son herramientas poderosas para entender la actividad muscular y tienen aplicaciones que van desde la investigación hasta el diseño de dispositivos de asistencia, como prótesis y otros sistemas de control mioeléctrico. Este análisis demostró que con una señal bien procesada y métricas adecuadas, es posible obtener información valiosa y confiable sobre el comportamiento muscular, lo cual abre puertas para futuras investigaciones y aplicaciones clínicas o ingenieriles en este campo.
 
+
+## Bibliografía <a name="bibliografia"></a>
+
+[1] S. Cai, Y. Chen, S. Huang, Y. Wu, H. Zheng, X. Li, and L. Xie, "SVM-Based Classification of sEMG Signals for Upper-Limb Self-Rehabilitation Training," *Frontiers in Neurorobotics*, vol. 13, art. 31, Jun. 2019. doi: 10.3389/fnbot.2019.00031.
+
+[2] N. Li, J. Ou, H. He, J. He, L. Zhang, Z. Peng, J. Zhong, and N. Jiang, "Exploration of a machine learning approach for diagnosing sarcopenia among Chinese community-dwelling older adults using sEMG-based data," *Journal of NeuroEngineering and Rehabilitation*, vol. 21, art. 69, Apr. 2024. doi: 10.1186/s12984-024-01369-y.
