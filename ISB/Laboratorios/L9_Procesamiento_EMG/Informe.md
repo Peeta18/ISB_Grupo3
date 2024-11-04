@@ -569,3 +569,15 @@ Estas características son necesarias en aplicaciones clínicas e ingenieriles c
 Seremos capaces de estudiar y analizar de mejor manera estas características con el archivo csv que genera el código para cualquier aplicación externa que requiera más precisión que las gráficas.
 
 
+## Conclusiones <a name="conclusiones"></a>
+
+- En este trabajo logramos procesar y analizar una señal EMG para extraer características relevantes que nos permiten entender mejor la actividad muscular y su variabilidad. A lo largo del análisis, el filtrado adecuado de la señal fue fundamental para reducir el ruido y mejorar la calidad de los datos, lo cual facilitó una extracción de características mucho más precisa.
+
+- La aplicación del filtro Notch para eliminar el ruido de 60 Hz y del filtro Pasa Banda para aislar las frecuencias típicas de EMG nos ayudó a obtener una señal limpia que conservaba la información importante para el estudio. Este proceso permitió centrarse en las frecuencias de interés, mejorando la claridad y fiabilidad de los datos.
+
+- En cuanto a las características extraídas, como el RMS, MAV y WL, estas resultaron ser muy útiles para evaluar tanto la intensidad como la complejidad de la señal. Estas características pueden ser indicadores de la magnitud de la contracción muscular y también de la estabilidad o variabilidad en las activaciones. Por otro lado, las métricas en el dominio de la frecuencia como la MNF y la MDF también brindaron una perspectiva sobre el tipo de fibras musculares involucradas en la contracción y posibles señales de fatiga muscular, algo que resulta muy interesante en estudios prolongados o repetitivos.
+
+- Además, la entropía wavelet (WENT) proporcionó un enfoque diferente al medir el nivel de desorden o complejidad en la señal. Esto puede ser útil en situaciones donde se necesite evaluar la estabilidad muscular o detectar patrones de contracción irregulares.
+
+- En general, el procesamiento de señales EMG y la extracción de características son herramientas poderosas para entender la actividad muscular y tienen aplicaciones que van desde la investigación hasta el diseño de dispositivos de asistencia, como prótesis y otros sistemas de control mioeléctrico. Este análisis demostró que con una señal bien procesada y métricas adecuadas, es posible obtener información valiosa y confiable sobre el comportamiento muscular, lo cual abre puertas para futuras investigaciones y aplicaciones clínicas o ingenieriles en este campo.
+
