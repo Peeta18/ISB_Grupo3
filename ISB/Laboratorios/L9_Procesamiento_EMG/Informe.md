@@ -50,3 +50,45 @@ La extracción de estas características proporciona información detallada sobr
 ### 4. Almacenamiento de Características
 
 Finalmente, las características extraídas fueron almacenadas en un archivo CSV. Este paso permite disponer de un registro estructurado de los datos para su posterior análisis y comparación.
+
+## Resultados <a name="resultados"></a>
+
+A continuación se muestra el código implementado para el procesamiento de la señal EMG y la extracción de características. En cada etapa del proceso, se agregan los gráficos correspondientes.
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy import signal
+import pywt
+import math
+import os
+
+# Funciones para procesamiento digital de la señal
+
+def notch_filter(x, samplerate, plot=False):
+    """
+    Aplica un filtro Notch para eliminar frecuencias específicas (59-61 Hz).
+
+    :param x: Señal de entrada.
+    :param samplerate: Frecuencia de muestreo.
+    :param plot: Si es True, grafica la señal original y filtrada.
+    :return: Señal filtrada.
+    """
+    x = x - np.mean(x)
+    low_cutoff_notch = 59 / (samplerate / 2)
+    high_cutoff_notch = 61 / (samplerate / 2)
+    b, a = signal.butter(4, [low_cutoff_notch, high_cutoff_notch], btype='bandstop')
+    x_filt = signal.filtfilt(b, a, x)
+    if plot:
+        t = np.arange(0, len(x) / samplerate, 1 / samplerate)
+        plt.figure(figsize=(12, 4))
+        plt.plot(t, x, label='Señal Original')
+        plt.plot(t, x_filt, 'k', label='Señal Filtrada')
+        plt.xlabel('Tiempo (s)')
+        plt.ylabel('Amplitud (mV)')
+        plt.title('Filtro Notch (59-61 Hz)')
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
+    return x_filt
