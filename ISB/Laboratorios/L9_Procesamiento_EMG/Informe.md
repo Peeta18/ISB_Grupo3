@@ -95,7 +95,8 @@ def notch_filter(x, samplerate, plot=False):
 ```
 <div align="center"> <img src="(inserta_link_imagen_emg_cruda_aqui)" alt="Señal EMG Cruda"> <p><em>Figura 1: Señal EMG Cruda</em></p> </div>
 
-def bp_filter(x, low_f, high_f, samplerate, plot=False):
+
+    def bp_filter(x, low_f, high_f, samplerate, plot=False):
     """
     Aplica un filtro Pasa Banda para mantener frecuencias entre low_f y high_f.
 
