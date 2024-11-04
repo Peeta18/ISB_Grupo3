@@ -92,3 +92,5 @@ def notch_filter(x, samplerate, plot=False):
         plt.tight_layout()
         plt.show()
     return x_filt
+
+<div align="center"> <img src="(inserta_link_imagen_emg_cruda_aqui)" alt="Señal EMG Cruda"> <p><em>Figura 1: Señal EMG Cruda</em></p> </div>
