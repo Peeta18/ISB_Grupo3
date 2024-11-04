@@ -1,4 +1,4 @@
-# Lab 10 - Procesamiento EEG
+# Lab 10 - Procesamiento ECG
 
 ## Tabla de contenidos
 - [Objetivos](#objetivos)
