@@ -55,97 +55,24 @@ Finalmente, las características extraídas fueron almacenadas en un archivo CSV
 
 A continuación se muestra el código implementado para el procesamiento de la señal EMG y la extracción de características. En cada etapa del proceso, se agregan los gráficos correspondientes.
 
+### Señal EMG Cruda
+
 ```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from scipy import signal
-import pywt
-import math
-import os
-
-# Funciones para procesamiento digital de la señal
-
-def notch_filter(x, samplerate, plot=False):
+def plot_signal(x, samplerate, chname):
     """
-    Aplica un filtro Notch para eliminar frecuencias específicas (59-61 Hz).
+    Grafica la señal EMG cruda.
 
     :param x: Señal de entrada.
     :param samplerate: Frecuencia de muestreo.
-    :param plot: Si es True, grafica la señal original y filtrada.
-    :return: Señal filtrada.
+    :param chname: Nombre del canal.
     """
-    x = x - np.mean(x)
-    low_cutoff_notch = 59 / (samplerate / 2)
-    high_cutoff_notch = 61 / (samplerate / 2)
-    b, a = signal.butter(4, [low_cutoff_notch, high_cutoff_notch], btype='bandstop')
-    x_filt = signal.filtfilt(b, a, x)
-    if plot:
-        t = np.arange(0, len(x) / samplerate, 1 / samplerate)
-        plt.figure(figsize=(12, 4))
-        plt.plot(t, x, label='Señal Original')
-        plt.plot(t, x_filt, 'k', label='Señal Filtrada')
-        plt.xlabel('Tiempo (s)')
-        plt.ylabel('Amplitud (mV)')
-        plt.title('Filtro Notch (59-61 Hz)')
-        plt.legend()
-        plt.tight_layout()
-        plt.show()
-    return x_filt
+    t = np.arange(0, len(x) / samplerate, 1 / samplerate)
+    plt.figure(figsize=(12, 4))
+    plt.plot(t, x)
+    plt.xlabel('Tiempo (s)')
+    plt.ylabel('Amplitud (mV)')
+    plt.title(f'Señal EMG Cruda - {chname}')
+    plt.tight_layout()
+    plt.show()
 ```
 <div align="center"> <img src="(inserta_link_imagen_emg_cruda_aqui)" alt="Señal EMG Cruda"> <p><em>Figura 1: Señal EMG Cruda</em></p> </div>
-
-
-    def bp_filter(x, low_f, high_f, samplerate, plot=False):
-        """
-        Aplica un filtro Pasa Banda para mantener frecuencias entre low_f y high_f.
-    
-        :param x: Señal de entrada.
-        :param low_f: Frecuencia de corte baja.
-        :param high_f: Frecuencia de corte alta.
-        :param samplerate: Frecuencia de muestreo.
-        :param plot: Si es True, grafica la señal original y filtrada.
-        :return: Señal filtrada.
-        """
-        nyquist = samplerate / 2
-        # Asegurarse de que high_f sea menor que Nyquist
-        if high_f >= nyquist:
-            print(f"Ajustando high_f de {high_f} Hz a {nyquist - 1} Hz para evitar errores.")
-            high_f = nyquist - 1  # Ajuste a 1 Hz menos que Nyquist
-    
-        low_cutoff_bp = low_f / nyquist
-        high_cutoff_bp = high_f / nyquist
-        b, a = signal.butter(5, [low_cutoff_bp, high_cutoff_bp], btype='bandpass')
-        x_filt = signal.filtfilt(b, a, x)
-        if plot:
-            t = np.arange(0, len(x) / samplerate, 1 / samplerate)
-            plt.figure(figsize=(12, 4))
-            plt.plot(t, x, label='Señal Original')
-            plt.plot(t, x_filt, 'k', label='Señal Filtrada')
-            plt.xlabel('Tiempo (s)')
-            plt.ylabel('Amplitud (mV)')
-            plt.title(f'Filtro Pasa Banda ({low_f}-{high_f} Hz)')
-            plt.legend()
-            plt.tight_layout()
-            plt.show()
-        return x_filt
-    
-    def plot_signal(x, samplerate, chname):
-        """
-        Grafica la señal EMG cruda.
-    
-        :param x: Señal de entrada.
-        :param samplerate: Frecuencia de muestreo.
-        :param chname: Nombre del canal.
-        """
-        t = np.arange(0, len(x) / samplerate, 1 / samplerate)
-        plt.figure(figsize=(12, 4))
-        plt.plot(t, x)
-        plt.xlabel('Tiempo (s)')
-        plt.ylabel('Amplitud (mV)')
-        plt.title(f'Señal EMG Cruda - {chname}')
-        plt.tight_layout()
-        plt.show()
-<div align="center"> <img src="(inserta_link_imagen_notch_filter_aqui)" alt="Filtro Notch (59-61 Hz)"> <p><em>Figura 2: Filtro Notch (59-61 Hz)</em></p> </div> <div align="center"> <img src="(inserta_link_imagen_bp_filter_aqui)" alt="Filtro Pasa Banda (10-490 Hz)"> <p><em>Figura 3: Filtro Pasa Banda (10-490 Hz)</em></p> </div>
-
-
