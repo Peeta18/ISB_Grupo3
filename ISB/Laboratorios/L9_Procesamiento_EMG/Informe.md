@@ -75,7 +75,7 @@ def plot_signal(x, samplerate, chname):
     plt.tight_layout()
     plt.show()
 ```
-<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="Señal EMG Cruda"> <p><em>Figura 1: Señal EMG Cruda</em></p> </div>
+<div align="center"> <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg" alt="Señal EMG Cruda"> <p><em>Figura 1: Señal EMG Cruda</em></p> </div>
 
 ```python
 def notch_filter(x, samplerate, plot=False):
