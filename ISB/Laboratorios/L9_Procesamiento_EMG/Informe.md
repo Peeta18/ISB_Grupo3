@@ -439,3 +439,95 @@ def plot_features(signal, channel_name, fs, feature_matrix, step):
 <div align="center"> <img src="(inserta_link_imagen_features_PKF_aqui)" alt="PKF"> <p><em>Figura 21: Característica PKF</em></p> </div> 
 
 <div align="center"> <img src="(inserta_link_imagen_features_WENT_aqui)" alt="WENT"> <p><em>Figura 22: Característica WENT</em></p> </div> ```
+
+# Código principal
+```python
+def main():
+    # Parámetros iniciales
+    signal_path = 'Reposo.txt'  # <-- Cambia este nombre para analizar otros archivos
+    channel_name = 'A1'  # Nombre del canal según el archivo
+    sampling_frequency = 1000  # Frecuencia de muestreo en Hz (según el archivo)
+    frame = int(0.5 * sampling_frequency)  # Ventana de 0.5 segundos
+    step = int(0.25 * sampling_frequency)  # Paso de 0.25 segundos
+
+    # Verificar si el archivo existe
+    if not os.path.isfile(signal_path):
+        print(f"Error: El archivo '{signal_path}' no fue encontrado en el directorio actual.")
+        return
+
+    # Leer el archivo de texto
+    try:
+        # Leer solo las primeras 6 columnas (0 a 5) para evitar columnas vacías
+        emg_data = pd.read_csv(signal_path, sep='\t', comment='#', header=None, usecols=range(6))
+        print(f"Archivo '{signal_path}' leído exitosamente.")
+    except Exception as e:
+        print(f"Error al leer el archivo: {e}")
+        return
+
+    # Mostrar información básica de los datos
+    print(f"Forma de los datos: {emg_data.shape}")
+    print("Primeras filas de los datos:")
+    print(emg_data.head())
+
+    # Seleccionar la columna de interés (A1, índice 5)
+    try:
+        emg_signal = emg_data.iloc[:, 5].values
+        print(f"Longitud de la señal EMG: {len(emg_signal)}")
+        print(f"Primeros 10 valores de la señal EMG: {emg_signal[:10]}")
+    except Exception as e:
+        print(f"Error al seleccionar la columna de la señal EMG: {e}")
+        return
+
+    # Verificar si la señal está vacía o contiene NaN
+    if emg_signal.size == 0:
+        print("Error: La señal EMG está vacía.")
+        return
+    if np.isnan(emg_signal).all():
+        print("Error: La señal EMG contiene únicamente valores NaN.")
+        return
+
+    # Reemplazar NaN con interpolación o eliminación si es necesario
+    if np.isnan(emg_signal).any():
+        print("Advertencia: La señal EMG contiene valores NaN. Aplicando interpolación.")
+        emg_signal = pd.Series(emg_signal).interpolate().fillna(method='bfill').fillna(method='ffill').values
+
+    # Graficar señal EMG cruda
+    plot_signal(emg_signal, sampling_frequency, f'Señal EMG Cruda - {channel_name}')
+
+    # Procesamiento de señal
+    try:
+        filtered_signal = notch_filter(emg_signal, sampling_frequency, plot=True)
+        filtered_signal = bp_filter(filtered_signal, 10, 490, sampling_frequency, plot=True)  # Ajuste a 490 Hz
+    except ValueError as ve:
+        print(f"Error en el filtrado de la señal: {ve}")
+        return
+    except Exception as e:
+        print(f"Error inesperado durante el filtrado: {e}")
+        return
+
+    # Verificar la señal filtrada
+    print(f"Primeros 10 valores de la señal filtrada: {filtered_signal[:10]}")
+
+    # Graficar señal EMG filtrada
+    plot_signal(filtered_signal, sampling_frequency, f'Señal EMG Filtrada - {channel_name}')
+
+    # Extracción de características
+    try:
+        emg_features, features_names = features_estimation(filtered_signal, channel_name,
+                                                           sampling_frequency, frame, step, plot=True)
+    except Exception as e:
+        print(f"Error durante la extracción de características: {e}")
+        return
+
+    # Guardar características en un archivo CSV
+    try:
+        output_csv = 'caracteristicas_emg.csv'
+        emg_features.to_csv(output_csv, index=False)
+        print(f'Las características se han guardado en "{output_csv}".')
+    except Exception as e:
+        print(f"Error al guardar las características: {e}")
+        
+if __name__ == '__main__':
+    main()
+#
+```
