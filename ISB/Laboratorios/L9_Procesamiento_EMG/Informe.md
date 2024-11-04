@@ -530,3 +530,40 @@ if __name__ == '__main__':
     main()
 #
 ```
+
+## Discusión <a name="discusion"></a>
+
+El procesamiento de la señal EMG permitió obtener información clave sobre la actividad muscular, y en cada etapa del análisis se observaron resultados interesantes y útiles para el estudio de la actividad muscular.
+
+### Filtrado de la señal EMG
+
+1. **Filtro Notch (59-61 Hz):**  
+   El filtro Notch resultó fundamental para reducir el ruido de línea asociado a la interferencia eléctrica de 60 Hz, que es común en muchos entornos. Al aplicarlo, se redujo significativamente la interferencia de baja frecuencia, lo cual mejoró la claridad de la señal EMG sin alterar las frecuencias de interés. Esto facilitó una mejor visualización de la señal sin distorsionar las partes que realmente importan en el análisis.
+
+2. **Filtro Pasa Banda (10-490 Hz):**  
+   Este filtro Pasa Banda ayudó a aislar las frecuencias típicas de la actividad EMG, mejorando aún más la calidad de la señal. Usar un rango de 10 a 490 Hz permitió capturar las frecuencias características de la EMG, mientras se eliminaban componentes de ruido no deseados en bajas y altas frecuencias. Esto es fundamental porque sin estas frecuencias no relevantes la señal se torna mucho más "limpia", permitiendo concentrarnos en el análisis de las características que realmente aportan al estudio.
+
+### Extracción de características
+
+El análisis de las características obtenidas tras el filtrado muestra información valiosa sobre la actividad y complejidad de la señal EMG en términos de tiempo, frecuencia y tiempo-frecuencia.
+
+1. **Características en el dominio del tiempo:**
+   - **MAV (Mean Absolute Value):** Esta característica refleja la intensidad promedio de la señal, lo cual es útil para cuantificar la actividad muscular general. Al calcular el MAV se pueden observar diferencias en los niveles de esfuerzo de los músculos entre contracciones.
+   - **RMS (Root Mean Square):** Relacionada con la potencia de la señal, el RMS indica la magnitud de la contracción muscular. Un RMS alto significa mayor activación muscular y ayuda a cuantificar la intensidad de las contracciones en una manera que el MAV no siempre alcanza.
+   - **WL (Waveform Length):** Representa la complejidad de la señal. Un incremento en la longitud de la forma de onda sugiere mayor variabilidad en la activación muscular, siendo útil para medir la estabilidad muscular en cada contracción.
+   - **MYOP (Myopulse Percentage Rate):** Esta característica indica el tiempo relativo en que la señal supera un umbral de actividad específico, siendo especialmente útil en el estudio de la fatiga muscular o en la evaluación de la duración de las contracciones.
+
+2. **Características en el dominio de la frecuencia:**
+   - **MNF (Mean Frequency) y MDF (Median Frequency):** Ambos indicadores muestran la frecuencia dominante en la señal, proporcionando información sobre el tipo de fibras musculares involucradas en cada contracción. Cambios en estos valores pueden reflejar fatiga muscular, ya que las fibras rápidas suelen tener frecuencias más altas y las fibras lentas frecuencias más bajas.
+   - **PKF (Peak Frequency):** Representa la frecuencia con mayor potencia en la señal y está relacionada con la máxima activación muscular.
+
+3. **Características en el dominio tiempo-frecuencia:**
+   - **WENT (Wavelet Entropy):** La entropía wavelet mide la complejidad y el desorden en la señal EMG, siendo útil para evaluar la estabilidad en la activación muscular. Un valor alto de entropía refleja más variabilidad en la señal, lo que puede ser relevante en el análisis de patrones de contracción irregulares o inestables.
+
+### Observaciones Generales
+
+El análisis detallado de la señal EMG filtrada y la extracción de sus características proporcionaron una visión más clara sobre la actividad muscular en términos de intensidad, variabilidad y frecuencia. La combinación de los filtros Notch y Pasa Banda mejoró considerablemente la relación señal-ruido, lo cual resultó clave para la precisión en la extracción de características. Además, el análisis de las características en los distintos dominios proporciona información valiosa para aplicaciones prácticas como el monitoreo de la activación muscular en tiempo real, la clasificación de patrones de movimiento, y la evaluación de fatiga muscular.
+
+Estas características son fundamentales en aplicaciones clínicas e ingenieriles como el control de prótesis mioeléctricas o el diseño de interfaces hombre-máquina, donde es crucial detectar e interpretar señales EMG de forma precisa. Este análisis demuestra cómo un procesamiento adecuado de las señales EMG, combinado con técnicas de extracción de características, optimiza la información obtenida y aumenta la precisión en sistemas basados en EMG.
+
+
