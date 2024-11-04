@@ -538,10 +538,10 @@ El procesamiento de la señal EMG permitió obtener información clave sobre la 
 ### Filtrado de la señal EMG
 
 1. **Filtro Notch (59-61 Hz):**  
-   El filtro Notch resultó fundamental para reducir el ruido de línea asociado a la interferencia eléctrica de 60 Hz, que es común en muchos entornos. Al aplicarlo, se redujo significativamente la interferencia de baja frecuencia, lo cual mejoró la claridad de la señal EMG sin alterar las frecuencias de interés. Esto facilitó una mejor visualización de la señal sin distorsionar las partes que realmente importan en el análisis.
+   El filtro Notch resultó importante para reducir el ruido de línea asociado a la interferencia eléctrica de 60 Hz, que es común en muchos entornos. Al aplicarlo, se redujo significativamente la interferencia de baja frecuencia, lo cual mejoró la claridad de la señal EMG sin alterar las frecuencias de interés. Esto facilitó una mejor visualización de la señal sin distorsionar las partes que realmente importan en el análisis.
 
 2. **Filtro Pasa Banda (10-490 Hz):**  
-   Este filtro Pasa Banda ayudó a aislar las frecuencias típicas de la actividad EMG, mejorando aún más la calidad de la señal. Usar un rango de 10 a 490 Hz permitió capturar las frecuencias características de la EMG, mientras se eliminaban componentes de ruido no deseados en bajas y altas frecuencias. Esto es fundamental porque sin estas frecuencias no relevantes la señal se torna mucho más "limpia", permitiendo concentrarnos en el análisis de las características que realmente aportan al estudio.
+   Este filtro Pasa Banda ayudó a aislar las frecuencias típicas de la actividad EMG, mejorando aún más la calidad de la señal. Usar un rango de 10 a 490 Hz permitió capturar las frecuencias características de la EMG, mientras se eliminaban componentes de ruido no deseados en bajas y altas frecuencias. Esto es bastante importante porque sin estas frecuencias no relevantes la señal se torna mucho más "limpia", permitiendo concentrarnos en el análisis de las características que realmente aportan al estudio.
 
 ### Extracción de características
 
@@ -564,6 +564,8 @@ El análisis de las características obtenidas tras el filtrado muestra informac
 
 El análisis detallado de la señal EMG filtrada y la extracción de sus características proporcionaron una visión más clara sobre la actividad muscular en términos de intensidad, variabilidad y frecuencia. La combinación de los filtros Notch y Pasa Banda mejoró considerablemente la relación señal-ruido, lo cual resultó clave para la precisión en la extracción de características. Además, el análisis de las características en los distintos dominios proporciona información valiosa para aplicaciones prácticas como el monitoreo de la activación muscular en tiempo real, la clasificación de patrones de movimiento, y la evaluación de fatiga muscular.
 
-Estas características son fundamentales en aplicaciones clínicas e ingenieriles como el control de prótesis mioeléctricas o el diseño de interfaces hombre-máquina, donde es crucial detectar e interpretar señales EMG de forma precisa. Este análisis demuestra cómo un procesamiento adecuado de las señales EMG, combinado con técnicas de extracción de características, optimiza la información obtenida y aumenta la precisión en sistemas basados en EMG.
+Estas características son necesarias en aplicaciones clínicas e ingenieriles como el control de prótesis mioeléctricas o el diseño de interfaces hombre-máquina, donde es de suma importancia detectar e interpretar señales EMG de forma precisa. Este análisis demuestra cómo un procesamiento adecuado de las señales EMG, combinado con técnicas de extracción de características, optimiza la información obtenida y aumenta la precisión en sistemas basados en EMG.
+
+Seremos capaces de estudiar y analizar de mejor manera estas características con el archivo csv que genera el código para cualquier aplicación externa que requiera más precisión que las gráficas.
 
 
