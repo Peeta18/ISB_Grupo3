@@ -75,7 +75,7 @@ def plot_signal(x, samplerate, chname):
     plt.tight_layout()
     plt.show()
 ```
-<div align="center"> <img src="(inserta_link_imagen_emg_cruda_aqui)" alt="Señal EMG Cruda"> <p><em>Figura 1: Señal EMG Cruda</em></p> </div>
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="Señal EMG Cruda"> <p><em>Figura 1: Señal EMG Cruda</em></p> </div>
 
 ```python
 def notch_filter(x, samplerate, plot=False):
@@ -104,7 +104,7 @@ def notch_filter(x, samplerate, plot=False):
         plt.show()
     return x_filt
 ```
-<div align="center"> <img src="(inserta_link_imagen_notch_filter_aqui)" alt="Filtro Notch (59-61 Hz)"> <p><em>Figura 2: Señal después del Filtro Notch (59-61 Hz)</em></p> </div> ```
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/2.jpg)" alt="Filtro Notch (59-61 Hz)"> <p><em>Figura 2: Señal después del Filtro Notch (59-61 Hz)</em></p> </div> ```
 ### Filtro Pasa Banda (10-490 Hz)
 
 ```python
@@ -142,7 +142,7 @@ def bp_filter(x, low_f, high_f, samplerate, plot=False):
     return x_filt
 
 ```
-<div align="center"> <img src="(inserta_link_imagen_bp_filter_aqui)" alt="Filtro Pasa Banda (10-490 Hz)"> <p><em>Figura 3: Señal después del Filtro Pasa Banda (10-490 Hz)</em></p> </div>
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/3.jpg)" alt="Filtro Pasa Banda (10-490 Hz)"> <p><em>Figura 3: Señal después del Filtro Pasa Banda (10-490 Hz)</em></p> </div>
 #Señal EMG filtrada
 
 ```python
@@ -162,7 +162,7 @@ def plot_signal(x, samplerate, chname):
     plt.tight_layout()
     plt.show()
 ```
-<div align="center"> <img src="(inserta_link_imagen_emg_filtrada_aqui)" alt="Señal EMG Filtrada"> <p><em>Figura 4: Señal EMG Filtrada</em></p> </div>
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/4.jpg)"> <p><em>Figura 4: Señal EMG Filtrada</em></p> </div>
 
 #Extracción de Características
 ```python
@@ -403,41 +403,41 @@ def plot_features(signal, channel_name, fs, feature_matrix, step):
         plt.show()
 ```
 
-<div align="center"> <img src="(inserta_link_imagen_features_VAR_aqui)" alt="VAR"> <p><em>Figura 5: Característica VAR</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/5.jpg)" alt="VAR"> <p><em>Figura 5: Característica VAR</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_RMS_aqui)" alt="RMS"> <p><em>Figura 6: Característica RMS</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="RMS"> <p><em>Figura 6: Característica RMS</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_IEMG_aqui)" alt="IEMG"> <p><em>Figura 7: Característica IEMG</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="IEMG"> <p><em>Figura 7: Característica IEMG</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_MAV_aqui)" alt="MAV"> <p><em>Figura 8: Característica MAV</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="MAV"> <p><em>Figura 8: Característica MAV</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_LOG_aqui)" alt="LOG"> <p><em>Figura 9: Característica LOG</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="LOG"> <p><em>Figura 9: Característica LOG</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_WL_aqui)" alt="WL"> <p><em>Figura 10: Característica WL</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="WL"> <p><em>Figura 10: Característica WL</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_ACC_aqui)" alt="ACC"> <p><em>Figura 11: Característica ACC</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="ACC"> <p><em>Figura 11: Característica ACC</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_DASDV_aqui)" alt="DASDV"> <p><em>Figura 12: Característica DASDV</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="DASDV"> <p><em>Figura 12: Característica DASDV</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_ZC_aqui)" alt="ZC"> <p><em>Figura 13: Característica ZC</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="ZC"> <p><em>Figura 13: Característica ZC</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_WAMP_aqui)" alt="WAMP"> <p><em>Figura 14: Característica WAMP</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="WAMP"> <p><em>Figura 14: Característica WAMP</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_MYOP_aqui)" alt="MYOP"> <p><em>Figura 15: Característica MYOP</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="MYOP"> <p><em>Figura 15: Característica MYOP</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_FR_aqui)" alt="FR"> <p><em>Figura 16: Característica FR</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="FR"> <p><em>Figura 16: Característica FR</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_MNP_aqui)" alt="MNP"> <p><em>Figura 17: Característica MNP</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="MNP"> <p><em>Figura 17: Característica MNP</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_TP_aqui)" alt="TP"> <p><em>Figura 18: Característica TP</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="TP"> <p><em>Figura 18: Característica TP</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_MNF_aqui)" alt="MNF"> <p><em>Figura 19: Característica MNF</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="MNF"> <p><em>Figura 19: Característica MNF</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_MDF_aqui)" alt="MDF"> <p><em>Figura 20: Característica MDF</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="MDF"> <p><em>Figura 20: Característica MDF</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_PKF_aqui)" alt="PKF"> <p><em>Figura 21: Característica PKF</em></p> </div> 
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="PKF"> <p><em>Figura 21: Característica PKF</em></p> </div> 
 
-<div align="center"> <img src="(inserta_link_imagen_features_WENT_aqui)" alt="WENT"> <p><em>Figura 22: Característica WENT</em></p> </div>
+<div align="center"> <img src="(https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L9_Procesamiento_EMG/Imagenes/1.jpg)" alt="WENT"> <p><em>Figura 22: Característica WENT</em></p> </div>
 
 # Código principal
 ```python
