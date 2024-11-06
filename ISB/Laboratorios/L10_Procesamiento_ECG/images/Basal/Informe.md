@@ -54,6 +54,181 @@ En este laboratorio utilizamos la biblioteca **Neurokit2** en Python para proces
 
 </p>
 
+## Resultados <a name="id4"></a>
+
+### Primera Derivada
+
+#### Basal
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_basal_primera_derivada.png" alt="ECG Plot - Primera Derivada - Basal" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_basal_primera_derivada.png" alt="Raw y Clean Signal - Primera Derivada - Basal" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_basal_primera_derivada.png" alt="Processed Signal - Primera Derivada - Basal" width="600"/>
+</div>
+
+#### Respiración
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_respiracion_primera_derivada.png" alt="ECG Plot - Primera Derivada - Respiración" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_respiracion_primera_derivada.png" alt="Raw y Clean Signal - Primera Derivada - Respiración" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_respiracion_primera_derivada.png" alt="Processed Signal - Primera Derivada - Respiración" width="600"/>
+</div>
+
+#### Reposo
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_reposo_primera_derivada.png" alt="ECG Plot - Primera Derivada - Reposo" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_reposo_primera_derivada.png" alt="Raw y Clean Signal - Primera Derivada - Reposo" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_reposo_primera_derivada.png" alt="Processed Signal - Primera Derivada - Reposo" width="600"/>
+</div>
+
+#### Ejercicio
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_ejercicio_primera_derivada.png" alt="ECG Plot - Primera Derivada - Ejercicio" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_ejercicio_primera_derivada.png" alt="Raw y Clean Signal - Primera Derivada - Ejercicio" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_ejercicio_primera_derivada.png" alt="Processed Signal - Primera Derivada - Ejercicio" width="600"/>
+</div>
+
+### Segunda Derivada
+
+#### Basal
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_basal_segunda_derivada.png" alt="ECG Plot - Segunda Derivada - Basal" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_basal_segunda_derivada.png" alt="Raw y Clean Signal - Segunda Derivada - Basal" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_basal_segunda_derivada.png" alt="Processed Signal - Segunda Derivada - Basal" width="600"/>
+</div>
+
+#### Respiración
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_respiracion_segunda_derivada.png" alt="ECG Plot - Segunda Derivada - Respiración" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_respiracion_segunda_derivada.png" alt="Raw y Clean Signal - Segunda Derivada - Respiración" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_respiracion_segunda_derivada.png" alt="Processed Signal - Segunda Derivada - Respiración" width="600"/>
+</div>
+
+#### Reposo
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_reposo_segunda_derivada.png" alt="ECG Plot - Segunda Derivada - Reposo" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_reposo_segunda_derivada.png" alt="Raw y Clean Signal - Segunda Derivada - Reposo" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_reposo_segunda_derivada.png" alt="Processed Signal - Segunda Derivada - Reposo" width="600"/>
+</div>
+
+#### Ejercicio
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_ejercicio_segunda_derivada.png" alt="ECG Plot - Segunda Derivada - Ejercicio" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_ejercicio_segunda_derivada.png" alt="Raw y Clean Signal - Segunda Derivada - Ejercicio" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_ejercicio_segunda_derivada.png" alt="Processed Signal - Segunda Derivada - Ejercicio" width="600"/>
+</div>
+
+### Tercera Derivada
+
+#### Basal
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_basal_tercera_derivada.png" alt="ECG Plot - Tercera Derivada - Basal" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_basal_tercera_derivada.png" alt="Raw y Clean Signal - Tercera Derivada - Basal" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_basal_tercera_derivada.png" alt="Processed Signal - Tercera Derivada - Basal" width="600"/>
+</div>
+
+#### Respiración
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_respiracion_tercera_derivada.png" alt="ECG Plot - Tercera Derivada - Respiración" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_respiracion_tercera_derivada.png" alt="Raw y Clean Signal - Tercera Derivada - Respiración" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_respiracion_tercera_derivada.png" alt="Processed Signal - Tercera Derivada - Respiración" width="600"/>
+</div>
+
+#### Reposo
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_reposo_tercera_derivada.png" alt="ECG Plot - Tercera Derivada - Reposo" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_reposo_tercera_derivada.png" alt="Raw y Clean Signal - Tercera Derivada - Reposo" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_reposo_tercera_derivada.png" alt="Processed Signal - Tercera Derivada - Reposo" width="600"/>
+</div>
+
+#### Ejercicio
+
+<div align="center">
+  <img src="https://link_to_your_image_ecg_plot_ejercicio_tercera_derivada.png" alt="ECG Plot - Tercera Derivada - Ejercicio" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_raw_clean_ejercicio_tercera_derivada.png" alt="Raw y Clean Signal - Tercera Derivada - Ejercicio" width="600"/>
+</div>
+
+<div align="center">
+  <img src="https://link_to_your_image_process_ejercicio_tercera_derivada.png" alt="Processed Signal - Tercera Derivada - Ejercicio" width="600"/>
+</div>
 
 
 
