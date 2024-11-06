@@ -65,69 +65,69 @@ En este laboratorio utilizamos la biblioteca **Neurokit2** en Python para proces
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_basal_primera_derivada.png" alt="Raw Signal - Basal - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/2.png" alt="Raw Signal - Basal - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_basal_primera_derivada.png" alt="Clean Signal - Basal - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/3.png" alt="Clean Signal - Basal - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_basal_primera_derivada.png" alt="Processed Signal - Basal - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/4.png" alt="Processed Signal - Basal - Primera Derivada" width="600"/>
 </div>
 
 #### Respiración
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_respiracion_primera_derivada.png" alt="ECG Plot - Respiración - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/5.png" alt="ECG Plot - Respiración - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_respiracion_primera_derivada.png" alt="Raw Signal - Respiración - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/6.png" alt="Raw Signal - Respiración - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_respiracion_primera_derivada.png" alt="Clean Signal - Respiración - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/7.png" alt="Clean Signal - Respiración - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_respiracion_primera_derivada.png" alt="Processed Signal - Respiración - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/8.png" alt="Processed Signal - Respiración - Primera Derivada" width="600"/>
 </div>
 
 #### Reposo
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_reposo_primera_derivada.png" alt="ECG Plot - Reposo - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/9.png" alt="ECG Plot - Reposo - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_reposo_primera_derivada.png" alt="Raw Signal - Reposo - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/10.png" alt="Raw Signal - Reposo - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_reposo_primera_derivada.png" alt="Clean Signal - Reposo - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/11.png" alt="Clean Signal - Reposo - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_reposo_primera_derivada.png" alt="Processed Signal - Reposo - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/12.png" alt="Processed Signal - Reposo - Primera Derivada" width="600"/>
 </div>
 
 #### Ejercicio
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_ejercicio_primera_derivada.png" alt="ECG Plot - Ejercicio - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/13.png" alt="ECG Plot - Ejercicio - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_ejercicio_primera_derivada.png" alt="Raw Signal - Ejercicio - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/14.png" alt="Raw Signal - Ejercicio - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_ejercicio_primera_derivada.png" alt="Clean Signal - Ejercicio - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/15.png" alt="Clean Signal - Ejercicio - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_ejercicio_primera_derivada.png" alt="Processed Signal - Ejercicio - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/16.png" alt="Processed Signal - Ejercicio - Primera Derivada" width="600"/>
 </div>
 
 ### Segunda Derivada
@@ -135,73 +135,73 @@ En este laboratorio utilizamos la biblioteca **Neurokit2** en Python para proces
 #### Basal
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_basal_segunda_derivada.png" alt="ECG Plot - Basal - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/17.png" alt="ECG Plot - Basal - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_basal_segunda_derivada.png" alt="Raw Signal - Basal - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/18.png" alt="Raw Signal - Basal - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_basal_segunda_derivada.png" alt="Clean Signal - Basal - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/19.png" alt="Clean Signal - Basal - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_basal_segunda_derivada.png" alt="Processed Signal - Basal - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/20.png" alt="Processed Signal - Basal - Segunda Derivada" width="600"/>
 </div>
 
 #### Respiración
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_respiracion_segunda_derivada.png" alt="ECG Plot - Respiración - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/21.png" alt="ECG Plot - Respiración - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_respiracion_segunda_derivada.png" alt="Raw Signal - Respiración - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/22.png" alt="Raw Signal - Respiración - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_respiracion_segunda_derivada.png" alt="Clean Signal - Respiración - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/23.png" alt="Clean Signal - Respiración - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_respiracion_segunda_derivada.png" alt="Processed Signal - Respiración - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/24.png" alt="Processed Signal - Respiración - Segunda Derivada" width="600"/>
 </div>
 
 #### Reposo
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_reposo_segunda_derivada.png" alt="ECG Plot - Reposo - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/25.png" alt="ECG Plot - Reposo - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_reposo_segunda_derivada.png" alt="Raw Signal - Reposo - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/26.png" alt="Raw Signal - Reposo - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_reposo_segunda_derivada.png" alt="Clean Signal - Reposo - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/27.png" alt="Clean Signal - Reposo - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_reposo_segunda_derivada.png" alt="Processed Signal - Reposo - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/28.png" alt="Processed Signal - Reposo - Segunda Derivada" width="600"/>
 </div>
 
 #### Ejercicio
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_ejercicio_segunda_derivada.png" alt="ECG Plot - Ejercicio - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/29.png" alt="ECG Plot - Ejercicio - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_ejercicio_segunda_derivada.png" alt="Raw Signal - Ejercicio - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/30.png" alt="Raw Signal - Ejercicio - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_ejercicio_segunda_derivada.png" alt="Clean Signal - Ejercicio - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/31.png" alt="Clean Signal - Ejercicio - Segunda Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_ejercicio_segunda_derivada.png" alt="Processed Signal - Ejercicio - Segunda Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/32.png" alt="Processed Signal - Ejercicio - Segunda Derivada" width="600"/>
 </div>
 
 ### Tercera Derivada
@@ -209,74 +209,75 @@ En este laboratorio utilizamos la biblioteca **Neurokit2** en Python para proces
 #### Basal
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_basal_tercera_derivada.png" alt="ECG Plot - Basal - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/33.png" alt="ECG Plot - Basal - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_basal_tercera_derivada.png" alt="Raw Signal - Basal - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/34.png" alt="Raw Signal - Basal - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_basal_tercera_derivada.png" alt="Clean Signal - Basal - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/35.png" alt="Clean Signal - Basal - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_basal_tercera_derivada.png" alt="Processed Signal - Basal - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/36.png" alt="Processed Signal - Basal - Tercera Derivada" width="600"/>
 </div>
 
 #### Respiración
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_respiracion_tercera_derivada.png" alt="ECG Plot - Respiración - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/37.png" alt="ECG Plot - Respiración - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_respiracion_tercera_derivada.png" alt="Raw Signal - Respiración - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/38.png" alt="Raw Signal - Respiración - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_respiracion_tercera_derivada.png" alt="Clean Signal - Respiración - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/39.png" alt="Clean Signal - Respiración - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_respiracion_tercera_derivada.png" alt="Processed Signal - Respiración - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/40.png" alt="Processed Signal - Respiración - Tercera Derivada" width="600"/>
 </div>
 
 #### Reposo
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_reposo_tercera_derivada.png" alt="ECG Plot - Reposo - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/41.png" alt="ECG Plot - Reposo - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_reposo_tercera_derivada.png" alt="Raw Signal - Reposo - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/42.png" alt="Raw Signal - Reposo - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_reposo_tercera_derivada.png" alt="Clean Signal - Reposo - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/43.png" alt="Clean Signal - Reposo - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_reposo_tercera_derivada.png" alt="Processed Signal - Reposo - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/44.png" alt="Processed Signal - Reposo - Tercera Derivada" width="600"/>
 </div>
 
 #### Ejercicio
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_ejercicio_tercera_derivada.png" alt="ECG Plot - Ejercicio - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/45.png" alt="ECG Plot - Ejercicio - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_raw_ejercicio_tercera_derivada.png" alt="Raw Signal - Ejercicio - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/46.png" alt="Raw Signal - Ejercicio - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_clean_ejercicio_tercera_derivada.png" alt="Clean Signal - Ejercicio - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/47.png" alt="Clean Signal - Ejercicio - Tercera Derivada" width="600"/>
 </div>
 
 <div align="center">
-  <img src="https://link_to_your_image_process_ejercicio_tercera_derivada.png" alt="Processed Signal - Ejercicio - Tercera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/48.png" alt="Processed Signal - Ejercicio - Tercera Derivada" width="600"/>
 </div>
+
 
 
 
