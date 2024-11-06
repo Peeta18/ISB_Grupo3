@@ -61,7 +61,7 @@ En este laboratorio utilizamos la biblioteca **Neurokit2** en Python para proces
 #### Basal
 
 <div align="center">
-  <img src="https://link_to_your_image_ecg_plot_basal_primera_derivada.png" alt="ECG Plot - Basal - Primera Derivada" width="600"/>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L10_Procesamiento_ECG/images/Basal/Total%20Imagenes/1.png" alt="ECG Plot - Basal - Primera Derivada" width="600"/>
 </div>
 
 <div align="center">
