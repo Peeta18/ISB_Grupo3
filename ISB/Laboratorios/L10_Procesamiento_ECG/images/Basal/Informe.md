@@ -22,7 +22,11 @@ Este informe examina los métodos contemporáneos para el procesamiento de seña
 
 
 ## Objetivos <a name="id2"></a>
-* Verificar el comportamiento de la señal ECG.
+* Aplicar ecg_clean() para preprocesar y limpiar la señal ECG.
+* Utilizar ecg_analyze() para extraer características clave de la señal ECG.
+* Integrar preprocesamiento y análisis mediante ecg_process().
+* Evaluar la efectividad de Neurokit2 comparado con otras herramientas de procesamiento ECG.
+* Desarrollar habilidades prácticas en el análisis de señales biomédicas utilizando Python.
 
 ## Metodología <a name="id3"></a>
 <p style="text-align: justify;"> 
