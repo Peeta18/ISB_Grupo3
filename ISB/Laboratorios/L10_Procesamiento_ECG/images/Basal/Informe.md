@@ -31,15 +31,36 @@ Este informe examina los métodos contemporáneos para el procesamiento de seña
 ## Metodología <a name="id3"></a>
 <p style="text-align: justify;"> 
 
-En este laboratorio se empleó la biblioteca "Neurokit2" en Python, utilizando funciones específicas que facilitan el trabajo del programador. Primero, se usará la función ecg_clean(), la cual elimina el ruido de la señal para mejorar su precisión.
+En este laboratorio utilizamos la biblioteca **Neurokit2** en Python para procesar las señales ECG obtenidas. A continuación, se detalla el paso a paso que seguimos:
 
-Luego, se aplicará la función ecg_peaks(), que, de acuerdo con la documentación, convierte los datos de una lista en un dataframe que muestra la ubicación de los picos R, marcados según el número de muestra analizado.
+1. **Adquisición de la Señal ECG**  
+   Las señales ECG fueron capturadas en el laboratorio 5 de este curso usando el kit **Bitalino** y el software **OpenSignals**. Estos dispositivos nos permitieron registrar la actividad eléctrica del corazón de manera precisa y eficiente.
 
-Después, se usará la función ecg_rate(), la cual calcula la frecuencia cardíaca basándose en el número de muestra de la señal.
+2. **Conversión y Almacenamiento de Datos**  
+   Los archivos de las señales ECG se obtuvieron en formato **.txt**. Para facilitar su manejo y análisis, convertimos estos archivos a formato **.csv**. Luego, subimos los archivos convertidos a nuestro **Google Drive**. Esto nos permitió acceder a ellos rápidamente desde **Google Colab** sin tener que subir los archivos manualmente cada vez que trabajábamos en el proyecto.
 
-Finalmente, el proceso se divide en dos secciones para comparar las gráficas finales y su presentación. La diferencia es que una sección utiliza la función ecg_quality, lo que permite obtener una visualización mejorada y distinta en los resultados.
+3. **Montaje de Google Drive en Colab**  
+   Montamos nuestro Google Drive en Google Colab, lo que nos permitió trabajar directamente con los archivos almacenados en la nube. Esta integración hizo que el proceso fuera más ágil y nos evitó tener que descargar y subir archivos repetidamente.
 
-## Resultados: <a name="id4"></a>
+4. **Carga y Preparación de los Datos**  
+   Cargamos las señales ECG desde los archivos **.csv** almacenados en Google Drive. Verificamos que los datos se cargaran correctamente y nos aseguramos de que no hubiera inconsistencias que pudieran afectar el análisis posterior. Esto incluyó revisar si había valores nulos o ruidos excesivos en la señal.
+
+5. **Visualización Inicial de la Señal**  
+   Antes de procesar las señales, graficamos las señales ECG en el dominio del tiempo para tener una primera impresión de su calidad. Esta visualización nos ayudó a identificar posibles ruidos o artefactos y a decidir si era necesario aplicar técnicas de filtrado para mejorar la señal.
+
+6. **Preprocesamiento de la Señal ECG**  
+   Utilizamos la función `ecg_clean()` de Neurokit2 para limpiar la señal ECG. Esta función elimina ruidos y artefactos, lo que nos permitió obtener una señal más clara y precisa para el análisis posterior.
+
+7. **Análisis de la Señal ECG**  
+   Después de limpiar la señal, aplicamos la función `ecg_analyze()` para extraer características importantes de la señal, como la frecuencia cardíaca y los intervalos PR, QRS y QT. Estas características son esenciales para evaluar el estado cardíaco y detectar posibles anomalías.
+
+8. **Procesamiento Integrado de la Señal ECG**  
+   Finalmente, utilizamos la función `ecg_process()` para realizar tanto el preprocesamiento como el análisis de la señal ECG en un solo paso. Esto hizo que el flujo de trabajo fuera más eficiente y nos permitió obtener resultados de manera más rápida.
+
+En resumen, seguimos una serie de pasos organizados que nos permitieron adquirir, preparar y analizar las señales ECG de manera efectiva. El uso de herramientas como Neurokit2 y Google Colab facilitó el manejo de los datos y la realización de los análisis necesarios para alcanzar los objetivos del laboratorio.
+
+</p>
+
 
 
 
