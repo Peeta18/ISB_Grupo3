@@ -346,5 +346,10 @@ En resumen, este laboratorio no solo nos permitió aplicar técnicas de procesam
 </p>
 
 
-## Bibliografía<a name="id7"></a>
+## Bibliografía <a name="id7"></a>
+
+1. P. Pan and B. Tompkins, "A real-time QRS detection algorithm," *IEEE Transactions on Biomedical Engineering*, vol. BME-32, no. 3, pp. 230-236, May 1985.
+2. A. Bashar, A. A. Jalili, and M. J. S. Tahoori, "Noise removal and signal enhancement in ECG signals using wavelet transform," *IEEE Transactions on Instrumentation and Measurement*, vol. 60, no. 7, pp. 1958-1963, July 2011.
+3. N. S. Moura and A. L. M. Barbosa, "ECG signal processing techniques for heart rate variability analysis," *Journal of Biomedical Science and Engineering*, vol. 5, no. 6, pp. 547-557, 2012.
+4. P. G. Puyat, S. P. Edosa, D. B. Narito, and E. E. Aquilante, "NeuroKit2: A Python Toolbox for Neurophysiological Signal Processing," *Proceedings of the 13th International Conference on Biomedical Engineering and Biotechnology (ICBEB)*, 2020, pp. 1-6.
 
