@@ -1,3 +1,4 @@
+```python
 !pip install ecg-plot neurokit2
 !pip install neurokit2 ecg-plot
 
@@ -37,11 +38,11 @@ signal1 = load_signal('/content/drive/MyDrive/isb/ECG/EjercicioD3.csv')
 plot_time_domain(signal1, 1000, "Señal Basal ECG")
 
 ecg_plot.plot_1((signal1[:5000]*1/511)-1)
-#ecg_plot.plot_1(signal1*1/1023, sample_rate=1000)
+# ecg_plot.plot_1(signal1*1/1023, sample_rate=1000)
 plt.xlabel('Tiempo (s)')
 plt.ylabel('Amplitud')
-#plt.xticks(np.arange(0, 10000, 1000))
-#plt.xticks([])
+# plt.xticks(np.arange(0, 10000, 1000))
+# plt.xticks([])
 plt.show()
 
 signal1_clean = nk.ecg_clean(signal1, sampling_rate=1000)
@@ -51,8 +52,9 @@ plot_time_domain(signal1_clean, 1000, "Clean signal")
 df, info = nk.ecg_process(signal1_clean, sampling_rate=1000)
 analyze_df = nk.ecg_analyze(df, sampling_rate=1000)
 analyze_df
-#analyze_df.T.head(1)
+# analyze_df.T.head(1)
 
-simp, inf = nk.ecg_process(signal1_clean, sampling_rate=1000, method = 'pantompkins1985')
+simp, inf = nk.ecg_process(signal1_clean, sampling_rate=1000, method='pantompkins1985')
 nk.ecg_plot(simp, inf)
 qrs_epochs = nk.ecg_segment(signal1_clean, rpeaks=None, sampling_rate=1000, show=True)
+
