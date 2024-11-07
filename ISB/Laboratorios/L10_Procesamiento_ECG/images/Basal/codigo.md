@@ -24,7 +24,6 @@ def plot_time_domain(signal, fs, title):
     N = len(signal)
     T = 1.0 / fs
     t = np.linspace(0.0, N * T, N)
-
     plt.figure(figsize=(15, 3))
     plt.plot(t, signal)
     plt.title(f'Señal en el dominio del tiempo - {title}')
