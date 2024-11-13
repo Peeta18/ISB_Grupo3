@@ -12,11 +12,6 @@
 - **Ariana Gabriela Toledo Huapaya** (Colaborador) | [ariana.toledo@upch.pe](mailto:ariana.toledo@upch.pe)  
   Estudiante de Ingeniería Biomédica de 8vo ciclo.
 
-- **Martin Elias Pino Aguilar** (Colaborador) | [martin.pino@upch.pe](mailto:martin.pino@upch.pe)  
-  Estudiante de Ingeniería Biomédica en su 8vo ciclo.
-
-- **Piero Miranda** (Colaborador) | [piero.miranda@upch.pe](mailto:piero.miranda@upch.pe)  
-  Estudiante de Ingeniería Biomédica en su 10mo ciclo.
 
 ## Docentes del curso
 
