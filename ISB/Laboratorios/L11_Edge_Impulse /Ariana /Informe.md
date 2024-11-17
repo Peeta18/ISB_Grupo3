@@ -12,7 +12,7 @@
 
 
 <div align="center">
-  
+    <img src="Ariana/intro.png"><p>
 
   *Figura 1. Página inicial Edge Impulse*
   </p>
