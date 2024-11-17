@@ -25,10 +25,15 @@ Este informe aborda el proceso completo de adquisición de datos y su posterior 
 
 ## 2. Objetivos
 -Adquirir y estructurar señales de ECG
+
 -Preprocesamiento y etiquetado inicial
+
 -Organización en Edge Impulse
+
 -Desarrollo y entrenamiento del modelo
+
 -Pruebas de validación del modelo
+
 -Adaptación para sistemas embebidos
 
 ## 3. Metodología
