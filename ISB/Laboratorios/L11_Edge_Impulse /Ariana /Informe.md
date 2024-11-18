@@ -58,7 +58,14 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
        "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald1.2.txt",
        "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald1.3.txt",
        "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald2.txt",
+       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald2.2.txt",
+       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald2.3.txt",
        "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald3.txt",
+       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald3.2.txt",
+       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald3.3.txt",
+       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\ejerciciod1.txt",
+       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\ejerciciod2.txt",
+       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\ejerciciod3.txt",
        "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd1.1.txt",
        "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd1.2.txt",
        "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd1.3.txt",
@@ -67,7 +74,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
        ]
        
        # Carpeta de salida para los archivos CSV
-       output_folder = "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE"
+       output_folder = "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\CSV_ECG"
        # Procesar cada archivo .txt
        
        for file_path in file_paths:
