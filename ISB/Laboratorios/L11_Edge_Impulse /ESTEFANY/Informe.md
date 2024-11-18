@@ -65,7 +65,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
       ]
       
       # Carpeta de salida para los archivos CSV
-      output_directory = "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\CSV_ECG"
+      output_directory = "C:\Users\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\CSV_ECG"
       
       # Crear la carpeta de salida si no existe
       os.makedirs(output_directory, exist_ok=True)
