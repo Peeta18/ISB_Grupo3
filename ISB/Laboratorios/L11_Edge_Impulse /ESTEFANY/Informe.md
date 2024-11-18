@@ -17,6 +17,7 @@ Esta plataforma es particularmente útil en proyectos que requieren análisis de
 
 En este informe, se detalla el proceso completo de adquisición e integración de datos dentro de Edge Impulse, sentando las bases para un proyecto integral. Se explicarán cada una de las etapas, desde la recolección inicial de señales hasta la configuración y entrenamiento del modelo, destacando cómo optimizar su rendimiento en sistemas embebidos y demostrar el potencial de esta herramienta para el análisis en tiempo real de datos biomédicos [4].
 
+Link página EDGE IMPULSE: https://studio.edgeimpulse.com/studio/558229 
 
 ## 2. Objetivos
 - Adquirir y estructurar señales de ECG: Capturar señales en condiciones específicas (Basal, Respiración, Post-respiración, etc.) y prepararlas para su uso en Edge Impulse.
