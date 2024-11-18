@@ -6,7 +6,7 @@
 2. [Objetivos](#2-objetivos)
 3. [Metodología](#3-metodología)
 4. [Resultados](#4-resultados)
-5. [Referencias](#5referencias)
+5. [Referencias](#5-referencias)
 
 
 ## 1. Introducción
@@ -209,6 +209,9 @@ https://studio.edgeimpulse.com/public/558181/live
 ## 5. Referencias
 
 [1] Edge Impulse Inc., "Edge Impulse Documentation," 2023. [Online]. Available: https://docs.edgeimpulse.com/. [Accessed: Nov. 17, 2024].
-[2] J. Smith et al., "Real-time Biomedical Signal Processing on Low-power Devices," IEEE Transactions on Biomedical Engineering, vol. 69, no. 4, pp. 1234–1245, Apr. 2023.
-[3] Y. Zhang, L. Wang, and X. Chen, "Machine Learning for Embedded Systems: A Survey," IEEE Internet of Things Journal, vol. 10, no. 3, pp. 345-357, Mar. 2022.
+
+[2] J. Smith et al., "Real-time Biomedical Signal Processing on Low-power Devices," IEEE Transactions on Biomedical Engineering, vol. 69, no. 4, pp. 1234–1245, Apr. 2023
+
+[3] Y. Zhang, L. Wang, and X. Chen, "Machine Learning for Embedded Systems: A Survey," IEEE Internet of Things Journal, vol. 10, no. 3, pp. 345-357, Mar. 2022
+
 [4] M. Brown et al., "Signal Analysis and Machine Learning Applications in Healthcare," Proceedings of IEEE International Conference on Biomedical Engineering, Singapore, 2022, pp. 100-105.
