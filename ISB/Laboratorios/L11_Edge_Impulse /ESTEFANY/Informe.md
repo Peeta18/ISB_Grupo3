@@ -131,12 +131,15 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 
  **Paso 1:** Cargar un archivo de datos al **CSV Wizard**
  
- **Paso 2:** Configurar las delimitaciones del archivo
- 
- <div align="center">
-    ![PASO 2](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%202.png)
 
-  *Figura 2. Paso 2*
+**Paso 2:** Configurar las delimitaciones del archivo
+
+<p align="center">
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%202.png" alt="PASO 2">
+</p>
+
+*Figura 2. Paso 2*
+
   </p>
 </div>
  
