@@ -146,9 +146,10 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
  **Paso 3:** Establecer la frecuencia de muestreo a **1000 Hz**
 
  <div align="center">
-    <img src="Imagen/Paso3.jpg"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%203%20part%201.png" alt="PASO 3.1">
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%203%20part%202.png" alt="PASO 3.2">
 
-  *Figura 3. Paso 3*
+  *Figura 3. Paso 3.1 - 3.2*
   </p>
 </div>
 
