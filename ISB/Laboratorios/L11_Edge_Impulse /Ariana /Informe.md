@@ -137,8 +137,26 @@ Se obtuvo la siguiente cantidad de segmentos:
       | respd2.txt  | 3   |
       | respd3.txt | 2   |
 
-
 ** CVS Wizard**
+
+ **Paso 1:** Cargar un archivo de datos al **CSV Wizard**
+ 
+ **Paso 2:** Configurar las delimitaciones del archivo
+ 
+ <div align="center">
+    
+
+  *Figura 1. Paso 2*
+  </p>
+</div>
+ 
+ **Paso 3:** Establecer la frecuencia de muestreo a **1000 Hz**
+ **Paso 4:** Seleccionar la columna de datos correspondiente
+ **Paso 5:** Indicar la duración de las muestras seleccionando **"Unlimited"**
+ **Paso 6:** Confirmar la configuración.
+  
+
+
 
 
 ## 4. Resultados
