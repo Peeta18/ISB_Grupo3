@@ -17,25 +17,16 @@ Esta plataforma es particularmente útil en proyectos que requieren análisis de
 
 En este informe, se detalla el proceso completo de adquisición e integración de datos dentro de Edge Impulse, sentando las bases para un proyecto integral. Se explicarán cada una de las etapas, desde la recolección inicial de señales hasta la configuración y entrenamiento del modelo, destacando cómo optimizar su rendimiento en sistemas embebidos y demostrar el potencial de esta herramienta para el análisis en tiempo real de datos biomédicos [4].
 
-<div align="center">
-    <img src="Imagen/intro.png"><p>
-
-  *Figura 1. Página inicial Edge Impulse*
-  </p>
-</div>
 
 ## 2. Objetivos
--Adquirir y estructurar señales de ECG
-
--Preprocesamiento y etiquetado inicial
-
--Organización en Edge Impulse
-
--Desarrollo y entrenamiento del modelo
-
--Pruebas de validación del modelo
-
--Adaptación para sistemas embebidos
+-Adquirir y estructurar señales de ECG: Capturar señales en condiciones específicas (Basal, Respiración, Post-respiración, etc.) y prepararlas para su uso en Edge Impulse.
+- Preprocesamiento y etiquetado inicial: Procesar las señales eliminando ruido y asignar etiquetas descriptivas como “Basal” o “Ejercicio” para facilitar su clasificación.
+- Organización en Edge Impulse: Subir los datos estructurados a la plataforma Edge Impulse y organizarlos en conjuntos de entrenamiento y prueba (Train/Test).
+- Desarrollo y entrenamiento del modelo: Diseñar y entrenar un modelo en Edge Impulse para procesar las señales capturadas de manera eficiente.
+- Pruebas de validación del modelo: Validar el modelo entrenado usando el conjunto de datos de prueba y evaluar su desempeño.
+- Documentación del proceso: Crear un archivo Markdown detallando las etapas del trabajo, incluyendo capturas de pantalla y el enlace al proyecto en Edge Impulse.
+- Visualización de resultados: Subir gráficos o código que representen los datos obtenidos y los resultados del modelo.
+- Adaptación para sistemas embebidos: Optimizar el modelo para su despliegue en dispositivos de bajo consumo.
 
 ## 3. Metodología
 
