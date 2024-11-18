@@ -199,8 +199,8 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 
       | **Categoria de señal ECG** | **Señal** |
       | --- | --- |
-      | Estado Basal |  <img src="./Imagene/result_basl.jpg" width="500"> |
-      | Estado con respiración | <img src="./Imagen/result-resp.jpg" width="500"> |
-
-      | Ejercicio | <img src="./Imagene/result_ejer.jpg" width="500"> |
+      | Estado Basal |  <img src="./Imagen/result_basl.jpg" width="500"> |
+      | Estado con respiración | <img src="./Imagen/result_respdesp.jpg" width="500"> |
+      | Estado despues respiración | <img src="./Imagen/result-resp.jpg" width="500"> |
+      | Ejercicio | <img src="./Imagen/result_ejer.jpg" width="500"> |
 
