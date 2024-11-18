@@ -123,6 +123,22 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
        print(f"Archivos CSV generados para: {file_path}\n")
       
       ```
-c
+Se obtuvo la siguiente cantidad de segmentos:
+      | Archivo                              | Nro. de segmentos|
+      |--------------------------------------|------------------|
+      | basald1.1.txt     | 6   |
+      | basald1.2.txt     | 6   |
+      | basald1.3.txt   | 6   |
+      | basald2.txt     | 6   |
+      | basald3.txt    | 6   |
+      | respd1.1.txt   | 2   |
+      | respd1.2.txt  | 3   |
+      | respd1.3.txt  | 2   |
+      | respd2.txt  | 3   |
+      | respd3.txt | 2   |
+
+
+** CVS Wizard**
+
 
 ## 4. Resultados
