@@ -181,14 +181,14 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Resultados%20-%20training.png" alt="Training">
 
-  *Figura 6. Training*
+  *Figura 5. Training*
   </p>
 </div>
 
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Resultados%20-%20test.png" alt="Test">
 
-  *Figura 5. Test*
+  *Figura 6. Test*
   </p>
 </div>
 
