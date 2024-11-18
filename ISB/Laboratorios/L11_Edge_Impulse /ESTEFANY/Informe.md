@@ -19,14 +19,12 @@ En este informe, se detalla el proceso completo de adquisición e integración d
 
 
 ## 2. Objetivos
--Adquirir y estructurar señales de ECG: Capturar señales en condiciones específicas (Basal, Respiración, Post-respiración, etc.) y prepararlas para su uso en Edge Impulse.
-- Preprocesamiento y etiquetado inicial: Procesar las señales eliminando ruido y asignar etiquetas descriptivas como “Basal” o “Ejercicio” para facilitar su clasificación.
+- Adquirir y estructurar señales de ECG: Capturar señales en condiciones específicas (Basal, Respiración, Post-respiración, etc.) y prepararlas para su uso en Edge Impulse.
 - Organización en Edge Impulse: Subir los datos estructurados a la plataforma Edge Impulse y organizarlos en conjuntos de entrenamiento y prueba (Train/Test).
 - Desarrollo y entrenamiento del modelo: Diseñar y entrenar un modelo en Edge Impulse para procesar las señales capturadas de manera eficiente.
 - Pruebas de validación del modelo: Validar el modelo entrenado usando el conjunto de datos de prueba y evaluar su desempeño.
 - Documentación del proceso: Crear un archivo Markdown detallando las etapas del trabajo, incluyendo capturas de pantalla y el enlace al proyecto en Edge Impulse.
 - Visualización de resultados: Subir gráficos o código que representen los datos obtenidos y los resultados del modelo.
-- Adaptación para sistemas embebidos: Optimizar el modelo para su despliegue en dispositivos de bajo consumo.
 
 ## 3. Metodología
 
