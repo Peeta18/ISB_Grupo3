@@ -45,23 +45,27 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
       
       # Lista de rutas de archivos .txt
       input_files = [
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.1.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.2.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.3.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.2.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.3.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.2.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.3.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod1.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod2.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod3.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.1.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.2.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.3.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd2.txt",
-          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd3.txt"
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1-1.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1-2.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1-3.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2-1.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2-2.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2-3.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3-1.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3-2.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3-3.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod1.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod2.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod3.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1-1.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1-2.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1-3.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd2.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd3.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\prosim1.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\prosim2.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\prosim3.txt",
+          "C:\\Users\\tefic\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\prosim4.txt""
       ]
       
       # Carpeta de salida para los archivos CSV
