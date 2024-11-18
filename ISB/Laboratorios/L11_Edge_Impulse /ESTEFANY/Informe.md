@@ -34,47 +34,47 @@ Link página EDGE IMPULSE: https://studio.edgeimpulse.com/studio/558229
 Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señales de ECG adquiridas.
       ```
       
-    import numpy as np
-import csv
-import os
-
-# Parámetros de configuración
-sampling_frequency = 1000  # Frecuencia de muestreo en Hz
-segment_duration = 10  # Duración de cada segmento en segundos
-samples_per_segment = sampling_frequency * segment_duration  # Muestras por segmento
-
-# Lista de rutas de archivos .txt
-input_files = [
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.1.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.2.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.3.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.2.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.3.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.2.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.3.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod1.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod2.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod3.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.1.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.2.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.3.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd2.txt",
-    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd3.txt"
-]
-
-# Carpeta de salida para los archivos CSV
-output_directory = "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\CSV_ECG"
-
-# Crear la carpeta de salida si no existe
-os.makedirs(output_directory, exist_ok=True)
-
-# Procesar cada archivo de la lista
-for input_file in input_files:
-    # Leer el archivo y localizar la sección de datos
-    with open(input_file, 'r') as file:
-        lines = file.readlines()
+          import numpy as np
+            import csv
+      import os
+      
+      # Parámetros de configuración
+      sampling_frequency = 1000  # Frecuencia de muestreo en Hz
+      segment_duration = 10  # Duración de cada segmento en segundos
+      samples_per_segment = sampling_frequency * segment_duration  # Muestras por segmento
+      
+      # Lista de rutas de archivos .txt
+      input_files = [
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.1.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.2.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.3.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.2.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.3.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.2.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.3.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod1.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod2.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod3.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.1.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.2.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.3.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd2.txt",
+          "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd3.txt"
+      ]
+      
+      # Carpeta de salida para los archivos CSV
+      output_directory = "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\CSV_ECG"
+      
+      # Crear la carpeta de salida si no existe
+      os.makedirs(output_directory, exist_ok=True)
+      
+      # Procesar cada archivo de la lista
+      for input_file in input_files:
+          # Leer el archivo y localizar la sección de datos
+          with open(input_file, 'r') as file:
+              lines = file.readlines()
 
     # Identificar el inicio de los datos después de 'EndOfHeader'
     header_end_index = next((index for index, line in enumerate(lines) if 'EndOfHeader' in line), None)
