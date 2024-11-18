@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "fileName": "basald2-2.csv",
+    "created": 1731900662735,
+    "delimiter": ",",
+    "skipFirstLines": 0,
+    "spec": {
+        "type": "timeseries-row",
+        "valueColumns": [
+            "_4"
+        ],
+        "timestamp": {
+            "type": "fixed-frequency",
+            "frequency": 1000
+        }
+    }
+}
