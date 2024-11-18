@@ -178,8 +178,8 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 ##4. Resultados
 
 1. **Link:**
-https://studio.edgeimpulse.com/public/558181/live
-   
+[https://studio.edgeimpulse.com/public/558181/live
+](https://studio.edgeimpulse.com/studio/558229/acquisition/training?page=1)   
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Resultados%20-%20training.png" alt="Training">
 
@@ -199,10 +199,10 @@ https://studio.edgeimpulse.com/public/558181/live
 
       | **Categoria de señal ECG** | **Señal** |
       | --- | --- |
-      | Estado Basal |  <img src="./Imagen/result_basal.jpg" width="500"> |
-      | Estado con respiración | <img src="./Imagen/result_respdesp.jpg" width="500"> |
-      | Estado despues respiración | <img src="./Imagen/result-resp.jpg" width="500"> |
-      | Ejercicio | <img src="./Imagen/result_ejer.jpg" width="500"> |
+      | Estado Basal |  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Basal.png" width="500"> |
+      | Estado resp | <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Resp.png" width="500"> |
+      | Estado despues ejercicio | <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Ejercicio.png" width="500"> |
+      | Prosim | <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Prosim.png" width="500"> |
 
 
 ## 5. Referencias
