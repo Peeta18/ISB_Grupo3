@@ -35,90 +35,91 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
       ```
       
     import numpy as np
-    import csv
-    import os
-    
-    # Establece la frecuencia de muestreo (Hz)
-    Fs = 1000  # Frecuencia de muestreo (Ejemplo: 1000 Hz)
-    segment_duration = 10  # Duración de cada segmento en segundos
-    samples_per_segment = Fs * segment_duration  # Número de muestras por segmento
-   
-    # Ruta de los archivos .txt
-    file_paths = [
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald1.1.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald1.2.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald1.3.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald2.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald2.2.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald2.3.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald3.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald3.2.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\basald3.3.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\ejerciciod1.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\ejerciciod2.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\ejerciciod3.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd1.1.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd1.2.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd1.3.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd2.txt",
-       "D:\\INTRO_SEÑALES\ECG_EDGEIMPULSE\\respd3.txt"
-       ]
-       
-       # Carpeta de salida para los archivos CSV
-       output_folder = "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\CSV_ECG"
-       # Procesar cada archivo .txt
-       
-       for file_path in file_paths:
-       # Leer el archivo .txt y encontrar la línea de 'EndOfHeader'
-       with open(file_path, 'r') as file:
-           lines = file.readlines()
-   
-       # Buscar la línea que contiene 'EndOfHeader'
-       data_start = None
-       for i, line in enumerate(lines):
-           if 'EndOfHeader' in line:
-               data_start = i + 1
-               break
-   
-       if data_start is None:
-           raise ValueError(f"No se encontró 'EndOfHeader' en el archivo {file_path}.")
-   
-       # Extraer las líneas de datos (sin la parte del encabezado)
-       data_lines = lines[data_start:]
-   
-       # Convertir las líneas de datos a un array de NumPy
-       data = np.array([list(map(float, line.strip().split('\t'))) for line in data_lines])
-   
-       # Calcular la duración total de la señal en segundos
-       num_rows = len(data)
-       total_duration_seconds = num_rows / Fs
-   
-       # Imprimir información básica
-       print(f"Procesando archivo: {file_path}")
-       print(f"Frecuencia de muestreo: {Fs} Hz")
-       print(f"Número total de filas: {num_rows}")
-       print(f"Duración total de la señal en segundos: {total_duration_seconds} segundos")
-   
-       # Dividir los datos en segmentos de 5 segundos
-       num_segments = num_rows // samples_per_segment
-   
-       # Generar archivos CSV para cada segmento
-       for segment_idx in range(num_segments):
-           # Obtener las filas para el segmento actual
-           segment_data = data[segment_idx * samples_per_segment: (segment_idx + 1) * samples_per_segment]
-   
-           # Generar el nombre del archivo CSV
-           file_name = os.path.basename(file_path).replace('.txt', f'segment{segment_idx + 1}.csv')
-           output_file_path = os.path.join(output_folder, file_name)
-   
-           # Guardar el segmento de datos en un archivo CSV
-           with open(output_file_path, mode='w', newline='') as csv_file:
-               writer = csv.writer(csv_file)
-               writer.writerows(segment_data)
-   
-           print(f"Guardado archivo CSV: {output_file_path}")
-   
-       print(f"Archivos CSV generados para: {file_path}\n")
+import csv
+import os
+
+# Parámetros de configuración
+sampling_frequency = 1000  # Frecuencia de muestreo en Hz
+segment_duration = 10  # Duración de cada segmento en segundos
+samples_per_segment = sampling_frequency * segment_duration  # Muestras por segmento
+
+# Lista de rutas de archivos .txt
+input_files = [
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.1.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.2.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald1.3.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.2.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald2.3.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.2.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\basald3.3.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod1.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod2.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\ejerciciod3.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.1.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.2.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd1.3.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd2.txt",
+    "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\respd3.txt"
+]
+
+# Carpeta de salida para los archivos CSV
+output_directory = "D:\\INTRO_SEÑALES\\ECG_EDGEIMPULSE\\CSV_ECG"
+
+# Crear la carpeta de salida si no existe
+os.makedirs(output_directory, exist_ok=True)
+
+# Procesar cada archivo de la lista
+for input_file in input_files:
+    # Leer el archivo y localizar la sección de datos
+    with open(input_file, 'r') as file:
+        lines = file.readlines()
+
+    # Identificar el inicio de los datos después de 'EndOfHeader'
+    header_end_index = next((index for index, line in enumerate(lines) if 'EndOfHeader' in line), None)
+    if header_end_index is None:
+        raise ValueError(f"'EndOfHeader' no encontrado en el archivo {input_file}.")
+
+    # Extraer los datos después del encabezado
+    data_lines = lines[header_end_index + 1:]
+
+    # Convertir los datos a un array NumPy
+    try:
+        signal_data = np.array([list(map(float, line.strip().split('\t'))) for line in data_lines])
+    except ValueError:
+        raise ValueError(f"Error al procesar datos en el archivo {input_file}.")
+
+    # Calcular duración total y número de filas
+    total_rows = len(signal_data)
+    total_duration = total_rows / sampling_frequency
+
+    print(f"Procesando: {input_file}")
+    print(f"Frecuencia de muestreo: {sampling_frequency} Hz")
+    print(f"Duración total: {total_duration:.2f} segundos ({total_rows} muestras)")
+
+    # Dividir la señal en segmentos
+    num_segments = total_rows // samples_per_segment
+
+    for segment_index in range(num_segments):
+        # Extraer datos para el segmento actual
+        start_idx = segment_index * samples_per_segment
+        end_idx = (segment_index + 1) * samples_per_segment
+        segment_data = signal_data[start_idx:end_idx]
+
+        # Crear el nombre del archivo de salida
+        segment_filename = f"{os.path.splitext(os.path.basename(input_file))[0]}_segment{segment_index + 1}.csv"
+        output_file = os.path.join(output_directory, segment_filename)
+
+        # Guardar el segmento como archivo CSV
+        with open(output_file, mode='w', newline='') as csv_file:
+            csv_writer = csv.writer(csv_file)
+            csv_writer.writerows(segment_data)
+
+        print(f"Segmento guardado: {output_file}")
+
+    print(f"Archivo procesado: {input_file}\n")
+
       
       ```
 
