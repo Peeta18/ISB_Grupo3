@@ -138,7 +138,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%202.png" alt="PASO 2">
 </p>
 
-*Figura 2. Paso 2*
+*Figura 1. Paso 2*
 
   </p>
 </div>
@@ -149,7 +149,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%203%20part%201.png" alt="PASO 3.1">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%203%20part%202.png" alt="PASO 3.2">
 
-  *Figura 3. Paso 3.1 - 3.2*
+  *Figura 2. Paso 3.1 - 3.2*
   </p>
 </div>
 
@@ -158,7 +158,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
  <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%204.png" alt="PASO 4">
 
-  *Figura 4. Paso 4*
+  *Figura 3. Paso 4*
   </p>
 </div>
 
@@ -167,12 +167,10 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
  <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%205.png" alt="PASO 5">
 
-  *Figura 5. Paso 5*
+  *Figura 4. Paso 5*
   </p>
 </div>
 
- **Paso 6:** Confirmar la configuración.
-  
 
 
 ## 4. Resultados
@@ -190,7 +188,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Resultados%20-%20test.png" alt="Test">
 
-  *Figura 7. Test*
+  *Figura 5. Test*
   </p>
 </div>
 
