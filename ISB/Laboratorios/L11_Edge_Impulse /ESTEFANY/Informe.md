@@ -134,7 +134,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
  **Paso 2:** Configurar las delimitaciones del archivo
  
  <div align="center">
-    <img src="Imagen/Paso2.jpg"><p>
+    <img src="[Imagen/Paso2.jpg](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%202.png)"><p>
 
   *Figura 2. Paso 2*
   </p>
