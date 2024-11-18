@@ -175,6 +175,32 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
   
 
 
-
-
 ## 4. Resultados
+
+1. **Link:**
+
+   
+<div align="center">
+    <img src="Imagen/Traininh.jpg"><p>
+
+  *Figura 6. Training*
+  </p>
+</div>
+
+<div align="center">
+    <img src="Imagen/Test.jpg"><p>
+
+  *Figura 7. Test*
+  </p>
+</div>
+
+
+2. **Tabla de Señales**
+
+      | **Categoria de señal ECG** | **Señal** |
+      | --- | --- |
+      | Estado Basal |  <img src="./Imagene/result_basl.jpg" width="500"> |
+      | Estado con respiración | <img src="./Imagen/result-resp.jpg" width="500"> |
+
+      | Ejercicio | <img src="./Imagene/result_ejer.jpg" width="500"> |
+
