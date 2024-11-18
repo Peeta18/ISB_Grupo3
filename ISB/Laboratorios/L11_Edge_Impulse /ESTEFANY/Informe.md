@@ -156,7 +156,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
  **Paso 4:** Seleccionar la columna de datos correspondiente
 
  <div align="center">
-    <img src="Imagen/Paso4.jpg"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%204.png" alt="PASO 4">
 
   *Figura 4. Paso 4*
   </p>
@@ -165,7 +165,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
  **Paso 5:** Indicar la duración de las muestras seleccionando **"Unlimited"**
 
  <div align="center">
-    <img src="Imagen/Paso5.jpg"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Paso%205.png" alt="PASO 5">
 
   *Figura 5. Paso 5*
   </p>
@@ -181,14 +181,14 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 https://studio.edgeimpulse.com/public/558181/live
    
 <div align="center">
-    <img src="Imagen/Traininh.jpg"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Resultados%20-%20training.png" alt="Training">
 
   *Figura 6. Training*
   </p>
 </div>
 
 <div align="center">
-    <img src="Imagen/Test.jpg"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/ESTEFANY/Imag/Resultados%20-%20test.png" alt="Test">
 
   *Figura 7. Test*
   </p>
