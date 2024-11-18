@@ -178,7 +178,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 ## 4. Resultados
 
 1. **Link:**
-
+https://studio.edgeimpulse.com/public/558181/live
    
 <div align="center">
     <img src="Imagen/Traininh.jpg"><p>
