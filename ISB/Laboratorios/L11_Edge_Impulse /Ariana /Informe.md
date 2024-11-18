@@ -144,15 +144,39 @@ Se obtuvo la siguiente cantidad de segmentos:
  **Paso 2:** Configurar las delimitaciones del archivo
  
  <div align="center">
-    
+    <img src="Imagen/Paso2.png"><p>
 
-  *Figura 1. Paso 2*
+  *Figura 2. Paso 2*
   </p>
 </div>
  
  **Paso 3:** Establecer la frecuencia de muestreo a **1000 Hz**
+
+ <div align="center">
+    <img src="Imagen/Paso3.png"><p>
+
+  *Figura 3. Paso 3*
+  </p>
+</div>
+
  **Paso 4:** Seleccionar la columna de datos correspondiente
+
+ <div align="center">
+    <img src="Imagen/Paso4.png"><p>
+
+  *Figura 4. Paso 4*
+  </p>
+</div>
+
  **Paso 5:** Indicar la duración de las muestras seleccionando **"Unlimited"**
+
+ <div align="center">
+    <img src="Imagen/Paso5.png"><p>
+
+  *Figura 5. Paso 5*
+  </p>
+</div>
+
  **Paso 6:** Confirmar la configuración.
   
 
