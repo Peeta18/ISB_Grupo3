@@ -200,7 +200,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 | Ejercicio                      | [![Ejercicio](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/13.jpg)](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/13.jpg) |
 
 
-Link al proyect: https://studio.edgeimpulse.com/studio/561442
+Link al proyecto: https://studio.edgeimpulse.com/studio/561442
 
 ## Bibliografía
 
