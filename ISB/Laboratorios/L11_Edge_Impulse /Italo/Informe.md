@@ -134,73 +134,76 @@ for file_path in file_paths:
 
 ## CVS Wizard
 
- **Paso 1:** Cargar un archivo de datos al **CSV Wizard**
- 
- **Paso 2:** Configurar las delimitaciones del archivo
- 
- <div align="center">
-    <img src="Imagen/Paso2.jpg"><p>
-
-  *Figura 2. Paso 2*
-  </p>
-</div>
- 
- **Paso 3:** Establecer la frecuencia de muestreo a **1000 Hz**
-
- <div align="center">
-    <img src="Imagen/Paso3.jpg"><p>
-
-  *Figura 3. Paso 3*
-  </p>
-</div>
-
- **Paso 4:** Seleccionar la columna de datos correspondiente
-
- <div align="center">
-    <img src="Imagen/Paso4.jpg"><p>
-
-  *Figura 4. Paso 4*
-  </p>
-</div>
-
- **Paso 5:** Indicar la duración de las muestras seleccionando **"Unlimited"**
-
- <div align="center">
-    <img src="Imagen/Paso5.jpg"><p>
-
-  *Figura 5. Paso 5*
-  </p>
-</div>
-
- **Paso 6:** Confirmar la configuración.
-  
-
-
-##4. Resultados
-
-1. **Link:**
-https://studio.edgeimpulse.com/public/558181/live
-   
 <div align="center">
-    <img src="Imagen/Traininh.jpg"><p>
-
-  *Figura 6. Training*
-  </p>
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso1.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso1.jpg" alt="Paso 1">
+    </a>
 </div>
+### **Paso 1:** Crear el proyecto en **Edge Impulse Studio**.
 
 <div align="center">
-    <img src="Imagen/Test.jpg"><p>
-
-  *Figura 7. Test*
-  </p>
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso2.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso2.jpg" alt="Paso 2">
+    </a>
 </div>
+### **Paso 2:** Subir el archivo de datos al proyecto.
 
+<div align="center">
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso3.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso3.jpg" alt="Paso 3">
+    </a>
+</div>
+### **Paso 3:** Configurar las delimitaciones del archivo.
 
-2. **Tabla de Señales**
+<div align="center">
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso4.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso4.jpg" alt="Paso 4">
+    </a>
+</div>
+### **Paso 4:** Establecer la frecuencia de muestreo a **1000 Hz**.
 
-      | **Categoria de señal ECG** | **Señal** |
-      | --- | --- |
-      | Estado Basal |  <img src="./Imagen/result_basal.jpg" width="500"> |
-      | Estado con respiración | <img src="./Imagen/result_respdesp.jpg" width="500"> |
-      | Estado despues respiración | <img src="./Imagen/result-resp.jpg" width="500"> |
-      | Ejercicio | <img src="./Imagen/result_ejer.jpg" width="500"> |
+<div align="center">
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso5.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso5.jpg" alt="Paso 5">
+    </a>
+</div>
+### **Paso 5:** Seleccionar la columna de datos correspondiente.
+
+<div align="center">
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso6.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso6.jpg" alt="Paso 6">
+    </a>
+</div>
+### **Paso 6:** Indicar la duración de las muestras seleccionando **"Unlimited"** en la opción *How long do you want your samples to be*.
+
+<div align="center">
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso7.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso7.jpg" alt="Paso 7">
+    </a>
+</div>
+### **Paso 7:** Confirmar la configuración.
+
+<div align="center">
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso8.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso8.jpg" alt="Paso 8">
+    </a>
+</div>
+### **Paso 8:** Subir el dataset.
+
+<div align="center">
+    <a href="https://github.com/tu_usuario/tu_repositorio/Paso9.jpg">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso9.jpg" alt="Paso 9">
+    </a>
+</div>
+### **Paso 9:** Visualizar las señales subidas.
+
+---
+
+## **Tabla de Señales**
+
+| **Categoría de señal ECG**     | **Señal**                                                                 |
+|--------------------------------|---------------------------------------------------------------------------|
+| Estado Basal                   | [![Estado Basal](https://github.com/tu_usuario/tu_repositorio/EstadoBasal.jpg)](https://github.com/tu_usuario/tu_repositorio/EstadoBasal.jpg) |
+| Estado con respiración         | [![Estado con respiración](https://github.com/tu_usuario/tu_repositorio/EstadoRespiracion.jpg)](https://github.com/tu_usuario/tu_repositorio/EstadoRespiracion.jpg) |
+| Estado sin respiración         | [![Estado sin respiración](https://github.com/tu_usuario/tu_repositorio/EstadoSinRespiracion.jpg)](https://github.com/tu_usuario/tu_repositorio/EstadoSinRespiracion.jpg) |
+| Ejercicio                      | [![Ejercicio](https://github.com/tu_usuario/tu_repositorio/Ejercicio.jpg)](https://github.com/tu_usuario/tu_repositorio/Ejercicio.jpg) |
