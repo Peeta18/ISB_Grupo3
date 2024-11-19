@@ -6,15 +6,17 @@
 2. [Objetivos](#2-objetivos)
 3. [Metodología](#3-metodología)
 4. [Resultados](#4-resultados)
+5. [Bibliografia](#5-bibligrafia)
 
 
 ## 1. Introducción
 
-Edge Impulse es una plataforma enfocada en la creación de algoritmos de aprendizaje automático diseñados para ejecutarse eficientemente en dispositivos embebidos y sistemas que operan en tiempo real. Su enfoque principal es simplificar todo el proceso, desde la adquisición y preprocesamiento de datos hasta el entrenamiento y despliegue de modelos optimizados para hardware de bajo consumo.
+Edge Impulse es una plataforma diseñada para el desarrollo de algoritmos de aprendizaje automático específicamente adaptados a sistemas embebidos, como microcontroladores y dispositivos de bajo consumo. Su objetivo principal es simplificar el proceso de adquisición de datos, preprocesamiento, entrenamiento de modelos y despliegue en hardware con recursos limitados.
 
-Esta herramienta es especialmente valiosa para proyectos que involucran el análisis de señales biomédicas como el ECG, donde la precisión y la velocidad en el procesamiento son esenciales. Edge Impulse permite implementar soluciones para el monitoreo continuo y el diagnóstico, facilitando la integración de machine learning en aplicaciones médicas avanzadas.
+Esta herramienta es ideal para proyectos de inteligencia artificial en tiempo real que requieren soluciones eficientes y ligeras, como el reconocimiento de voz, la detección de objetos o el análisis de señales biomédicas. Edge Impulse cuenta con una interfaz intuitiva que permite a usuarios, desde principiantes hasta profesionales, implementar algoritmos de machine learning de manera rápida y efectiva.
 
-Este informe aborda el proceso completo de adquisición de datos y su posterior integración en la plataforma Edge Impulse, estableciendo las bases para el desarrollo de un proyecto integral. Se describirán detalladamente las etapas involucradas, desde la captura inicial de señales hasta la configuración y entrenamiento del modelo, con el objetivo de optimizar su desempeño en sistemas embebidos y resaltar la eficacia de esta herramienta para el análisis en tiempo real de datos biomédicos.
+Además, su compatibilidad con una amplia variedad de plataformas, como Arduino, Raspberry Pi y teléfonos móviles, junto con el respaldo de grandes fabricantes de hardware, hace que Edge Impulse sea una solución integral para la creación de aplicaciones innovadoras en el campo de la inteligencia artificial embebida.[1]
+
 
 
 ## 2. Objetivos
@@ -199,3 +201,8 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 
 
 Link al proyect: https://studio.edgeimpulse.com/studio/561442
+
+## Bibliografía
+
+[1] "¿Qué es Edge Impulse?", 330ohms, Jul. 30, 2024. [Online]. Available: https://www.330ohms.com/blogs/blog/que-es-edge-impulse
+
