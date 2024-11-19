@@ -31,7 +31,6 @@ Además, su compatibilidad con una amplia variedad de plataformas, como Arduino,
 
 
 Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señales de ECG adquiridas.
-      ```
       
     import numpy as np
     import csv
