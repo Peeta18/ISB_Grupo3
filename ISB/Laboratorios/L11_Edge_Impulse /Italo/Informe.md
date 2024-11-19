@@ -130,66 +130,66 @@ for file_path in file_paths:
 ## CVS Wizard
 
 <div align="center">
-    <p>Paso 1: Crear el proyecto en Edge Impulse Studio.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/1.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/1.jpg" alt="Paso 1" width="500">
     </a>
+    <p>Paso 1: Crear el proyecto en Edge Impulse Studio.</p>
 </div>
 
 <div align="center">
-    <p>Paso 2: Subir el archivo de datos al proyecto.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/2.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/2.jpg" alt="Paso 2" width="500">
     </a>
+    <p>Paso 2: Subir el archivo de datos al proyecto.</p>
 </div>
 
 <div align="center">
-    <p>Paso 3: Configurar las delimitaciones del archivo.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/3.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/3.jpg" alt="Paso 3" width="500">
     </a>
+    <p>Paso 3: Configurar las delimitaciones del archivo.</p>
 </div>
 
 <div align="center">
-    <p>Paso 4: Establecer la frecuencia de muestreo a 1000 Hz.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/4.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/4.jpg" alt="Paso 4" width="500">
     </a>
+    <p>Paso 4: Establecer la frecuencia de muestreo a 1000 Hz.</p>
 </div>
 
 <div align="center">
-    <p>Paso 5: Seleccionar la columna de datos correspondiente.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/5.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/5.jpg" alt="Paso 5" width="500">
     </a>
+    <p>Paso 5: Seleccionar la columna de datos correspondiente.</p>
 </div>
 
 <div align="center">
-    <p>Paso 6: Indicar la duración de las muestras seleccionando "Unlimited" en la opción <em>How long do you want your samples to be</em>.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/6.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/6.jpg" alt="Paso 6" width="500">
     </a>
+    <p>Paso 6: Indicar la duración de las muestras seleccionando "Unlimited" en la opción <em>How long do you want your samples to be</em>.</p>
 </div>
 
 <div align="center">
-    <p>Paso 7: Confirmar la configuración.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/7.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/7.jpg" alt="Paso 7" width="500">
     </a>
+    <p>Paso 7: Confirmar la configuración.</p>
 </div>
 
 <div align="center">
-    <p>Paso 8: Subir el dataset.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/8.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/8.jpg" alt="Paso 8" width="500">
     </a>
+    <p>Paso 8: Subir el dataset.</p>
 </div>
 
 <div align="center">
-    <p>Paso 9: Visualizar las señales subidas.</p>
     <a href="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/9.jpg">
         <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/9.jpg" alt="Paso 9" width="500">
     </a>
+    <p>Paso 9: Visualizar las señales subidas.</p>
 </div>
 
 ---
@@ -202,4 +202,3 @@ for file_path in file_paths:
 | Estado con respiración         | [![Estado con respiración](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/11.jpg)](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/11.jpg) |
 | Estado sin respiración         | [![Estado sin respiración](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/12.jpg)](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/12.jpg) |
 | Ejercicio                      | [![Ejercicio](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/13.jpg)](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/L11_Edge_Impulse%20/Italo/Imagenes/13.jpg) |
-
