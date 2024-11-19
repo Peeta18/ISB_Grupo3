@@ -187,7 +187,7 @@ Se utilizo el siguiente codigo para guardar segmentos de 10 segundos de las señ
 </div>
 
 ---
-
+## 4. Resultados
 ## Tabla de Señales
 
 | Categoría de señal ECG         | Señal                                                                 |
