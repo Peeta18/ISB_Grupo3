@@ -19,17 +19,11 @@ Este informe aborda el proceso completo de adquisición de datos y su posterior 
 
 
 ## 2. Objetivos
--Adquirir y estructurar señales de ECG
 
--Preprocesamiento y etiquetado inicial
+1. **Análisis y procesamiento de señales biomédicas:** Capturar y estructurar señales de ECG obtenidas en distintos estados fisiológicos, utilizando métodos adecuados para su análisis detallado.
 
--Organización en Edge Impulse
+2. **Aplicación de herramientas de aprendizaje automático:** Integrar los datos en la plataforma Edge Impulse para facilitar la creación y exploración de modelos basados en aprendizaje automático.
 
--Desarrollo y entrenamiento del modelo
-
--Pruebas de validación del modelo
-
--Adaptación para sistemas embebidos
 
 ## 3. Metodología
 
