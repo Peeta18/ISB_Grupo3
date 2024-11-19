@@ -136,66 +136,91 @@ for file_path in file_paths:
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso1.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso1.jpg" alt="Paso 1">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso1.jpg" alt="Paso 1" width="500">
     </a>
 </div>
-### **Paso 1:** Crear el proyecto en **Edge Impulse Studio**.
+
+**Paso 1:** Crear el proyecto en **Edge Impulse Studio**.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso2.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso2.jpg" alt="Paso 2">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso2.jpg" alt="Paso 2" width="500">
     </a>
 </div>
-### **Paso 2:** Subir el archivo de datos al proyecto.
+
+**Paso 2:** Subir el archivo de datos al proyecto.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso3.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso3.jpg" alt="Paso 3">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso3.jpg" alt="Paso 3" width="500">
     </a>
 </div>
-### **Paso 3:** Configurar las delimitaciones del archivo.
+
+**Paso 3:** Configurar las delimitaciones del archivo.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso4.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso4.jpg" alt="Paso 4">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso4.jpg" alt="Paso 4" width="500">
     </a>
 </div>
-### **Paso 4:** Establecer la frecuencia de muestreo a **1000 Hz**.
+
+**Paso 4:** Establecer la frecuencia de muestreo a **1000 Hz**.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso5.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso5.jpg" alt="Paso 5">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso5.jpg" alt="Paso 5" width="500">
     </a>
 </div>
-### **Paso 5:** Seleccionar la columna de datos correspondiente.
+
+**Paso 5:** Seleccionar la columna de datos correspondiente.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso6.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso6.jpg" alt="Paso 6">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso6.jpg" alt="Paso 6" width="500">
     </a>
 </div>
-### **Paso 6:** Indicar la duración de las muestras seleccionando **"Unlimited"** en la opción *How long do you want your samples to be*.
+
+**Paso 6:** Indicar la duración de las muestras seleccionando **"Unlimited"** en la opción *How long do you want your samples to be*.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso7.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso7.jpg" alt="Paso 7">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso7.jpg" alt="Paso 7" width="500">
     </a>
 </div>
-### **Paso 7:** Confirmar la configuración.
+
+**Paso 7:** Confirmar la configuración.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso8.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso8.jpg" alt="Paso 8">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso8.jpg" alt="Paso 8" width="500">
     </a>
 </div>
-### **Paso 8:** Subir el dataset.
+
+**Paso 8:** Subir el dataset.
+
+---
 
 <div align="center">
     <a href="https://github.com/tu_usuario/tu_repositorio/Paso9.jpg">
-        <img src="https://github.com/tu_usuario/tu_repositorio/Paso9.jpg" alt="Paso 9">
+        <img src="https://github.com/tu_usuario/tu_repositorio/Paso9.jpg" alt="Paso 9" width="500">
     </a>
 </div>
-### **Paso 9:** Visualizar las señales subidas.
+
+**Paso 9:** Visualizar las señales subidas.
 
 ---
 
