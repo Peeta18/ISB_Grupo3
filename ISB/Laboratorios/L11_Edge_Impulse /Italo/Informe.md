@@ -16,25 +16,13 @@ Esta herramienta es especialmente valiosa para proyectos que involucran el anál
 
 Este informe aborda el proceso completo de adquisición de datos y su posterior integración en la plataforma Edge Impulse, estableciendo las bases para el desarrollo de un proyecto integral. Se describirán detalladamente las etapas involucradas, desde la captura inicial de señales hasta la configuración y entrenamiento del modelo, con el objetivo de optimizar su desempeño en sistemas embebidos y resaltar la eficacia de esta herramienta para el análisis en tiempo real de datos biomédicos.
 
-<div align="center">
-    <img src="Imagen/intro.png"><p>
-
-  *Figura 1. Página inicial Edge Impulse*
-  </p>
-</div>
 
 ## 2. Objetivos
--Adquirir y estructurar señales de ECG
 
--Preprocesamiento y etiquetado inicial
+1. **Análisis y procesamiento de señales biomédicas:** Capturar y estructurar señales de ECG obtenidas en distintos estados fisiológicos, utilizando métodos adecuados para su análisis detallado.
 
--Organización en Edge Impulse
+2. **Aplicación de herramientas de aprendizaje automático:** Integrar los datos en la plataforma Edge Impulse para facilitar la creación y exploración de modelos basados en aprendizaje automático.
 
--Desarrollo y entrenamiento del modelo
-
--Pruebas de validación del modelo
-
--Adaptación para sistemas embebidos
 
 ## 3. Metodología
 
