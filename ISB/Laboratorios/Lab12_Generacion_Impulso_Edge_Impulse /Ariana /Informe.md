@@ -13,7 +13,7 @@
 
 Se realizó los cambios necesarios para que se pueda obtener 80% de Train y 20% de Test.
 <div align="center">
-  <img src="./Imagen/imagen1.png"><p>
+  <img src="./Imagen/modificacion.png"><p>
 
   </p>
 </div>
@@ -34,7 +34,24 @@ Parámetros:
 </div>
 
 ## 4. Clasificación:
+Parámetros:
+<div align="center">
+  <img src="./Imagen/Classifier.png"><p>
 
+  </p>
+</div>
 
 
 ## 5. Training output:
+Parámetros:
+<div align="center">
+  <img src="./Imagen/traininoutput.png"><p>
+
+  </p>
+</div>
+Parámetros:
+<div align="center">
+  <img src="./Imagen/traininoutput2.png"><p>
+
+  </p>
+</div>
