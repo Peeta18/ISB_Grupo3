@@ -13,22 +13,25 @@
 
 Se realizó los cambios necesarios para que se pueda obtener 80% de Train y 20% de Test.
 <div align="center">
-    <img src="[Imagen/intro.png](https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Imagen/dise%C3%B1odeimpulso.png?raw=true)"><p>
+  <img src="./Imagen/imagen1.png"><p>
 
-  *Figura 1. Página inicial Edge Impulse*
   </p>
 </div>
 
 ## 2. Create impulse
 <div align="center">
-  <img src="./Imagenes/imagen1.png"><p>
+  <img src="./Imagen/diseñodeimpulso.png"><p>
 
-  </p>
+  </p>
 </div>
 
 ## 3. Spectral features
 Parámetros:
+<div align="center">
+  <img src="./Imagen/Spectral features.png"><p>
 
+  </p>
+</div>
 
 ## 4. Clasificación:
 
