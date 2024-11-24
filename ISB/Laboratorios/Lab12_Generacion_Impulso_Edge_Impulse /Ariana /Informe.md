@@ -21,13 +21,13 @@ Se realizó los cambios necesarios para que se pueda obtener 80% de Train y 20% 
 
 ## 2. Create impulse
 <div align="center">
-    <img src="Imagen/diseñodeimpulso.png"><p>
+  <img src="./Imagenes/imagen1.png"><p>
 
-  *Figura 1. Página Create impulse*
-  </p>
+  </p>
 </div>
 
-## 3. Parámetros:
+## 3. Spectral features
+Parámetros:
 
 
 ## 4. Clasificación:
