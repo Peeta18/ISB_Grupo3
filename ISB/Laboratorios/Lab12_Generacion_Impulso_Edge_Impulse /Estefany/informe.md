@@ -151,6 +151,13 @@ Resultados del entrenamiento obtenidos:
 </div>
 
 <div align="center">
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Estefany/metricas.png"><p>
+  Resultados métricas
+  </p>
+</div>
+
+
+<div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/traininoutput2.png?raw=true" alt="Training output adicional"><p>
   Resultados adicionales del entrenamiento.
   </p>
