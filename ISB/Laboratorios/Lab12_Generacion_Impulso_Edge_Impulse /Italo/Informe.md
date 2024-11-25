@@ -77,8 +77,6 @@ Finalmente, se eliminaron los datos que no cumplían con los requisitos, como te
 
 ## 2. Create impulse
 
-<div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/diseñodeimpulso.png?raw=true" alt="Create impulse"><p>
   Diseño del modelo en Edge Impulse.
   </p>
 </div>
