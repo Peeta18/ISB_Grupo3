@@ -54,7 +54,7 @@ Se realizaron las configuraciones principales utilizando las herramientas de Edg
 
 #### a. Configurar los parámetros iniciales
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/2.jpg?raw=true" alt="Definición de parámetros"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Estefany/A.%20Configurr%20parametros%20inciales.png"><p>
   Selección de parámetros iniciales.
   </p>
 </div>
