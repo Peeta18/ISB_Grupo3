@@ -13,6 +13,7 @@
 9. [Referencias](#5-referencias)
 
 
+EDGE IMPULSE: https://studio.edgeimpulse.com/studio/566158/acquisition/training?page=1
 
 ## 1. Introducción
 
