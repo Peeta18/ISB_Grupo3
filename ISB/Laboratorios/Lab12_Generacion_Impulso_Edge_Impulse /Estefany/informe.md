@@ -133,7 +133,7 @@ Parámetros de **Spectral features** utilizados en el diseño:
 Configuración utilizada para la clasificación de los datos:
 
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/Classifier.png?raw=true" alt="Clasificación"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Estefany/parametors.png"><p>
   Parámetros del clasificador en Edge Impulse.
   </p>
 </div>
