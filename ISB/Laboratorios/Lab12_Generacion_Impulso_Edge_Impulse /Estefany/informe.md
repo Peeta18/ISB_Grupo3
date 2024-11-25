@@ -68,7 +68,7 @@ Se realizaron las configuraciones principales utilizando las herramientas de Edg
 
 #### c. Validación de parámetros
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/4.jpg?raw=true" alt="Validación de parámetros"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Estefany/C.validaci%C3%B3n%20.png"><p>
   Confirmación y validación de los parámetros configurados.
   </p>
 </div>
