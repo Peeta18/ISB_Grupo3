@@ -145,7 +145,7 @@ Configuración utilizada para la clasificación de los datos:
 Resultados del entrenamiento obtenidos:
 
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/traininoutput.png?raw=true" alt="Training output"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Estefany/resultados.png"><p>
   Resultados iniciales del entrenamiento.
   </p>
 </div>
