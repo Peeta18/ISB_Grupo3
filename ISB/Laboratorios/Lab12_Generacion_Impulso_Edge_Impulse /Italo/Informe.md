@@ -119,12 +119,8 @@ Resultados del entrenamiento obtenidos:
 
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/12.jpg?raw=true"><p>
-  Resultados iniciales del entrenamiento.
+  Resultados del entrenamiento.
   </p>
 </div>
 
-<div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/traininoutput2.png?raw=true" alt="Training output adicional"><p>
-  Resultados adicionales del entrenamiento.
-  </p>
-</div>
+Se puede ver un valor de accuracy bajo y un Loss elevado. Esto muy probablemente debido a una mala clasificación de los datos en sus tipos para una apropiada clasificación. Se reintentará con los labels apropiados para observar si hay una mejora en el entrenamiento.
