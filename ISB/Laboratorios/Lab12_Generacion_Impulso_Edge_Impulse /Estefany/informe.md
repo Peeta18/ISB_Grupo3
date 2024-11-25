@@ -75,7 +75,7 @@ Se realizaron las configuraciones principales utilizando las herramientas de Edg
 
 #### d. Confirmación final
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/5.jpg?raw=true" alt="Confirmación final"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Estefany/D.%20confirmacion%20final.png" alt="Confirmación final"><p>
   Vista previa y confirmación final de los datos configurados.
   </p>
 </div>
