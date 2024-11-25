@@ -106,7 +106,7 @@ Parámetros de **Spectral features** utilizados en el diseño:
 Configuración utilizada para la clasificación de los datos:
 
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/Classifier.png?raw=true" alt="Clasificación"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/11.jpg?raw=true"><p>
   Parámetros del clasificador en Edge Impulse.
   </p>
 </div>
@@ -118,7 +118,7 @@ Configuración utilizada para la clasificación de los datos:
 Resultados del entrenamiento obtenidos:
 
 <div align="center">
-  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/traininoutput.png?raw=true" alt="Training output"><p>
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/12.jpg?raw=true"><p>
   Resultados iniciales del entrenamiento.
   </p>
 </div>
