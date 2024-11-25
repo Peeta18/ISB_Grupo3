@@ -29,31 +29,23 @@ En este paso, se seleccionó el archivo correspondiente y se configuró el **CSV
 
 Se realizaron las configuraciones principales utilizando las herramientas de Edge Impulse para ajustar el formato y las especificaciones de los datos.
 
-#### a. Configurar los parámetros iniciales
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/2.jpg?raw=true" alt="Definición de parámetros"><p>
-  Selección de parámetros iniciales.
   </p>
 </div>
 
-#### b. Ajuste fino de los parámetros intermedios
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/3.jpg?raw=true" alt="Parámetros intermedios"><p>
-  Ajuste de parámetros intermedios para garantizar la correcta lectura de los datos.
   </p>
 </div>
 
-#### c. Validación de parámetros
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/4.jpg?raw=true" alt="Validación de parámetros"><p>
-  Confirmación y validación de los parámetros configurados.
   </p>
 </div>
 
-#### d. Confirmación final
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/5.jpg?raw=true" alt="Confirmación final"><p>
-  Vista previa y confirmación final de los datos configurados.
   </p>
 </div>
 
