@@ -49,9 +49,10 @@ Parámetros:
 
   </p>
 </div>
-Parámetros:
 <div align="center">
   <img src="./Imagen/traininoutput2.png"><p>
 
   </p>
 </div>
+
+Vemos que el Accuracy es de 55.3% lo cual es bajo aún, debido a que el Accuary debería tener un valor mayor a 95%, esto se debe a que se obtuvo pocos datos en el laboratorio. Lo recomendable es realizar más mediciones para obtener más datos. Por lo tanto,  el modelo de aprendizaje es deficiente. 
