@@ -83,6 +83,12 @@ Finalmente, se eliminaron los datos que no cumplían con los requisitos, como te
   </p>
 </div>
 
+<div align="center">
+  <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/9.jpg?raw=true" alt="Create impulse detalle"><p>
+  Detalle adicional del diseño del modelo.
+  </p>
+</div>
+
 ---
 
 ## 3. Parámetros
