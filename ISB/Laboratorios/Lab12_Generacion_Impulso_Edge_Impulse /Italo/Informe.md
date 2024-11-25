@@ -124,3 +124,5 @@ Resultados del entrenamiento obtenidos:
 </div>
 
 Se puede ver un valor de accuracy bajo y un Loss elevado. Esto muy probablemente debido a una mala clasificación de los datos en sus tipos para una apropiada clasificación. Se reintentará con los labels apropiados para observar si hay una mejora en el entrenamiento.
+
+Link del proyecto: https://studio.edgeimpulse.com/public/566095/live
