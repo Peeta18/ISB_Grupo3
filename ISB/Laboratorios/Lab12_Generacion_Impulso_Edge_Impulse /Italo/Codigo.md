@@ -1,3 +1,10 @@
+# Conversión de Archivos TXT a CSV
+
+Este script en Python convierte archivos de texto con datos delimitados por tabulaciones (`.txt`) a archivos CSV (`.csv`), asegurando que se mantenga una estructura de tiempo y variable.
+
+## Código
+
+```python
 import os
 import pandas as pd
 import numpy as np
