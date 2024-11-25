@@ -65,7 +65,7 @@ Se cargaron los datos procesados en Edge Impulse y se dividieron en **Training**
 
 ### Paso 4: Eliminar datos que no cumplen con los requisitos
 
-Finalmente, se eliminaron los datos que no cumplían con los requisitos, como tener una duración mínima de 5 segundos. Este paso es crucial para asegurar que los datos sean aptos para el entrenamiento del modelo.
+Finalmente, se eliminaron los datos que no cumplían con los requisitos, como tener una duración mínima de 5 segundos.
 
 <div align="center">
   <img src="https://github.com/Peeta18/ISB_Grupo3/blob/main/ISB/Laboratorios/Lab12_Generacion_Impulso_Edge_Impulse%20/Italo/Imagenes/7.jpg?raw=true" alt="Eliminación de datos no válidos"><p>
