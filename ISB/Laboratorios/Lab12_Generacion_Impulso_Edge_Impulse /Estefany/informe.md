@@ -165,6 +165,15 @@ Resultados del entrenamiento obtenidos:
 
 
 
+## Conclusión
+El modelo entrenado en Edge Impulse presenta una precisión moderada del 63.2% con una pérdida de 1.67, indicando margen de mejora en la clasificación. La matriz de confusión revela que algunas clases si logran estare bien identificadas, como "Estado con Respiración III deriv" que tiene un 80% de acierto, mientras que otras presentan errores significativos. Las métricas ponderadas (precisión 0.67, recall 0.63, F1 Score 0.63) reflejan un desempeño balanceado pero mejorable. 
+Visualmente, se observan errores recurrentes en ciertas categorías, sugiriendo problemas de separación entre clases. Sin embargo, el rendimiento en dispositivo es bueno , con un tiempo de inferencia de 2 ms, uso de RAM de 1.6 KB y flash de 20.7 KB, lo que lo hace eficiente para aplicaciones en tiempo real.
+
+
+
+
+
+
 
 
 
